@@ -299,7 +299,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAv0Ak",
     "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAv0Ak",
     "seatgeek_url": "https://seatgeek.com/theory-of-a-deadman-tickets/halifax-canada-light-house-arts-centre-2027-03-05-8-pm/concert/18570534",
-    "vividseats_url": "https://www.vividseats.com/theory-of-a-deadman-tickets-halifax-light-house-arts-centre-3-5-2027/production/7534936",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAv0Ak",
     "last_verified_at": "2026-11-07",
@@ -321,11 +321,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 7534936,
-        "url": "https://www.vividseats.com/theory-of-a-deadman-tickets-halifax-light-house-arts-centre-3-5-2027/production/7534936",
-        "verified": true,
-        "last_verified_at": "2026-11-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -338,14 +338,14 @@
         "event_id": "8255029",
         "url": "https://www.ticketnetwork.com/en/p/8255029",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8255029",
         "url": "https://www.ticketliquidator.com/tickets/8255029/Theory-Of-A-Deadman-tickets-Fri-Mar-5-2027-Light-House-Arts-Centre",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },
@@ -394,7 +394,7 @@
         "event_id": 7532261,
         "url": "https://www.vividseats.com/theory-of-a-deadman-tickets-moncton-molson-canadian-centre-at-casino-new-brunswick-3-6-2027/production/7532261",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -408,14 +408,14 @@
         "event_id": "8254012",
         "url": "https://www.ticketnetwork.com/en/p/8254012",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8254012",
         "url": "https://www.ticketliquidator.com/tickets/8254012/Theory-Of-A-Deadman-tickets-Sat-Mar-6-2027-Molson-Canadian-Centre-at-Casino-New-Brunswick",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },
@@ -476,7 +476,7 @@
         "event_id": 7532222,
         "url": "https://www.vividseats.com/theory-of-a-deadman-tickets-quebec-city-capitole-theatre-3-8-2027/production/7532222",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -490,14 +490,14 @@
         "event_id": "8254013",
         "url": "https://www.ticketnetwork.com/en/p/8254013",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8254013",
         "url": "https://www.ticketliquidator.com/tickets/8254013/Theory-Of-A-Deadman-tickets-Mon-Mar-8-2027-Le-Theatre-Capitole",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },
@@ -547,7 +547,7 @@
         "event_id": 7532210,
         "url": "https://www.vividseats.com/theory-of-a-deadman-tickets-montreal-mtelus-3-9-2027/production/7532210",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -561,14 +561,14 @@
         "event_id": "8254014",
         "url": "https://www.ticketnetwork.com/en/p/8254014",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8254014",
         "url": "https://www.ticketliquidator.com/tickets/8254014/Theory-Of-A-Deadman-tickets-Tue-Mar-9-2027-MTelus",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },
@@ -694,7 +694,7 @@
         "event_id": 7532425,
         "url": "https://www.vividseats.com/theory-of-a-deadman-tickets-rama-casino-rama-3-12-2027/production/7532425",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -817,7 +817,7 @@
         "event_id": 7519353,
         "url": "https://www.vividseats.com/theory-of-a-deadman-tickets-windsor-the-colosseum-at-caesars-windsor-3-17-2027/production/7519353",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -937,7 +937,7 @@
         "event_id": 7532259,
         "url": "https://www.vividseats.com/theory-of-a-deadman-tickets-winnipeg-burton-cummings-theatre-3-20-2027/production/7532259",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -951,14 +951,14 @@
         "event_id": "8254020",
         "url": "https://www.ticketnetwork.com/en/p/8254020",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8254020",
         "url": "https://www.ticketliquidator.com/tickets/8254020/Theory-Of-A-Deadman-tickets-Sat-Mar-20-2027-Burton-Cummings-Theatre",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },
@@ -1014,7 +1014,7 @@
         "event_id": 18570554,
         "url": "https://seatgeek.com/theory-of-a-deadman-tickets/regina-canada-conexus-arts-centre-2027-03-22-8-pm/concert/18570554",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1035,14 +1035,14 @@
         "event_id": "8255473",
         "url": "https://www.ticketnetwork.com/en/p/8255473",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8255473",
         "url": "https://www.ticketliquidator.com/tickets/8255473/Theory-Of-A-Deadman-tickets-Mon-Mar-22-2027-Conexus-Arts-Centre",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },
@@ -1091,7 +1091,7 @@
         "event_id": 7534783,
         "url": "https://www.vividseats.com/theory-of-a-deadman-tickets-enoch-river-cree-casino-3-24-2027/production/7534783",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1105,14 +1105,14 @@
         "event_id": "8254021",
         "url": "https://www.ticketnetwork.com/en/p/8254021",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8254021",
         "url": "https://www.ticketliquidator.com/tickets/8254021/Theory-Of-A-Deadman-tickets-Wed-Mar-24-2027-River-Cree-Casino",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },
@@ -1170,7 +1170,7 @@
         "event_id": 7532257,
         "url": "https://www.vividseats.com/theory-of-a-deadman-tickets-calgary-southern-alberta-jubilee-auditorium-3-25-2027/production/7532257",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1184,14 +1184,14 @@
         "event_id": "8254022",
         "url": "https://www.ticketnetwork.com/en/p/8254022",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8254022",
         "url": "https://www.ticketliquidator.com/tickets/8254022/Theory-Of-A-Deadman-tickets-Thu-Mar-25-2027-Southern-Alberta-Jubilee-Auditorium",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },
@@ -1247,7 +1247,7 @@
         "event_id": 7532010,
         "url": "https://www.vividseats.com/theory-of-a-deadman-tickets-dawson-creek-ovintiv-events-centre-3-27-2027/production/7532010",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1301,7 +1301,7 @@
         "event_id": 7532178,
         "url": "https://www.vividseats.com/theory-of-a-deadman-tickets-vancouver-queen-elizabeth-theatre---vancouver-3-31-2027/production/7532178",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1315,14 +1315,14 @@
         "event_id": "8254023",
         "url": "https://www.ticketnetwork.com/en/p/8254023",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8254023",
         "url": "https://www.ticketliquidator.com/tickets/8254023/Theory-Of-A-Deadman-tickets-Wed-Mar-31-2027-Queen-Elizabeth-Theatre-Vancouver",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },

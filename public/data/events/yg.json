@@ -169,7 +169,7 @@
         "event_id": 18327961,
         "url": "https://seatgeek.com/yg-tickets/oakland-california-oakland-arena-2026-12-19-8-pm/concert/18327961",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -190,14 +190,21 @@
         "event_id": "8075219",
         "url": "https://www.ticketnetwork.com/en/p/8075219",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8075219",
         "url": "https://www.ticketliquidator.com/tickets/8075219/YG-tickets-Sat-Dec-19-2026-Oakland-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107684094",
+        "url": "https://www.stubhub.ie/yg-oakland-tickets-12-19-2026/event/107684094",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       }
     },
@@ -218,6 +225,7 @@
         "start": "2026-07-24T17:00:00Z",
         "end": "2026-12-13T07:59:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/yg-oakland-tickets-12-19-2026/event/107684094"
   }
 ]

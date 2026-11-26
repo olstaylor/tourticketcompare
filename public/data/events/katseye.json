@@ -404,7 +404,7 @@
     "city": "Detroit",
     "country": "United States Of America",
     "venue": "Little Caesars Arena",
-    "datetime_iso": "2026-11-04T01:00:00Z",
+    "datetime_iso": "2027-01-09T01:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "080064A9C8CDBB55",
     "ticketmaster_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-detroit-michigan-11-03-2026/event/080064A9C8CDBB55",
@@ -412,7 +412,7 @@
     "vividseats_url": "https://www.vividseats.com/katseye-tickets-detroit-little-caesars-arena-11-3-2026--concerts-pop/production/7027953",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-detroit-michigan-11-03-2026/event/080064A9C8CDBB55",
-    "last_verified_at": "2026-10-22",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -446,9 +446,9 @@
       },
       "ticket-liquidator": {
         "event_id": "7961637",
-        "url": "https://www.ticketliquidator.com/tickets/7961637/Katseye-tickets-Tue-Nov-3-2026-Little-Caesars-Arena",
+        "url": "https://www.ticketliquidator.com/tickets/7961637/Katseye-tickets-Fri-Jan-8-2027-Little-Caesars-Arena",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -462,20 +462,24 @@
         "event_id": "7961637",
         "url": "https://www.ticketnetwork.com/en/p/7961637",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1OZ_1EFShc4",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961637/Katseye-tickets-Tue-Nov-3-2026-Little-Caesars-Arena",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961637/Katseye-tickets-Fri-Jan-8-2027-Little-Caesars-Arena",
     "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7961637",
-    "ticketmaster_status_code": "postponed"
+    "ticketmaster_status_code": "rescheduled",
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "previous_start_date": "2026-11-04T01:00:00Z",
+    "previous_start_timezone": "America/New_York"
   },
   {
     "id": "tm-katseye-2026-chicago-vvg18z_1mip6i3",
@@ -485,15 +489,15 @@
     "city": "Chicago",
     "country": "United States Of America",
     "venue": "United Center",
-    "datetime_iso": "2026-11-06T02:00:00Z",
+    "datetime_iso": "2027-01-07T02:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "040064ABAC947B12",
     "ticketmaster_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-chicago-illinois-11-05-2026/event/040064ABAC947B12",
-    "seatgeek_url": "https://seatgeek.com/katseye-tickets/chicago-illinois-united-center-2026-11-05-8-pm/concert/18240147",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-chicago-illinois-11-05-2026/event/040064ABAC947B12",
-    "last_verified_at": "2026-10-22",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -505,11 +509,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18240147,
-        "url": "https://seatgeek.com/katseye-tickets/chicago-illinois-united-center-2026-11-05-8-pm/concert/18240147",
-        "verified": true,
-        "last_verified_at": "2026-11-05",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
       },
       "vivid-seats": {
         "event_id": null,
@@ -526,11 +530,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "7961638",
+        "url": "https://www.ticketliquidator.com/tickets/7961638/Katseye-tickets-Wed-Jan-6-2027-United-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": null,
@@ -543,20 +547,24 @@
         "event_id": "7961638",
         "url": "https://www.ticketnetwork.com/en/p/7961638",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG18Z_1miP6i3",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961638/Katseye-tickets-Wed-Jan-6-2027-United-Center",
     "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7961638",
-    "ticketmaster_status_code": "postponed"
+    "ticketmaster_status_code": "rescheduled",
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "previous_start_date": "2026-11-06T02:00:00Z",
+    "previous_start_timezone": "America/Chicago"
   },
   {
     "id": "tm-katseye-2026-minneapolis-vvg1bz_1syoq0j",
@@ -566,7 +574,7 @@
     "city": "Minneapolis",
     "country": "United States Of America",
     "venue": "Target Center",
-    "datetime_iso": "2026-11-08T02:00:00Z",
+    "datetime_iso": "2027-01-11T02:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "060064ACF981D91C",
     "ticketmaster_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-minneapolis-minnesota-11-07-2026/event/060064ACF981D91C",
@@ -574,7 +582,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-minneapolis-minnesota-11-07-2026/event/060064ACF981D91C",
-    "last_verified_at": "2026-10-22",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -607,11 +615,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "7961641",
+        "url": "https://www.ticketliquidator.com/tickets/7961641/Katseye-tickets-Sun-Jan-10-2027-Target-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": null,
@@ -621,23 +629,27 @@
         "availability_status": "not_listed"
       },
       "ticketnetwork": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "7961641",
+        "url": "https://www.ticketnetwork.com/en/p/7961641",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1bZ_1SyOq0j",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961641/Katseye-tickets-Sun-Jan-10-2027-Target-Center",
     "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "",
-    "ticketmaster_status_code": "postponed"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7961641",
+    "ticketmaster_status_code": "rescheduled",
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "previous_start_date": "2026-11-08T02:00:00Z",
+    "previous_start_timezone": "America/Chicago"
   },
   {
     "id": "tm-katseye-2026-austin-g5diz_1lv8_jd",
@@ -1257,7 +1269,7 @@
         "event_id": 7027973,
         "url": "https://www.vividseats.com/katseye-tickets-phoenix-mortgage-matchup-center-11-24-2026--concerts-pop/production/7027973",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1268,36 +1280,36 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "7961848",
-        "url": "https://www.ticketliquidator.com/tickets/7961848/Katseye-tickets-Tue-Nov-24-2026-Mortgage-Matchup-Center",
-        "verified": true,
-        "last_verified_at": "2026-11-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107170289",
         "url": "https://www.stubhub.ie/katseye-phoenix-tickets-11-24-2026/event/107170289",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7961848",
-        "url": "https://www.ticketnetwork.com/en/p/7961848",
-        "verified": true,
-        "last_verified_at": "2026-11-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17k8v0G61m4tf9t",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961848/Katseye-tickets-Tue-Nov-24-2026-Mortgage-Matchup-Center",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/katseye-phoenix-tickets-11-24-2026/event/107170289",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7961848",
+    "ticketnetwork_url": "",
     "ticket_limit": 4,
     "genre": "Pop"
   },
@@ -1353,21 +1365,21 @@
         "event_id": "7983201",
         "url": "https://www.ticketliquidator.com/tickets/7983201/Katseye-tickets-Fri-Nov-27-2026-Palacio-De-Los-Deportes-Mexico-City",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107165672",
         "url": "https://www.stubhub.ie/katseye-tickets-mexico-city-palacio-de-los-deportes-27-11-2026/event/107165672",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "7983201",
         "url": "https://www.ticketnetwork.com/en/p/7983201",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },
@@ -1434,21 +1446,21 @@
         "event_id": "7990930",
         "url": "https://www.ticketliquidator.com/tickets/7990930/Katseye-tickets-Sat-Nov-28-2026-Palacio-De-Los-Deportes-Mexico-City",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107187078",
         "url": "https://www.stubhub.ie/katseye-tickets-mexico-city-palacio-de-los-deportes-28-11-2026/event/107187078",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "7990930",
         "url": "https://www.ticketnetwork.com/en/p/7990930",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },
@@ -1578,5 +1590,88 @@
     ],
     "ticket_limit": 4,
     "genre": "Pop"
+  },
+  {
+    "id": "tm-katseye-2027-edinburgh-1adbz_9rkp3zdc5u",
+    "artist_slug": "katseye",
+    "artist_name": "KATSEYE",
+    "event_name": "Edinburgh Summer Sessions - Katseye",
+    "city": "Edinburgh",
+    "country": "Great Britain",
+    "venue": "Royal Highland Showgrounds",
+    "datetime_iso": "2027-08-24T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3600657793952DAC",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/edinburgh-summer-sessions-katseye-edinburgh-24-08-2027/event/3600657793952DAC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/edinburgh-summer-sessions-katseye-edinburgh-24-08-2027/event/3600657793952DAC",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3600657793952DAC",
+        "discovery_event_id": "1adbZ_9rKP3ZdC5u",
+        "url": "https://www.ticketmaster.co.uk/edinburgh-summer-sessions-katseye-edinburgh-24-08-2027/event/3600657793952DAC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1adbZ_9rKP3ZdC5u",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-27T17:00:00Z",
+    "organizer_names": [
+      "DF CONCERTS LIMITED",
+      "GIGS IN SCOTLAND",
+      "SUMMER SESSIONS"
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-25T17:00:00Z",
+        "end": "2026-11-27T16:00:00Z"
+      },
+      {
+        "name": "Mastercard Presale",
+        "start": "2026-11-25T17:00:00Z",
+        "end": "2026-11-27T16:00:00Z"
+      },
+      {
+        "name": "Gigs in Scotland Presale",
+        "start": "2026-11-26T17:00:00Z",
+        "end": "2026-11-27T16:00:00Z"
+      },
+      {
+        "name": "Summer Sessions Presale",
+        "start": "2026-11-26T17:00:00Z",
+        "end": "2026-11-27T16:00:00Z"
+      }
+    ]
   }
 ]

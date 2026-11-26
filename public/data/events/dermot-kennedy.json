@@ -163,28 +163,28 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8326048",
-        "url": "https://www.ticketnetwork.com/en/p/8326048",
-        "verified": true,
-        "last_verified_at": "2026-11-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8326048",
-        "url": "https://www.ticketliquidator.com/tickets/8326048/Dermot-Kennedy-tickets-Wed-Nov-25-2026-Christchurch-Town-Hall",
-        "verified": true,
-        "last_verified_at": "2026-11-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ae8Z_aGkM57djw",
     "timezone": "Pacific/Auckland",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326048",
+    "ticketnetwork_url": "",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8326048/Dermot-Kennedy-tickets-Wed-Nov-25-2026-Christchurch-Town-Hall",
+    "ticketliquidator_url": "",
     "ticket_limit": 6,
     "genre": "Rock"
   },
@@ -298,14 +298,14 @@
         "event_id": "8173279",
         "url": "https://www.ticketnetwork.com/en/p/8173279",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8173279",
         "url": "https://www.ticketliquidator.com/tickets/8173279/Dermot-Kennedy-tickets-Sat-Nov-28-2026-Spark-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },
@@ -488,7 +488,7 @@
         "event_id": "107673343",
         "url": "https://www.stubhub.ie/dermot-kennedy-tickets-belfast-ormeau-park-26-6-2027/event/107673343",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },
@@ -501,5 +501,1093 @@
     ],
     "ticket_limit": 9,
     "genre": "Rock"
+  },
+  {
+    "id": "tm-dermot-kennedy-2027-tampa-vvg1vz_6l1oil8",
+    "artist_slug": "dermot-kennedy",
+    "artist_name": "Dermot Kennedy",
+    "event_name": "Dermot Kennedy: The Weight of the Woods Tour",
+    "city": "Tampa",
+    "country": "United States Of America",
+    "venue": "Yuengling Center",
+    "datetime_iso": "2027-08-25T00:00:00Z",
+    "tour_name": "The Weight of the Woods Tour",
+    "ticketmaster_event_id": "0D006477CA46C7D0",
+    "ticketmaster_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-tampa-florida-08-24-2027/event/0D006477CA46C7D0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-tampa-florida-08-24-2027/event/0D006477CA46C7D0",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D006477CA46C7D0",
+        "discovery_event_id": "vvG1VZ_6L1oiL8",
+        "url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-tampa-florida-08-24-2027/event/0D006477CA46C7D0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7833437",
+        "url": "https://www.ticketnetwork.com/en/p/7833437",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7833437",
+        "url": "https://www.ticketliquidator.com/tickets/7833437/Dermot-Kennedy-tickets-Tue-Aug-24-2027-The-Yuengling-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_6L1oiL8",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7833437",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7833437/Dermot-Kennedy-tickets-Tue-Aug-24-2027-The-Yuengling-Center"
+  },
+  {
+    "id": "tm-dermot-kennedy-2027-nashville-z7r9jz1a7-mus",
+    "artist_slug": "dermot-kennedy",
+    "artist_name": "Dermot Kennedy",
+    "event_name": "Dermot Kennedy: The Weight of the Woods Tour",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Ascend Amphitheater",
+    "datetime_iso": "2027-08-27T01:00:00Z",
+    "tour_name": "The Weight of the Woods Tour",
+    "ticketmaster_event_id": "Z7r9jZ1A7-MuS",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-MuS",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-MuS",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7-MuS",
+        "discovery_event_id": "Z7r9jZ1A7-MuS",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-MuS",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7833439",
+        "url": "https://www.ticketnetwork.com/en/p/7833439",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7833439",
+        "url": "https://www.ticketliquidator.com/tickets/7833439/Dermot-Kennedy-tickets-Thu-Aug-26-2027-Ascend-Federal-Credit-Union-Amphitheater",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7-MuS",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7833439",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7833439/Dermot-Kennedy-tickets-Thu-Aug-26-2027-Ascend-Federal-Credit-Union-Amphitheater"
+  },
+  {
+    "id": "tm-dermot-kennedy-2027-atlanta-vvg1zz_6r-fif6",
+    "artist_slug": "dermot-kennedy",
+    "artist_name": "Dermot Kennedy",
+    "event_name": "Dermot Kennedy: The Weight of the Woods Tour",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Pinnacle Amphitheater at Chastain Park",
+    "datetime_iso": "2027-08-27T23:30:00Z",
+    "tour_name": "The Weight of the Woods Tour",
+    "ticketmaster_event_id": "0E006477A1228207",
+    "ticketmaster_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-atlanta-georgia-08-27-2027/event/0E006477A1228207",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-atlanta-georgia-08-27-2027/event/0E006477A1228207",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E006477A1228207",
+        "discovery_event_id": "vvG1zZ_6r-FIF6",
+        "url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-atlanta-georgia-08-27-2027/event/0E006477A1228207",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7833438",
+        "url": "https://www.ticketnetwork.com/en/p/7833438",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7833438",
+        "url": "https://www.ticketliquidator.com/tickets/7833438/Dermot-Kennedy-tickets-Fri-Aug-27-2027-Pinnacle-Amphitheater-at-Chastain-Park",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_6r-FIF6",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7833438",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7833438/Dermot-Kennedy-tickets-Fri-Aug-27-2027-Pinnacle-Amphitheater-at-Chastain-Park"
+  },
+  {
+    "id": "tm-dermot-kennedy-2027-birmingham-1aozkozgkdjgv_k",
+    "artist_slug": "dermot-kennedy",
+    "artist_name": "Dermot Kennedy",
+    "event_name": "Dermot Kennedy: The Weight of the Woods Tour",
+    "city": "Birmingham",
+    "country": "United States Of America",
+    "venue": "Avondale Brewing Co.",
+    "datetime_iso": "2027-08-29T23:30:00Z",
+    "tour_name": "The Weight of the Woods Tour",
+    "ticketmaster_event_id": "20006478DCD74653",
+    "ticketmaster_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-birmingham-alabama-08-29-2027/event/20006478DCD74653",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-birmingham-alabama-08-29-2027/event/20006478DCD74653",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "20006478DCD74653",
+        "discovery_event_id": "1AOZkozGkdjgV_K",
+        "url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-birmingham-alabama-08-29-2027/event/20006478DCD74653",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AOZkozGkdjgV_K",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "RED MOUNTAIN ENTERTAINMENT",
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "Rock"
+  },
+  {
+    "id": "tm-dermot-kennedy-2027-austin-g5diz_6nescpy",
+    "artist_slug": "dermot-kennedy",
+    "artist_name": "Dermot Kennedy",
+    "event_name": "Dermot Kennedy: The Weight of the Woods Tour",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Moody Amphitheater",
+    "datetime_iso": "2027-09-01T00:00:00Z",
+    "tour_name": "The Weight of the Woods Tour",
+    "ticketmaster_event_id": "3A006478E7C4E970",
+    "ticketmaster_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-austin-texas-08-31-2027/event/3A006478E7C4E970",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-austin-texas-08-31-2027/event/3A006478E7C4E970",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006478E7C4E970",
+        "discovery_event_id": "G5dIZ_6NEsCPY",
+        "url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-austin-texas-08-31-2027/event/3A006478E7C4E970",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7833440",
+        "url": "https://www.ticketnetwork.com/en/p/7833440",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7833440",
+        "url": "https://www.ticketliquidator.com/tickets/7833440/Dermot-Kennedy-tickets-Tue-Aug-31-2027-Moody-Amphitheater",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_6NEsCPY",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7833440",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7833440/Dermot-Kennedy-tickets-Tue-Aug-31-2027-Moody-Amphitheater"
+  },
+  {
+    "id": "tm-dermot-kennedy-2027-irving-vvg1yz_6j3sk_v",
+    "artist_slug": "dermot-kennedy",
+    "artist_name": "Dermot Kennedy",
+    "event_name": "Dermot Kennedy: The Weight of the Woods Tour",
+    "city": "Irving",
+    "country": "United States Of America",
+    "venue": "The Pavilion at Toyota Music Factory",
+    "datetime_iso": "2027-09-02T00:30:00Z",
+    "tour_name": "The Weight of the Woods Tour",
+    "ticketmaster_event_id": "0C00647992CC6674",
+    "ticketmaster_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-irving-texas-09-01-2027/event/0C00647992CC6674",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-irving-texas-09-01-2027/event/0C00647992CC6674",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C00647992CC6674",
+        "discovery_event_id": "vvG1YZ_6J3Sk_V",
+        "url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-irving-texas-09-01-2027/event/0C00647992CC6674",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7833441",
+        "url": "https://www.ticketnetwork.com/en/p/7833441",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7833441",
+        "url": "https://www.ticketliquidator.com/tickets/7833441/Dermot-Kennedy-tickets-Wed-Sep-1-2027-The-Pavilion-at-Toyota-Music-Factory",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_6J3Sk_V",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7833441",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7833441/Dermot-Kennedy-tickets-Wed-Sep-1-2027-The-Pavilion-at-Toyota-Music-Factory"
+  },
+  {
+    "id": "tm-dermot-kennedy-2027-bellvue-z7r9jz1a7-mug",
+    "artist_slug": "dermot-kennedy",
+    "artist_name": "Dermot Kennedy",
+    "event_name": "Dermot Kennedy: The Weight of the Woods Tour",
+    "city": "Bellvue",
+    "country": "United States Of America",
+    "venue": "Mishawaka Amphitheatre",
+    "datetime_iso": "2027-09-04T02:00:00Z",
+    "tour_name": "The Weight of the Woods Tour",
+    "ticketmaster_event_id": "Z7r9jZ1A7-Mug",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Mug",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Mug",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7-Mug",
+        "discovery_event_id": "Z7r9jZ1A7-Mug",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Mug",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7-Mug",
+    "timezone": "America/Denver",
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
+  },
+  {
+    "id": "tm-dermot-kennedy-2027-morrison-z7r9jz1a7-muu",
+    "artist_slug": "dermot-kennedy",
+    "artist_name": "Dermot Kennedy",
+    "event_name": "Dermot Kennedy: The Weight of the Woods Tour",
+    "city": "Morrison",
+    "country": "United States Of America",
+    "venue": "Red Rocks Amphitheatre",
+    "datetime_iso": "2027-09-05T02:00:00Z",
+    "tour_name": "The Weight of the Woods Tour",
+    "ticketmaster_event_id": "Z7r9jZ1A7-MuU",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-MuU",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-MuU",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7-MuU",
+        "discovery_event_id": "Z7r9jZ1A7-MuU",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-MuU",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7833443",
+        "url": "https://www.ticketnetwork.com/en/p/7833443",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7833443",
+        "url": "https://www.ticketliquidator.com/tickets/7833443/Dermot-Kennedy-tickets-Sat-Sep-4-2027-Red-Rocks-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7-MuU",
+    "timezone": "America/Denver",
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7833443",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7833443/Dermot-Kennedy-tickets-Sat-Sep-4-2027-Red-Rocks-Amphitheatre"
+  },
+  {
+    "id": "tm-dermot-kennedy-2027-los-angeles-vv1ke8v0r6gauznui",
+    "artist_slug": "dermot-kennedy",
+    "artist_name": "Dermot Kennedy",
+    "event_name": "Dermot Kennedy: The Weight of the Woods Tour",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "Greek Theatre",
+    "datetime_iso": "2027-09-08T02:30:00Z",
+    "tour_name": "The Weight of the Woods Tour",
+    "ticketmaster_event_id": "090064787D02336C",
+    "ticketmaster_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-los-angeles-california-09-07-2027/event/090064787D02336C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-los-angeles-california-09-07-2027/event/090064787D02336C",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090064787D02336C",
+        "discovery_event_id": "vv1ke8v0r6GAuZNui",
+        "url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-los-angeles-california-09-07-2027/event/090064787D02336C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7833444",
+        "url": "https://www.ticketnetwork.com/en/p/7833444",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7833444",
+        "url": "https://www.ticketliquidator.com/tickets/7833444/Dermot-Kennedy-tickets-Tue-Sep-7-2027-Greek-Theatre-Los-Angeles-CA",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1ke8v0r6GAuZNui",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7833444",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7833444/Dermot-Kennedy-tickets-Tue-Sep-7-2027-Greek-Theatre-Los-Angeles-CA"
+  },
+  {
+    "id": "tm-dermot-kennedy-2027-phoenix-1kk8v0r_gac5gqt",
+    "artist_slug": "dermot-kennedy",
+    "artist_name": "Dermot Kennedy",
+    "event_name": "Dermot Kennedy: The Weight of the Woods Tour",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "Arizona Financial Theatre",
+    "datetime_iso": "2027-09-09T02:30:00Z",
+    "tour_name": "The Weight of the Woods Tour",
+    "ticketmaster_event_id": "190064799E2F56A9",
+    "ticketmaster_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-phoenix-arizona-09-08-2027/event/190064799E2F56A9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-phoenix-arizona-09-08-2027/event/190064799E2F56A9",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "190064799E2F56A9",
+        "discovery_event_id": "1kk8v0r_GAC5gQt",
+        "url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-phoenix-arizona-09-08-2027/event/190064799E2F56A9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7833445",
+        "url": "https://www.ticketnetwork.com/en/p/7833445",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7833445",
+        "url": "https://www.ticketliquidator.com/tickets/7833445/Dermot-Kennedy-tickets-Wed-Sep-8-2027-Arizona-Financial-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kk8v0r_GAC5gQt",
+    "timezone": "America/Phoenix",
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7833445",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7833445/Dermot-Kennedy-tickets-Wed-Sep-8-2027-Arizona-Financial-Theatre"
+  },
+  {
+    "id": "tm-dermot-kennedy-2027-san-diego-vvg1iz_63vng7e",
+    "artist_slug": "dermot-kennedy",
+    "artist_name": "Dermot Kennedy",
+    "event_name": "Dermot Kennedy: The Weight of the Woods Tour",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "Cal Coast Credit Union Open Air Theatre at SDSU",
+    "datetime_iso": "2027-09-11T03:00:00Z",
+    "tour_name": "The Weight of the Woods Tour",
+    "ticketmaster_event_id": "0A006474B48CC127",
+    "ticketmaster_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-san-diego-california-09-10-2027/event/0A006474B48CC127",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-san-diego-california-09-10-2027/event/0A006474B48CC127",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A006474B48CC127",
+        "discovery_event_id": "vvG1IZ_63VNG7E",
+        "url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-san-diego-california-09-10-2027/event/0A006474B48CC127",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7833446",
+        "url": "https://www.ticketnetwork.com/en/p/7833446",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7833446",
+        "url": "https://www.ticketliquidator.com/tickets/7833446/Dermot-Kennedy-tickets-Fri-Sep-10-2027-Cal-Coast-Credit-Union-Open-Air-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_63VNG7E",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7833446",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7833446/Dermot-Kennedy-tickets-Fri-Sep-10-2027-Cal-Coast-Credit-Union-Open-Air-Theatre"
+  },
+  {
+    "id": "tm-dermot-kennedy-2027-san-francisco-g5vyz_6xupdzq",
+    "artist_slug": "dermot-kennedy",
+    "artist_name": "Dermot Kennedy",
+    "event_name": "Dermot Kennedy: The Weight of the Woods Tour",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "Bill Graham Civic Auditorium",
+    "datetime_iso": "2027-09-13T02:30:00Z",
+    "tour_name": "The Weight of the Woods Tour",
+    "ticketmaster_event_id": "1C006478B697BE1D",
+    "ticketmaster_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-san-francisco-california-09-12-2027/event/1C006478B697BE1D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-san-francisco-california-09-12-2027/event/1C006478B697BE1D",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006478B697BE1D",
+        "discovery_event_id": "G5vYZ_6xUPDzq",
+        "url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-san-francisco-california-09-12-2027/event/1C006478B697BE1D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7833447",
+        "url": "https://www.ticketnetwork.com/en/p/7833447",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7833447",
+        "url": "https://www.ticketliquidator.com/tickets/7833447/Dermot-Kennedy-tickets-Sun-Sep-12-2027-Bill-Graham-Civic-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_6xUPDzq",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "ANOTHER PLANET",
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7833447",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7833447/Dermot-Kennedy-tickets-Sun-Sep-12-2027-Bill-Graham-Civic-Auditorium"
+  },
+  {
+    "id": "tm-dermot-kennedy-2027-portland-vvg1hz_61kvuk5",
+    "artist_slug": "dermot-kennedy",
+    "artist_name": "Dermot Kennedy",
+    "event_name": "Dermot Kennedy: The Weight of the Woods Tour",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "Moda Center",
+    "datetime_iso": "2027-09-15T02:30:00Z",
+    "tour_name": "The Weight of the Woods Tour",
+    "ticketmaster_event_id": "0F00647293D3618B",
+    "ticketmaster_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-portland-oregon-09-14-2027/event/0F00647293D3618B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-portland-oregon-09-14-2027/event/0F00647293D3618B",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F00647293D3618B",
+        "discovery_event_id": "vvG1HZ_61KVUk5",
+        "url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-portland-oregon-09-14-2027/event/0F00647293D3618B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7833449",
+        "url": "https://www.ticketnetwork.com/en/p/7833449",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7833449",
+        "url": "https://www.ticketliquidator.com/tickets/7833449/Dermot-Kennedy-tickets-Tue-Sep-14-2027-Moda-Center-at-the-Rose-Quarter",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_61KVUk5",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7833449",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7833449/Dermot-Kennedy-tickets-Tue-Sep-14-2027-Moda-Center-at-the-Rose-Quarter"
+  },
+  {
+    "id": "tm-dermot-kennedy-2027-vancouver-1aozkosgkedfaj7",
+    "artist_slug": "dermot-kennedy",
+    "artist_name": "Dermot Kennedy",
+    "event_name": "Dermot Kennedy: The Weight of the Woods Tour",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Rogers Arena",
+    "datetime_iso": "2027-09-17T02:30:00Z",
+    "tour_name": "The Weight of the Woods Tour",
+    "ticketmaster_event_id": "11006473BB209704",
+    "ticketmaster_url": "https://www.ticketmaster.ca/dermot-kennedy-the-weight-of-the-vancouver-british-columbia-09-16-2027/event/11006473BB209704",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/dermot-kennedy-the-weight-of-the-vancouver-british-columbia-09-16-2027/event/11006473BB209704",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006473BB209704",
+        "discovery_event_id": "1AoZkoSGkeDFaj7",
+        "url": "https://www.ticketmaster.ca/dermot-kennedy-the-weight-of-the-vancouver-british-columbia-09-16-2027/event/11006473BB209704",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7836902",
+        "url": "https://www.ticketnetwork.com/en/p/7836902",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7836902",
+        "url": "https://www.ticketliquidator.com/tickets/7836902/Dermot-Kennedy-tickets-Thu-Sep-16-2027-Rogers-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AoZkoSGkeDFaj7",
+    "timezone": "America/Vancouver",
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7836902",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7836902/Dermot-Kennedy-tickets-Thu-Sep-16-2027-Rogers-Arena"
+  },
+  {
+    "id": "tm-dermot-kennedy-2027-seattle-vvg1hz_6xvw_39",
+    "artist_slug": "dermot-kennedy",
+    "artist_name": "Dermot Kennedy",
+    "event_name": "Dermot Kennedy: The Weight of the Woods Tour",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Paramount Theatre",
+    "datetime_iso": "2027-09-18T02:30:00Z",
+    "tour_name": "The Weight of the Woods Tour",
+    "ticketmaster_event_id": "0F006478B4C99497",
+    "ticketmaster_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-seattle-washington-09-17-2027/event/0F006478B4C99497",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-seattle-washington-09-17-2027/event/0F006478B4C99497",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F006478B4C99497",
+        "discovery_event_id": "vvG1HZ_6xVw_39",
+        "url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-seattle-washington-09-17-2027/event/0F006478B4C99497",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7833448",
+        "url": "https://www.ticketnetwork.com/en/p/7833448",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7833448",
+        "url": "https://www.ticketliquidator.com/tickets/7833448/Dermot-Kennedy-tickets-Fri-Sep-17-2027-Paramount-Theatre-Seattle",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_6xVw_39",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7833448",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7833448/Dermot-Kennedy-tickets-Fri-Sep-17-2027-Paramount-Theatre-Seattle"
   }
 ]

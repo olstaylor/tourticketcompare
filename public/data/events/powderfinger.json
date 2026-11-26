@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-bowen-hills-03-09-2027/event/130065477BA621F3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -50,7 +50,12 @@
     },
     "ticketmaster_discovery_event_id": "1k7YvPoMGA5tx6S",
     "timezone": "Australia/Brisbane",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-bowen-hills-16vgz_f-wg7xsqt",
@@ -68,7 +73,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-bowen-hills-04-09-2027/event/1300654872FB16A9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -103,7 +108,12 @@
     },
     "ticketmaster_discovery_event_id": "16vGZ_f-wG7XsQt",
     "timezone": "Australia/Brisbane",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-bowen-hills-16vgz_f-wg7xsqr",
@@ -121,7 +131,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-bowen-hills-06-09-2027/event/1300654872FB16AF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -156,7 +166,12 @@
     },
     "ticketmaster_discovery_event_id": "16vGZ_f-wG7XsQR",
     "timezone": "Australia/Brisbane",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-bowen-hills-16vgz_f-wg7xsqs",
@@ -174,7 +189,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-bowen-hills-08-09-2027/event/1300654872FB16B1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -209,7 +224,12 @@
     },
     "ticketmaster_discovery_event_id": "16vGZ_f-wG7XsQs",
     "timezone": "Australia/Brisbane",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-bowen-hills-16vgz_f-wg7tvqs",
@@ -227,7 +247,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-bowen-hills-10-09-2027/event/1300654872FC16B3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -262,7 +282,12 @@
     },
     "ticketmaster_discovery_event_id": "16vGZ_f-wG7TvQS",
     "timezone": "Australia/Brisbane",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-bowen-hills-16vgz_f-wg7tvqg",
@@ -280,7 +305,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-bowen-hills-11-09-2027/event/1300654872FC16B5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -315,7 +340,12 @@
     },
     "ticketmaster_discovery_event_id": "16vGZ_f-wG7TvQg",
     "timezone": "Australia/Brisbane",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-westcourt-1ka8vpoygagbsx2",
@@ -333,7 +363,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-westcourt-17-09-2027/event/250065479C63388F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -368,7 +398,12 @@
     },
     "ticketmaster_discovery_event_id": "1ka8vPoyGAGbSx2",
     "timezone": "Australia/Brisbane",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-westcourt-1apzk4fgken8vl2",
@@ -386,7 +421,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-westcourt-18-09-2027/event/25006548AA434ACF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -421,7 +456,12 @@
     },
     "ticketmaster_discovery_event_id": "1APZk4FGken8Vl2",
     "timezone": "Australia/Brisbane",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-east-perth-1akzk4fgkeyukxi",
@@ -439,7 +479,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-east-perth-24-09-2027/event/13006548B0D86FAC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -474,7 +514,12 @@
     },
     "ticketmaster_discovery_event_id": "1AKZk4FGkeYUkXi",
     "timezone": "Australia/Perth",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-east-perth-16vgz_fpmg7hx1q",
@@ -492,7 +537,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-east-perth-25-09-2027/event/1300654977F2229A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -527,7 +572,12 @@
     },
     "ticketmaster_discovery_event_id": "16vGZ_fPMG7Hx1Q",
     "timezone": "Australia/Perth",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-east-perth-16vgz_fpmg7hx1r",
@@ -545,7 +595,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-east-perth-27-09-2027/event/1300654977F2229E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -580,7 +630,12 @@
     },
     "ticketmaster_discovery_event_id": "16vGZ_fPMG7Hx1r",
     "timezone": "Australia/Perth",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-sydney-1akzk46gkdqpnzu",
@@ -598,7 +653,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-sydney-01-10-2027/event/13006547DA5AAE36",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -633,7 +688,12 @@
     },
     "ticketmaster_discovery_event_id": "1AKZk46GkdQpnzU",
     "timezone": "Australia/Sydney",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-sydney-1akzk4fgkd_qb_v",
@@ -651,7 +711,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-sydney-02-10-2027/event/13006548D977A674",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -686,7 +746,12 @@
     },
     "ticketmaster_discovery_event_id": "1AKZk4FGkd_qB_V",
     "timezone": "Australia/Sydney",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-sydney-1akzk4fgkd_z1h4",
@@ -704,7 +769,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-sydney-04-10-2027/event/13006548D9E0A6D5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -739,7 +804,12 @@
     },
     "ticketmaster_discovery_event_id": "1AKZk4FGkd_z1h4",
     "timezone": "Australia/Sydney",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-sydney-1akzk4fgkdqv1hi",
@@ -757,7 +827,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-sydney-06-10-2027/event/13006548DA04A6EC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -792,7 +862,12 @@
     },
     "ticketmaster_discovery_event_id": "1AKZk4FGkdQv1hi",
     "timezone": "Australia/Sydney",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-sydney-1akzk4fgkdqabj6",
@@ -810,7 +885,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-sydney-08-10-2027/event/13006548DA27A707",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -845,7 +920,12 @@
     },
     "ticketmaster_discovery_event_id": "1AKZk4FGkdQaBj6",
     "timezone": "Australia/Sydney",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-sydney-1akzk4fgkdq4qju",
@@ -863,7 +943,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-sydney-09-10-2027/event/13006548DA55A736",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -898,7 +978,12 @@
     },
     "ticketmaster_discovery_event_id": "1AKZk4FGkdQ4QjU",
     "timezone": "Australia/Sydney",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-adelaide-1akzk46gkezazeo",
@@ -916,7 +1001,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-adelaide-15-10-2027/event/13006547B82789D1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -951,7 +1036,12 @@
     },
     "ticketmaster_discovery_event_id": "1AKZk46GkezazEo",
     "timezone": "Australia/Adelaide",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-adelaide-1akzk46gkdlbdc4",
@@ -969,7 +1059,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-adelaide-16-10-2027/event/13006547DFEBB395",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1004,7 +1094,12 @@
     },
     "ticketmaster_discovery_event_id": "1AKZk46GkdLBDC4",
     "timezone": "Australia/Adelaide",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-melbourne-1apzk4fgkei00m-",
@@ -1022,7 +1117,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-melbourne-22-10-2027/event/25006548AC924DE1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1057,7 +1152,12 @@
     },
     "ticketmaster_discovery_event_id": "1APZk4FGkei00M-",
     "timezone": "Australia/Melbourne",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-melbourne-1apzk4fgkdoeeea",
@@ -1075,7 +1175,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-melbourne-23-10-2027/event/25006548D19E7085",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1110,7 +1210,12 @@
     },
     "ticketmaster_discovery_event_id": "1APZk4FGkdoEEeA",
     "timezone": "Australia/Melbourne",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-melbourne-1apzk4fgkdoeee6",
@@ -1128,7 +1233,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-melbourne-25-10-2027/event/25006548D19E7087",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1163,7 +1268,12 @@
     },
     "ticketmaster_discovery_event_id": "1APZk4FGkdoEEe6",
     "timezone": "Australia/Melbourne",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-melbourne-1apzk4fgkdoeme2",
@@ -1181,7 +1291,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-melbourne-29-10-2027/event/25006548D19F708F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1216,7 +1326,12 @@
     },
     "ticketmaster_discovery_event_id": "1APZk4FGkdoEMe2",
     "timezone": "Australia/Melbourne",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-melbourne-1apzk4fgkdoi9e3",
@@ -1234,7 +1349,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-melbourne-30-10-2027/event/25006548D1A17092",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1269,7 +1384,12 @@
     },
     "ticketmaster_discovery_event_id": "1APZk4FGkdoI9e3",
     "timezone": "Australia/Melbourne",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-melbourne-1aefz_fgkxvpad9",
@@ -1287,7 +1407,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-melbourne-01-11-2027/event/2500654FB49490D7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1322,7 +1442,12 @@
     },
     "ticketmaster_discovery_event_id": "1AefZ_fGkXVPad9",
     "timezone": "Australia/Melbourne",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-melbourne-1apzk49gkdahuzu",
@@ -1340,7 +1465,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-melbourne-05-11-2027/event/25006557C9F0DE36",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1375,7 +1500,12 @@
     },
     "ticketmaster_discovery_event_id": "1APZk49GkdaHuzU",
     "timezone": "Australia/Melbourne",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-melbourne-1apzk49gkdawczh",
@@ -1393,7 +1523,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-melbourne-06-11-2027/event/25006557C9F6DE3C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1428,7 +1558,12 @@
     },
     "ticketmaster_discovery_event_id": "1APZk49GkdaWczH",
     "timezone": "Australia/Melbourne",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-new-town-1aefz_4gkmua4ux",
@@ -1446,7 +1581,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-new-town-13-11-2027/event/2500655BB625537E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1481,7 +1616,12 @@
     },
     "ticketmaster_discovery_event_id": "1AefZ_4GkmUa4uX",
     "timezone": "Australia/Hobart",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "FACE TO FACE TOURING"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-new-town-1aefz_4gkwn0f-6",
@@ -1499,7 +1639,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-new-town-14-11-2027/event/2500655CAA914847",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1534,7 +1674,12 @@
     },
     "ticketmaster_discovery_event_id": "1AefZ_4Gkwn0f-6",
     "timezone": "Australia/Hobart",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "FACE TO FACE TOURING"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-caversham-1avgz_4gklqcbyy",
@@ -1552,7 +1697,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-caversham-20-11-2027/event/1300655ADD398E79",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1587,7 +1732,12 @@
     },
     "ticketmaster_discovery_event_id": "1AvGZ_4GklqCbyy",
     "timezone": "Australia/Perth",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "FACE TO FACE TOURING"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-caversham-1avgz_4gkm_nd5y",
@@ -1605,7 +1755,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-caversham-21-11-2027/event/1300655B99A832F9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1640,7 +1790,12 @@
     },
     "ticketmaster_discovery_event_id": "1AvGZ_4Gkm_nd5y",
     "timezone": "Australia/Perth",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "FACE TO FACE TOURING"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-parkes-1avgz_4gkmmigtv",
@@ -1658,7 +1813,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-parkes-04-12-2027/event/1300655BB7A35FC1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1693,7 +1848,12 @@
     },
     "ticketmaster_discovery_event_id": "1AvGZ_4GkmMIgTv",
     "timezone": "Australia/Sydney",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "FACE TO FACE TOURING"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-parkes-1avgz_4gkrpif0p",
@@ -1711,7 +1871,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-parkes-05-12-2027/event/1300655BD6B08916",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1746,7 +1906,12 @@
     },
     "ticketmaster_discovery_event_id": "1AvGZ_4GkRpiF0p",
     "timezone": "Australia/Sydney",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "FACE TO FACE TOURING"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-bowen-hills-1avgz_4gkwmdz73",
@@ -1764,7 +1929,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-bowen-hills-10-12-2027/event/1300655CB70F8112",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1799,7 +1964,12 @@
     },
     "ticketmaster_discovery_event_id": "1AvGZ_4GkwMdz73",
     "timezone": "Australia/Brisbane",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-bowen-hills-1avgz_4gkue2jyq",
@@ -1817,7 +1987,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-bowen-hills-11-12-2027/event/1300655DA73E6E5D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1852,6 +2022,11 @@
     },
     "ticketmaster_discovery_event_id": "1AvGZ_4GkUE2Jyq",
     "timezone": "Australia/Brisbane",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   }
 ]

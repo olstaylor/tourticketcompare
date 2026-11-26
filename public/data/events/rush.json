@@ -1,0 +1,2559 @@
+[
+  {
+    "id": "tm-rush-2026-atlanta-vvg1zzbgd3i_ac",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: Fifty Something",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "State Farm Arena",
+    "datetime_iso": "2026-11-26T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E006350D2B1924E",
+    "ticketmaster_url": "https://www.ticketmaster.com/rush-fifty-something-atlanta-georgia-11-25-2026/event/0E006350D2B1924E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/rush-fifty-something-atlanta-georgia-11-25-2026/event/0E006350D2B1924E",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E006350D2B1924E",
+        "discovery_event_id": "vvG1zZbgd3i_aC",
+        "url": "https://www.ticketmaster.com/rush-fifty-something-atlanta-georgia-11-25-2026/event/0E006350D2B1924E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7503530",
+        "url": "https://www.ticketnetwork.com/en/p/7503530",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7503530",
+        "url": "https://www.ticketliquidator.com/tickets/7503530/Rush-tickets-Wed-Nov-25-2026-State-Farm-Arena-GA",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106997148",
+        "url": "https://www.stubhub.ie/rush-atlanta-tickets-11-25-2026/event/106997148",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZbgd3i_aC",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7503530",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7503530/Rush-tickets-Wed-Nov-25-2026-State-Farm-Arena-GA",
+    "stubhub_international_url": "https://www.stubhub.ie/rush-atlanta-tickets-11-25-2026/event/106997148"
+  },
+  {
+    "id": "tm-rush-2026-atlanta-vvg1zzbgq3ik-i",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: Fifty Something",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "State Farm Arena",
+    "datetime_iso": "2026-11-28T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E00635692B0686C",
+    "ticketmaster_url": "https://www.ticketmaster.com/rush-fifty-something-atlanta-georgia-11-27-2026/event/0E00635692B0686C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/rush-fifty-something-atlanta-georgia-11-27-2026/event/0E00635692B0686C",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E00635692B0686C",
+        "discovery_event_id": "vvG1zZbgQ3ik-i",
+        "url": "https://www.ticketmaster.com/rush-fifty-something-atlanta-georgia-11-27-2026/event/0E00635692B0686C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7510116",
+        "url": "https://www.ticketnetwork.com/en/p/7510116",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7510116",
+        "url": "https://www.ticketliquidator.com/tickets/7510116/Rush-tickets-Fri-Nov-27-2026-State-Farm-Arena-GA",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106999089",
+        "url": "https://www.stubhub.ie/rush-atlanta-tickets-11-27-2026/event/106999089",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZbgQ3ik-i",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "legal_age_enforced": true,
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7510116",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7510116/Rush-tickets-Fri-Nov-27-2026-State-Farm-Arena-GA",
+    "stubhub_international_url": "https://www.stubhub.ie/rush-atlanta-tickets-11-27-2026/event/106999089"
+  },
+  {
+    "id": "tm-rush-2026-glendale-1a_zku3gkdjwfxj",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: Fifty Something",
+    "city": "Glendale",
+    "country": "United States Of America",
+    "venue": "Desert Diamond Arena",
+    "datetime_iso": "2026-12-02T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "19006352DCF54F9C",
+    "ticketmaster_url": "https://www.ticketmaster.com/rush-fifty-something-glendale-arizona-12-01-2026/event/19006352DCF54F9C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/rush-fifty-something-glendale-arizona-12-01-2026/event/19006352DCF54F9C",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "19006352DCF54F9C",
+        "discovery_event_id": "1A_Zku3GkdjWfXj",
+        "url": "https://www.ticketmaster.com/rush-fifty-something-glendale-arizona-12-01-2026/event/19006352DCF54F9C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7503533",
+        "url": "https://www.ticketnetwork.com/en/p/7503533",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7503533",
+        "url": "https://www.ticketliquidator.com/tickets/7503533/Rush-tickets-Tue-Dec-1-2026-Desert-Diamond-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106983748",
+        "url": "https://www.stubhub.ie/rush-glendale-tickets-12-1-2026/event/106983748",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A_Zku3GkdjWfXj",
+    "timezone": "America/Phoenix",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7503533",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7503533/Rush-tickets-Tue-Dec-1-2026-Desert-Diamond-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/rush-glendale-tickets-12-1-2026/event/106983748"
+  },
+  {
+    "id": "tm-rush-2026-glendale-1a_zku3gkdql0tk",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: Fifty Something",
+    "city": "Glendale",
+    "country": "United States Of America",
+    "venue": "Desert Diamond Arena",
+    "datetime_iso": "2026-12-04T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "19006352DD7E4FC6",
+    "ticketmaster_url": "https://www.ticketmaster.com/rush-fifty-something-glendale-arizona-12-03-2026/event/19006352DD7E4FC6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/rush-fifty-something-glendale-arizona-12-03-2026/event/19006352DD7E4FC6",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "19006352DD7E4FC6",
+        "discovery_event_id": "1A_Zku3GkdqL0Tk",
+        "url": "https://www.ticketmaster.com/rush-fifty-something-glendale-arizona-12-03-2026/event/19006352DD7E4FC6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7510407",
+        "url": "https://www.ticketnetwork.com/en/p/7510407",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7510407",
+        "url": "https://www.ticketliquidator.com/tickets/7510407/Rush-tickets-Thu-Dec-3-2026-Desert-Diamond-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106999091",
+        "url": "https://www.stubhub.ie/rush-glendale-tickets-12-3-2026/event/106999091",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A_Zku3GkdqL0Tk",
+    "timezone": "America/Phoenix",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7510407",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7510407/Rush-tickets-Thu-Dec-3-2026-Desert-Diamond-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/rush-glendale-tickets-12-3-2026/event/106999091"
+  },
+  {
+    "id": "tm-rush-2026-san-jose-g5vyzbg9ir1-u",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: Fifty Something",
+    "city": "San Jose",
+    "country": "United States Of America",
+    "venue": "SAP Center at San Jose",
+    "datetime_iso": "2026-12-07T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C006355EC78A84D",
+    "ticketmaster_url": "https://www.ticketmaster.com/rush-fifty-something-san-jose-california-12-06-2026/event/1C006355EC78A84D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/rush-fifty-something-san-jose-california-12-06-2026/event/1C006355EC78A84D",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006355EC78A84D",
+        "discovery_event_id": "G5vYZbg9ir1-u",
+        "url": "https://www.ticketmaster.com/rush-fifty-something-san-jose-california-12-06-2026/event/1C006355EC78A84D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7510112",
+        "url": "https://www.ticketnetwork.com/en/p/7510112",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7510112",
+        "url": "https://www.ticketliquidator.com/tickets/7510112/Rush-tickets-Sun-Dec-6-2026-SAP-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZbg9ir1-u",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7510112",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7510112/Rush-tickets-Sun-Dec-6-2026-SAP-Center"
+  },
+  {
+    "id": "tm-rush-2026-edmonton-1aozkuogkdiu5gt",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: Fifty Something",
+    "city": "Edmonton",
+    "country": "Canada",
+    "venue": "Rogers Place",
+    "datetime_iso": "2026-12-11T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "11006351E834BD69",
+    "ticketmaster_url": "https://www.ticketmaster.ca/rush-fifty-something-edmonton-alberta-12-10-2026/event/11006351E834BD69",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/rush-fifty-something-edmonton-alberta-12-10-2026/event/11006351E834BD69",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006351E834BD69",
+        "discovery_event_id": "1AoZkuoGkdIu5gt",
+        "url": "https://www.ticketmaster.ca/rush-fifty-something-edmonton-alberta-12-10-2026/event/11006351E834BD69",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7503538",
+        "url": "https://www.ticketnetwork.com/en/p/7503538",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7503538",
+        "url": "https://www.ticketliquidator.com/tickets/7503538/Rush-tickets-Thu-Dec-10-2026-Rogers-Place",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106997149",
+        "url": "https://www.stubhub.ie/rush-tickets-edmonton-rogers-place-12-10-2026/event/106997149",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AoZkuoGkdIu5gt",
+    "timezone": "America/Edmonton",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-ROGERS",
+      "LIVE NATION CANADA-RBC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Package Public Onsale",
+        "start": "2025-10-31T18:00:00Z",
+        "end": "2026-12-04T04:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7503538",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7503538/Rush-tickets-Thu-Dec-10-2026-Rogers-Place",
+    "stubhub_international_url": "https://www.stubhub.ie/rush-tickets-edmonton-rogers-place-12-10-2026/event/106997149"
+  },
+  {
+    "id": "tm-rush-2026-edmonton-1aozkuogkdichgs",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: Fifty Something",
+    "city": "Edmonton",
+    "country": "Canada",
+    "venue": "Rogers Place",
+    "datetime_iso": "2026-12-13T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "11006351E839BD71",
+    "ticketmaster_url": "https://www.ticketmaster.ca/rush-fifty-something-edmonton-alberta-12-12-2026/event/11006351E839BD71",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/rush-fifty-something-edmonton-alberta-12-12-2026/event/11006351E839BD71",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006351E839BD71",
+        "discovery_event_id": "1AoZkuoGkdIChgs",
+        "url": "https://www.ticketmaster.ca/rush-fifty-something-edmonton-alberta-12-12-2026/event/11006351E839BD71",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7510114",
+        "url": "https://www.ticketnetwork.com/en/p/7510114",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7510114",
+        "url": "https://www.ticketliquidator.com/tickets/7510114/Rush-tickets-Sat-Dec-12-2026-Rogers-Place",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106999092",
+        "url": "https://www.stubhub.ie/rush-tickets-edmonton-rogers-place-12-12-2026/event/106999092",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AoZkuoGkdIChgs",
+    "timezone": "America/Edmonton",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-ROGERS",
+      "LIVE NATION CANADA-RBC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Package Public Onsale",
+        "start": "2025-10-31T18:00:00Z",
+        "end": "2026-12-04T04:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7510114",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7510114/Rush-tickets-Sat-Dec-12-2026-Rogers-Place",
+    "stubhub_international_url": "https://www.stubhub.ie/rush-tickets-edmonton-rogers-place-12-12-2026/event/106999092"
+  },
+  {
+    "id": "tm-rush-2026-vancouver-15v7zbga7vfqk",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: Fifty Something",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Rogers Arena",
+    "datetime_iso": "2026-12-16T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1100635144054746",
+    "ticketmaster_url": "https://www.ticketmaster.ca/rush-fifty-something-vancouver-british-columbia-12-15-2026/event/1100635144054746",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/rush-fifty-something-vancouver-british-columbia-12-15-2026/event/1100635144054746",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1100635144054746",
+        "discovery_event_id": "15v7ZbgA7vfqk",
+        "url": "https://www.ticketmaster.ca/rush-fifty-something-vancouver-british-columbia-12-15-2026/event/1100635144054746",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7503539",
+        "url": "https://www.ticketnetwork.com/en/p/7503539",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7503539",
+        "url": "https://www.ticketliquidator.com/tickets/7503539/Rush-tickets-Tue-Dec-15-2026-Rogers-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106997150",
+        "url": "https://www.stubhub.ie/rush-tickets-vancouver-rogers-arena-12-15-2026/event/106997150",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "15v7ZbgA7vfqk",
+    "timezone": "America/Vancouver",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2025-10-31T19:00:00Z",
+        "end": "2026-12-09T05:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7503539",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7503539/Rush-tickets-Tue-Dec-15-2026-Rogers-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/rush-tickets-vancouver-rogers-arena-12-15-2026/event/106997150"
+  },
+  {
+    "id": "tm-rush-2026-vancouver-1k78vn4_gag8jn9",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: Fifty Something",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Rogers Arena",
+    "datetime_iso": "2026-12-18T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "110063559C4268D7",
+    "ticketmaster_url": "https://www.ticketmaster.ca/rush-fifty-something-vancouver-british-columbia-12-17-2026/event/110063559C4268D7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/rush-fifty-something-vancouver-british-columbia-12-17-2026/event/110063559C4268D7",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "110063559C4268D7",
+        "discovery_event_id": "1k78vN4_GAG8JN9",
+        "url": "https://www.ticketmaster.ca/rush-fifty-something-vancouver-british-columbia-12-17-2026/event/110063559C4268D7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7510406",
+        "url": "https://www.ticketnetwork.com/en/p/7510406",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7510406",
+        "url": "https://www.ticketliquidator.com/tickets/7510406/Rush-tickets-Thu-Dec-17-2026-Rogers-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106999093",
+        "url": "https://www.stubhub.ie/rush-tickets-vancouver-rogers-arena-12-17-2026/event/106999093",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1k78vN4_GAG8JN9",
+    "timezone": "America/Vancouver",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2025-10-31T19:00:00Z",
+        "end": "2026-12-11T05:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7510406",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7510406/Rush-tickets-Thu-Dec-17-2026-Rogers-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/rush-tickets-vancouver-rogers-arena-12-17-2026/event/106999093"
+  },
+  {
+    "id": "tm-rush-2027-amsterdam-z698xzbpz1k0w44ux",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: Fifty Something",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Ziggo Dome",
+    "datetime_iso": "2027-02-23T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "932555362",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/rush-fifty-something-tickets/932555362?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/rush-fifty-something-tickets/932555362?language=en-us",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "932555362",
+        "discovery_event_id": "Z698xZbpZ1k0w44ux",
+        "url": "https://www.ticketmaster.nl/event/rush-fifty-something-tickets/932555362?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7756385",
+        "url": "https://www.ticketnetwork.com/en/p/7756385",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7756385",
+        "url": "https://www.ticketliquidator.com/tickets/7756385/Rush-tickets-Tue-Feb-23-2027-Ziggo-Dome",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107122089",
+        "url": "https://www.stubhub.ie/rush-tickets-amsterdam-ziggo-dome-23-2-2027/event/107122089",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ1k0w44ux",
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale",
+    "organizer_names": [
+      "Greenhouse Talent"
+    ],
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7756385",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7756385/Rush-tickets-Tue-Feb-23-2027-Ziggo-Dome",
+    "stubhub_international_url": "https://www.stubhub.ie/rush-tickets-amsterdam-ziggo-dome-23-2-2027/event/107122089"
+  },
+  {
+    "id": "tm-rush-2027-glasgow-16uzkokjoza2eu1c",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: Fifty Something Tour",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "OVO Hydro",
+    "datetime_iso": "2027-03-08T18:30:00Z",
+    "tour_name": "Fifty Something Tour",
+    "ticketmaster_event_id": "36006453711E1C9D",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-glasgow-08-03-2027/event/36006453711E1C9D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-glasgow-08-03-2027/event/36006453711E1C9D",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "36006453711E1C9D",
+        "discovery_event_id": "16UZkoKjoZA2eu1C",
+        "url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-glasgow-08-03-2027/event/36006453711E1C9D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7796479",
+        "url": "https://www.ticketnetwork.com/en/p/7796479",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7796479",
+        "url": "https://www.ticketliquidator.com/tickets/7796479/Rush-tickets-Mon-Mar-8-2027-OVO-Hydro",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107120105",
+        "url": "https://www.stubhub.ie/rush-tickets-glasgow-ovo-hydro-arena-glasgow-8-3-2027/event/107120105",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16UZkoKjoZA2eu1C",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG PRESENTS",
+      "SCOTTISH EVENT CAMPUS LIMITED"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7796479",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7796479/Rush-tickets-Mon-Mar-8-2027-OVO-Hydro",
+    "stubhub_international_url": "https://www.stubhub.ie/rush-tickets-glasgow-ovo-hydro-arena-glasgow-8-3-2027/event/107120105"
+  },
+  {
+    "id": "tm-rush-2027-glasgow-1auzko9gkdz3fsq",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: Fifty Something Tour",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "OVO Hydro",
+    "datetime_iso": "2027-03-10T18:30:00Z",
+    "tour_name": "Fifty Something Tour",
+    "ticketmaster_event_id": "36006457C0494C5A",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-glasgow-10-03-2027/event/36006457C0494C5A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-glasgow-10-03-2027/event/36006457C0494C5A",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "36006457C0494C5A",
+        "discovery_event_id": "1AUZko9GkdZ3fsQ",
+        "url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-glasgow-10-03-2027/event/36006457C0494C5A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7796480",
+        "url": "https://www.ticketnetwork.com/en/p/7796480",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7796480",
+        "url": "https://www.ticketliquidator.com/tickets/7796480/Rush-tickets-Wed-Mar-10-2027-OVO-Hydro",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107120450",
+        "url": "https://www.stubhub.ie/rush-tickets-glasgow-ovo-hydro-arena-glasgow-10-3-2027/event/107120450",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AUZko9GkdZ3fsQ",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG PRESENTS",
+      "SCOTTISH EVENT CAMPUS LIMITED"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7796480",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7796480/Rush-tickets-Wed-Mar-10-2027-OVO-Hydro",
+    "stubhub_international_url": "https://www.stubhub.ie/rush-tickets-glasgow-ovo-hydro-arena-glasgow-10-3-2027/event/107120450"
+  },
+  {
+    "id": "tm-rush-2027-manchester-1amzko3gkd_h5ef",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: Fifty Something Tour",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Co-op Live",
+    "datetime_iso": "2027-03-12T19:30:00Z",
+    "tour_name": "Fifty Something Tour",
+    "ticketmaster_event_id": "37006452D9F0B088",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-manchester-12-03-2027/event/37006452D9F0B088",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-manchester-12-03-2027/event/37006452D9F0B088",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "37006452D9F0B088",
+        "discovery_event_id": "1AMZko3Gkd_H5eF",
+        "url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-manchester-12-03-2027/event/37006452D9F0B088",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7752300",
+        "url": "https://www.ticketnetwork.com/en/p/7752300",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7752300",
+        "url": "https://www.ticketliquidator.com/tickets/7752300/Rush-tickets-Fri-Mar-12-2027-Co-Op-Live",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107122114",
+        "url": "https://www.stubhub.ie/rush-tickets-manchester-co-op-live-12-3-2027/event/107122114",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AMZko3Gkd_H5eF",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG PRESENTS"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7752300",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7752300/Rush-tickets-Fri-Mar-12-2027-Co-Op-Live",
+    "stubhub_international_url": "https://www.stubhub.ie/rush-tickets-manchester-co-op-live-12-3-2027/event/107122114"
+  },
+  {
+    "id": "tm-rush-2027-manchester-1amzko9gkdv60uv",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: Fifty Something Tour",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Co-op Live",
+    "datetime_iso": "2027-03-14T19:30:00Z",
+    "tour_name": "Fifty Something Tour",
+    "ticketmaster_event_id": "37006457F41E4D81",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-manchester-14-03-2027/event/37006457F41E4D81",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-manchester-14-03-2027/event/37006457F41E4D81",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "37006457F41E4D81",
+        "discovery_event_id": "1AMZko9GkdV60Uv",
+        "url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-manchester-14-03-2027/event/37006457F41E4D81",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7763826",
+        "url": "https://www.ticketnetwork.com/en/p/7763826",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7763826",
+        "url": "https://www.ticketliquidator.com/tickets/7763826/Rush-tickets-Sun-Mar-14-2027-Co-Op-Live",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107121217",
+        "url": "https://www.stubhub.ie/rush-tickets-manchester-co-op-live-14-3-2027/event/107121217",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AMZko9GkdV60Uv",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG PRESENTS"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7763826",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7763826/Rush-tickets-Sun-Mar-14-2027-Co-Op-Live",
+    "stubhub_international_url": "https://www.stubhub.ie/rush-tickets-manchester-co-op-live-14-3-2027/event/107121217"
+  },
+  {
+    "id": "tm-rush-2027-london-1agzkokgkdbtjvd",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: Fifty Something Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-03-16T18:30:00Z",
+    "tour_name": "Fifty Something Tour",
+    "ticketmaster_event_id": "35006453D8A66D03",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-london-16-03-2027/event/35006453D8A66D03",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-london-16-03-2027/event/35006453D8A66D03",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006453D8A66D03",
+        "discovery_event_id": "1AgZkoKGkdbtJVd",
+        "url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-london-16-03-2027/event/35006453D8A66D03",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7756291",
+        "url": "https://www.ticketnetwork.com/en/p/7756291",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7756291",
+        "url": "https://www.ticketliquidator.com/tickets/7756291/Rush-tickets-Tue-Mar-16-2027-O2-Arena-London",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107122113",
+        "url": "https://www.stubhub.ie/rush-tickets-london-the-o2-arena-16-3-2027/event/107122113",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AgZkoKGkdbtJVd",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG PRESENTS"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7756291",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7756291/Rush-tickets-Tue-Mar-16-2027-O2-Arena-London",
+    "stubhub_international_url": "https://www.stubhub.ie/rush-tickets-london-the-o2-arena-16-3-2027/event/107122113"
+  },
+  {
+    "id": "tm-rush-2027-london-1agzkokgkdwubbc",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: Fifty Something Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-03-18T18:30:00Z",
+    "tour_name": "Fifty Something Tour",
+    "ticketmaster_event_id": "35006453F235862D",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-london-18-03-2027/event/35006453F235862D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-london-18-03-2027/event/35006453F235862D",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006453F235862D",
+        "discovery_event_id": "1AgZkoKGkdwubbc",
+        "url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-london-18-03-2027/event/35006453F235862D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7756292",
+        "url": "https://www.ticketnetwork.com/en/p/7756292",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7756292",
+        "url": "https://www.ticketliquidator.com/tickets/7756292/Rush-tickets-Thu-Mar-18-2027-O2-Arena-London",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107120103",
+        "url": "https://www.stubhub.ie/rush-tickets-london-the-o2-arena-18-3-2027/event/107120103",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AgZkoKGkdwubbc",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG PRESENTS"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7756292",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7756292/Rush-tickets-Thu-Mar-18-2027-O2-Arena-London",
+    "stubhub_international_url": "https://www.stubhub.ie/rush-tickets-london-the-o2-arena-18-3-2027/event/107120103"
+  },
+  {
+    "id": "tm-rush-2027-london-1agzkokgkdbmisv",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: Fifty Something Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-03-21T18:00:00Z",
+    "tour_name": "Fifty Something Tour",
+    "ticketmaster_event_id": "35006453FABA8CC1",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-london-21-03-2027/event/35006453FABA8CC1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-london-21-03-2027/event/35006453FABA8CC1",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006453FABA8CC1",
+        "discovery_event_id": "1AgZkoKGkdBmISv",
+        "url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-london-21-03-2027/event/35006453FABA8CC1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7785490",
+        "url": "https://www.ticketnetwork.com/en/p/7785490",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7785490",
+        "url": "https://www.ticketliquidator.com/tickets/7785490/Rush-tickets-Sun-Mar-21-2027-O2-Arena-London",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107130077",
+        "url": "https://www.stubhub.ie/rush-tickets-london-the-o2-arena-21-3-2027/event/107130077",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AgZkoKGkdBmISv",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG PRESENTS"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7785490",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7785490/Rush-tickets-Sun-Mar-21-2027-O2-Arena-London",
+    "stubhub_international_url": "https://www.stubhub.ie/rush-tickets-london-the-o2-arena-21-3-2027/event/107130077"
+  },
+  {
+    "id": "tm-rush-2027-fornebu-z698xzb_z16v33febz",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: Fifty Something",
+    "city": "Fornebu",
+    "country": "Norway",
+    "venue": "Unity Arena",
+    "datetime_iso": "2027-04-06T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1492227638",
+    "ticketmaster_url": "https://www.ticketmaster.no/event/rush-fifty-something-tickets/1492227638?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.no/event/rush-fifty-something-tickets/1492227638?language=en-us",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1492227638",
+        "discovery_event_id": "Z698xZb_Z16v33FEbz",
+        "url": "https://www.ticketmaster.no/event/rush-fifty-something-tickets/1492227638?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7756388",
+        "url": "https://www.ticketnetwork.com/en/p/7756388",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7756388",
+        "url": "https://www.ticketliquidator.com/tickets/7756388/Rush-tickets-Tue-Apr-6-2027-Unity-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZb_Z16v33FEbz",
+    "timezone": "Europe/Oslo",
+    "status": "on-sale",
+    "organizer_names": [
+      "Live Nation Norway AS"
+    ],
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7756388",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7756388/Rush-tickets-Tue-Apr-6-2027-Unity-Arena"
+  },
+  {
+    "id": "tm-rush-2027-helsinki-z698xz8kz16vu9qkuz",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "Rush: Fifty Something | Legazy Seat -lippu",
+    "city": "Helsinki",
+    "country": "Finland",
+    "venue": "Veikkaus Arena",
+    "datetime_iso": "2027-04-10T15:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1357753378",
+    "ticketmaster_url": "https://www.ticketmaster.fi/event/rush-fifty-something-%7C-legazy-seat-lippu-tickets/1357753378?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.fi/event/rush-fifty-something-%7C-legazy-seat-lippu-tickets/1357753378?language=en-us",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1357753378",
+        "discovery_event_id": "Z698xZ8KZ16vu9qKuz",
+        "url": "https://www.ticketmaster.fi/event/rush-fifty-something-%7C-legazy-seat-lippu-tickets/1357753378?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107120326",
+        "url": "https://www.stubhub.ie/rush-tickets-helsinki-veikkaus-arena-10-4-2027/event/107120326",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ8KZ16vu9qKuz",
+    "timezone": "Europe/Helsinki",
+    "status": "on-sale",
+    "organizer_names": [
+      "Veikkaus Arena VN Helsinki Oy"
+    ],
+    "genre": "Rock",
+    "stubhub_international_url": "https://www.stubhub.ie/rush-tickets-helsinki-veikkaus-arena-10-4-2027/event/107120326"
+  },
+  {
+    "id": "tm-rush-2027-las-vegas-1a9zk4xgkdgo-1b",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: ELEVATE FROM THE NORM",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-05-22T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006562F5821298",
+    "ticketmaster_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-21-2027/event/17006562F5821298",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-21-2027/event/17006562F5821298",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006562F5821298",
+        "discovery_event_id": "1A9Zk4xGkdgO-1b",
+        "url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-21-2027/event/17006562F5821298",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8357197",
+        "url": "https://www.ticketnetwork.com/en/p/8357197",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8357197",
+        "url": "https://www.ticketliquidator.com/tickets/8357197/Rush-tickets-Fri-May-21-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107679979",
+        "url": "https://www.stubhub.ie/rush-las-vegas-tickets-5-21-2027/event/107679979",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk4xGkdgO-1b",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2026-11-28T06:00:00Z"
+      },
+      {
+        "name": "VIP Travel Packages Onsale",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2027-04-07T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2027-05-15T05:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8357197",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8357197/Rush-tickets-Fri-May-21-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/rush-las-vegas-tickets-5-21-2027/event/107679979"
+  },
+  {
+    "id": "tm-rush-2027-las-vegas-1a9zk4xgkdgo-1h",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: ELEVATE FROM THE NORM",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-05-24T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006562F582129B",
+    "ticketmaster_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-23-2027/event/17006562F582129B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-23-2027/event/17006562F582129B",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006562F582129B",
+        "discovery_event_id": "1A9Zk4xGkdgO-1h",
+        "url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-23-2027/event/17006562F582129B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8357200",
+        "url": "https://www.ticketnetwork.com/en/p/8357200",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8357200",
+        "url": "https://www.ticketliquidator.com/tickets/8357200/Rush-tickets-Sun-May-23-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107679986",
+        "url": "https://www.stubhub.ie/rush-las-vegas-tickets-5-23-2027/event/107679986",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk4xGkdgO-1h",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2026-11-28T06:00:00Z"
+      },
+      {
+        "name": "VIP Travel Packages Onsale",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2027-04-09T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2027-05-17T05:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8357200",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8357200/Rush-tickets-Sun-May-23-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/rush-las-vegas-tickets-5-23-2027/event/107679986"
+  },
+  {
+    "id": "tm-rush-2027-las-vegas-1a9zk4xgkdgos1r",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: ELEVATE FROM THE NORM",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-05-27T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006562F583129E",
+    "ticketmaster_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-26-2027/event/17006562F583129E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-26-2027/event/17006562F583129E",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006562F583129E",
+        "discovery_event_id": "1A9Zk4xGkdgOs1r",
+        "url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-26-2027/event/17006562F583129E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8357201",
+        "url": "https://www.ticketnetwork.com/en/p/8357201",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8357201",
+        "url": "https://www.ticketliquidator.com/tickets/8357201/Rush-tickets-Wed-May-26-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107679991",
+        "url": "https://www.stubhub.ie/rush-las-vegas-tickets-5-26-2027/event/107679991",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk4xGkdgOs1r",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2026-11-28T06:00:00Z"
+      },
+      {
+        "name": "VIP Travel Packages Onsale",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2027-04-12T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2027-05-20T05:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8357201",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8357201/Rush-tickets-Wed-May-26-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/rush-las-vegas-tickets-5-26-2027/event/107679991"
+  },
+  {
+    "id": "tm-rush-2027-las-vegas-1a9zk4xgkdgos10",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: ELEVATE FROM THE NORM",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-05-29T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006562F58312A4",
+    "ticketmaster_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-28-2027/event/17006562F58312A4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-28-2027/event/17006562F58312A4",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006562F58312A4",
+        "discovery_event_id": "1A9Zk4xGkdgOs10",
+        "url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-28-2027/event/17006562F58312A4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8357202",
+        "url": "https://www.ticketnetwork.com/en/p/8357202",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8357202",
+        "url": "https://www.ticketliquidator.com/tickets/8357202/Rush-tickets-Fri-May-28-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107679995",
+        "url": "https://www.stubhub.ie/rush-las-vegas-tickets-5-28-2027/event/107679995",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk4xGkdgOs10",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2026-11-28T06:00:00Z"
+      },
+      {
+        "name": "VIP Travel Packages Onsale",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2027-04-14T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2027-05-22T05:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8357202",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8357202/Rush-tickets-Fri-May-28-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/rush-las-vegas-tickets-5-28-2027/event/107679995"
+  },
+  {
+    "id": "tm-rush-2027-las-vegas-1a9zk4xgkdg-v1t",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: ELEVATE FROM THE NORM",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-05-31T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006562F58412A9",
+    "ticketmaster_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-30-2027/event/17006562F58412A9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-30-2027/event/17006562F58412A9",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006562F58412A9",
+        "discovery_event_id": "1A9Zk4xGkdg-v1t",
+        "url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-30-2027/event/17006562F58412A9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8357203",
+        "url": "https://www.ticketnetwork.com/en/p/8357203",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8357203",
+        "url": "https://www.ticketliquidator.com/tickets/8357203/Rush-tickets-Sun-May-30-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107679998",
+        "url": "https://www.stubhub.ie/rush-las-vegas-tickets-5-30-2027/event/107679998",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk4xGkdg-v1t",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2026-11-28T06:00:00Z"
+      },
+      {
+        "name": "VIP Travel Packages Onsale",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2027-04-16T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2027-05-24T05:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8357203",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8357203/Rush-tickets-Sun-May-30-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/rush-las-vegas-tickets-5-30-2027/event/107679998"
+  },
+  {
+    "id": "tm-rush-2027-las-vegas-1a9zk4xgkdg-o1r",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: ELEVATE FROM THE NORM",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-06-16T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006562F58512AF",
+    "ticketmaster_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-15-2027/event/17006562F58512AF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-15-2027/event/17006562F58512AF",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006562F58512AF",
+        "discovery_event_id": "1A9Zk4xGkdg-o1R",
+        "url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-15-2027/event/17006562F58512AF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8366487",
+        "url": "https://www.ticketnetwork.com/en/p/8366487",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8366487",
+        "url": "https://www.ticketliquidator.com/tickets/8366487/Rush-tickets-Tue-Jun-15-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681942",
+        "url": "https://www.stubhub.ie/rush-las-vegas-tickets-6-15-2027/event/107681942",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk4xGkdg-o1R",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-11-13T20:00:00Z",
+        "end": "2026-11-28T06:00:00Z"
+      },
+      {
+        "name": "VIP Travel Packages Onsale",
+        "start": "2026-11-13T20:00:00Z",
+        "end": "2027-05-02T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T20:00:00Z",
+        "end": "2027-06-09T05:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8366487",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8366487/Rush-tickets-Tue-Jun-15-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/rush-las-vegas-tickets-6-15-2027/event/107681942"
+  },
+  {
+    "id": "tm-rush-2027-las-vegas-1a9zk4xgkdg-o1g",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: ELEVATE FROM THE NORM",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-06-18T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006562F58512B5",
+    "ticketmaster_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-17-2027/event/17006562F58512B5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-17-2027/event/17006562F58512B5",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006562F58512B5",
+        "discovery_event_id": "1A9Zk4xGkdg-o1g",
+        "url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-17-2027/event/17006562F58512B5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8366489",
+        "url": "https://www.ticketnetwork.com/en/p/8366489",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8366489",
+        "url": "https://www.ticketliquidator.com/tickets/8366489/Rush-tickets-Thu-Jun-17-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681946",
+        "url": "https://www.stubhub.ie/rush-las-vegas-tickets-6-17-2027/event/107681946",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk4xGkdg-o1g",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-11-13T20:00:00Z",
+        "end": "2026-11-28T06:00:00Z"
+      },
+      {
+        "name": "VIP Travel Packages Onsale",
+        "start": "2026-11-13T20:00:00Z",
+        "end": "2027-05-04T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T20:00:00Z",
+        "end": "2027-06-11T05:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8366489",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8366489/Rush-tickets-Thu-Jun-17-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/rush-las-vegas-tickets-6-17-2027/event/107681946"
+  },
+  {
+    "id": "tm-rush-2027-las-vegas-1a9zk4xgkdg--5c",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: ELEVATE FROM THE NORM",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-06-20T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006562F58612CE",
+    "ticketmaster_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-19-2027/event/17006562F58612CE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-19-2027/event/17006562F58612CE",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006562F58612CE",
+        "discovery_event_id": "1A9Zk4xGkdg--5C",
+        "url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-19-2027/event/17006562F58612CE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8366424",
+        "url": "https://www.ticketnetwork.com/en/p/8366424",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8366424",
+        "url": "https://www.ticketliquidator.com/tickets/8366424/Rush-tickets-Sat-Jun-19-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681953",
+        "url": "https://www.stubhub.ie/rush-las-vegas-tickets-6-19-2027/event/107681953",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk4xGkdg--5C",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-11-13T20:00:00Z",
+        "end": "2026-11-28T06:00:00Z"
+      },
+      {
+        "name": "VIP Travel Packages Onsale",
+        "start": "2026-11-13T20:00:00Z",
+        "end": "2027-05-06T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T20:00:00Z",
+        "end": "2027-06-13T05:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8366424",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8366424/Rush-tickets-Sat-Jun-19-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/rush-las-vegas-tickets-6-19-2027/event/107681953"
+  },
+  {
+    "id": "tm-rush-2027-las-vegas-1a9zk4xgkdg-s53",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: ELEVATE FROM THE NORM",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-06-25T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006562F58712D2",
+    "ticketmaster_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-24-2027/event/17006562F58712D2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-24-2027/event/17006562F58712D2",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006562F58712D2",
+        "discovery_event_id": "1A9Zk4xGkdg-s53",
+        "url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-24-2027/event/17006562F58712D2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8366490",
+        "url": "https://www.ticketnetwork.com/en/p/8366490",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8366490",
+        "url": "https://www.ticketliquidator.com/tickets/8366490/Rush-tickets-Thu-Jun-24-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681963",
+        "url": "https://www.stubhub.ie/rush-las-vegas-tickets-6-24-2027/event/107681963",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk4xGkdg-s53",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-11-13T20:00:00Z",
+        "end": "2026-11-28T06:00:00Z"
+      },
+      {
+        "name": "VIP Travel Packages Onsale",
+        "start": "2026-11-13T20:00:00Z",
+        "end": "2027-05-11T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T20:00:00Z",
+        "end": "2027-06-18T05:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8366490",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8366490/Rush-tickets-Thu-Jun-24-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/rush-las-vegas-tickets-6-24-2027/event/107681963"
+  },
+  {
+    "id": "tm-rush-2027-las-vegas-1a9zk4xgkdgxv5p",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: ELEVATE FROM THE NORM",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-06-27T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006562F58812D6",
+    "ticketmaster_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-26-2027/event/17006562F58812D6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-26-2027/event/17006562F58812D6",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006562F58812D6",
+        "discovery_event_id": "1A9Zk4xGkdgxv5p",
+        "url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-26-2027/event/17006562F58812D6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8366491",
+        "url": "https://www.ticketnetwork.com/en/p/8366491",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8366491",
+        "url": "https://www.ticketliquidator.com/tickets/8366491/Rush-tickets-Sat-Jun-26-2027-Sphere",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681973",
+        "url": "https://www.stubhub.ie/rush-las-vegas-tickets-6-26-2027/event/107681973",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk4xGkdgxv5p",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-11-13T20:00:00Z",
+        "end": "2026-11-28T06:00:00Z"
+      },
+      {
+        "name": "VIP Travel Packages Onsale",
+        "start": "2026-11-13T20:00:00Z",
+        "end": "2027-05-13T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T20:00:00Z",
+        "end": "2027-06-20T05:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8366491",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8366491/Rush-tickets-Sat-Jun-26-2027-Sphere",
+    "stubhub_international_url": "https://www.stubhub.ie/rush-las-vegas-tickets-6-26-2027/event/107681973"
+  }
+]

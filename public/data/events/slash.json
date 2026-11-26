@@ -12,10 +12,10 @@
     "ticketmaster_event_id": "1F00653D82371612",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/slash-feat-myles-kennedy-and-the-cardiff-30-06-2027/event/1F00653D82371612",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/slash-featuring-myles-kennedy-and-the-conspirators-tickets-cardiff-cardiff-castle-6-30-2027/production/7664074",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/slash-feat-myles-kennedy-and-the-cardiff-30-06-2027/event/1F00653D82371612",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7664074,
+        "url": "https://www.vividseats.com/slash-featuring-myles-kennedy-and-the-conspirators-tickets-cardiff-cardiff-castle-6-30-2027/production/7664074",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -46,11 +46,25 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107672421",
+        "url": "https://www.stubhub.ie/slash-tickets-cardiff-cardiff-castle-30-6-2027/event/107672421",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_KUeusb3",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/slash-tickets-cardiff-cardiff-castle-30-6-2027/event/107672421",
+    "organizer_names": [
+      "CUFFE & TAYLOR (NEW)",
+      "DEPOT MARKETING LIMITED"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-slash-2027-scarborough-1adfz_kgkdfwywm",
@@ -65,10 +79,10 @@
     "ticketmaster_event_id": "3500653EC8F79F6E",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/slash-feat-myles-kennedy-and-the-scarborough-01-07-2027/event/3500653EC8F79F6E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/slash-featuring-myles-kennedy-and-the-conspirators-tickets-scarborough-scarborough-open-air-theatre-7-1-2027/production/7664052",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/slash-feat-myles-kennedy-and-the-scarborough-01-07-2027/event/3500653EC8F79F6E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -87,11 +101,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7664052,
+        "url": "https://www.vividseats.com/slash-featuring-myles-kennedy-and-the-conspirators-tickets-scarborough-scarborough-open-air-theatre-7-1-2027/production/7664052",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -99,11 +113,24 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107671960",
+        "url": "https://www.stubhub.ie/slash-tickets-scarborough-scarborough-open-air-theatre-1-7-2027/event/107671960",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_KGkDFWyWm",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/slash-tickets-scarborough-scarborough-open-air-theatre-1-7-2027/event/107671960",
+    "organizer_names": [
+      "CUFFE & TAYLOR (NEW)"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-slash-2027-dublin-1avoz_kgkslysih",
@@ -121,7 +148,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/slash-feat-myles-kennedy-and-the-dublin-03-07-2027/event/1800653CEBC31A3C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -156,7 +183,12 @@
     },
     "ticketmaster_discovery_event_id": "1AvOZ_KGkSlYsIH",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "MCD PRODUCTIONS"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-slash-2027-belfast-1adoz_kgkuhgo_o",
@@ -174,7 +206,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/slash-feat-myles-kennedy-and-the-belfast-04-07-2027/event/3800653D9B311660",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -205,11 +237,24 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107671961",
+        "url": "https://www.stubhub.ie/slash-tickets-belfast-custom-house-square-belfast-4-7-2027/event/107671961",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdOZ_KGkUhGo_O",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/slash-tickets-belfast-custom-house-square-belfast-4-7-2027/event/107671961",
+    "organizer_names": [
+      "SD EVENT MANAGEMENT LTD"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-slash-2027-halifax-1adfz_kgks-vju1",
@@ -227,7 +272,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/slash-feat-myles-kennedy-and-the-halifax-06-07-2027/event/3500653CE105C34A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -258,11 +303,24 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107672422",
+        "url": "https://www.stubhub.ie/slash-tickets-halifax-piece-hall-halifax-6-7-2027/event/107672422",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_KGkS-vju1",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/slash-tickets-halifax-piece-hall-halifax-6-7-2027/event/107672422",
+    "organizer_names": [
+      "CUFFE & TAYLOR (NEW)"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-slash-2027-london-1auzk4v0gjzzeck",
@@ -277,10 +335,10 @@
     "ticketmaster_event_id": "36006541935738D5",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/slash-feat-myles-kennedy-and-the-london-07-07-2027/event/36006541935738D5",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/slash-featuring-myles-kennedy-and-the-conspirators-tickets-london-eventim-apollo-7-7-2027/production/7664939",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/slash-feat-myles-kennedy-and-the-london-07-07-2027/event/36006541935738D5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -299,11 +357,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7664939,
+        "url": "https://www.vividseats.com/slash-featuring-myles-kennedy-and-the-conspirators-tickets-london-eventim-apollo-7-7-2027/production/7664939",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -311,10 +369,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107672423",
+        "url": "https://www.stubhub.ie/slash-tickets-london-eventim-apollo-7-7-2027/event/107672423",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1aUZk4v0gjzZeCk",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/slash-tickets-london-eventim-apollo-7-7-2027/event/107672423",
+    "ticket_limit": 6,
+    "genre": "Rock"
   }
 ]

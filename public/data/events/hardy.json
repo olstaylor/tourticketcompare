@@ -46,6 +46,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107685966",
+        "url": "https://www.stubhub.ie/hardy-tickets-london-o2-shepherd-s-bush-empire-8-4-2027/event/107685966",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_9FvTBjX",
@@ -79,7 +86,8 @@
         "start": "2026-11-26T09:00:00Z",
         "end": "2026-11-27T08:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/hardy-tickets-london-o2-shepherd-s-bush-empire-8-4-2027/event/107685966"
   },
   {
     "id": "tm-hardy-2027-manchester-g5dzz_96q1kyy",
@@ -128,6 +136,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107685967",
+        "url": "https://www.stubhub.ie/hardy-tickets-manchester-o2-ritz-manchester-9-4-2027/event/107685967",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_96Q1kyy",
@@ -161,7 +176,8 @@
         "start": "2026-11-26T09:00:00Z",
         "end": "2026-11-27T08:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/hardy-tickets-manchester-o2-ritz-manchester-9-4-2027/event/107685967"
   },
   {
     "id": "tm-hardy-2027-glasgow-1auzk4sgketugdu",
@@ -270,6 +286,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107685969",
+        "url": "https://www.stubhub.ie/hardy-tickets-belfast-limelight-belfast-13-4-2027/event/107685969",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdOZ_pGkUPpsm9",
@@ -296,6 +319,7 @@
         "start": "2026-11-25T09:00:00Z",
         "end": "2026-11-27T08:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/hardy-tickets-belfast-limelight-belfast-13-4-2027/event/107685969"
   }
 ]

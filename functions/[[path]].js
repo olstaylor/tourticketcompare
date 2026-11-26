@@ -7677,7 +7677,8 @@ function artistComparisonLive(route, events, env) {
   return rows.some((row) => row.comparedCount >= COMPARISON_MIN_PRICE_PROVIDERS);
 }
 
-// "Jun 18-25, 2027" for a run inside one month, otherwise both ends in full.
+// "Jun 18-25, 2027" inside one month, "Jan 28 - Mar 13, 2027" inside one
+// year, otherwise both ends in full.
 // Dates are venue-local short dates from formatShortDateServer; "" if either
 // end cannot be formatted, which drops the run wording.
 function runDateRange(rows) {
@@ -7687,7 +7688,8 @@ function runDateRange(rows) {
   const b = last.match(/^(\w+) (\d+), (\d{4})$/);
   if (!a || !b) return "";
   if (first === last) return first;
-  return a[1] === b[1] && a[3] === b[3] ? `${a[1]} ${a[2]}\u2013${b[2]}, ${a[3]}` : `${first} \u2013 ${last}`;
+  if (a[3] !== b[3]) return `${first} \u2013 ${last}`;
+  return a[1] === b[1] ? `${a[1]} ${a[2]}\u2013${b[2]}, ${a[3]}` : `${a[1]} ${a[2]} \u2013 ${b[1]} ${b[2]}, ${a[3]}`;
 }
 
 function runSnippetCandidates(artistName, city, rows, soonestDate, priceTail) {

@@ -118,7 +118,7 @@
         "event_id": "8176744",
         "url": "https://www.ticketliquidator.com/tickets/8176744/Illenium-tickets-Sat-Dec-19-2026-Omnia-Nightclub-Las-Vegas-at-Caesars-Palace",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       }
     },
@@ -188,7 +188,7 @@
         "event_id": "8294523",
         "url": "https://www.ticketliquidator.com/tickets/8294523/Illenium-tickets-Wed-Dec-30-2026-Bill-Graham-Civic-Auditorium",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -277,7 +277,7 @@
         "event_id": "8294522",
         "url": "https://www.ticketliquidator.com/tickets/8294522/Illenium-tickets-Thu-Dec-31-2026-Bill-Graham-Civic-Auditorium",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -366,7 +366,7 @@
         "event_id": "8342892",
         "url": "https://www.ticketliquidator.com/tickets/8342892/Illenium-tickets-Fri-Jan-1-2027-Bill-Graham-Civic-Auditorium",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       }
     },
@@ -442,11 +442,19 @@
         "verified": true,
         "last_verified_at": "2026-11-26",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8306709",
+        "url": "https://www.ticketliquidator.com/tickets/8306709/Illenium-tickets-Fri-Dec-11-2026-Dobson-Ice-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAPj3",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8306709"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8306709",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8306709/Illenium-tickets-Fri-Dec-11-2026-Dobson-Ice-Arena"
   }
 ]

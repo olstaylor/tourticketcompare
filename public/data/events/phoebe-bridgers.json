@@ -879,11 +879,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8028496",
-        "url": "https://www.ticketliquidator.com/tickets/8028496/Phoebe-Bridgers-tickets-Thu-Nov-26-2026-Co-Op-Live",
-        "verified": true,
-        "last_verified_at": "2026-11-25",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107258745",
@@ -903,7 +903,7 @@
     "ticketmaster_discovery_event_id": "17uYv0G6GCqzPrX",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8028496/Phoebe-Bridgers-tickets-Thu-Nov-26-2026-Co-Op-Live",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/phoebe-bridgers-tickets-manchester-co-op-live-26-11-2026/event/107258745",
     "organizer_names": [
       "COMMUNION ONE LTD",
@@ -965,7 +965,7 @@
         "event_id": "8090638",
         "url": "https://www.ticketliquidator.com/tickets/8090638/Phoebe-Bridgers-tickets-Fri-Nov-27-2026-OVO-Hydro",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1048,7 +1048,7 @@
         "event_id": "8090634",
         "url": "https://www.ticketliquidator.com/tickets/8090634/Phoebe-Bridgers-tickets-Sat-Nov-28-2026-bp-pulse-LIVE",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1145,7 +1145,7 @@
         "event_id": "8047973",
         "url": "https://www.ticketliquidator.com/tickets/8047973/Phoebe-Bridgers-tickets-Tue-Dec-1-2026-O2-Arena-London",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       }
     },
@@ -1228,7 +1228,7 @@
         "event_id": "8047974",
         "url": "https://www.ticketliquidator.com/tickets/8047974/Phoebe-Bridgers-tickets-Wed-Dec-2-2026-O2-Arena-London",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       }
     },
@@ -1304,7 +1304,7 @@
         "event_id": "8367336",
         "url": "https://www.ticketliquidator.com/tickets/8367336/Phoebe-Bridgers-tickets-Wed-Feb-17-2027-Moda-Center-at-the-Rose-Quarter",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1386,7 +1386,7 @@
         "event_id": "8367354",
         "url": "https://www.ticketliquidator.com/tickets/8367354/Phoebe-Bridgers-tickets-Thu-Feb-18-2027-Numerica-Veterans-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       }
     },
@@ -1455,7 +1455,7 @@
         "event_id": "8367349",
         "url": "https://www.ticketliquidator.com/tickets/8367349/Phoebe-Bridgers-tickets-Sat-Feb-20-2027-Rogers-Place",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       }
     },
@@ -1530,7 +1530,7 @@
         "event_id": "8367350",
         "url": "https://www.ticketliquidator.com/tickets/8367350/Phoebe-Bridgers-tickets-Tue-Feb-23-2027-Canada-Life-Centre",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       }
     },
@@ -1604,7 +1604,7 @@
         "event_id": "8367390",
         "url": "https://www.ticketliquidator.com/tickets/8367390/Phoebe-Bridgers-tickets-Fri-Feb-26-2027-T-Mobile-Center",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1681,7 +1681,7 @@
         "event_id": "8367391",
         "url": "https://www.ticketliquidator.com/tickets/8367391/Phoebe-Bridgers-tickets-Sun-Feb-28-2027-Paycom-Center",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       }
     },
@@ -1750,7 +1750,7 @@
         "event_id": "8367392",
         "url": "https://www.ticketliquidator.com/tickets/8367392/Phoebe-Bridgers-tickets-Tue-Mar-2-2027-Pinnacle-Bank-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       }
     },
@@ -1819,7 +1819,7 @@
         "event_id": "8367338",
         "url": "https://www.ticketliquidator.com/tickets/8367338/Phoebe-Bridgers-tickets-Thu-Mar-4-2027-Fiserv-Forum",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1901,7 +1901,7 @@
         "event_id": "8367393",
         "url": "https://www.ticketliquidator.com/tickets/8367393/Phoebe-Bridgers-tickets-Sat-Mar-6-2027-Van-Andel-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1978,7 +1978,7 @@
         "event_id": "8367394",
         "url": "https://www.ticketliquidator.com/tickets/8367394/Phoebe-Bridgers-tickets-Sun-Mar-7-2027-Rocket-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -2055,7 +2055,7 @@
         "event_id": "8367339",
         "url": "https://www.ticketliquidator.com/tickets/8367339/Phoebe-Bridgers-tickets-Tue-Mar-9-2027-Lenovo-Center",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -2137,7 +2137,7 @@
         "event_id": "8367340",
         "url": "https://www.ticketliquidator.com/tickets/8367340/Phoebe-Bridgers-tickets-Wed-Mar-10-2027-CFG-Bank-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -2220,7 +2220,7 @@
         "event_id": "8367341",
         "url": "https://www.ticketliquidator.com/tickets/8367341/Phoebe-Bridgers-tickets-Fri-Mar-12-2027-PPG-Paints-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -2302,7 +2302,7 @@
         "event_id": "8367342",
         "url": "https://www.ticketliquidator.com/tickets/8367342/Phoebe-Bridgers-tickets-Tue-Mar-16-2027-Prudential-Center",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -2384,7 +2384,7 @@
         "event_id": "8367343",
         "url": "https://www.ticketliquidator.com/tickets/8367343/Phoebe-Bridgers-tickets-Fri-Mar-19-2027-Bryce-Jordan-Center",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       }
     },
@@ -2516,7 +2516,7 @@
         "event_id": "8367352",
         "url": "https://www.ticketliquidator.com/tickets/8367352/Phoebe-Bridgers-tickets-Tue-Mar-23-2027-Centre-Bell",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       }
     },
@@ -2648,7 +2648,7 @@
         "event_id": "8367345",
         "url": "https://www.ticketliquidator.com/tickets/8367345/Phoebe-Bridgers-tickets-Thu-Apr-22-2027-Benchmark-International-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -2730,7 +2730,7 @@
         "event_id": "8367346",
         "url": "https://www.ticketliquidator.com/tickets/8367346/Phoebe-Bridgers-tickets-Sat-Apr-24-2027-Kaseya-Center",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -2812,7 +2812,7 @@
         "event_id": "8367347",
         "url": "https://www.ticketliquidator.com/tickets/8367347/Phoebe-Bridgers-tickets-Tue-Apr-27-2027-Kia-Center",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -2894,7 +2894,7 @@
         "event_id": "8367348",
         "url": "https://www.ticketliquidator.com/tickets/8367348/Phoebe-Bridgers-tickets-Tue-May-4-2027-Frost-Bank-Center",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -3042,7 +3042,7 @@
         "event_id": "8090636",
         "url": "https://www.ticketliquidator.com/tickets/8090636/Phoebe-Bridgers-tickets-Sat-Dec-5-2026-Vorst-Nationaal",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       }
     },
@@ -3115,7 +3115,7 @@
         "event_id": "8389776",
         "url": "https://www.ticketliquidator.com/tickets/8389776/Phoebe-Bridgers-tickets-Sun-Dec-6-2026-AFAS-Dome",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       }
     },
@@ -3188,7 +3188,7 @@
         "event_id": "8375944",
         "url": "https://www.ticketliquidator.com/tickets/8375944/Phoebe-Bridgers-tickets-Sun-Feb-21-2027-Rogers-Place",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       }
     },
@@ -3263,7 +3263,7 @@
         "event_id": "8376281",
         "url": "https://www.ticketliquidator.com/tickets/8376281/Phoebe-Bridgers-tickets-Wed-Mar-17-2027-Prudential-Center",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       }
     },

@@ -3693,6 +3693,11 @@ function isUsOrCanada(country) {
   return /^(united states( of america)?|usa|us|canada|ca)$/i.test(String(country || "").trim());
 }
 
+function cityOfPlace(place) {
+  const match = /^(.+?) \(/.exec(String(place || ""));
+  return match ? match[1].trim() : "";
+}
+
 function renderCheapestAcrossDatesHtml(artist, rows, { heading, titleId, placeFor, ctaLocation, regional = null }) {
   const picks = cheapestAcrossDates(rows).slice(0, 2);
   if (!picks.length) return "";
@@ -3714,8 +3719,10 @@ function renderCheapestAcrossDatesHtml(artist, rows, { heading, titleId, placeFo
         showId: row.showId,
         ctaLocation,
         // The sentence above names the date; the button repeats it so the tap
-        // target on a multi-date page says which date it opens.
-        dateLabel: date
+        // target on a multi-date page says which date it opens. Where the panel
+        // spans cities ("City (Venue)"), it names the city too, so the first
+        // button cannot be mistaken for the visitor's own city.
+        dateLabel: cityOfPlace(place) ? `${date} \u00b7 ${cityOfPlace(place)}` : date
       });
       return `<p>${escapeHtml(
         `${prefix}: ${amount} on ${lane.name} for ${date}${place ? ` in ${place}` : ""}.`

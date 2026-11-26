@@ -426,6 +426,8 @@ const GUIDE_PATH = "/artists/oasis/ticket-prices";
     `the artist-page pick carries site, date, place and check time (got ${text(artistCheapest).slice(0, 240)})`
   );
   assert(artistCheapest.replace(/&amp;/g, "&").includes("ctaLocation=artist_cheapest") && artistLead.indexOf("price-cheapest") < artistLead.indexOf("price-guide-link"), "the artist-page pick sits under the intro, before the price-guide link, and reports its own cta location");
+  assert(/<span class="provider-cta-role">Resale marketplace \u00b7 Fri, Sep 11, 2026 \u00b7 Manchester<\/span>/.test(artistCheapest), "the cross-city cheapest button names the city as well as the date");
+  assert(/fees not confirmed/.test(text(artistCheapest)), "the artist-page pick says fees are not confirmed beside its check time");
   // 2026-11-22: the artist page also counts recent same-site price changes,
   // and says nothing about which date is dearest or cheapest.
   const dataBlock = artistPage.html.match(/<section class="nested-panel" aria-labelledby="artistPriceDataTitle"[\s\S]*?<\/section>/)?.[0] || "";

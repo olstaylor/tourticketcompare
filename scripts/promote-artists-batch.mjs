@@ -201,7 +201,9 @@ export function applyPlans(plans, { artists, catalog, outSource, registry, prove
     }));
     newOutSource = newOutSource.replace(
       VTL_BLOCK_PATTERN,
-      (match, inner) => `const VERIFIED_TICKET_LINKS = {${inner},\n${entries.join(',\n')}\n};`
+      // A block that already ends in a comma (valid JS, left by a hand edit such as
+      // #2563) must not gain a second one: `},,` is a SyntaxError (auto-promote 2026-11-25).
+      (match, inner) => `const VERIFIED_TICKET_LINKS = {${inner}${/,\s*$/.test(inner) ? '' : ','}\n${entries.join(',\n')}\n};`
     );
 
     const provenance = provenanceNote ? provenanceNote(plan) : `Batch-promoted ${today}: SeatGeek performer id + URL captured from the /2/performers API${tmUrl ? '; Ticketmaster attraction id + URL captured from the Discovery attractions API' : '; no Ticketmaster capture'} (exact-name match, human batch spot-check required before merge).`;

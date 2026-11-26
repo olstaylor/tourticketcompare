@@ -103,7 +103,9 @@ export function outChangeIsAdditionsOnly(oldSource, newSource) {
   const outside = (src, m) => src.slice(0, m.index) + src.slice(m.index + m[0].length);
   if (outside(oldSource, before) !== outside(newSource, after)) return false;
   const added = after[1].slice(before[1].length);
-  return after[1].startsWith(before[1]) && (added === "" || /^,\n/.test(added)) && !/[-]{2}|delete|\bverified:\s*false/.test(added);
+  // A block already ending in a comma takes the new entry with no comma of its own.
+  const joiner = /,\s*$/.test(before[1]) ? /^\n/ : /^,\n/;
+  return after[1].startsWith(before[1]) && (added === "" || joiner.test(added)) && !/[-]{2}|delete|\bverified:\s*false/.test(added);
 }
 
 /** The provider records this job re-fetched by id must equal what the screen captured (D1). */
@@ -244,6 +246,15 @@ function selfTest() {
   check(one.promotion_source === "auto" && one.auto_promoted_at === "2026-10-01" && one.indexing_status === "indexable_with_substantial_content", "promoted record is marked auto");
   check(d.outSource.includes('"one:seatgeek"') && d.outSource.includes('"two:ticketmaster"'), "out.js gains VERIFIED_TICKET_LINKS entries");
   check(outChangeIsAdditionsOnly(out, d.outSource), "the promote writer's out.js change passes the additions-only gate");
+  // Regression (2026-11-25): a block already ending in a comma (valid JS, left by
+  // the hand edit in #2563) got a second one, `},,`, which is a SyntaxError; the
+  // in-job suite failed and the run went red.
+  const commaOut = out.replace('verified: true\n  }\n};', 'verified: true\n  },\n};');
+  const dc = data();
+  dc.outSource = commaOut;
+  planRun({ artists: [row("one")] }, dc, "2026-10-01", recap(row("one")));
+  check(!/,\s*,/.test(dc.outSource) && dc.outSource.includes('"one:seatgeek"'), "a block that already ends in a comma gains no second one");
+  check(outChangeIsAdditionsOnly(commaOut, dc.outSource), "an addition to a block that already ends in a comma passes the additions-only gate");
   check(!outChangeIsAdditionsOnly(out, out.replace("X = 1", "X = 2")), "a change outside the block withholds the merge");
   check(!outChangeIsAdditionsOnly(out, out.replace("verified: true", "verified: false")), "an edited existing entry withholds the merge");
   const summary = d.catalog.artists[0].factual_summary;

@@ -29,7 +29,7 @@ import {
 import { checkAutopublish, heldComment, HELD_LABEL, LEDGER_LABEL } from "./lib/autopublish-guard.mjs";
 import { checkAuditMergeRevision, mergeAuditedPr, rebuildAuditHead } from "./check-audit-revision.mjs";
 import { withholdRun } from "./lib/withhold-run.mjs";
-import { mergeWithRetry } from "./lib/merge-retry.mjs";
+import { mergeWithRetry, createPrWithRetry } from "./lib/merge-retry.mjs";
 
 const token = process.env.GITHUB_TOKEN;
 const repo = process.env.GITHUB_REPOSITORY;
@@ -93,7 +93,10 @@ if (pr) {
   pr = await gh("GET", `/repos/${repo}/pulls/${pr.number}`);
 } else {
   try {
-    pr = await gh("POST", `/repos/${repo}/pulls`, { title, head: branch, base, body, maintainer_can_modify: true });
+    pr = await createPrWithRetry(
+      () => gh("POST", `/repos/${repo}/pulls`, { title, head: branch, base, body, maintainer_can_modify: true }),
+      async () => (await gh("GET", `/repos/${repo}/pulls?head=${head}&state=open`))[0] || null
+    );
   } catch (err) {
     if (/not permitted to create or approve pull requests/i.test(err.message)) {
       console.warn(`Could not open PR automatically: ${err.message}`);

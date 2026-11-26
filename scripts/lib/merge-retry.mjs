@@ -33,6 +33,32 @@ export async function mergeWithRetry(merge, { delaysMs = MERGE_RETRY_DELAYS_MS, 
   }
 }
 
+// Opening the PR (added 2026-11-26). GitHub answered POST /pulls with a bare 500
+// on 2026-11-25, the pushed branch was left without a PR and the labeller lane
+// went red; the stale copy it should have fixed then kept Site health red until
+// the next day's run. A 5xx on that POST says nothing about the content, and the
+// request may even have created the PR, so each retry first looks for an open PR
+// on the branch and only then posts again. 4xx answers are never retried.
+export const CREATE_PR_RETRY_DELAYS_MS = Object.freeze([5_000, 15_000, 30_000]);
+
+export function isTransientServerError(error) {
+  return /GitHub API [A-Z]+ \S+ 5\d\d\b/.test(String(error?.message || error || ""));
+}
+
+export async function createPrWithRetry(create, findExisting, { delaysMs = CREATE_PR_RETRY_DELAYS_MS, sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms)), log = console.warn } = {}) {
+  for (let attempt = 0; ; attempt += 1) {
+    try {
+      return await create();
+    } catch (error) {
+      if (!isTransientServerError(error) || attempt >= delaysMs.length) throw error;
+      log(`GitHub answered the PR creation with a server error (attempt ${attempt + 1} of ${delaysMs.length + 1}); retrying in ${delaysMs[attempt] / 1000}s.`);
+      await sleep(delaysMs[attempt]);
+      const existing = await findExisting().catch(() => null);
+      if (existing) return existing;
+    }
+  }
+}
+
 async function selfTest() {
   const refusal = (message, status = 405) => new Error(`GitHub API PUT /repos/x/pulls/1/merge ${status}: {"message":"${message}"}`);
   const run = async (outcomes) => {
@@ -64,6 +90,26 @@ async function selfTest() {
     await assert.rejects(t.run(), new RegExp(message.split(".")[0]));
     assert.equal(t.calls(), 1, `"${message}" is never retried`);
   }
+
+  const serverError = () => new Error("GitHub API POST /repos/x/pulls 500: ");
+  const create = async (outcomes, existing = null) => {
+    const sleeps = [];
+    let calls = 0;
+    const result = createPrWithRetry(async () => { const next = outcomes[calls++]; if (next instanceof Error) throw next; return next; }, async () => existing, { sleep: async (ms) => sleeps.push(ms), log: () => {} });
+    return { result, sleeps, calls: () => calls };
+  };
+  let c = await create([serverError(), { number: 7 }]);
+  assert.deepEqual(await c.result, { number: 7 }, "one 500 then success opens the PR");
+  assert.deepEqual(c.sleeps, [5_000]);
+  c = await create([serverError(), { number: 8 }], { number: 9 });
+  assert.deepEqual(await c.result, { number: 9 }, "a PR the failed request did create is reused, not posted twice");
+  assert.equal(c.calls(), 1);
+  c = await create(Array.from({ length: 4 }, serverError));
+  await assert.rejects(c.result, /500/, "a persistent 500 is thrown after the bounded retries");
+  assert.equal(c.calls(), 4);
+  c = await create([new Error("GitHub API POST /repos/x/pulls 422: Validation Failed"), { number: 1 }]);
+  await assert.rejects(c.result, /422/, "a 4xx answer is never retried");
+  assert.equal(c.calls(), 1);
   console.log("merge-retry self-test: ok");
 }
 

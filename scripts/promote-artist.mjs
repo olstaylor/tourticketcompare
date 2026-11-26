@@ -193,7 +193,7 @@ async function main() {
   ].join('\n');
   const newOutSource = outSource.replace(
     VTL_BLOCK_PATTERN,
-    (match, inner) => `const VERIFIED_TICKET_LINKS = {${inner},\n${vtlEntry}\n};`
+    (match, inner) => `const VERIFIED_TICKET_LINKS = {${inner}${/,\s*$/.test(inner) ? '' : ','}\n${vtlEntry}\n};`
   );
 
   // Self-check: the edited block must still parse with the exact regexes the

@@ -1,6 +1,6 @@
 {
   "storyType": "artist-cities",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-26",
   "artistSlug": "don-omar",
   "artist": "Don Omar",
   "artistPageIndexable": true,
@@ -11,8 +11,8 @@
   "siteLabel": "TicketNetwork",
   "country": "United States",
   "currency": "USD",
-  "capturedFrom": "2026-11-25T17:39:16.675Z",
-  "capturedTo": "2026-11-25T17:39:18.462Z",
+  "capturedFrom": "2026-11-26T10:03:14.935Z",
+  "capturedTo": "2026-11-26T10:03:27.405Z",
   "tourDates": 17,
   "coverage": {
     "marketCities": 15,
@@ -35,20 +35,20 @@
     "localDate": "2027-02-03",
     "price": 86.25,
     "currency": "USD",
-    "capturedAt": "2026-11-25T17:39:16.675Z"
+    "capturedAt": "2026-11-26T10:03:14.935Z"
   },
   "high": {
-    "city": "San Diego",
+    "city": "Fort Worth",
     "country": "United States",
-    "venue": "Pechanga Arena San Diego",
-    "eventId": "tm-don-omar-2027-san-diego-z7r9jz1a7pggy",
-    "localDate": "2027-02-10",
-    "price": 163.3,
+    "venue": "Ariat Arena",
+    "eventId": "tm-don-omar-2027-fort-worth-vvg1yz_u1_ouro",
+    "localDate": "2027-03-06",
+    "price": 150.65,
     "currency": "USD",
-    "capturedAt": "2026-11-25T17:39:16.964Z"
+    "capturedAt": "2026-11-26T10:03:25.388Z"
   },
-  "median": 116.15,
-  "ratio": 1.8,
+  "median": 113.85,
+  "ratio": 1.7,
   "cities": [
     {
       "city": "Denver",
@@ -58,7 +58,7 @@
       "localDate": "2027-02-03",
       "price": 86.25,
       "currency": "USD",
-      "capturedAt": "2026-11-25T17:39:16.675Z",
+      "capturedAt": "2026-11-26T10:03:14.935Z",
       "path": "/artists/don-omar/tickets/denver-united-states"
     },
     {
@@ -69,7 +69,7 @@
       "localDate": "2027-02-05",
       "price": 88.55,
       "currency": "USD",
-      "capturedAt": "2026-11-25T17:39:16.764Z",
+      "capturedAt": "2026-11-26T10:03:15.292Z",
       "path": "/artists/don-omar/tickets/sacramento-united-states"
     },
     {
@@ -80,19 +80,8 @@
       "localDate": "2027-02-07",
       "price": 88.55,
       "currency": "USD",
-      "capturedAt": "2026-11-25T17:39:16.870Z",
+      "capturedAt": "2026-11-26T10:03:15.514Z",
       "path": "/artists/don-omar/tickets/seattle-united-states"
-    },
-    {
-      "city": "Rosemont",
-      "country": "United States",
-      "venue": "Allstate Arena",
-      "eventId": "tm-don-omar-2027-rosemont-vvg18z_u5mkrgh",
-      "localDate": "2027-02-26",
-      "price": 93.15,
-      "currency": "USD",
-      "capturedAt": "2026-11-25T17:39:17.481Z",
-      "path": "/artists/don-omar/tickets/rosemont-united-states"
     },
     {
       "city": "Belmont Park",
@@ -102,8 +91,19 @@
       "localDate": "2027-02-28",
       "price": 101.2,
       "currency": "USD",
-      "capturedAt": "2026-11-25T17:39:17.570Z",
+      "capturedAt": "2026-11-26T10:03:23.123Z",
       "path": "/artists/don-omar/tickets/belmont-park-united-states"
+    },
+    {
+      "city": "Rosemont",
+      "country": "United States",
+      "venue": "Allstate Arena",
+      "eventId": "tm-don-omar-2027-rosemont-vvg18z_u5mkrgh",
+      "localDate": "2027-02-26",
+      "price": 103.5,
+      "currency": "USD",
+      "capturedAt": "2026-11-26T10:03:21.545Z",
+      "path": "/artists/don-omar/tickets/rosemont-united-states"
     },
     {
       "city": "Newark",
@@ -113,7 +113,7 @@
       "localDate": "2027-03-03",
       "price": 111.55,
       "currency": "USD",
-      "capturedAt": "2026-11-25T17:39:17.719Z",
+      "capturedAt": "2026-11-26T10:03:23.333Z",
       "path": "/artists/don-omar/tickets/newark-united-states"
     },
     {
@@ -124,8 +124,30 @@
       "localDate": "2027-02-11",
       "price": 112.7,
       "currency": "USD",
-      "capturedAt": "2026-11-25T17:39:17.182Z",
+      "capturedAt": "2026-11-26T10:03:18.921Z",
       "path": "/artists/don-omar/tickets/fresno-united-states"
+    },
+    {
+      "city": "San Diego",
+      "country": "United States",
+      "venue": "Pechanga Arena San Diego",
+      "eventId": "tm-don-omar-2027-san-diego-z7r9jz1a7pggy",
+      "localDate": "2027-02-10",
+      "price": 113.85,
+      "currency": "USD",
+      "capturedAt": "2026-11-26T10:03:16.478Z",
+      "path": "/artists/don-omar/tickets/san-diego-united-states"
+    },
+    {
+      "city": "Orlando",
+      "country": "United States",
+      "venue": "Kia Center",
+      "eventId": "tm-don-omar-2027-orlando-17fov0g6u6m7kw6",
+      "localDate": "2027-03-14",
+      "price": 116.15,
+      "currency": "USD",
+      "capturedAt": "2026-11-26T10:03:27.405Z",
+      "path": "/artists/don-omar/tickets/orlando-united-states"
     },
     {
       "city": "Tampa",
@@ -135,19 +157,8 @@
       "localDate": "2027-03-10",
       "price": 116.15,
       "currency": "USD",
-      "capturedAt": "2026-11-25T17:39:18.094Z",
+      "capturedAt": "2026-11-26T10:03:26.307Z",
       "path": "/artists/don-omar/tickets/tampa-united-states"
-    },
-    {
-      "city": "Orlando",
-      "country": "United States",
-      "venue": "Kia Center",
-      "eventId": "tm-don-omar-2027-orlando-17fov0g6u6m7kw6",
-      "localDate": "2027-03-14",
-      "price": 117.3,
-      "currency": "USD",
-      "capturedAt": "2026-11-25T17:39:18.462Z",
-      "path": "/artists/don-omar/tickets/orlando-united-states"
     },
     {
       "city": "Baltimore",
@@ -157,8 +168,19 @@
       "localDate": "2027-03-04",
       "price": 119.6,
       "currency": "USD",
-      "capturedAt": "2026-11-25T17:39:17.815Z",
+      "capturedAt": "2026-11-26T10:03:24.300Z",
       "path": "/artists/don-omar/tickets/baltimore-united-states"
+    },
+    {
+      "city": "Inglewood",
+      "country": "United States",
+      "venue": "Intuit Dome",
+      "eventId": "tm-don-omar-2027-inglewood-vvg10z_u2a3ul3",
+      "localDate": "2027-02-12",
+      "price": 121.9,
+      "currency": "USD",
+      "capturedAt": "2026-11-26T10:03:19.151Z",
+      "path": "/artists/don-omar/tickets/inglewood-united-states"
     },
     {
       "city": "Miami",
@@ -166,9 +188,9 @@
       "venue": "Kaseya Center",
       "eventId": "tm-don-omar-2027-miami-vvg1vz_uk8ovtf",
       "localDate": "2027-03-12",
-      "price": 120.75,
+      "price": 134.55,
       "currency": "USD",
-      "capturedAt": "2026-11-25T17:39:18.361Z",
+      "capturedAt": "2026-11-26T10:03:27.191Z",
       "path": "/artists/don-omar/tickets/miami-united-states"
     },
     {
@@ -179,19 +201,8 @@
       "localDate": "2027-03-07",
       "price": 140.3,
       "currency": "USD",
-      "capturedAt": "2026-11-25T17:39:18.008Z",
+      "capturedAt": "2026-11-26T10:03:26.086Z",
       "path": "/artists/don-omar/tickets/austin-united-states"
-    },
-    {
-      "city": "Inglewood",
-      "country": "United States",
-      "venue": "Intuit Dome",
-      "eventId": "tm-don-omar-2027-inglewood-vvg10z_u2a3ul3",
-      "localDate": "2027-02-12",
-      "price": 140.3,
-      "currency": "USD",
-      "capturedAt": "2026-11-25T17:39:17.289Z",
-      "path": "/artists/don-omar/tickets/inglewood-united-states"
     },
     {
       "city": "Fort Worth",
@@ -201,19 +212,8 @@
       "localDate": "2027-03-06",
       "price": 150.65,
       "currency": "USD",
-      "capturedAt": "2026-11-25T17:39:17.900Z",
+      "capturedAt": "2026-11-26T10:03:25.388Z",
       "path": "/artists/don-omar/tickets/fort-worth-united-states"
-    },
-    {
-      "city": "San Diego",
-      "country": "United States",
-      "venue": "Pechanga Arena San Diego",
-      "eventId": "tm-don-omar-2027-san-diego-z7r9jz1a7pggy",
-      "localDate": "2027-02-10",
-      "price": 163.3,
-      "currency": "USD",
-      "capturedAt": "2026-11-25T17:39:16.964Z",
-      "path": "/artists/don-omar/tickets/san-diego-united-states"
     }
   ],
   "second": {
@@ -228,7 +228,7 @@
         "localDate": "2027-02-03",
         "price": 98,
         "currency": "USD",
-        "capturedAt": "2026-11-25T20:14:07.338Z",
+        "capturedAt": "2026-11-26T19:48:41.428Z",
         "path": "/artists/don-omar/tickets/denver-united-states"
       },
       {
@@ -239,7 +239,7 @@
         "localDate": "2027-02-05",
         "price": 101,
         "currency": "USD",
-        "capturedAt": "2026-11-25T20:14:07.338Z",
+        "capturedAt": "2026-11-26T19:48:41.428Z",
         "path": "/artists/don-omar/tickets/sacramento-united-states"
       },
       {
@@ -250,7 +250,7 @@
         "localDate": "2027-02-07",
         "price": 100,
         "currency": "USD",
-        "capturedAt": "2026-11-25T20:14:07.338Z",
+        "capturedAt": "2026-11-26T19:48:41.428Z",
         "path": "/artists/don-omar/tickets/seattle-united-states"
       },
       {
@@ -261,7 +261,7 @@
         "localDate": "2027-02-10",
         "price": 117,
         "currency": "USD",
-        "capturedAt": "2026-11-25T20:14:07.338Z",
+        "capturedAt": "2026-11-26T19:48:41.428Z",
         "path": "/artists/don-omar/tickets/san-diego-united-states"
       },
       {
@@ -272,7 +272,7 @@
         "localDate": "2027-02-11",
         "price": 105,
         "currency": "USD",
-        "capturedAt": "2026-11-25T20:14:07.338Z",
+        "capturedAt": "2026-11-26T19:48:41.428Z",
         "path": "/artists/don-omar/tickets/fresno-united-states"
       },
       {
@@ -283,7 +283,7 @@
         "localDate": "2027-02-12",
         "price": 127,
         "currency": "USD",
-        "capturedAt": "2026-11-25T20:14:07.338Z",
+        "capturedAt": "2026-11-26T19:48:41.428Z",
         "path": "/artists/don-omar/tickets/inglewood-united-states"
       },
       {
@@ -292,9 +292,9 @@
         "venue": "Allstate Arena",
         "eventId": "tm-don-omar-2027-rosemont-vvg18z_u5mkrgh",
         "localDate": "2027-02-26",
-        "price": 108,
+        "price": 105,
         "currency": "USD",
-        "capturedAt": "2026-11-25T20:14:07.338Z",
+        "capturedAt": "2026-11-26T19:48:41.428Z",
         "path": "/artists/don-omar/tickets/rosemont-united-states"
       },
       {
@@ -305,7 +305,7 @@
         "localDate": "2027-02-28",
         "price": 114,
         "currency": "USD",
-        "capturedAt": "2026-11-25T20:14:07.338Z",
+        "capturedAt": "2026-11-26T19:48:41.429Z",
         "path": "/artists/don-omar/tickets/belmont-park-united-states"
       },
       {
@@ -316,7 +316,7 @@
         "localDate": "2027-03-03",
         "price": 107,
         "currency": "USD",
-        "capturedAt": "2026-11-25T20:14:07.338Z",
+        "capturedAt": "2026-11-26T19:48:41.429Z",
         "path": "/artists/don-omar/tickets/newark-united-states"
       },
       {
@@ -327,7 +327,7 @@
         "localDate": "2027-03-04",
         "price": 109,
         "currency": "USD",
-        "capturedAt": "2026-11-25T20:14:07.338Z",
+        "capturedAt": "2026-11-26T19:48:41.429Z",
         "path": "/artists/don-omar/tickets/baltimore-united-states"
       },
       {
@@ -336,9 +336,9 @@
         "venue": "Moody Center ATX",
         "eventId": "tm-don-omar-2027-austin-g5diz_u3mkhzt",
         "localDate": "2027-03-07",
-        "price": 112,
+        "price": 114,
         "currency": "USD",
-        "capturedAt": "2026-11-25T20:14:07.338Z",
+        "capturedAt": "2026-11-26T19:48:41.429Z",
         "path": "/artists/don-omar/tickets/austin-united-states"
       },
       {
@@ -349,7 +349,7 @@
         "localDate": "2027-03-10",
         "price": 123,
         "currency": "USD",
-        "capturedAt": "2026-11-25T20:14:07.338Z",
+        "capturedAt": "2026-11-26T19:48:41.429Z",
         "path": "/artists/don-omar/tickets/tampa-united-states"
       },
       {
@@ -358,9 +358,9 @@
         "venue": "Kaseya Center",
         "eventId": "tm-don-omar-2027-miami-vvg1vz_uk8ovtf",
         "localDate": "2027-03-12",
-        "price": 157,
+        "price": 158,
         "currency": "USD",
-        "capturedAt": "2026-11-25T20:14:07.338Z",
+        "capturedAt": "2026-11-26T19:48:41.429Z",
         "path": "/artists/don-omar/tickets/miami-united-states"
       },
       {
@@ -371,7 +371,7 @@
         "localDate": "2027-03-14",
         "price": 137,
         "currency": "USD",
-        "capturedAt": "2026-11-25T20:14:07.338Z",
+        "capturedAt": "2026-11-26T19:48:41.429Z",
         "path": "/artists/don-omar/tickets/orlando-united-states"
       }
     ]

@@ -1,10 +1,10 @@
 ---
 title: "Don Omar tour tickets: listed prices city by city"
 seo_title: "Don Omar tour ticket prices by city"
-description: "Don Omar tour: the next date in 15 cities, $86.25 in Denver at the low end, $163.30 in San Diego at the high end."
-summary: "TicketNetwork's lowest listed price for the next Don Omar date in each of 15 cities, each figure with the time it was captured. Snapshots 25 November 2026."
+description: "Don Omar tour: the next date in 15 cities, $86.25 in Denver at the low end, $150.65 in Fort Worth at the high end."
+summary: "TicketNetwork's lowest listed price for the next Don Omar date in each of 15 cities, each figure with the time it was captured. Snapshots 26 November 2026."
 date: 2026-10-30
-updated: 2026-11-25
+updated: 2026-11-26
 status: published
 tags:
   - tour-data
@@ -14,27 +14,27 @@ related_guides:
   - primary-vs-resale-concert-tickets
 ---
 
-Don Omar's The Last King World Tour has 17 dates that TourTicketCompare tracks. In the United States, 15 cities had a recent listed price on TicketNetwork. The next date in Denver was listed at $86.25 at the low end, and the next date in San Diego at $163.30 at the high end, 1.8 times as much. The median city was listed at $116.15.
+Don Omar's The Last King World Tour has 17 dates that TourTicketCompare tracks. In the United States, 15 cities had a recent listed price on TicketNetwork. The next date in Denver was listed at $86.25 at the low end, and the next date in Fort Worth at $150.65 at the high end, 1.7 times as much. The median city was listed at $113.85.
 
 ## Don Omar ticket prices by city
 
 | City | Next date | Venue | Lowest listed | Site | Captured |
 |---|---|---|---|---|---|
-| [Denver](/artists/don-omar/tickets/denver-united-states) | 3 February 2027 | Ball Arena | $86.25 | TicketNetwork | 25 November, 17:39 UTC |
-| [Sacramento](/artists/don-omar/tickets/sacramento-united-states) | 5 February 2027 | Golden 1 Center | $88.55 | TicketNetwork | 25 November, 17:39 UTC |
-| [Seattle](/artists/don-omar/tickets/seattle-united-states) | 7 February 2027 | Climate Pledge Arena | $88.55 | TicketNetwork | 25 November, 17:39 UTC |
-| [Rosemont](/artists/don-omar/tickets/rosemont-united-states) | 26 February 2027 | Allstate Arena | $93.15 | TicketNetwork | 25 November, 17:39 UTC |
-| [Belmont Park](/artists/don-omar/tickets/belmont-park-united-states) | 28 February 2027 | UBS Arena | $101.20 | TicketNetwork | 25 November, 17:39 UTC |
-| [Newark](/artists/don-omar/tickets/newark-united-states) | 3 March 2027 | Prudential Center | $111.55 | TicketNetwork | 25 November, 17:39 UTC |
-| [Fresno](/artists/don-omar/tickets/fresno-united-states) | 11 February 2027 | Save Mart Center | $112.70 | TicketNetwork | 25 November, 17:39 UTC |
-| [Tampa](/artists/don-omar/tickets/tampa-united-states) | 10 March 2027 | Benchmark International Arena | $116.15 | TicketNetwork | 25 November, 17:39 UTC |
-| [Orlando](/artists/don-omar/tickets/orlando-united-states) | 14 March 2027 | Kia Center | $117.30 | TicketNetwork | 25 November, 17:39 UTC |
-| [Baltimore](/artists/don-omar/tickets/baltimore-united-states) | 4 March 2027 | CFG Bank Arena | $119.60 | TicketNetwork | 25 November, 17:39 UTC |
-| [Miami](/artists/don-omar/tickets/miami-united-states) | 12 March 2027 | Kaseya Center | $120.75 | TicketNetwork | 25 November, 17:39 UTC |
-| [Austin](/artists/don-omar/tickets/austin-united-states) | 7 March 2027 | Moody Center ATX | $140.30 | TicketNetwork | 25 November, 17:39 UTC |
-| [Inglewood](/artists/don-omar/tickets/inglewood-united-states) | 12 February 2027 | Intuit Dome | $140.30 | TicketNetwork | 25 November, 17:39 UTC |
-| [Fort Worth](/artists/don-omar/tickets/fort-worth-united-states) | 6 March 2027 | Ariat Arena | $150.65 | TicketNetwork | 25 November, 17:39 UTC |
-| [San Diego](/artists/don-omar/tickets/san-diego-united-states) | 10 February 2027 | Pechanga Arena San Diego | $163.30 | TicketNetwork | 25 November, 17:39 UTC |
+| [Denver](/artists/don-omar/tickets/denver-united-states) | 3 February 2027 | Ball Arena | $86.25 | TicketNetwork | 26 November, 10:03 UTC |
+| [Sacramento](/artists/don-omar/tickets/sacramento-united-states) | 5 February 2027 | Golden 1 Center | $88.55 | TicketNetwork | 26 November, 10:03 UTC |
+| [Seattle](/artists/don-omar/tickets/seattle-united-states) | 7 February 2027 | Climate Pledge Arena | $88.55 | TicketNetwork | 26 November, 10:03 UTC |
+| [Belmont Park](/artists/don-omar/tickets/belmont-park-united-states) | 28 February 2027 | UBS Arena | $101.20 | TicketNetwork | 26 November, 10:03 UTC |
+| [Rosemont](/artists/don-omar/tickets/rosemont-united-states) | 26 February 2027 | Allstate Arena | $103.50 | TicketNetwork | 26 November, 10:03 UTC |
+| [Newark](/artists/don-omar/tickets/newark-united-states) | 3 March 2027 | Prudential Center | $111.55 | TicketNetwork | 26 November, 10:03 UTC |
+| [Fresno](/artists/don-omar/tickets/fresno-united-states) | 11 February 2027 | Save Mart Center | $112.70 | TicketNetwork | 26 November, 10:03 UTC |
+| [San Diego](/artists/don-omar/tickets/san-diego-united-states) | 10 February 2027 | Pechanga Arena San Diego | $113.85 | TicketNetwork | 26 November, 10:03 UTC |
+| [Orlando](/artists/don-omar/tickets/orlando-united-states) | 14 March 2027 | Kia Center | $116.15 | TicketNetwork | 26 November, 10:03 UTC |
+| [Tampa](/artists/don-omar/tickets/tampa-united-states) | 10 March 2027 | Benchmark International Arena | $116.15 | TicketNetwork | 26 November, 10:03 UTC |
+| [Baltimore](/artists/don-omar/tickets/baltimore-united-states) | 4 March 2027 | CFG Bank Arena | $119.60 | TicketNetwork | 26 November, 10:03 UTC |
+| [Inglewood](/artists/don-omar/tickets/inglewood-united-states) | 12 February 2027 | Intuit Dome | $121.90 | TicketNetwork | 26 November, 10:03 UTC |
+| [Miami](/artists/don-omar/tickets/miami-united-states) | 12 March 2027 | Kaseya Center | $134.55 | TicketNetwork | 26 November, 10:03 UTC |
+| [Austin](/artists/don-omar/tickets/austin-united-states) | 7 March 2027 | Moody Center ATX | $140.30 | TicketNetwork | 26 November, 10:03 UTC |
+| [Fort Worth](/artists/don-omar/tickets/fort-worth-united-states) | 6 March 2027 | Ariat Arena | $150.65 | TicketNetwork | 26 November, 10:03 UTC |
 
 Each figure is the lowest listed price on TicketNetwork for the next date in that city, so a city with several dates shows only its first. Cities are ordered from the lowest listed price to the highest. Open a city to see every date there.
 
@@ -44,20 +44,20 @@ Vivid Seats also had a recent listed price for the next date in 14 of these citi
 
 | City | Next date | Venue | Lowest listed | Site | Captured |
 |---|---|---|---|---|---|
-| [Denver](/artists/don-omar/tickets/denver-united-states) | 3 February 2027 | Ball Arena | $98 | Vivid Seats | 25 November, 20:14 UTC |
-| [Sacramento](/artists/don-omar/tickets/sacramento-united-states) | 5 February 2027 | Golden 1 Center | $101 | Vivid Seats | 25 November, 20:14 UTC |
-| [Seattle](/artists/don-omar/tickets/seattle-united-states) | 7 February 2027 | Climate Pledge Arena | $100 | Vivid Seats | 25 November, 20:14 UTC |
-| [San Diego](/artists/don-omar/tickets/san-diego-united-states) | 10 February 2027 | Pechanga Arena San Diego | $117 | Vivid Seats | 25 November, 20:14 UTC |
-| [Fresno](/artists/don-omar/tickets/fresno-united-states) | 11 February 2027 | Save Mart Center | $105 | Vivid Seats | 25 November, 20:14 UTC |
-| [Inglewood](/artists/don-omar/tickets/inglewood-united-states) | 12 February 2027 | Intuit Dome | $127 | Vivid Seats | 25 November, 20:14 UTC |
-| [Rosemont](/artists/don-omar/tickets/rosemont-united-states) | 26 February 2027 | Allstate Arena | $108 | Vivid Seats | 25 November, 20:14 UTC |
-| [Belmont Park](/artists/don-omar/tickets/belmont-park-united-states) | 28 February 2027 | UBS Arena | $114 | Vivid Seats | 25 November, 20:14 UTC |
-| [Newark](/artists/don-omar/tickets/newark-united-states) | 3 March 2027 | Prudential Center | $107 | Vivid Seats | 25 November, 20:14 UTC |
-| [Baltimore](/artists/don-omar/tickets/baltimore-united-states) | 4 March 2027 | CFG Bank Arena | $109 | Vivid Seats | 25 November, 20:14 UTC |
-| [Austin](/artists/don-omar/tickets/austin-united-states) | 7 March 2027 | Moody Center ATX | $112 | Vivid Seats | 25 November, 20:14 UTC |
-| [Tampa](/artists/don-omar/tickets/tampa-united-states) | 10 March 2027 | Benchmark International Arena | $123 | Vivid Seats | 25 November, 20:14 UTC |
-| [Miami](/artists/don-omar/tickets/miami-united-states) | 12 March 2027 | Kaseya Center | $157 | Vivid Seats | 25 November, 20:14 UTC |
-| [Orlando](/artists/don-omar/tickets/orlando-united-states) | 14 March 2027 | Kia Center | $137 | Vivid Seats | 25 November, 20:14 UTC |
+| [Denver](/artists/don-omar/tickets/denver-united-states) | 3 February 2027 | Ball Arena | $98 | Vivid Seats | 26 November, 19:48 UTC |
+| [Sacramento](/artists/don-omar/tickets/sacramento-united-states) | 5 February 2027 | Golden 1 Center | $101 | Vivid Seats | 26 November, 19:48 UTC |
+| [Seattle](/artists/don-omar/tickets/seattle-united-states) | 7 February 2027 | Climate Pledge Arena | $100 | Vivid Seats | 26 November, 19:48 UTC |
+| [San Diego](/artists/don-omar/tickets/san-diego-united-states) | 10 February 2027 | Pechanga Arena San Diego | $117 | Vivid Seats | 26 November, 19:48 UTC |
+| [Fresno](/artists/don-omar/tickets/fresno-united-states) | 11 February 2027 | Save Mart Center | $105 | Vivid Seats | 26 November, 19:48 UTC |
+| [Inglewood](/artists/don-omar/tickets/inglewood-united-states) | 12 February 2027 | Intuit Dome | $127 | Vivid Seats | 26 November, 19:48 UTC |
+| [Rosemont](/artists/don-omar/tickets/rosemont-united-states) | 26 February 2027 | Allstate Arena | $105 | Vivid Seats | 26 November, 19:48 UTC |
+| [Belmont Park](/artists/don-omar/tickets/belmont-park-united-states) | 28 February 2027 | UBS Arena | $114 | Vivid Seats | 26 November, 19:48 UTC |
+| [Newark](/artists/don-omar/tickets/newark-united-states) | 3 March 2027 | Prudential Center | $107 | Vivid Seats | 26 November, 19:48 UTC |
+| [Baltimore](/artists/don-omar/tickets/baltimore-united-states) | 4 March 2027 | CFG Bank Arena | $109 | Vivid Seats | 26 November, 19:48 UTC |
+| [Austin](/artists/don-omar/tickets/austin-united-states) | 7 March 2027 | Moody Center ATX | $114 | Vivid Seats | 26 November, 19:48 UTC |
+| [Tampa](/artists/don-omar/tickets/tampa-united-states) | 10 March 2027 | Benchmark International Arena | $123 | Vivid Seats | 26 November, 19:48 UTC |
+| [Miami](/artists/don-omar/tickets/miami-united-states) | 12 March 2027 | Kaseya Center | $158 | Vivid Seats | 26 November, 19:48 UTC |
+| [Orlando](/artists/don-omar/tickets/orlando-united-states) | 14 March 2027 | Kia Center | $137 | Vivid Seats | 26 November, 19:48 UTC |
 
 ## How this was worked out
 

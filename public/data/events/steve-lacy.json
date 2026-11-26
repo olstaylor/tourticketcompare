@@ -1653,11 +1653,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8286236",
-        "url": "https://www.ticketnetwork.com/en/p/8286236",
-        "verified": true,
-        "last_verified_at": "2026-11-25",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8286236",
@@ -1677,7 +1677,7 @@
     "ticketmaster_discovery_event_id": "G5vYZ_8bK7kMe",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286236",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286236/Steve-Lacy-tickets-Wed-Nov-25-2026-Bill-Graham-Civic-Auditorium",
     "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-san-francisco-tickets-11-25-2026/event/107672773",
     "organizer_names": [
@@ -1739,7 +1739,7 @@
         "event_id": "8199813",
         "url": "https://www.ticketnetwork.com/en/p/8199813",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1821,7 +1821,7 @@
         "event_id": "8199816",
         "url": "https://www.ticketnetwork.com/en/p/8199816",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

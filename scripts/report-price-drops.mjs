@@ -4,7 +4,7 @@
 // scripts/lib/price-drop-posts.mjs, and writes a draft file. It posts nothing
 // and writes nothing to D1 or the repository unless --out names a path.
 //
-//   node scripts/report-price-drops.mjs [--out drafts.md] [--seen seen.json] [--rows rows.json] [--local] [--now 2026-10-26T08:00:00Z]
+//   node scripts/report-price-drops.mjs [--out drafts.md] [--seen seen.json] [--rows rows.json] [--json drafts.json] [--local] [--now 2026-10-26T08:00:00Z]
 //
 // --seen: JSON array of drop keys already drafted; new keys are appended so a
 //         drop is offered once, not every day it persists.
@@ -23,11 +23,11 @@ const REPO_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..
 const DATABASE = "tourticketcompare-demand";
 
 function parseArgs(argv) {
-  const args = { out: "", seen: "", rows: "", local: false, now: "" };
+  const args = { out: "", seen: "", rows: "", json: "", local: false, now: "" };
   for (let i = 0; i < argv.length; i += 1) {
     const flag = argv[i];
     if (flag === "--local") args.local = true;
-    else if (["--out", "--seen", "--rows", "--now"].includes(flag)) args[flag.slice(2)] = argv[++i] ?? "";
+    else if (["--out", "--seen", "--rows", "--json", "--now"].includes(flag)) args[flag.slice(2)] = argv[++i] ?? "";
     else throw new Error(`Unknown option ${flag}`);
   }
   return args;
@@ -69,6 +69,7 @@ async function main() {
   const text = renderDraftFile(drafts, { now });
   if (args.out) await writeFile(args.out, text);
   else process.stdout.write(text);
+  if (args.json) await writeFile(args.json, `${JSON.stringify(drafts)}\n`);
   if (args.seen && drafts.length) await writeFile(args.seen, `${JSON.stringify([...seen, ...drafts.map((d) => d.key)], null, 1)}\n`);
   console.error(`price drops: ${rows.length} rows, ${detected.length} detected, ${drafts.length} new drafts`);
 }

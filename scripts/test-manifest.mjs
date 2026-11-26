@@ -119,6 +119,7 @@ export const STEPS = [
   { id: "test:data-stories",                      lane: "units",  run: "npm run test:data-stories" },
   { id: "test:price-drops",                       lane: "units",  run: "npm run test:price-drops" },
   { id: "price-drops:issue:self-test",             lane: "units",  run: "node scripts/publish-price-drop-issue.mjs --self-test" },
+  { id: "price-drops:x-post:self-test",           lane: "units",  run: "node scripts/post-price-drops-to-x.mjs --self-test" },
   { id: "test:artist-city-research",               lane: "units",  run: "npm run test:artist-city-research" },
   { id: "test:uk-concert-activity",                lane: "units",  run: "npm run test:uk-concert-activity" },
   { id: "test:presales",                          lane: "quick",  run: "npm run test:presales" },

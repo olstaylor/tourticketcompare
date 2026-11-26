@@ -13,7 +13,9 @@ name: Price-drop drafts
 # order, so the day's snapshots are in by the time it runs.
 
 # Schedule resumed 2026-11-18 (owner approved the X price-drop post plan). Drafts
-# only: nothing here posts to any account.
+# only until X_POSTING_ENABLED=true and the four X secrets exist; then the last
+# step posts verified drops to @tourticketcomp under the caps in
+# scripts/post-price-drops-to-x.mjs.
 on:
   schedule:
     - cron: '15 18 * * *'
@@ -47,6 +49,7 @@ jobs:
       - name: Self-test
         run: |
           node scripts/publish-price-drop-issue.mjs --self-test
+          node scripts/post-price-drops-to-x.mjs --self-test
           npm run test:price-drops
 
       - name: Draft price-drop posts
@@ -55,4 +58,18 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
+          PRICE_DROP_JSON_OUT: ${{ runner.temp }}/price-drop-drafts.json
         run: node scripts/publish-price-drop-issue.mjs
+
+      # Inactive unless the repository variable X_POSTING_ENABLED is "true" AND the
+      # four X secrets exist; otherwise it only logs. Kill switch: change the variable.
+      - name: Post new drops to X (inactive unless enabled)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          X_POSTING_ENABLED: ${{ vars.X_POSTING_ENABLED }}
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
+        run: node scripts/post-price-drops-to-x.mjs --drafts "$RUNNER_TEMP/price-drop-drafts.json"

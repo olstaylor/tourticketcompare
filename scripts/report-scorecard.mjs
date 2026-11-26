@@ -113,6 +113,19 @@ export function buildScorecardStatements(windows) {
       sql: `SELECT ${expr} AS label, provider, COUNT(*) AS raw, SUM(CASE WHEN ${pageBackedSql()} AND NOT ${suspectedBotRedirectSql()} THEN 1 ELSE 0 END) AS page_backed, SUM(CASE WHEN ${pageBackedSql()} AND NOT ${suspectedBotRedirectSql()} AND impact_reconciliation_eligible = 1 THEN 1 ELSE 0 END) AS page_backed_subid FROM analytics_events WHERE event_name = 'outbound_click' AND ${d90Range} GROUP BY label, provider`
     });
   }
+  // Button slot of each page-backed redirect, joined read-side from the same visitor-day's provider_click
+  // (same provider and show), which carries orderArm and position. The redirect receipt does not carry
+  // them and is not changed. Rows with no joined click are kept as arm/position NULL, never guessed.
+  const posSub = `(SELECT request_key AS rk, substr(created_at, 1, 10) AS d, provider AS prov, COALESCE(json_extract(metadata_json, '$.eventId'), json_extract(metadata_json, '$.showId')) AS sid, MAX(json_extract(metadata_json, '$.orderArm')) AS arm, MAX(json_extract(metadata_json, '$.position')) AS pos FROM analytics_events WHERE event_name = 'provider_click' AND ${d90Range} AND json_extract(metadata_json, '$.orderArm') IS NOT NULL GROUP BY 1, 2, 3, 4) pc`;
+  const posJoin = (o) => `LEFT JOIN ${posSub} ON pc.rk = ${o}.request_key AND pc.d = substr(${o}.created_at, 1, 10) AND pc.prov = ${o}.provider AND pc.sid = json_extract(${o}.metadata_json, '$.showId')`;
+  statements.push({
+    key: "redirects_by_position_d90",
+    sql: `SELECT o.provider AS provider, pc.arm AS arm, pc.pos AS pos, COUNT(*) AS page_backed FROM analytics_events o ${posJoin("o")} WHERE o.event_name = 'outbound_click' AND ${d90Range.replace(/created_at/g, "o.created_at")} AND ${pageBackedSql("o")} AND NOT ${suspectedBotRedirectSql("o")} GROUP BY 1, 2, 3`
+  });
+  statements.push({
+    key: "orders_by_position_d90",
+    sql: `SELECT l.provider AS provider, l.state AS state, l.currency AS currency, l.payout AS payout, pc.arm AS arm, pc.pos AS pos FROM impact_action_ledger l JOIN analytics_events o ON o.click_id = l.click_id AND o.event_name = 'outbound_click' ${posJoin("o")} WHERE l.attribution = 'matched' AND substr(l.clicked_at, 1, 10) >= '${d90.since.slice(0, 10)}'`
+  });
   const since = windows.d90.since.slice(0, 10);
   if (!/^\d{4}-\d{2}-\d{2}$/.test(since)) throw new Error("Refusing to interpolate a non-date bound");
   statements.push({
@@ -227,6 +240,41 @@ export function topBreakdown(rows = [], n = 15) {
   return [...by.values()].filter((c) => c.pageBacked > 0).sort((a, b) => b.pageBacked - a.pageBacked).slice(0, n);
 }
 
+// Slot buckets for the seller-order test. Position is the clicked seller's place in the button list.
+export const positionBucket = (pos) => (pos === null || pos === undefined || pos === "" || !Number.isFinite(Number(pos)) ? "no joined click" : Number(pos) >= 4 ? "4+" : String(Number(pos)));
+
+// Clicks and matched orders per arm x slot (all lanes together) and per lane x slot (clicks only).
+// Orders are grouped by the same click, so both sides are the same population. Rates are withheld
+// below MIN_CLICKS_FOR_RATE clicks or MIN_APPROVED_FOR_RATE approved orders in the cell, and cells are
+// never ranked. Unjoined clicks stay in their own bucket.
+export function summarisePositions(clickRows = [], orderRows = []) {
+  const cells = new Map();
+  const lanes = new Map();
+  const cell = (arm, pos) => {
+    const key = `${arm || "no joined click"}|${positionBucket(pos)}`;
+    if (!cells.has(key)) cells.set(key, { arm: arm || "no joined click", slot: positionBucket(pos), clicks: 0, approved: { n: 0, gbp: 0 }, pending: { n: 0, gbp: 0 }, reversed: 0, otherCurrency: 0 });
+    return cells.get(key);
+  };
+  for (const r of clickRows) {
+    cell(r.arm, r.pos).clicks += num(r.page_backed);
+    const lk = `${r.provider}|${positionBucket(r.pos)}`;
+    lanes.set(lk, (lanes.get(lk) || 0) + num(r.page_backed));
+  }
+  for (const r of orderRows) {
+    const c = cell(r.arm, r.pos);
+    const state = String(r.state).toUpperCase();
+    if (r.currency !== "GBP") { c.otherCurrency += 1; continue; }
+    if (state === "APPROVED") { c.approved.n += 1; c.approved.gbp += num(r.payout); }
+    else if (state === "PENDING") { c.pending.n += 1; c.pending.gbp += num(r.payout); }
+    else if (state === "REVERSED") c.reversed += 1;
+  }
+  const rows = [...cells.values()].map((c) => ({ ...c, approvedPer100: c.clicks >= MIN_CLICKS_FOR_RATE && c.approved.n >= MIN_APPROVED_FOR_RATE ? (c.approved.gbp / c.clicks) * 100 : null }));
+  rows.sort((a, b) => `${a.arm}|${a.slot}`.localeCompare(`${b.arm}|${b.slot}`));
+  const byLane = {};
+  for (const [k, v] of lanes) { const [prov, slot] = k.split("|"); (byLane[prov] = byLane[prov] || {})[slot] = v; }
+  return { rows, byLane };
+}
+
 export function commissionPerClick({ approvedMatchedPayout, approvedMatchedCount, pageBackedSubIdClicks, currencyCount }) {
   if (currencyCount !== 1) return { value: null, reason: currencyCount > 1 ? "mixed currencies" : "no approved matched orders" };
   if (pageBackedSubIdClicks < MIN_CLICKS_FOR_RATE) return { value: null, reason: `fewer than ${MIN_CLICKS_FOR_RATE} page-backed redirects` };
@@ -330,6 +378,13 @@ export function renderScorecard(card) {
   }
   L.push("Counts only. No commission is attributed to a page, artist or show here: with so few matched orders that would be a guess. Matched orders carry their own page and artist fields in the ledger.");
   L.push("");
+  L.push("## 4d. Button slot and seller-order arm (page-backed redirects, 90d)");
+  L.push("Each redirect is joined read-side to the same visitor-day's provider_click for the same seller and show, which records `orderArm` and `position`. The redirect receipt itself carries neither, and the join is lossy: rows with no joined click are shown as their own bucket. The seller-order test started 20 Nov, so earlier rows fall in that bucket.");
+  L.push(table(["Arm", "Slot", "Page-backed redirects", "Matched approved", "Matched pending", "Reversed", "Approved per 100"], card.positions.rows.map((r) => [r.arm, r.slot, fmt(r.clicks), `${r.approved.n} (${money(r.approved.gbp, "GBP")})`, `${r.pending.n} (${money(r.pending.gbp, "GBP")})`, String(r.reversed), r.approvedPer100 === null ? "withheld" : money(r.approvedPer100, "GBP")])));
+  const slots = ["1", "2", "3", "4+", "no joined click"];
+  L.push(table(["Lane", ...slots.map((x) => `Slot ${x}`)], Object.entries(card.positions.byLane).map(([p, v]) => [p, ...slots.map((x) => fmt(v[x] || 0))])));
+  L.push("Slots are never ranked and no commission is attributed to a slot below the sample minimums. This is the click-count input for the seller-order readout; commission by slot needs approved orders.");
+  L.push("");
   L.push("## 5. Illustrative clicks needed per month (not forecasts)");
   if (!card.requirements) L.push("Unavailable: no observed commission per click yet.");
   else {
@@ -362,6 +417,7 @@ export function buildCard({ windows, d1, sample = false }) {
   const cpc = commissionPerClick({ approvedMatchedPayout: cpcInputs.approvedMatchedPayout, approvedMatchedCount: cpcInputs.approvedMatchedCount, pageBackedSubIdClicks: subIdClicks, currencyCount: approved.length });
   return {
     sample, windows, redirects, traffic, actions, locks, cohorts: clickCohorts(redirects.d90, orders, windows.d90),
+    positions: summarisePositions(d1.redirects_by_position_d90, d1.orders_by_position_d90),
     breakdowns: { byPage: topBreakdown(d1.redirects_by_page_d90), byArtist: topBreakdown(d1.redirects_by_artist_d90), byShow: topBreakdown(d1.redirects_by_show_d90) }, ledgerRun: d1.import_run?.[0] ?? null, commissionPerClick: cpc, cpcInputs,
     requirements: clickRequirements(cpc.value),
     topActions: pickActions({ redirects90: redirects.d90, actions90: actions.d90, orders90: orders })
@@ -461,6 +517,16 @@ export function selfTest() {
   const tb = topBreakdown([{ label: "a", provider: "seatgeek", raw: 9, page_backed: 2, page_backed_subid: 2 }, { label: "a", provider: "vivid-seats", raw: 1, page_backed: 3, page_backed_subid: 3 }, { label: null, provider: "seatgeek", raw: 5, page_backed: 0, page_backed_subid: 0 }]);
   ok(tb.length === 1 && tb[0].pageBacked === 5 && tb[0].raw === 10, "breakdown sums providers and drops zero rows");
   ok(renderScorecard(card).includes("Click-date cohort") && renderScorecard(card).includes("Page-backed redirects by landing page"), "new sections render");
+  // seller-order slot join: same-population clicks and orders per arm and slot, unjoined kept apart
+  ok(positionBucket(null) === "no joined click" && positionBucket("2") === "2" && positionBucket(7) === "4+" && positionBucket(1) === "1", "slot buckets");
+  const ps = summarisePositions(
+    [{ provider: "vivid-seats", arm: "alphabetical", pos: 2, page_backed: 40 }, { provider: "seatgeek", arm: "alphabetical", pos: 2, page_backed: 5 }, { provider: "ticketmaster", arm: "reverse", pos: 1, page_backed: 9 }, { provider: "vivid-seats", arm: null, pos: null, page_backed: 20 }],
+    [{ provider: "vivid-seats", state: "PENDING", currency: "GBP", payout: 10, arm: "alphabetical", pos: 2 }, { provider: "vivid-seats", state: "APPROVED", currency: "USD", payout: 9, arm: "alphabetical", pos: 2 }, { provider: "vivid-seats", state: "REVERSED", currency: "GBP", payout: 0, arm: null, pos: null }]);
+  const a2 = ps.rows.find((r) => r.arm === "alphabetical" && r.slot === "2");
+  ok(a2.clicks === 45 && a2.pending.n === 1 && a2.approved.n === 0 && a2.otherCurrency === 1 && a2.approvedPer100 === null, "slot cell sums lanes, keeps pending and currency apart, withholds the rate");
+  ok(ps.rows.find((r) => r.slot === "no joined click").clicks === 20 && ps.rows.find((r) => r.slot === "no joined click").reversed === 1, "unjoined clicks and orders stay in their own bucket");
+  ok(ps.byLane["vivid-seats"]["2"] === 40 && ps.byLane.ticketmaster["1"] === 9, "lane x slot counts");
+  ok(renderScorecard(card).includes("Button slot and seller-order arm"), "slot section renders");
   const empty = buildCard({ windows: w, d1: {} });
   ok(empty.commissionPerClick.value === null && empty.requirements === null && renderScorecard(empty).includes("Unavailable"), "missing data renders as unavailable");
   return checks;

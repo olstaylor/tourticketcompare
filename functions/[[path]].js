@@ -2762,11 +2762,15 @@ function renderThisWeekTicketPanels(picks, catalog, events, env) {
   };
   const specsFor = (show) => serverShowCtaSpecs(show, availability);
   const panels = [];
+  // Venue-local day of each panel, for the "Jump to a day" row: 30 panels run
+  // to ~9,000px on a phone, so a visitor going on Saturday can skip ahead.
+  const days = [];
   for (const { slug, show } of onsalePickShows(picks, events)) {
     const artist = bySlug.get(slug);
     if (!artist) continue;
     const priced = deriveCityDatePrices([show], { ctaSpecsFor: specsFor, wasChecked: pricesWereChecked }).rows[0];
     if (!priced?.lowest) continue;
+    const day = formatShowDateServer(show.dateTimeISO, show.timezone).replace(/, \d{4}$/, "");
     const html = renderArtistNextDatesPriceAnswer(artist, [show], availability, {
       heading: `${artist.name}, ${show.city}`,
       caption: `Ticket options for ${artist.name} in ${show.city}`,
@@ -2774,10 +2778,21 @@ function renderThisWeekTicketPanels(picks, catalog, events, env) {
       ctaLocation: "this_week_answer",
       cardHrefFor: (cardAnchor) => `/artists/${artist.slug}#${cardAnchor}`
     });
-    if (html) panels.push(html);
+    if (html) {
+      const last = days[days.length - 1];
+      if (day && last?.day === day) last.count += 1;
+      else if (day) days.push({ day, count: 1, titleId: `weekDate${panels.length}` });
+      panels.push(html);
+    }
     if (panels.length >= TICKETS_THIS_WEEK_MAX_PANELS) break;
   }
-  return panels.length ? `<section class="section-grid home-next-dates" aria-label="Lowest listed prices for concerts in the next 7 days">${panels.join("")}${renderMoneyDisclosureHtml()}</section>` : "";
+  if (!panels.length) return "";
+  const dayNav = days.length > 1
+    ? `<nav class="mini-link-grid" aria-label="Jump to a day">${days
+        .map(({ day, count, titleId }) => anchor(`${day} (${count})`, `#${titleId}`))
+        .join("")}</nav>`
+    : "";
+  return `${dayNav}<section class="section-grid home-next-dates" aria-label="Lowest listed prices for concerts in the next 7 days">${panels.join("")}${renderMoneyDisclosureHtml()}</section>`;
 }
 
 export function renderThisWeekTicketsBody(route) {

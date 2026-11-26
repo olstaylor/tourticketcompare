@@ -1052,6 +1052,7 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   assert(CTA_LOCATIONS.includes("this_week_answer"), "this_week_answer is in the allowlist, or /api/out discards it");
   assert(!/cheapest|save |guarantee/i.test(body), "no cheapest, savings or guarantee wording");
   assert(page.main.split("About prices, seller order").length === 2, "one money disclosure for the page");
+  assert(!page.main.includes("Jump to a day"), "one day of dates needs no day links");
   const unpriced = await render("/concert-tickets-this-week", { events: weekEvents, withDb: false });
   assert(unpriced.status === 200 && !unpriced.main.includes("/api/out") && unpriced.main.includes("No dates with a listed price"), "with no price on record the page links to no ticket site");
   const none = await render("/concert-tickets-this-week", { events: [] });

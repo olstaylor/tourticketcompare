@@ -73170,5 +73170,113 @@
     "timezone": "Europe/London",
     "tour_name": "",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-dinosaur-jr-2027-detroit-z7r9jz1aaap_a",
+    "artist_slug": "dinosaur-jr",
+    "artist_name": "Dinosaur Jr.",
+    "country": "United States Of America",
+    "city": "Detroit",
+    "venue": "Majestic Theatre-MI",
+    "datetime_iso": "2027-03-07T00:00:00Z",
+    "timezone": "America/New_York",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-warren-zeiders-2027-catoosa-z7r9jz1aa7fa8",
+    "artist_slug": "warren-zeiders",
+    "artist_name": "Warren Zeiders",
+    "country": "United States Of America",
+    "city": "Catoosa",
+    "venue": "Hard Rock Live Tulsa",
+    "datetime_iso": "2027-04-09T01:00:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-phoebe-bridgers-2027-edinburgh-1auzk4zgkdye5yf",
+    "artist_slug": "phoebe-bridgers",
+    "artist_name": "Phoebe Bridgers",
+    "country": "Great Britain",
+    "city": "Edinburgh",
+    "venue": "Royal Highland Showgrounds",
+    "datetime_iso": "2027-08-25T16:00:00Z",
+    "timezone": "Europe/London",
+    "tour_name": "",
+    "status": "announced"
+  },
+  {
+    "id": "tm-illenium-2026-vail-z7r9jz1aaapj3",
+    "artist_slug": "illenium",
+    "artist_name": "ILLENIUM",
+    "country": "United States Of America",
+    "city": "Vail",
+    "venue": "Dobson Ice Arena",
+    "datetime_iso": "2026-12-12T01:00:00Z",
+    "timezone": "America/Denver",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-chris-stassy-2027-manchester-g5vhz_plwciwp",
+    "artist_slug": "chris-stassy",
+    "artist_name": "Chris Stassy",
+    "country": "Great Britain",
+    "city": "Manchester",
+    "venue": "Platt Fields Park",
+    "datetime_iso": "2027-08-07T14:00:00Z",
+    "timezone": "Europe/London",
+    "tour_name": "",
+    "status": "announced"
+  },
+  {
+    "id": "tm-mon-laferte-2027-ciudad-de-mexico-1afzk4sgkdyerbz",
+    "artist_slug": "mon-laferte",
+    "artist_name": "Mon Laferte",
+    "country": "Mexico",
+    "city": "Ciudad de México",
+    "venue": "Estadio GNP Seguros",
+    "datetime_iso": "2027-05-23T03:00:00Z",
+    "timezone": "America/Mexico_City",
+    "tour_name": "",
+    "status": "announced"
+  },
+  {
+    "id": "tm-mon-laferte-2027-zapopan-g5dvz_pud06_8",
+    "artist_slug": "mon-laferte",
+    "artist_name": "Mon Laferte",
+    "country": "Mexico",
+    "city": "Zapopan",
+    "venue": "Coliseo GNP Seguros",
+    "datetime_iso": "2027-05-30T03:00:00Z",
+    "timezone": "America/Mexico_City",
+    "tour_name": "",
+    "status": "announced"
+  },
+  {
+    "id": "tm-mat-kearney-2027-ventura-z7r9jz1aaakg7",
+    "artist_slug": "mat-kearney",
+    "artist_name": "Mat Kearney",
+    "country": "United States Of America",
+    "city": "Ventura",
+    "venue": "Ventura Music Hall",
+    "datetime_iso": "2027-08-24T03:00:00Z",
+    "timezone": "America/Los_Angeles",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-travis-tritt-2027-fort-worth-z7r9jz1aaaoud",
+    "artist_slug": "travis-tritt",
+    "artist_name": "Travis Tritt",
+    "country": "United States Of America",
+    "city": "Fort Worth",
+    "venue": "Billy Bob's",
+    "datetime_iso": "2027-03-20T03:00:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
   }
 ]

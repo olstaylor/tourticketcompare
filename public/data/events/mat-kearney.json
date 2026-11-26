@@ -2155,5 +2155,58 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344148/Mat-Kearney-tickets-Sat-Nov-20-2027-The-Caverns-TN",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344148"
+  },
+  {
+    "id": "tm-mat-kearney-2027-ventura-z7r9jz1aaakg7",
+    "artist_slug": "mat-kearney",
+    "artist_name": "Mat Kearney",
+    "event_name": "Mat Kearney",
+    "city": "Ventura",
+    "country": "United States Of America",
+    "venue": "Ventura Music Hall",
+    "datetime_iso": "2027-08-24T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAKG7",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAKG7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAKG7",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAKG7",
+        "discovery_event_id": "Z7r9jZ1AAAKG7",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAKG7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAKG7",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
   }
 ]

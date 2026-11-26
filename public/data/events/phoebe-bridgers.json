@@ -3277,5 +3277,59 @@
     "genre": "Rock",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8376281",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8376281/Phoebe-Bridgers-tickets-Wed-Mar-17-2027-Prudential-Center"
+  },
+  {
+    "id": "tm-phoebe-bridgers-2027-edinburgh-1auzk4zgkdye5yf",
+    "artist_slug": "phoebe-bridgers",
+    "artist_name": "Phoebe Bridgers",
+    "event_name": "Edinburgh Summer Sessions - Phoebe Bridgers",
+    "city": "Edinburgh",
+    "country": "Great Britain",
+    "venue": "Royal Highland Showgrounds",
+    "datetime_iso": "2027-08-25T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "36006578F09CBC14",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/edinburgh-summer-sessions-phoebe-bridgers-edinburgh-25-08-2027/event/36006578F09CBC14",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/edinburgh-summer-sessions-phoebe-bridgers-edinburgh-25-08-2027/event/36006578F09CBC14",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "36006578F09CBC14",
+        "discovery_event_id": "1AUZk4zGkdYE5Yf",
+        "url": "https://www.ticketmaster.co.uk/edinburgh-summer-sessions-phoebe-bridgers-edinburgh-25-08-2027/event/36006578F09CBC14",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AUZk4zGkdYE5Yf",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-12-04T09:00:00Z"
   }
 ]

@@ -1736,5 +1736,58 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307501/Warren-Zeiders-tickets-Sat-May-1-2027-Coyote-Joes-NC",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307501"
+  },
+  {
+    "id": "tm-warren-zeiders-2027-catoosa-z7r9jz1aa7fa8",
+    "artist_slug": "warren-zeiders",
+    "artist_name": "Warren Zeiders",
+    "event_name": "WARREN ZEIDERS - Ages 21+",
+    "city": "Catoosa",
+    "country": "United States Of America",
+    "venue": "Hard Rock Live Tulsa",
+    "datetime_iso": "2027-04-09T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7fa8",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7fa8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7fa8",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7fa8",
+        "discovery_event_id": "Z7r9jZ1AA7fa8",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7fa8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7fa8",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
   }
 ]

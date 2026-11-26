@@ -589,5 +589,113 @@
       "Gracia Live"
     ],
     "genre": "Latin"
+  },
+  {
+    "id": "tm-mon-laferte-2027-ciudad-de-mexico-1afzk4sgkdyerbz",
+    "artist_slug": "mon-laferte",
+    "artist_name": "Mon Laferte",
+    "event_name": "Mon Laferte",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "venue": "Estadio GNP Seguros",
+    "datetime_iso": "2027-05-23T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14006573F09EF600",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/mon-laferte-ciudad-de-mexico-22-05-2027/event/14006573F09EF600",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/mon-laferte-ciudad-de-mexico-22-05-2027/event/14006573F09EF600",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14006573F09EF600",
+        "discovery_event_id": "1AfZk4SGkdYERbZ",
+        "url": "https://www.ticketmaster.com.mx/mon-laferte-ciudad-de-mexico-22-05-2027/event/14006573F09EF600",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AfZk4SGkdYERbZ",
+    "timezone": "America/Mexico_City",
+    "status": "announced",
+    "public_onsale_at": "2026-12-01T20:00:00Z"
+  },
+  {
+    "id": "tm-mon-laferte-2027-zapopan-g5dvz_pud06_8",
+    "artist_slug": "mon-laferte",
+    "artist_name": "Mon Laferte",
+    "event_name": "Mon Laferte",
+    "city": "Zapopan",
+    "country": "Mexico",
+    "venue": "Coliseo GNP Seguros",
+    "datetime_iso": "2027-05-30T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3D00656DBB907650",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/mon-laferte-zapopan-29-05-2027/event/3D00656DBB907650",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/mon-laferte-zapopan-29-05-2027/event/3D00656DBB907650",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3D00656DBB907650",
+        "discovery_event_id": "G5dVZ_pUD06_8",
+        "url": "https://www.ticketmaster.com.mx/mon-laferte-zapopan-29-05-2027/event/3D00656DBB907650",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dVZ_pUD06_8",
+    "timezone": "America/Mexico_City",
+    "status": "announced",
+    "public_onsale_at": "2026-12-01T20:00:00Z"
   }
 ]

@@ -457694,5 +457694,486 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8365852",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8365852/Roundhay-Festival-tickets-Sun-Jun-27-2027-Roundhay-Park",
     "stubhub_international_url": "https://www.stubhub.ie/muse-tickets-leeds-roundhay-park-27-6-2027/event/107680218"
+  },
+  {
+    "id": "tm-dinosaur-jr-2027-detroit-z7r9jz1aaap_a",
+    "artist_slug": "dinosaur-jr",
+    "artist_name": "Dinosaur Jr.",
+    "event_name": "Dinosaur Jr w/ Starcrawler",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Majestic Theatre-MI",
+    "datetime_iso": "2027-03-07T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAP_A",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAP_A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAP_A",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAP_A",
+        "discovery_event_id": "Z7r9jZ1AAAP_A",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAP_A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAP_A",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-warren-zeiders-2027-catoosa-z7r9jz1aa7fa8",
+    "artist_slug": "warren-zeiders",
+    "artist_name": "Warren Zeiders",
+    "event_name": "WARREN ZEIDERS - Ages 21+",
+    "city": "Catoosa",
+    "country": "United States Of America",
+    "venue": "Hard Rock Live Tulsa",
+    "datetime_iso": "2027-04-09T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7fa8",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7fa8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7fa8",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7fa8",
+        "discovery_event_id": "Z7r9jZ1AA7fa8",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7fa8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7fa8",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-phoebe-bridgers-2027-edinburgh-1auzk4zgkdye5yf",
+    "artist_slug": "phoebe-bridgers",
+    "artist_name": "Phoebe Bridgers",
+    "event_name": "Edinburgh Summer Sessions - Phoebe Bridgers",
+    "city": "Edinburgh",
+    "country": "Great Britain",
+    "venue": "Royal Highland Showgrounds",
+    "datetime_iso": "2027-08-25T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "36006578F09CBC14",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/edinburgh-summer-sessions-phoebe-bridgers-edinburgh-25-08-2027/event/36006578F09CBC14",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/edinburgh-summer-sessions-phoebe-bridgers-edinburgh-25-08-2027/event/36006578F09CBC14",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "36006578F09CBC14",
+        "discovery_event_id": "1AUZk4zGkdYE5Yf",
+        "url": "https://www.ticketmaster.co.uk/edinburgh-summer-sessions-phoebe-bridgers-edinburgh-25-08-2027/event/36006578F09CBC14",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AUZk4zGkdYE5Yf",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-12-04T09:00:00Z"
+  },
+  {
+    "id": "tm-illenium-2026-vail-z7r9jz1aaapj3",
+    "artist_slug": "illenium",
+    "artist_name": "ILLENIUM",
+    "event_name": "Illenium (18 and Over)",
+    "city": "Vail",
+    "country": "United States Of America",
+    "venue": "Dobson Ice Arena",
+    "datetime_iso": "2026-12-12T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAPj3",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAPj3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAPj3",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAPj3",
+        "discovery_event_id": "Z7r9jZ1AAAPj3",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAPj3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAPj3",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-chris-stassy-2027-manchester-g5vhz_plwciwp",
+    "artist_slug": "chris-stassy",
+    "artist_name": "Chris Stassy",
+    "event_name": "Chris Stassy At Platt Fields Park",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Platt Fields Park",
+    "datetime_iso": "2027-08-07T14:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F00656AF23A8CA5",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/chris-stassy-at-platt-fields-park-manchester-07-08-2027/event/1F00656AF23A8CA5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/chris-stassy-at-platt-fields-park-manchester-07-08-2027/event/1F00656AF23A8CA5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F00656AF23A8CA5",
+        "discovery_event_id": "G5vHZ_plwCIwP",
+        "url": "https://www.ticketmaster.co.uk/chris-stassy-at-platt-fields-park-manchester-07-08-2027/event/1F00656AF23A8CA5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_plwCIwP",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-12-03T10:00:00Z"
+  },
+  {
+    "id": "tm-mon-laferte-2027-ciudad-de-mexico-1afzk4sgkdyerbz",
+    "artist_slug": "mon-laferte",
+    "artist_name": "Mon Laferte",
+    "event_name": "Mon Laferte",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "venue": "Estadio GNP Seguros",
+    "datetime_iso": "2027-05-23T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14006573F09EF600",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/mon-laferte-ciudad-de-mexico-22-05-2027/event/14006573F09EF600",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/mon-laferte-ciudad-de-mexico-22-05-2027/event/14006573F09EF600",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14006573F09EF600",
+        "discovery_event_id": "1AfZk4SGkdYERbZ",
+        "url": "https://www.ticketmaster.com.mx/mon-laferte-ciudad-de-mexico-22-05-2027/event/14006573F09EF600",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AfZk4SGkdYERbZ",
+    "timezone": "America/Mexico_City",
+    "status": "announced",
+    "public_onsale_at": "2026-12-01T20:00:00Z"
+  },
+  {
+    "id": "tm-mon-laferte-2027-zapopan-g5dvz_pud06_8",
+    "artist_slug": "mon-laferte",
+    "artist_name": "Mon Laferte",
+    "event_name": "Mon Laferte",
+    "city": "Zapopan",
+    "country": "Mexico",
+    "venue": "Coliseo GNP Seguros",
+    "datetime_iso": "2027-05-30T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3D00656DBB907650",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/mon-laferte-zapopan-29-05-2027/event/3D00656DBB907650",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/mon-laferte-zapopan-29-05-2027/event/3D00656DBB907650",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3D00656DBB907650",
+        "discovery_event_id": "G5dVZ_pUD06_8",
+        "url": "https://www.ticketmaster.com.mx/mon-laferte-zapopan-29-05-2027/event/3D00656DBB907650",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dVZ_pUD06_8",
+    "timezone": "America/Mexico_City",
+    "status": "announced",
+    "public_onsale_at": "2026-12-01T20:00:00Z"
+  },
+  {
+    "id": "tm-mat-kearney-2027-ventura-z7r9jz1aaakg7",
+    "artist_slug": "mat-kearney",
+    "artist_name": "Mat Kearney",
+    "event_name": "Mat Kearney",
+    "city": "Ventura",
+    "country": "United States Of America",
+    "venue": "Ventura Music Hall",
+    "datetime_iso": "2027-08-24T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAKG7",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAKG7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAKG7",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAKG7",
+        "discovery_event_id": "Z7r9jZ1AAAKG7",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAKG7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAKG7",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-travis-tritt-2027-fort-worth-z7r9jz1aaaoud",
+    "artist_slug": "travis-tritt",
+    "artist_name": "Travis Tritt",
+    "event_name": "Travis Tritt (18 and Over)",
+    "city": "Fort Worth",
+    "country": "United States Of America",
+    "venue": "Billy Bob's",
+    "datetime_iso": "2027-03-20T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAoud",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAoud",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAoud",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAoud",
+        "discovery_event_id": "Z7r9jZ1AAAoud",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAoud",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAoud",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
   }
 ]

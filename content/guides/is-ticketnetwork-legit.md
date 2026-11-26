@@ -1,7 +1,7 @@
 ---
 title: Is TicketNetwork Legit? Guarantee, Fees and Refunds
 h1: Is TicketNetwork legit, and are its tickets real?
-description: Is TicketNetwork legit? Who sells the tickets, what its 100% guarantee covers, cancelled and postponed shows, fees, delivery timing and past regulator action.
+description: 'Yes, TicketNetwork is a real resale marketplace; sellers set prices. What its 100% guarantee covers, postponed shows, fees, delivery and regulator action.'
 status: published
 date_published: 2026-10-02
 comparison_providers:

@@ -1,7 +1,7 @@
 ---
 title: How to Compare Concert Ticket Prices
 h1: How to Compare Concert Ticket Prices Safely
-description: 'A practical method for comparing the same concert: match the listing, use checked prices to shortlist ticket sites, then verify the final total and terms.'
+description: 'Six steps to compare the same concert across ticket sites: match the listing, shortlist with listed prices, compare seats, then decide at the order summary.'
 status: published
 date_published: 2026-06-11
 sources:

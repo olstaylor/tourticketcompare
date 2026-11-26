@@ -1,7 +1,7 @@
 ---
 title: Is Ticket Liquidator Legit? Guarantee and Refunds
 h1: Is Ticket Liquidator legit, and who sells its tickets?
-description: Is Ticket Liquidator legit? Who runs it, who sells the tickets, what its guarantee covers, fees, delivery and refunds for cancelled or postponed shows.
+description: 'Yes, Ticket Liquidator is a legitimate resale marketplace, despite the name. Who runs it, what its guarantee covers, fees, delivery and postponed shows.'
 status: published
 date_published: 2026-10-02
 comparison_providers:

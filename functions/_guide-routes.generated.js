@@ -166,7 +166,7 @@ export const GUIDE_ROUTES = {
   "/guides/seatgeek-vs-stubhub": {
     title: "SeatGeek vs StubHub: Which Is Cheaper or Safer?",
     h1: "SeatGeek vs StubHub: How Do They Compare?",
-    description: "Neither is cheaper or safer for every event. Both are resale marketplaces with a buyer guarantee. Compare fees, protection, delivery and cancelled shows.",
+    description: "Neither is cheaper or safer for every event. Both are resale marketplaces with buyer protection. Compare fees, protection, delivery and cancelled shows.",
     fullContent: true,
     datePublished: "2026-09-25",
     lastmod: "2026-11-26"
@@ -174,7 +174,7 @@ export const GUIDE_ROUTES = {
   "/guides/vivid-seats-vs-seatgeek": {
     title: "Vivid Seats vs SeatGeek: Which Is Cheaper?",
     h1: "Vivid Seats vs SeatGeek: What Is the Difference?",
-    description: "Separate companies, and neither wins on price for every show. Both show all-in prices and publish a buyer guarantee. Delivery, rewards and cancelled shows.",
+    description: "Separate companies, and neither wins on price for every show. Both show all-in prices and publish buyer protection. Delivery, rewards and cancelled shows.",
     fullContent: true,
     comparisonProviders: ["vivid-seats","seatgeek"],
     datePublished: "2026-09-25",
@@ -198,9 +198,9 @@ export const GUIDE_ROUTES = {
     lastmod: "2026-11-20"
   },
   "/guides/is-seatgeek-legit": {
-    title: "Is SeatGeek Legit? What the Buyer Guarantee Covers",
+    title: "Is SeatGeek Legit? What Buyer Protection Covers",
     h1: "Is SeatGeek legit, and are its tickets real?",
-    description: "Yes, SeatGeek is a legitimate ticketing company. What its Buyer Guarantee covers (late, invalid or wrong tickets), what it excludes, and postponed shows.",
+    description: "Yes, SeatGeek is a legitimate ticketing company. What its buyer protection covers (late, invalid or wrong tickets), what it excludes, and postponed shows.",
     fullContent: true,
     comparisonProviders: ["ticketmaster","seatgeek"],
     datePublished: "2026-09-25",

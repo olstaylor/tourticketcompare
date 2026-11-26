@@ -83,14 +83,14 @@ const guidePages = [
   {
     slug: "how-to-compare-concert-ticket-prices",
     title: "How to Compare Concert Ticket Prices | TourTicketCompare",
-    description: "A practical method for comparing the same concert: match the listing, use checked prices to shortlist ticket sites, then verify the final total and terms.",
+    description: "Six steps to compare the same concert across ticket sites: match the listing, shortlist with listed prices, compare seats, then decide at the order summary.",
     h1: "How to Compare Concert Ticket Prices Safely",
     serverRendered: true
   },
   {
     slug: "ticketmaster-vs-seatgeek-vs-vivid-seats",
-    title: "Ticketmaster vs SeatGeek vs Vivid Seats: The Difference",
-    description: "Which is cheaper: Ticketmaster, SeatGeek or Vivid Seats? Not always the same one. Who sets the price, fees, delivery and protection compared.",
+    title: "Ticketmaster vs SeatGeek vs Vivid Seats: Which to Use",
+    description: "Which is cheaper or more reliable: Ticketmaster, SeatGeek or Vivid Seats? What each sells, how fees show, delivery, buyer protection and how to choose.",
     h1: "Ticketmaster vs SeatGeek vs Vivid Seats: What's the Difference?",
     serverRendered: true
   },
@@ -146,7 +146,7 @@ const guidePages = [
   {
     slug: "seatgeek-promo-code-guide",
     title: "SeatGeek Promo Code Guide: Verify Safely | TourTicketCompare",
-    description: "Learn how to verify SeatGeek promo-code claims safely by checking eligibility, final checkout totals, fees, and order terms on SeatGeek before purchase.",
+    description: "Does a SeatGeek promo code work? Only checkout can say. How codes usually work, why they fail and how to test one safely before you pay.",
     h1: "How should I verify a SeatGeek promo code safely?",
     serverRendered: true
   },

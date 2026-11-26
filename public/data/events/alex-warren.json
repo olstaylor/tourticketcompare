@@ -2925,7 +2925,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.it/biglietti/alex-warren-rho-11-07-2027/event/1vakzvg8pe0m",
-    "last_verified_at": "2026-11-21",
+    "last_verified_at": "2026-11-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2960,7 +2960,6 @@
     },
     "ticketmaster_discovery_event_id": "ZG9rmIYnyZae7k",
     "timezone": "Europe/Rome",
-    "status": "on-sale",
-    "genre": "Pop"
+    "status": "on-sale"
   }
 ]

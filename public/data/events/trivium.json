@@ -1311,7 +1311,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-phoenix-arizona-financial-theatre-12-2-2026--concerts-rock/production/7325306",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-phoenix-arizona-12-02-2026/event/190064F0E0368F3A",
-    "last_verified_at": "2026-11-24",
+    "last_verified_at": "2026-11-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1364,16 +1364,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151257",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151257/Trivium-tickets-Wed-Dec-2-2026-Arizona-Financial-Theatre",
     "presales": [
-      {
-        "name": "In Flames VIP Packages Onsale",
-        "start": "2026-07-24T17:00:00Z",
-        "end": "2026-11-26T06:55:00Z"
-      },
-      {
-        "name": "Trivium VIP Packages Onsale",
-        "start": "2026-07-24T17:00:00Z",
-        "end": "2026-11-26T06:55:00Z"
-      },
       {
         "name": "Holiday Offer",
         "start": "2026-11-25T17:00:00Z",

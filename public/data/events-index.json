@@ -7226,7 +7226,7 @@
     "country": "United States Of America",
     "city": "Los Angeles",
     "venue": "Los Angeles Memorial Coliseum",
-    "datetime_iso": "2026-12-13T03:30:00Z",
+    "datetime_iso": "2026-12-13T04:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "CTRL ESCAPE TOUR",
     "status": "on-sale"
@@ -24841,7 +24841,7 @@
     "artist_name": "Dylan Scott",
     "country": "United States Of America",
     "city": "Chandler",
-    "venue": "The Showroom at Wild Horse Pass Resort & Casino",
+    "venue": "The Showroom at Wild Horse Pass",
     "datetime_iso": "2027-02-28T03:00:00Z",
     "timezone": "America/Phoenix",
     "tour_name": "Dear Big City Tour",
@@ -50162,7 +50162,7 @@
     "country": "United States Of America",
     "city": "Washington",
     "venue": "The Anthem",
-    "datetime_iso": "2026-11-28T02:15:00Z",
+    "datetime_iso": "2026-11-28T01:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
     "status": "on-sale"
@@ -50282,7 +50282,7 @@
     "country": "United States Of America",
     "city": "San Francisco",
     "venue": "Bill Graham Civic Auditorium",
-    "datetime_iso": "2026-12-18T04:00:00Z",
+    "datetime_iso": "2026-12-18T05:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
     "status": "on-sale"
@@ -66877,7 +66877,7 @@
     "artist_name": "Melissa Etheridge",
     "country": "United States Of America",
     "city": "Chandler",
-    "venue": "The Showroom at Wild Horse Pass Resort & Casino",
+    "venue": "The Showroom at Wild Horse Pass",
     "datetime_iso": "2027-04-24T03:00:00Z",
     "timezone": "America/Phoenix",
     "tour_name": "",
@@ -70085,7 +70085,7 @@
     "datetime_iso": "2027-02-12T01:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "The Deadbeat Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-stray-kids-2027-chicago-vv167zk4yjazaue56a",
@@ -70241,7 +70241,7 @@
     "datetime_iso": "2027-08-06T17:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-two-door-cinema-club-2027-halifax-1ku8vp3fga2fekm",
@@ -70253,7 +70253,7 @@
     "datetime_iso": "2027-08-07T17:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-foreigner-2027-irvine-z7r9jz1aaa6uy",
@@ -71426,10 +71426,10 @@
     "country": "United States Of America",
     "city": "Los Angeles",
     "venue": "Los Angeles Memorial Coliseum",
-    "datetime_iso": "2026-12-12T03:30:00Z",
+    "datetime_iso": "2026-12-12T04:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "CTRL ESCAPE TOUR",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-pink-martini-2026-santa-rosa-z7r9jz1aaax7p",

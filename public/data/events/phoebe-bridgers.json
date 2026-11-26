@@ -3294,7 +3294,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/edinburgh-summer-sessions-phoebe-bridgers-edinburgh-25-08-2027/event/36006578F09CBC14",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3330,6 +3330,35 @@
     "ticketmaster_discovery_event_id": "1AUZk4zGkdYE5Yf",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-12-04T09:00:00Z"
+    "public_onsale_at": "2026-12-04T09:00:00Z",
+    "organizer_names": [
+      "DF CONCERTS LIMITED",
+      "GIGS IN SCOTLAND",
+      "SUMMER SESSIONS"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-12-02T09:00:00Z",
+        "end": "2026-12-04T08:00:00Z"
+      },
+      {
+        "name": "Gigs in Scotland Presale",
+        "start": "2026-12-03T09:00:00Z",
+        "end": "2026-12-04T08:00:00Z"
+      },
+      {
+        "name": "Summer Sessions Presale",
+        "start": "2026-12-03T09:00:00Z",
+        "end": "2026-12-04T08:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-12-03T09:00:00Z",
+        "end": "2026-12-04T08:00:00Z"
+      }
+    ]
   }
 ]

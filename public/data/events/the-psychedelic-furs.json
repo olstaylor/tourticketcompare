@@ -978,7 +978,7 @@
     "vividseats_url": "https://www.vividseats.com/psychedelic-furs-tickets-northfield-northfield-park-racino---center-stage-5-1-2027--concerts-pop/production/7559023",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-psychedelic-furs-with-special-guests-northfield-ohio-05-01-2027/event/0500651F0C1B2151",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1045,6 +1045,11 @@
         "name": "Preferred Offer 21+",
         "start": "2026-09-15T16:00:00Z",
         "end": "2027-05-01T23:30:00Z"
+      },
+      {
+        "name": "Black Friday No Fee Ticket Office Offer",
+        "start": "2026-11-27T15:00:00Z",
+        "end": "2026-11-29T03:00:00Z"
       }
     ],
     "organizer_names": [

@@ -73,7 +73,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/chris-stassy-at-platt-fields-park-manchester-07-08-2027/event/1F00656AF23A8CA5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -109,6 +109,38 @@
     "ticketmaster_discovery_event_id": "G5vHZ_plwCIwP",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-12-03T10:00:00Z"
+    "public_onsale_at": "2026-12-03T10:00:00Z",
+    "organizer_names": [
+      "THE WAREHOUSE PROJECT (MANCH) LTD"
+    ],
+    "ticket_limit": 4,
+    "genre": "Dance/Electronic",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-12-02T10:00:00Z",
+        "end": "2026-12-03T09:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-12-02T10:00:00Z",
+        "end": "2026-12-03T09:00:00Z"
+      },
+      {
+        "name": "Mastercard Presale",
+        "start": "2026-12-02T10:00:00Z",
+        "end": "2026-12-03T09:00:00Z"
+      },
+      {
+        "name": "Priority from O2",
+        "start": "2026-12-02T10:00:00Z",
+        "end": "2026-12-03T09:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-12-02T10:00:00Z",
+        "end": "2026-12-03T09:00:00Z"
+      }
+    ]
   }
 ]

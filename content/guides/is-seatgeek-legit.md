@@ -1,7 +1,7 @@
 ---
-title: 'Is SeatGeek Legit? What the Buyer Guarantee Covers'
+title: Is SeatGeek Legit? What the Buyer Guarantee Covers
 h1: Is SeatGeek legit, and are its tickets real?
-description: 'Yes, SeatGeek is a legitimate ticketing company. What its Buyer Guarantee covers (late, invalid or wrong tickets), what it excludes, and postponed shows.'
+description: Yes, SeatGeek is a legitimate ticketing company. What its Buyer Guarantee covers (late, invalid or wrong tickets), what it excludes, and postponed shows.
 status: published
 date_published: 2026-09-25
 comparison_providers:

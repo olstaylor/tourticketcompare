@@ -1,7 +1,7 @@
 ---
 title: 'Vivid Seats vs StubHub: Which Is Cheaper or Better?'
 h1: 'Vivid Seats vs StubHub: How Do They Compare?'
-description: 'Both are resale marketplaces where sellers set the price, so the lower one depends on the listing. Guarantees, cancelled shows, delivery and which StubHub site.'
+description: Both are resale marketplaces where sellers set the price, so the lower one depends on the listing. Guarantees, cancelled shows, delivery and which StubHub site.
 status: published
 date_published: 2026-09-25
 sources:

@@ -1283,5 +1283,58 @@
     "genre": "Country",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367257",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367257/Travis-Tritt-tickets-Wed-Mar-10-2027-Florida-Theatre-Jacksonville"
+  },
+  {
+    "id": "tm-travis-tritt-2027-fort-worth-z7r9jz1aaaoud",
+    "artist_slug": "travis-tritt",
+    "artist_name": "Travis Tritt",
+    "event_name": "Travis Tritt (18 and Over)",
+    "city": "Fort Worth",
+    "country": "United States Of America",
+    "venue": "Billy Bob's",
+    "datetime_iso": "2027-03-20T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAoud",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAoud",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAoud",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAoud",
+        "discovery_event_id": "Z7r9jZ1AAAoud",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAoud",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAoud",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
   }
 ]

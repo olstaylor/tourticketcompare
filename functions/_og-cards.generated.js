@@ -843,7 +843,6 @@ export const OG_CARDS = {
   "/artists/turnpike-troubadours/tickets/morrison-united-states": {"url":"/og/artists-turnpike-troubadours-tickets-morrison-united-states.png","alt":"Tickets: Turnpike Troubadours in Morrison"},
   "/artists/twenty-one-pilots": {"url":"/og/artists-twenty-one-pilots.png","alt":"Tickets & tour dates: Twenty One Pilots"},
   "/artists/two-door-cinema-club": {"url":"/og/artists-two-door-cinema-club.png","alt":"Tickets & tour dates: Two Door Cinema Club"},
-  "/artists/two-door-cinema-club/presale": {"url":"/og/artists-two-door-cinema-club-presale.png","alt":"Presale: Two Door Cinema Club"},
   "/artists/two-door-cinema-club/ticket-prices": {"url":"/og/artists-two-door-cinema-club-ticket-prices.png","alt":"Ticket prices: Two Door Cinema Club"},
   "/artists/two-door-cinema-club/tickets/hollywood-united-states": {"url":"/og/artists-two-door-cinema-club-tickets-hollywood-united-states.png","alt":"Tickets: Two Door Cinema Club in Hollywood"},
   "/artists/two-friends": {"url":"/og/artists-two-friends.png","alt":"Tickets & tour dates: Two Friends"},

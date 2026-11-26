@@ -56,5 +56,59 @@
     ],
     "ticket_limit": 6,
     "genre": "Dance/Electronic"
+  },
+  {
+    "id": "tm-chris-stassy-2027-manchester-g5vhz_plwciwp",
+    "artist_slug": "chris-stassy",
+    "artist_name": "Chris Stassy",
+    "event_name": "Chris Stassy At Platt Fields Park",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Platt Fields Park",
+    "datetime_iso": "2027-08-07T14:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F00656AF23A8CA5",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/chris-stassy-at-platt-fields-park-manchester-07-08-2027/event/1F00656AF23A8CA5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/chris-stassy-at-platt-fields-park-manchester-07-08-2027/event/1F00656AF23A8CA5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F00656AF23A8CA5",
+        "discovery_event_id": "G5vHZ_plwCIwP",
+        "url": "https://www.ticketmaster.co.uk/chris-stassy-at-platt-fields-park-manchester-07-08-2027/event/1F00656AF23A8CA5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_plwCIwP",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-12-03T10:00:00Z"
   }
 ]

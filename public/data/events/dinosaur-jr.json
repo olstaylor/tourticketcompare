@@ -2111,5 +2111,58 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "genre": "Alternative"
+  },
+  {
+    "id": "tm-dinosaur-jr-2027-detroit-z7r9jz1aaap_a",
+    "artist_slug": "dinosaur-jr",
+    "artist_name": "Dinosaur Jr.",
+    "event_name": "Dinosaur Jr w/ Starcrawler",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Majestic Theatre-MI",
+    "datetime_iso": "2027-03-07T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAP_A",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAP_A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAP_A",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAP_A",
+        "discovery_event_id": "Z7r9jZ1AAAP_A",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAP_A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAP_A",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

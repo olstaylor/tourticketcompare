@@ -336,7 +336,7 @@
     "ticketmaster_event_id": "1731131423",
     "ticketmaster_url": "https://www.ticketmaster.es/event/muse-the-wow-signal-europa-tour-tickets/1731131423?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/muse-tickets-madrid-movistar-arena---madrid-1-19-2027/production/7657483",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/muse-the-wow-signal-europa-tour-tickets/1731131423?language=en-us",
     "last_verified_at": "2026-11-25",
@@ -358,11 +358,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7657483,
+        "url": "https://www.vividseats.com/muse-tickets-madrid-movistar-arena---madrid-1-19-2027/production/7657483",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -409,7 +409,7 @@
     "ticketmaster_event_id": "398294606",
     "ticketmaster_url": "https://www.ticketmaster.es/event/muse-the-wow-signal-europa-tour-tickets/398294606?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/muse-tickets-madrid-movistar-arena---madrid-1-20-2027/production/7657485",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/muse-the-wow-signal-europa-tour-tickets/398294606?language=en-us",
     "last_verified_at": "2026-11-25",
@@ -431,11 +431,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7657485,
+        "url": "https://www.vividseats.com/muse-tickets-madrid-movistar-arena---madrid-1-20-2027/production/7657485",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -482,7 +482,7 @@
     "ticketmaster_event_id": "1441158375",
     "ticketmaster_url": "https://www.ticketmaster.es/event/muse-the-wow-signal-europa-tour-tickets/1441158375?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/muse-tickets-valencia-roig-arena-1-23-2027/production/7658153",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/muse-the-wow-signal-europa-tour-tickets/1441158375?language=en-us",
     "last_verified_at": "2026-11-25",
@@ -504,11 +504,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7658153,
+        "url": "https://www.vividseats.com/muse-tickets-valencia-roig-arena-1-23-2027/production/7658153",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -563,7 +563,7 @@
     "ticketmaster_event_id": "653787524",
     "ticketmaster_url": "https://www.ticketmaster.es/event/muse-the-wow-signal-europa-tour-tickets/653787524?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/muse-tickets-valencia-roig-arena-1-24-2027--concerts-rock/production/7679054",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/muse-the-wow-signal-europa-tour-tickets/653787524?language=en-us",
     "last_verified_at": "2026-11-25",
@@ -585,11 +585,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7679054,
+        "url": "https://www.vividseats.com/muse-tickets-valencia-roig-arena-1-24-2027--concerts-rock/production/7679054",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -628,7 +628,7 @@
     "ticketmaster_event_id": "1F006537F2C574FC",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/muse-cardiff-23-06-2027/event/1F006537F2C574FC",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/muse-tickets-cardiff-blackweir-fields-6-23-2027/production/7834590",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/muse-cardiff-23-06-2027/event/1F006537F2C574FC",
     "last_verified_at": "2026-11-25",
@@ -650,11 +650,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7834590,
+        "url": "https://www.vividseats.com/muse-tickets-cardiff-blackweir-fields-6-23-2027/production/7834590",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -703,7 +703,7 @@
     "ticketmaster_event_id": "37006565BA8F78F9",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/american-express-presents-bst-hyde-park-london-26-06-2027/event/37006565BA8F78F9",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/muse-tickets-london-hyde-park-6-26-2027/production/7832709",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/american-express-presents-bst-hyde-park-london-26-06-2027/event/37006565BA8F78F9",
     "last_verified_at": "2026-11-25",
@@ -725,11 +725,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7832709,
+        "url": "https://www.vividseats.com/muse-tickets-london-hyde-park-6-26-2027/production/7832709",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -793,7 +793,7 @@
     "ticketmaster_event_id": "1F0065659F0A3775",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/american-express-presents-roundhay-festival-muse-leeds-27-06-2027/event/1F0065659F0A3775",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/muse-tickets-leeds-roundhay-park-6-27-2027/production/7834672",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/american-express-presents-roundhay-festival-muse-leeds-27-06-2027/event/1F0065659F0A3775",
     "last_verified_at": "2026-11-25",
@@ -815,11 +815,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7834672,
+        "url": "https://www.vividseats.com/muse-tickets-leeds-roundhay-park-6-27-2027/production/7834672",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

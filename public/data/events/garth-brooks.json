@@ -597,7 +597,7 @@
         "event_id": 7767692,
         "url": "https://www.vividseats.com/garth-brooks-tickets-hamilton-td-coliseum-12-4-2026--concerts-country-and-folk/production/7767692",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1888,7 +1888,7 @@
     "ticketmaster_event_id": "20006577A3C826A8",
     "ticketmaster_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-birmingham-alabama-02-19-2027/event/20006577A3C826A8",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/garth-brooks-tickets-birmingham-legacy-arena-at-the-bjcc-2-19-2027--concerts-country-and-folk/production/7926372",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-birmingham-alabama-02-19-2027/event/20006577A3C826A8",
     "last_verified_at": "2026-11-25",
@@ -1910,11 +1910,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7926372,
+        "url": "https://www.vividseats.com/garth-brooks-tickets-birmingham-legacy-arena-at-the-bjcc-2-19-2027--concerts-country-and-folk/production/7926372",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1963,7 +1963,7 @@
     "ticketmaster_event_id": "20006577A42626C4",
     "ticketmaster_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-birmingham-alabama-02-20-2027/event/20006577A42626C4",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/garth-brooks-tickets-birmingham-legacy-arena-at-the-bjcc-2-20-2027--concerts-country-and-folk/production/7926374",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-birmingham-alabama-02-20-2027/event/20006577A42626C4",
     "last_verified_at": "2026-11-25",
@@ -1985,11 +1985,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7926374,
+        "url": "https://www.vividseats.com/garth-brooks-tickets-birmingham-legacy-arena-at-the-bjcc-2-20-2027--concerts-country-and-folk/production/7926374",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

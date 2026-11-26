@@ -418,7 +418,7 @@
         "event_id": 7835102,
         "url": "https://www.vividseats.com/the-dead-south-tickets-silver-spring-the-fillmore-silver-spring-4-19-2027/production/7835102",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -569,7 +569,7 @@
         "event_id": 7833445,
         "url": "https://www.vividseats.com/the-dead-south-tickets-kansas-city-crossroads-kc-at-grinders-4-28-2027/production/7833445",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -717,7 +717,7 @@
         "event_id": 7834201,
         "url": "https://www.vividseats.com/the-dead-south-tickets-nashville-the-truth-5-1-2027/production/7834201",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1025,7 +1025,7 @@
         "event_id": 7834195,
         "url": "https://www.vividseats.com/the-dead-south-tickets-edmonton-edmonton-expo-centre-9-26-2027/production/7834195",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1161,7 +1161,7 @@
         "event_id": 7833561,
         "url": "https://www.vividseats.com/the-dead-south-tickets-montreal-mtelus-10-1-2027/production/7833561",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1284,7 +1284,7 @@
     "ticketmaster_event_id": "31006564C51E5F84",
     "ticketmaster_url": "https://www.ticketmaster.ca/the-dead-south-ottawa-ontario-10-03-2027/event/31006564C51E5F84",
     "seatgeek_url": "https://seatgeek.com/the-dead-south-tickets/ottawa-canada-history-ottawa-2027-10-03-7-pm/concert/18754933",
-    "vividseats_url": "https://www.vividseats.com/the-dead-south-tickets-ottawa-history-ottawa-10-3-2027/production/7834159",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-dead-south-ottawa-ontario-10-03-2027/event/31006564C51E5F84",
     "last_verified_at": "2026-11-14",
@@ -1306,11 +1306,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 7834159,
-        "url": "https://www.vividseats.com/the-dead-south-tickets-ottawa-history-ottawa-10-3-2027/production/7834159",
-        "verified": true,
-        "last_verified_at": "2026-11-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -1423,7 +1423,7 @@
         "event_id": 7833549,
         "url": "https://www.vividseats.com/the-dead-south-tickets-winnipeg-burton-cummings-theatre-10-7-2027/production/7833549",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "stubhub": {

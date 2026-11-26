@@ -94,7 +94,7 @@
     "ticketmaster_event_id": "0E00635692B0686C",
     "ticketmaster_url": "https://www.ticketmaster.com/rush-fifty-something-atlanta-georgia-11-27-2026/event/0E00635692B0686C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rush---rock-band-tickets-atlanta-state-farm-arena-11-27-2026--concerts-rock/production/6173318",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-fifty-something-atlanta-georgia-11-27-2026/event/0E00635692B0686C",
     "last_verified_at": "2026-11-25",
@@ -116,11 +116,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6173318,
+        "url": "https://www.vividseats.com/rush---rock-band-tickets-atlanta-state-farm-arena-11-27-2026--concerts-rock/production/6173318",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -177,7 +177,7 @@
     "ticketmaster_event_id": "19006352DCF54F9C",
     "ticketmaster_url": "https://www.ticketmaster.com/rush-fifty-something-glendale-arizona-12-01-2026/event/19006352DCF54F9C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rush---rock-band-tickets-glendale-desert-diamond-arena-12-1-2026--concerts-rock/production/6163477",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-fifty-something-glendale-arizona-12-01-2026/event/19006352DCF54F9C",
     "last_verified_at": "2026-11-25",
@@ -199,11 +199,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6163477,
+        "url": "https://www.vividseats.com/rush---rock-band-tickets-glendale-desert-diamond-arena-12-1-2026--concerts-rock/production/6163477",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -259,7 +259,7 @@
     "ticketmaster_event_id": "19006352DD7E4FC6",
     "ticketmaster_url": "https://www.ticketmaster.com/rush-fifty-something-glendale-arizona-12-03-2026/event/19006352DD7E4FC6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rush---rock-band-tickets-glendale-desert-diamond-arena-12-3-2026--concerts-rock/production/6173924",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-fifty-something-glendale-arizona-12-03-2026/event/19006352DD7E4FC6",
     "last_verified_at": "2026-11-25",
@@ -281,11 +281,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6173924,
+        "url": "https://www.vividseats.com/rush---rock-band-tickets-glendale-desert-diamond-arena-12-3-2026--concerts-rock/production/6173924",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -416,7 +416,7 @@
     "ticketmaster_event_id": "11006351E834BD69",
     "ticketmaster_url": "https://www.ticketmaster.ca/rush-fifty-something-edmonton-alberta-12-10-2026/event/11006351E834BD69",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rush---rock-band-tickets-edmonton-rogers-place-12-10-2026--concerts-rock/production/6163485",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/rush-fifty-something-edmonton-alberta-12-10-2026/event/11006351E834BD69",
     "last_verified_at": "2026-11-25",
@@ -438,11 +438,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6163485,
+        "url": "https://www.vividseats.com/rush---rock-band-tickets-edmonton-rogers-place-12-10-2026--concerts-rock/production/6163485",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -508,7 +508,7 @@
     "ticketmaster_event_id": "11006351E839BD71",
     "ticketmaster_url": "https://www.ticketmaster.ca/rush-fifty-something-edmonton-alberta-12-12-2026/event/11006351E839BD71",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rush---rock-band-tickets-edmonton-rogers-place-12-12-2026--concerts-rock/production/6173329",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/rush-fifty-something-edmonton-alberta-12-12-2026/event/11006351E839BD71",
     "last_verified_at": "2026-11-25",
@@ -530,11 +530,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6173329,
+        "url": "https://www.vividseats.com/rush---rock-band-tickets-edmonton-rogers-place-12-12-2026--concerts-rock/production/6173329",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -600,7 +600,7 @@
     "ticketmaster_event_id": "1100635144054746",
     "ticketmaster_url": "https://www.ticketmaster.ca/rush-fifty-something-vancouver-british-columbia-12-15-2026/event/1100635144054746",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rush---rock-band-tickets-vancouver-rogers-arena-12-15-2026--concerts-rock/production/6164894",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/rush-fifty-something-vancouver-british-columbia-12-15-2026/event/1100635144054746",
     "last_verified_at": "2026-11-25",
@@ -622,11 +622,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6164894,
+        "url": "https://www.vividseats.com/rush---rock-band-tickets-vancouver-rogers-arena-12-15-2026--concerts-rock/production/6164894",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -692,7 +692,7 @@
     "ticketmaster_event_id": "110063559C4268D7",
     "ticketmaster_url": "https://www.ticketmaster.ca/rush-fifty-something-vancouver-british-columbia-12-17-2026/event/110063559C4268D7",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rush---rock-band-tickets-vancouver-rogers-arena-12-17-2026--concerts-rock/production/6173332",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/rush-fifty-something-vancouver-british-columbia-12-17-2026/event/110063559C4268D7",
     "last_verified_at": "2026-11-25",
@@ -714,11 +714,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6173332,
+        "url": "https://www.vividseats.com/rush---rock-band-tickets-vancouver-rogers-arena-12-17-2026--concerts-rock/production/6173332",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -865,7 +865,7 @@
     "ticketmaster_event_id": "36006453711E1C9D",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-glasgow-08-03-2027/event/36006453711E1C9D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rush---rock-band-tickets-glasgow-ovo-hydro-3-8-2027--concerts-rock/production/6701263",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-glasgow-08-03-2027/event/36006453711E1C9D",
     "last_verified_at": "2026-11-25",
@@ -887,11 +887,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6701263,
+        "url": "https://www.vividseats.com/rush---rock-band-tickets-glasgow-ovo-hydro-3-8-2027--concerts-rock/production/6701263",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -948,7 +948,7 @@
     "ticketmaster_event_id": "36006457C0494C5A",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-glasgow-10-03-2027/event/36006457C0494C5A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rush---rock-band-tickets-glasgow-ovo-hydro-3-10-2027--concerts-rock/production/6738709",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-glasgow-10-03-2027/event/36006457C0494C5A",
     "last_verified_at": "2026-11-25",
@@ -970,11 +970,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6738709,
+        "url": "https://www.vividseats.com/rush---rock-band-tickets-glasgow-ovo-hydro-3-10-2027--concerts-rock/production/6738709",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1031,7 +1031,7 @@
     "ticketmaster_event_id": "37006452D9F0B088",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-manchester-12-03-2027/event/37006452D9F0B088",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rush---rock-band-tickets-manchester-co-op-live-3-12-2027--concerts-rock/production/6698884",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-manchester-12-03-2027/event/37006452D9F0B088",
     "last_verified_at": "2026-11-25",
@@ -1053,11 +1053,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6698884,
+        "url": "https://www.vividseats.com/rush---rock-band-tickets-manchester-co-op-live-3-12-2027--concerts-rock/production/6698884",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1113,7 +1113,7 @@
     "ticketmaster_event_id": "37006457F41E4D81",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-manchester-14-03-2027/event/37006457F41E4D81",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rush---rock-band-tickets-manchester-co-op-live-3-14-2027--concerts-rock/production/6715168",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-manchester-14-03-2027/event/37006457F41E4D81",
     "last_verified_at": "2026-11-25",
@@ -1135,11 +1135,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6715168,
+        "url": "https://www.vividseats.com/rush---rock-band-tickets-manchester-co-op-live-3-14-2027--concerts-rock/production/6715168",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1195,7 +1195,7 @@
     "ticketmaster_event_id": "35006453D8A66D03",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-london-16-03-2027/event/35006453D8A66D03",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rush---rock-band-tickets-london-the-o2---london-3-16-2027--concerts-rock/production/6701287",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-london-16-03-2027/event/35006453D8A66D03",
     "last_verified_at": "2026-11-25",
@@ -1217,11 +1217,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6701287,
+        "url": "https://www.vividseats.com/rush---rock-band-tickets-london-the-o2---london-3-16-2027--concerts-rock/production/6701287",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1277,7 +1277,7 @@
     "ticketmaster_event_id": "35006453F235862D",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-london-18-03-2027/event/35006453F235862D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rush---rock-band-tickets-london-the-o2---london-3-18-2027--concerts-rock/production/6701299",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-london-18-03-2027/event/35006453F235862D",
     "last_verified_at": "2026-11-25",
@@ -1299,11 +1299,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6701299,
+        "url": "https://www.vividseats.com/rush---rock-band-tickets-london-the-o2---london-3-18-2027--concerts-rock/production/6701299",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1359,7 +1359,7 @@
     "ticketmaster_event_id": "35006453FABA8CC1",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-london-21-03-2027/event/35006453FABA8CC1",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rush---rock-band-tickets-london-the-o2---london-3-21-2027--concerts-rock/production/6738714",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-london-21-03-2027/event/35006453FABA8CC1",
     "last_verified_at": "2026-11-25",
@@ -1381,11 +1381,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 6738714,
+        "url": "https://www.vividseats.com/rush---rock-band-tickets-london-the-o2---london-3-21-2027--concerts-rock/production/6738714",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1579,7 +1579,7 @@
     "ticketmaster_event_id": "17006562F5821298",
     "ticketmaster_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-21-2027/event/17006562F5821298",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rush---rock-band-tickets-las-vegas-sphere-5-21-2027--concerts-rock/production/7816488",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-21-2027/event/17006562F5821298",
     "last_verified_at": "2026-11-25",
@@ -1601,11 +1601,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7816488,
+        "url": "https://www.vividseats.com/rush---rock-band-tickets-las-vegas-sphere-5-21-2027--concerts-rock/production/7816488",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1678,7 +1678,7 @@
     "ticketmaster_event_id": "17006562F582129B",
     "ticketmaster_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-23-2027/event/17006562F582129B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rush---rock-band-tickets-las-vegas-sphere-5-23-2027--concerts-rock/production/7816494",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-23-2027/event/17006562F582129B",
     "last_verified_at": "2026-11-25",
@@ -1700,11 +1700,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7816494,
+        "url": "https://www.vividseats.com/rush---rock-band-tickets-las-vegas-sphere-5-23-2027--concerts-rock/production/7816494",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1777,7 +1777,7 @@
     "ticketmaster_event_id": "17006562F583129E",
     "ticketmaster_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-26-2027/event/17006562F583129E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rush---rock-band-tickets-las-vegas-sphere-5-26-2027--concerts-rock/production/7816498",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-26-2027/event/17006562F583129E",
     "last_verified_at": "2026-11-25",
@@ -1799,11 +1799,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7816498,
+        "url": "https://www.vividseats.com/rush---rock-band-tickets-las-vegas-sphere-5-26-2027--concerts-rock/production/7816498",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1876,7 +1876,7 @@
     "ticketmaster_event_id": "17006562F58312A4",
     "ticketmaster_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-28-2027/event/17006562F58312A4",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rush---rock-band-tickets-las-vegas-sphere-5-28-2027--concerts-rock/production/7816500",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-28-2027/event/17006562F58312A4",
     "last_verified_at": "2026-11-25",
@@ -1898,11 +1898,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7816500,
+        "url": "https://www.vividseats.com/rush---rock-band-tickets-las-vegas-sphere-5-28-2027--concerts-rock/production/7816500",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1975,7 +1975,7 @@
     "ticketmaster_event_id": "17006562F58412A9",
     "ticketmaster_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-30-2027/event/17006562F58412A9",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rush---rock-band-tickets-las-vegas-sphere-5-30-2027--concerts-rock/production/7816502",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-30-2027/event/17006562F58412A9",
     "last_verified_at": "2026-11-25",
@@ -1997,11 +1997,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7816502,
+        "url": "https://www.vividseats.com/rush---rock-band-tickets-las-vegas-sphere-5-30-2027--concerts-rock/production/7816502",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2074,7 +2074,7 @@
     "ticketmaster_event_id": "17006562F58512AF",
     "ticketmaster_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-15-2027/event/17006562F58512AF",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rush---rock-band-tickets-las-vegas-sphere-6-15-2027--concerts-rock/production/7855484",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-15-2027/event/17006562F58512AF",
     "last_verified_at": "2026-11-25",
@@ -2096,11 +2096,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7855484,
+        "url": "https://www.vividseats.com/rush---rock-band-tickets-las-vegas-sphere-6-15-2027--concerts-rock/production/7855484",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2173,7 +2173,7 @@
     "ticketmaster_event_id": "17006562F58512B5",
     "ticketmaster_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-17-2027/event/17006562F58512B5",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rush---rock-band-tickets-las-vegas-sphere-6-17-2027--concerts-rock/production/7855486",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-17-2027/event/17006562F58512B5",
     "last_verified_at": "2026-11-25",
@@ -2195,11 +2195,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7855486,
+        "url": "https://www.vividseats.com/rush---rock-band-tickets-las-vegas-sphere-6-17-2027--concerts-rock/production/7855486",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2272,7 +2272,7 @@
     "ticketmaster_event_id": "17006562F58612CE",
     "ticketmaster_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-19-2027/event/17006562F58612CE",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rush---rock-band-tickets-las-vegas-sphere-6-19-2027--concerts-rock/production/7855488",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-19-2027/event/17006562F58612CE",
     "last_verified_at": "2026-11-25",
@@ -2294,11 +2294,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7855488,
+        "url": "https://www.vividseats.com/rush---rock-band-tickets-las-vegas-sphere-6-19-2027--concerts-rock/production/7855488",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2371,7 +2371,7 @@
     "ticketmaster_event_id": "17006562F58712D2",
     "ticketmaster_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-24-2027/event/17006562F58712D2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rush---rock-band-tickets-las-vegas-sphere-6-24-2027--concerts-rock/production/7855490",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-24-2027/event/17006562F58712D2",
     "last_verified_at": "2026-11-25",
@@ -2393,11 +2393,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7855490,
+        "url": "https://www.vividseats.com/rush---rock-band-tickets-las-vegas-sphere-6-24-2027--concerts-rock/production/7855490",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2470,7 +2470,7 @@
     "ticketmaster_event_id": "17006562F58812D6",
     "ticketmaster_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-26-2027/event/17006562F58812D6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/rush---rock-band-tickets-las-vegas-sphere-6-26-2027--concerts-rock/production/7855492",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-26-2027/event/17006562F58812D6",
     "last_verified_at": "2026-11-25",
@@ -2492,11 +2492,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7855492,
+        "url": "https://www.vividseats.com/rush---rock-band-tickets-las-vegas-sphere-6-26-2027--concerts-rock/production/7855492",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

@@ -634,7 +634,7 @@
     "ticketmaster_event_id": "0F006528A2C6819C",
     "ticketmaster_url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-portland-oregon-02-27-2027/event/0F006528A2C6819C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/elevation-worship-tickets-portland-moda-center-2-27-2027/production/7554756",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-portland-oregon-02-27-2027/event/0F006528A2C6819C",
     "last_verified_at": "2026-11-25",
@@ -656,11 +656,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7554756,
+        "url": "https://www.vividseats.com/elevation-worship-tickets-portland-moda-center-2-27-2027/production/7554756",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

@@ -1626,7 +1626,7 @@
     "ticketmaster_event_id": "0D0065716A581A54",
     "ticketmaster_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-miami-florida-08-13-2027/event/0D0065716A581A54",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/u2-tickets-miami-gardens-hard-rock-stadium-8-13-2027/production/7926437",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-miami-florida-08-13-2027/event/0D0065716A581A54",
     "last_verified_at": "2026-11-25",
@@ -1648,11 +1648,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7926437,
+        "url": "https://www.vividseats.com/u2-tickets-miami-gardens-hard-rock-stadium-8-13-2027/production/7926437",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1733,7 +1733,7 @@
     "ticketmaster_event_id": "0E006574428E1D0E",
     "ticketmaster_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-atlanta-georgia-08-17-2027/event/0E006574428E1D0E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/u2-tickets-atlanta-mercedes-benz-stadium-8-17-2027/production/7926434",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-atlanta-georgia-08-17-2027/event/0E006574428E1D0E",
     "last_verified_at": "2026-11-25",
@@ -1755,11 +1755,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7926434,
+        "url": "https://www.vividseats.com/u2-tickets-atlanta-mercedes-benz-stadium-8-17-2027/production/7926434",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1840,7 +1840,7 @@
     "ticketmaster_event_id": "00006574EDE1A895",
     "ticketmaster_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-east-rutherford-new-jersey-08-26-2027/event/00006574EDE1A895",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/u2-tickets-east-rutherford-metlife-stadium-8-26-2027/production/7926442",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-east-rutherford-new-jersey-08-26-2027/event/00006574EDE1A895",
     "last_verified_at": "2026-11-25",
@@ -1862,11 +1862,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7926442,
+        "url": "https://www.vividseats.com/u2-tickets-east-rutherford-metlife-stadium-8-26-2027/production/7926442",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1946,7 +1946,7 @@
     "ticketmaster_event_id": "00006577DE8DB9E3",
     "ticketmaster_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-east-rutherford-new-jersey-08-28-2027/event/00006577DE8DB9E3",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/u2-tickets-east-rutherford-metlife-stadium-8-28-2027/production/7926444",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-east-rutherford-new-jersey-08-28-2027/event/00006577DE8DB9E3",
     "last_verified_at": "2026-11-25",
@@ -1968,11 +1968,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7926444,
+        "url": "https://www.vividseats.com/u2-tickets-east-rutherford-metlife-stadium-8-28-2027/production/7926444",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2052,7 +2052,7 @@
     "ticketmaster_event_id": "04006574E5C2F911",
     "ticketmaster_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-chicago-illinois-09-03-2027/event/04006574E5C2F911",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/u2-tickets-chicago-soldier-field-9-3-2027/production/7926436",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-chicago-illinois-09-03-2027/event/04006574E5C2F911",
     "last_verified_at": "2026-11-25",
@@ -2074,11 +2074,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7926436,
+        "url": "https://www.vividseats.com/u2-tickets-chicago-soldier-field-9-3-2027/production/7926436",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2164,7 +2164,7 @@
     "ticketmaster_event_id": "10006577D4D6A6EF",
     "ticketmaster_url": "https://www.ticketmaster.ca/u2-the-greatest-show-on-earth-toronto-ontario-09-07-2027/event/10006577D4D6A6EF",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/u2-tickets-toronto-rogers-stadium---toronto-9-7-2027--concerts-rock/production/7926466",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/u2-the-greatest-show-on-earth-toronto-ontario-09-07-2027/event/10006577D4D6A6EF",
     "last_verified_at": "2026-11-25",
@@ -2186,11 +2186,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7926466,
+        "url": "https://www.vividseats.com/u2-tickets-toronto-rogers-stadium---toronto-9-7-2027--concerts-rock/production/7926466",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2256,7 +2256,7 @@
     "ticketmaster_event_id": "10006577D87CABC5",
     "ticketmaster_url": "https://www.ticketmaster.ca/u2-the-greatest-show-on-earth-toronto-ontario-09-09-2027/event/10006577D87CABC5",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/u2-tickets-toronto-rogers-stadium---toronto-9-9-2027--concerts-rock/production/7926470",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/u2-the-greatest-show-on-earth-toronto-ontario-09-09-2027/event/10006577D87CABC5",
     "last_verified_at": "2026-11-25",
@@ -2278,11 +2278,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7926470,
+        "url": "https://www.vividseats.com/u2-tickets-toronto-rogers-stadium---toronto-9-9-2027--concerts-rock/production/7926470",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2343,7 +2343,7 @@
     "ticketmaster_event_id": "01006572BD3F9C10",
     "ticketmaster_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-foxborough-massachusetts-09-14-2027/event/01006572BD3F9C10",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/u2-tickets-foxborough-gillette-stadium-9-14-2027/production/7926440",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-foxborough-massachusetts-09-14-2027/event/01006572BD3F9C10",
     "last_verified_at": "2026-11-25",
@@ -2365,11 +2365,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7926440,
+        "url": "https://www.vividseats.com/u2-tickets-foxborough-gillette-stadium-9-14-2027/production/7926440",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2450,7 +2450,7 @@
     "ticketmaster_event_id": "0A006573FEDD5364",
     "ticketmaster_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-inglewood-california-10-01-2027/event/0A006573FEDD5364",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/u2-tickets-inglewood-sofi-stadium-10-1-2027/production/7926432",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-inglewood-california-10-01-2027/event/0A006573FEDD5364",
     "last_verified_at": "2026-11-25",
@@ -2472,11 +2472,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7926432,
+        "url": "https://www.vividseats.com/u2-tickets-inglewood-sofi-stadium-10-1-2027/production/7926432",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2557,7 +2557,7 @@
     "ticketmaster_event_id": "0A0065733620A37C",
     "ticketmaster_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-inglewood-california-10-02-2027/event/0A0065733620A37C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/u2-tickets-inglewood-sofi-stadium-10-2-2027/production/7926454",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-inglewood-california-10-02-2027/event/0A0065733620A37C",
     "last_verified_at": "2026-11-25",
@@ -2579,11 +2579,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7926454,
+        "url": "https://www.vividseats.com/u2-tickets-inglewood-sofi-stadium-10-2-2027/production/7926454",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

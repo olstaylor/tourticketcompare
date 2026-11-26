@@ -436,6 +436,12 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   assert(page.main.indexOf("artistCityCheapestTitle") < page.main.indexOf("artistCityPriceTitle"), "the cheapest sits above the per-date table");
   const cheapestRole = cheapest.match(/<span class="provider-cta-role">([^<]*)<\/span>/)?.[1] || "";
   assert(/^Resale marketplace · \w{3}, \w{3} \d{1,2}, \d{4}$/.test(cheapestRole), "the cheapest button repeats its date so the tap target names which date it opens");
+  // 26 Nov 2026: the fee caveat travels with the first price a phone shows, not
+  // only the board disclosure far below it. Same owner-approved wording as the
+  // card's "Lowest listed" line; nothing says or implies fees are included.
+  assert(/<time [^>]*>Checked [^<]+<\/time> · fees not confirmed<\/span>/.test(cheapest), "the cheapest panel says fees are not confirmed beside its check time");
+  assert(/Fees not confirmed; the final total is set at checkout\./.test(text(page.main.match(/<section class="nested-panel artist-city-price-answer"[\s\S]*?<\/section>/)?.[0] || "")), "the priced table says once that fees are not confirmed");
+  assert(!/fees (?:are )?included|all-in|incl\. fees/i.test(cheapest), "no fee-inclusion claim in the cheapest panel");
   assert(
     !body.includes("USD 145"),
     "a price from a different city never reaches this page"
@@ -590,6 +596,7 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   const body = text(page.main);
   assert(!body.includes("How much are"), "with no eligible lane the question heading is not rendered");
   assert(!body.includes("Sites priced"), "with no eligible lane the table is not rendered");
+  assert(!body.includes("Fees not confirmed") && !body.includes("fees not confirmed"), "with no price on the page no fee caveat is printed for a price that is not there");
   assert(!/price-answer-table/.test(page.main), "with no eligible lane no empty table frame is left behind");
   assert(body.includes("At a glance:"), "the page keeps its at-a-glance summary with no table");
   // The card deck is gone with or without a table (2026-09-25): the summary
@@ -918,8 +925,10 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   }
   const pricedPreview = checkOptionsTargets(page, [6, 6, 6]);
   assert(text(pricedPreview).includes("2 sites priced"), "a price comparison count is separate from the six valid ticket links");
+  assert(text(pricedPreview).includes("Fees not confirmed; the final total is set at checkout."), "the artist next-dates table carries the fee caveat next to its first price");
   const unpriced = await render(artistPath, { withDb: false });
   assert(unpriced.main.includes('href="#artistShowBoard"') && !unpriced.main.includes('provider-cta-priced'), "an outage keeps the date selector without inventing prices");
+  assert(!unpriced.main.includes("Fees not confirmed"), "an outage prints no fee caveat for prices it does not show");
   assert(unpriced.robots === page.robots && page.html.includes(`rel="canonical" href="${ORIGIN}${artistPath}"`), "pricing does not change artist SEO policy");
   const empty = await render(artistPath, { events: [] });
   assert(!empty.main.includes('href="#artistShowBoard"') && !empty.main.includes('money-disclosure'), "an empty board has neither a jump nor ranking disclosure");

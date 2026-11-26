@@ -17,6 +17,8 @@ import {
 
 const PLACEHOLDER_URL_PATTERN = /example\.com|placeholder|your-link|replace-me|localhost|127\.0\.0\.1/i;
 const EVENTS_JSON_PATH = "/data/events.json";
+const EVENTS_INDEX_JSON_PATH = "/data/events-index.json";
+const EVENTS_PARTITION_PATH_PREFIX = "/data/events/";
 const ARTISTS_JSON_PATH = "/data/artists.json";
 const DEFAULT_IMPACT_API_BASE = "https://api.impact.com";
 const IMPACT_PXF_TRACKING_HOSTS = ["pxf.io"];
@@ -4361,11 +4363,42 @@ function eventFacts(event) {
   };
 }
 
-async function resolveShowLink(env, showId, provider) {
+// The event behind a showId, without parsing the whole 18 MB events.json on
+// every click (about 74 ms of CPU and about 55 MB per request, which a burst of
+// clicks multiplies inside one isolate). The 2 MB events-index.json names the
+// event's artist and that artist's partition file (about 100 KB) holds the same
+// record events.json does (`npm run events:partition` writes it from
+// events.json; scripts/out-show-lookup.test.mjs proves they are identical).
+// Anything unexpected falls back to the full file, so a missing partition or a
+// stale index can only cost time, never change or lose a redirect.
+async function findEventForShowId(env, showId) {
+  const assets = env?.ASSETS;
+  if (assets && typeof assets.fetch === "function") {
+    try {
+      const indexResponse = await assets.fetch(new Request(`https://assets.local${EVENTS_INDEX_JSON_PATH}`));
+      const index = indexResponse.ok ? await indexResponse.json() : null;
+      const row = Array.isArray(index) ? index.find((candidate) => clean(candidate?.id, 255) === showId) : null;
+      const slug = typeof row?.artist_slug === "string" ? row.artist_slug : "";
+      if (/^[a-z0-9][a-z0-9-]*$/.test(slug)) {
+        const partitionResponse = await assets.fetch(new Request(`https://assets.local${EVENTS_PARTITION_PATH_PREFIX}${slug}.json`));
+        const partition = partitionResponse.ok ? await partitionResponse.json() : null;
+        const event = Array.isArray(partition) ? partition.find((candidate) => clean(candidate?.id, 255) === showId) : null;
+        if (event) return { events: true, event };
+      }
+    } catch (error) {
+      // Fall through to the full file.
+    }
+  }
   const events = await loadEventsFromAssets(env);
-  if (!events) return { ok: false, legitimate: false, status: "event_data_unavailable", httpStatus: 503 };
+  if (!events) return { events: false, event: null };
+  return { events: true, event: events.find((candidate) => clean(candidate?.id, 255) === showId) || null };
+}
 
-  const event = events.find((candidate) => clean(candidate?.id, 255) === showId);
+async function resolveShowLink(env, showId, provider) {
+  const found = await findEventForShowId(env, showId);
+  if (!found.events) return { ok: false, legitimate: false, status: "event_data_unavailable", httpStatus: 503 };
+
+  const event = found.event;
   if (!event) return { ok: false, legitimate: false, status: "show_not_found" };
   if (!providerEventPublishable(event, provider)) return { ok: false, legitimate: true, status: "event_link_not_publishable" };
   const artistState = await artistRedirectState(env, event.artist_slug);

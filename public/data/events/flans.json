@@ -180,7 +180,7 @@
         "event_id": 18612632,
         "url": "https://seatgeek.com/flans-tickets/atlanta-georgia-cobb-energy-performing-arts-centre-2027-02-25-8-pm/concert/18612632",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -257,7 +257,7 @@
         "event_id": 18612827,
         "url": "https://seatgeek.com/flans-tickets/charlotte-north-carolina-ovens-auditorium-2027-02-26-8-pm/concert/18612827",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -328,7 +328,7 @@
         "event_id": 18618099,
         "url": "https://seatgeek.com/flans-tickets/raleigh-north-carolina-martin-marietta-center-for-the-performing-arts-memorial-auditorium-2027-02-27-8-pm/concert/18618099",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -398,7 +398,7 @@
         "event_id": 18612819,
         "url": "https://seatgeek.com/flans-tickets/denver-colorado-paramount-theatre-co-2027-03-04-8-pm/concert/18612819",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -453,7 +453,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAevrv",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAevrv",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/flans-tickets/kansas-city-missouri-the-midland-theatre-mo-2027-03-05-8-pm/concert/18870933",
     "vividseats_url": "https://www.vividseats.com/flans-tickets-kansas-city-the-midland-theatre-3-5-2027--concerts-world-music/production/7592580",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAevrv",
@@ -469,11 +469,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18870933,
+        "url": "https://seatgeek.com/flans-tickets/kansas-city-missouri-the-midland-theatre-mo-2027-03-05-8-pm/concert/18870933",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7592580,
@@ -542,7 +542,7 @@
         "event_id": 18612871,
         "url": "https://seatgeek.com/flans-tickets/san-diego-california-san-diego-civic-theatre-2027-03-12-8-pm/concert/18612871",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -613,7 +613,7 @@
         "event_id": 18612688,
         "url": "https://seatgeek.com/flans-tickets/los-angeles-california-orpheum-theatre-los-angeles-2027-03-14-8-pm/concert/18612688",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -964,7 +964,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAeaov",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeaov",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/flans-tickets/las-vegas-nevada-the-theater-at-virgin-hotels-2027-03-11-8-pm/concert/18870610",
     "vividseats_url": "https://www.vividseats.com/flans-tickets-las-vegas-the-theater-at-virgin-hotels-las-vegas-3-11-2027/production/7608968",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeaov",
@@ -980,11 +980,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18870610,
+        "url": "https://seatgeek.com/flans-tickets/las-vegas-nevada-the-theater-at-virgin-hotels-2027-03-11-8-pm/concert/18870610",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7608968,

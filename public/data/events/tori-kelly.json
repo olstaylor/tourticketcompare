@@ -286,7 +286,7 @@
     "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
     "ticketmaster_event_id": "0A00656B89B74383",
     "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-san-diego-california-03-17-2027/event/0A00656B89B74383",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tori-kelly-tickets/san-diego-california-house-of-blues-san-diego-2027-03-17-7-pm/concert/18778540",
     "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-san-diego-house-of-blues-san-diego-3-17-2027/production/7880420",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-san-diego-california-03-17-2027/event/0A00656B89B74383",
@@ -302,11 +302,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18778540,
+        "url": "https://seatgeek.com/tori-kelly-tickets/san-diego-california-house-of-blues-san-diego-2027-03-17-7-pm/concert/18778540",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7880420,
@@ -466,7 +466,7 @@
     "tour_name": "GOD MUST REALY LOVE ME WORLD TOUR",
     "ticketmaster_event_id": "1900656D7F3B24A5",
     "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-realy-love-phoenix-arizona-03-20-2027/event/1900656D7F3B24A5",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tori-kelly-tickets/phoenix-arizona-the-van-buren-2027-03-20-8-pm/concert/18778534",
     "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-phoenix-the-van-buren-3-20-2027/production/7880688",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-realy-love-phoenix-arizona-03-20-2027/event/1900656D7F3B24A5",
@@ -482,11 +482,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18778534,
+        "url": "https://seatgeek.com/tori-kelly-tickets/phoenix-arizona-the-van-buren-2027-03-20-8-pm/concert/18778534",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7880688,
@@ -579,7 +579,7 @@
         "event_id": 18778951,
         "url": "https://seatgeek.com/tori-kelly-tickets/tulsa-oklahoma-cain-s-ballroom-tulsa-2027-03-22-7-pm/concert/18778951",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -657,7 +657,7 @@
         "event_id": 18778949,
         "url": "https://seatgeek.com/tori-kelly-tickets/austin-texas-austin-city-limits-live-at-the-moody-theater-2027-03-24-7-pm/concert/18778949",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -700,7 +700,7 @@
     "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
     "ticketmaster_event_id": "3A00656BEB4C40CB",
     "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-houston-texas-03-25-2027/event/3A00656BEB4C40CB",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tori-kelly-tickets/houston-texas-house-of-blues-houston-2027-03-25-7-pm/concert/18778533",
     "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-houston-house-of-blues-houston-3-25-2027/production/7880524",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-houston-texas-03-25-2027/event/3A00656BEB4C40CB",
@@ -716,11 +716,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18778533,
+        "url": "https://seatgeek.com/tori-kelly-tickets/houston-texas-house-of-blues-houston-2027-03-25-7-pm/concert/18778533",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7880524,
@@ -794,7 +794,7 @@
     "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
     "ticketmaster_event_id": "0C00656FFBD1A555",
     "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-dallas-texas-03-26-2027/event/0C00656FFBD1A555",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tori-kelly-tickets/dallas-texas-house-of-blues-dallas-2027-03-26-7-pm/concert/18778538",
     "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-dallas-house-of-blues-dallas-3-26-2027/production/7880534",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-dallas-texas-03-26-2027/event/0C00656FFBD1A555",
@@ -810,11 +810,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18778538,
+        "url": "https://seatgeek.com/tori-kelly-tickets/dallas-texas-house-of-blues-dallas-2027-03-26-7-pm/concert/18778538",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7880534,
@@ -888,7 +888,7 @@
     "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
     "ticketmaster_event_id": "1B00656BD1821D66",
     "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-new-orleans-louisiana-03-29-2027/event/1B00656BD1821D66",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tori-kelly-tickets/new-orleans-louisiana-house-of-blues-new-orleans-2027-03-29-7-pm/concert/18778537",
     "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-new-orleans-house-of-blues-new-orleans-3-29-2027/production/7880582",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-new-orleans-louisiana-03-29-2027/event/1B00656BD1821D66",
@@ -904,11 +904,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18778537,
+        "url": "https://seatgeek.com/tori-kelly-tickets/new-orleans-louisiana-house-of-blues-new-orleans-2027-03-29-7-pm/concert/18778537",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7880582,
@@ -1073,7 +1073,7 @@
     "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
     "ticketmaster_event_id": "2200656BA3D2779A",
     "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-orlando-florida-04-01-2027/event/2200656BA3D2779A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tori-kelly-tickets/orlando-florida-hard-rock-live-orlando-2027-04-01-8-pm/concert/18778542",
     "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-orlando-hard-rock-live---orlando-4-1-2027/production/7880678",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-orlando-florida-04-01-2027/event/2200656BA3D2779A",
@@ -1089,11 +1089,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18778542,
+        "url": "https://seatgeek.com/tori-kelly-tickets/orlando-florida-hard-rock-live-orlando-2027-04-01-8-pm/concert/18778542",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7880678,
@@ -1334,7 +1334,7 @@
     "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
     "ticketmaster_event_id": "2D00656BD28D3BC3",
     "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-charlotte-north-carolina-04-08-2027/event/2D00656BD28D3BC3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tori-kelly-tickets/charlotte-north-carolina-the-fillmore-charlotte-2027-04-08-8-pm/concert/18778551",
     "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-charlotte-the-fillmore-charlotte-4-8-2027/production/7880676",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-charlotte-north-carolina-04-08-2027/event/2D00656BD28D3BC3",
@@ -1350,11 +1350,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18778551,
+        "url": "https://seatgeek.com/tori-kelly-tickets/charlotte-north-carolina-the-fillmore-charlotte-2027-04-08-8-pm/concert/18778551",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7880676,
@@ -1522,7 +1522,7 @@
     "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
     "ticketmaster_event_id": "2D00656DFC4DB6B9",
     "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-raleigh-north-carolina-04-11-2027/event/2D00656DFC4DB6B9",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tori-kelly-tickets/raleigh-north-carolina-the-ritz-raleigh-2027-04-11-7-pm/concert/18778557",
     "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-raleigh-the-ritz---raleigh-4-11-2027/production/7880712",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-raleigh-north-carolina-04-11-2027/event/2D00656DFC4DB6B9",
@@ -1538,11 +1538,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18778557,
+        "url": "https://seatgeek.com/tori-kelly-tickets/raleigh-north-carolina-the-ritz-raleigh-2027-04-11-7-pm/concert/18778557",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7880712,
@@ -1611,7 +1611,7 @@
     "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
     "ticketmaster_event_id": "0100656BC2CCDC94",
     "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-boston-massachusetts-04-14-2027/event/0100656BC2CCDC94",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tori-kelly-tickets/boston-massachusetts-citizens-house-of-blues-boston-2027-04-14-7-pm/concert/18778559",
     "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-boston-citizens-house-of-blues-boston-4-14-2027/production/7880636",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-boston-massachusetts-04-14-2027/event/0100656BC2CCDC94",
@@ -1627,11 +1627,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18778559,
+        "url": "https://seatgeek.com/tori-kelly-tickets/boston-massachusetts-citizens-house-of-blues-boston-2027-04-14-7-pm/concert/18778559",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7880636,
@@ -1700,7 +1700,7 @@
     "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
     "ticketmaster_event_id": "1500656CC2D5A8C9",
     "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-silver-spring-maryland-04-16-2027/event/1500656CC2D5A8C9",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tori-kelly-tickets/silver-spring-maryland-the-fillmore-silver-spring-2027-04-16-8-pm/concert/18778556",
     "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-silver-spring-the-fillmore-silver-spring-4-16-2027/production/7880646",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-silver-spring-maryland-04-16-2027/event/1500656CC2D5A8C9",
@@ -1716,11 +1716,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18778556,
+        "url": "https://seatgeek.com/tori-kelly-tickets/silver-spring-maryland-the-fillmore-silver-spring-2027-04-16-8-pm/concert/18778556",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7880646,
@@ -1864,7 +1864,7 @@
     "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
     "ticketmaster_event_id": "0000656F0D0E72C6",
     "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-brooklyn-new-york-04-18-2027/event/0000656F0D0E72C6",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tori-kelly-tickets/brooklyn-new-york-brooklyn-paramount-2027-04-18-7-pm/concert/18778560",
     "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-brooklyn-brooklyn-paramount-4-18-2027/production/7880895",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-brooklyn-new-york-04-18-2027/event/0000656F0D0E72C6",
@@ -1880,11 +1880,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18778560,
+        "url": "https://seatgeek.com/tori-kelly-tickets/brooklyn-new-york-brooklyn-paramount-2027-04-18-7-pm/concert/18778560",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7880895,
@@ -2023,7 +2023,7 @@
     "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
     "ticketmaster_event_id": "0800656B7E1926F9",
     "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-detroit-michigan-04-23-2027/event/0800656B7E1926F9",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tori-kelly-tickets/detroit-michigan-the-fillmore-detroit-2027-04-23-7-pm/concert/18778565",
     "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-detroit-the-fillmore-detroit-4-23-2027/production/7880649",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-detroit-michigan-04-23-2027/event/0800656B7E1926F9",
@@ -2039,11 +2039,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18778565,
+        "url": "https://seatgeek.com/tori-kelly-tickets/detroit-michigan-the-fillmore-detroit-2027-04-23-7-pm/concert/18778565",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7880649,
@@ -3082,7 +3082,7 @@
     "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
     "ticketmaster_event_id": "1C00656DA824D2BF",
     "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-sacramento-california-05-18-2027/event/1C00656DA824D2BF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tori-kelly-tickets/sacramento-california-channel-24-sacramento-2027-05-18-8-pm/concert/18778578",
     "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-sacramento-channel-24-5-18-2027/production/7880652",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-sacramento-california-05-18-2027/event/1C00656DA824D2BF",
@@ -3098,11 +3098,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18778578,
+        "url": "https://seatgeek.com/tori-kelly-tickets/sacramento-california-channel-24-sacramento-2027-05-18-8-pm/concert/18778578",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7880652,

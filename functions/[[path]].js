@@ -41,7 +41,7 @@ import { derivePlayingSoon, renderPlayingSoonHtml } from "./_playing-soon.js";
 import { deriveToursHub, deriveToursHubCityRuns, deriveHomeCityRuns, TOURS_HUB_PATH, TOURS_HUB_YEAR } from "./_tours-hub.js";
 import { deriveRumouredTours, RUMOURED_TOURS_PATH } from "./_rumoured-tours.js";
 import { PRICE_MOVERS_PATH, fetchPriceMoverRows, derivePriceMovers } from "./_price-movers.js";
-import { TICKETS_THIS_WEEK_PATH, TICKETS_THIS_WEEK_INDEXABLE, TICKETS_THIS_WEEK_MAX_PANELS, deriveThisWeekPicks } from "./_tickets-this-week.js";
+import { TICKETS_THIS_WEEK_PATH, TICKETS_THIS_WEEK_INDEXABLE, TICKETS_THIS_WEEK_MAX_PANELS, TICKETS_THIS_WEEK_PANELS_PER_DAY, deriveThisWeekPicks } from "./_tickets-this-week.js";
 import {
   WORTH_WAITING_PATH,
   WORTH_WAITING_COMPARE_DAYS,
@@ -2771,6 +2771,7 @@ function renderThisWeekTicketPanels(picks, catalog, events, env) {
     const priced = deriveCityDatePrices([show], { ctaSpecsFor: specsFor, wasChecked: pricesWereChecked }).rows[0];
     if (!priced?.lowest) continue;
     const day = formatShowDateServer(show.dateTimeISO, show.timezone).replace(/, \d{4}$/, "");
+    if (day && days[days.length - 1]?.day === day && days[days.length - 1].count >= TICKETS_THIS_WEEK_PANELS_PER_DAY) continue;
     const html = renderArtistNextDatesPriceAnswer(artist, [show], availability, {
       heading: `${artist.name}, ${show.city}`,
       caption: `Ticket options for ${artist.name} in ${show.city}`,

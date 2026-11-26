@@ -19,6 +19,10 @@ export const TICKETS_THIS_WEEK_DAYS = 7;
 export const TICKETS_THIS_WEEK_MAX_LOOKUPS = 60;
 export const TICKETS_THIS_WEEK_PER_ARTIST = 3;
 export const TICKETS_THIS_WEEK_MAX_PANELS = 30;
+// Spread across the week: without a per-day cap the soonest two or three days
+// fill every lookup and panel, and a page called "this week" stops at Thursday.
+export const TICKETS_THIS_WEEK_LOOKUPS_PER_DAY = Math.ceil(TICKETS_THIS_WEEK_MAX_LOOKUPS / TICKETS_THIS_WEEK_DAYS);
+export const TICKETS_THIS_WEEK_PANELS_PER_DAY = Math.ceil(TICKETS_THIS_WEEK_MAX_PANELS / TICKETS_THIS_WEEK_DAYS);
 
 const DAY_MS = 86400000;
 const trimmed = (v) => String(v ?? "").trim();
@@ -48,10 +52,15 @@ export function deriveThisWeekPicks(events, indexableSlugs, now = Date.now()) {
   }
   picks.sort((a, b) => a.ts - b.ts || a.eventId.localeCompare(b.eventId));
   const perArtist = new Map();
+  const perDay = new Map();
   const out = [];
   for (const pick of picks) {
     const n = perArtist.get(pick.slug) || 0;
     if (n >= TICKETS_THIS_WEEK_PER_ARTIST) continue;
+    const day = new Date(pick.ts).toISOString().slice(0, 10);
+    const d = perDay.get(day) || 0;
+    if (d >= TICKETS_THIS_WEEK_LOOKUPS_PER_DAY) continue;
+    perDay.set(day, d + 1);
     perArtist.set(pick.slug, n + 1);
     out.push(pick);
     if (out.length >= TICKETS_THIS_WEEK_MAX_LOOKUPS) break;

@@ -1,9 +1,9 @@
 ---
 title: "How to get the cheapest Metallica tickets"
 seo_title: "Cheapest Metallica tickets"
-description: "The lowest listed Metallica prices on 21 November 2026, which sellers list each date, and how prices moved before 5 shows that have already played."
-summary: "Metallica ticket prices by date and site on 21 November 2026, and what prices did before 5 shows that have already played."
-date: 2026-11-21
+description: "The lowest listed Metallica prices on 26 November 2026, which sellers list each date, and how prices moved before 5 shows that have already played."
+summary: "Metallica ticket prices by date and site on 26 November 2026, and what prices did before 5 shows that have already played."
+date: 2026-11-26
 status: published
 tags:
   - tour-data
@@ -15,23 +15,23 @@ related_guides:
   - when-is-the-best-time-to-buy-concert-tickets
 ---
 
-On 21 November 2026, the lowest price listed on Vivid Seats or TicketNetwork for Metallica was $65.55 on TicketNetwork, for Kansas City on 29 May 2027. Before 5 Metallica shows that have already played, a site's lowest price two days out was lower than a month out in 7 of 8 comparisons and higher in 1. This page sets out both.
+On 26 November 2026, the lowest price listed on Vivid Seats or TicketNetwork for Metallica was $58.65 on TicketNetwork, for Fayetteville on 26 May 2027. Before 5 Metallica shows that have already played, a site's lowest price two days out was lower than a month out in 7 of 8 comparisons and higher in 1. This page sets out both.
 
-## Cheapest dates on 21 November 2026
+## Cheapest dates on 26 November 2026
 
-TourTicketCompare tracks 25 upcoming Metallica dates. 25 had a recent price on Vivid Seats or TicketNetwork on 21 November 2026. The five with the lowest figure on either site:
+TourTicketCompare tracks 24 upcoming Metallica dates. 24 had a recent price on Vivid Seats or TicketNetwork on 26 November 2026. The five with the lowest figure on either site:
 
 | Date | City | Venue | Vivid Seats | TicketNetwork |
 |---|---|---|---|---|
-| 29 May 2027 | [Kansas City](/artists/metallica/tickets/kansas-city-united-states) | Arrowhead Stadium | $78 | $65.55 |
-| 15 June 2027 | [Cleveland](/artists/metallica/tickets/cleveland-united-states) | Huntington Bank Field | $84 | $94.30 |
-| 8 June 2027 | [Orchard Park](/artists/metallica/tickets/orchard-park-united-states) | Highmark Stadium | $96 | $92 |
-| 19 June 2027 | [Salt Lake City](/artists/metallica/tickets/salt-lake-city-united-states) | Rice-Eccles Stadium | $116 | $102.35 |
-| 5 June 2027 | [Indianapolis](/artists/metallica/tickets/indianapolis-united-states) | Lucas Oil Stadium | $115 | $106.95 |
+| 26 May 2027 | [Fayetteville](/artists/metallica/tickets/fayetteville-united-states) | Donald W. Reynolds Razorback Stadium | none listed | $58.65 |
+| 29 May 2027 | [Kansas City](/artists/metallica/tickets/kansas-city-united-states) | Arrowhead Stadium | $85 | $64.40 |
+| 15 June 2027 | [Cleveland](/artists/metallica/tickets/cleveland-united-states) | Huntington Bank Field | $83 | $98.90 |
+| 8 June 2027 | [Orchard Park](/artists/metallica/tickets/orchard-park-united-states) | Highmark Stadium | $97 | $88.55 |
+| 19 June 2027 | [Salt Lake City](/artists/metallica/tickets/salt-lake-city-united-states) | Rice-Eccles Stadium | $120 | $106.95 |
 
-Each figure is that site's lowest listed price for that one date, in US dollars, captured between 21 November, 16:58 UTC and 21 November, 18:03 UTC. They are not final totals, and seat location and fees change what you pay. A city link opens every date there, with its latest checked prices.
+Each figure is that site's lowest listed price for that one date, in US dollars, captured between 26 November, 10:03 UTC and 26 November, 22:38 UTC. They are not final totals, and seat location and fees change what you pay. A city link opens every date there, with its latest checked prices.
 
-Vivid Seats had a price for 24 of these dates and TicketNetwork for 25. In the table, Vivid Seats is lower on 1 date and TicketNetwork on 4, so the cheaper site changes from date to date.
+Vivid Seats had a price for 23 of these dates and TicketNetwork for 24. In the table, Vivid Seats is lower on 1 date and TicketNetwork on 3, so the cheaper site changes from date to date.
 
 ## How prices moved before shows that have played
 

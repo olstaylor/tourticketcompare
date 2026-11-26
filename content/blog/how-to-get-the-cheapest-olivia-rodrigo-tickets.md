@@ -1,9 +1,9 @@
 ---
 title: "How to get the cheapest Olivia Rodrigo tickets"
 seo_title: "Cheapest Olivia Rodrigo tickets"
-description: "The lowest listed Olivia Rodrigo prices on 21 November 2026, which sellers list each date, and how prices moved before 27 shows that have already played."
-summary: "Olivia Rodrigo ticket prices by date and site on 21 November 2026, and what prices did before 27 shows that have already played."
-date: 2026-11-21
+description: "The lowest listed Olivia Rodrigo prices on 26 November 2026, which sellers list each date, and how prices moved before 27 shows that have already played."
+summary: "Olivia Rodrigo ticket prices by date and site on 26 November 2026, and what prices did before 27 shows that have already played."
+date: 2026-11-26
 status: published
 tags:
   - tour-data
@@ -15,23 +15,23 @@ related_guides:
   - when-is-the-best-time-to-buy-concert-tickets
 ---
 
-On 21 November 2026, the lowest price listed on Vivid Seats or TicketNetwork for Olivia Rodrigo in North America was $340.40 on TicketNetwork, for Seattle on 7 December 2026. Before 27 Olivia Rodrigo shows that have already played, a site's lowest price two days out was lower than a month out in 20 of 49 comparisons and higher in 25. This page sets out both.
+On 26 November 2026, the lowest price listed on Vivid Seats or TicketNetwork for Olivia Rodrigo in North America was $255.30 on TicketNetwork, for Vancouver on 1 December 2026. Before 27 Olivia Rodrigo shows that have already played, a site's lowest price two days out was lower than a month out in 20 of 49 comparisons and higher in 25. This page sets out both.
 
-## Cheapest dates on 21 November 2026
+## Cheapest dates on 26 November 2026
 
-TourTicketCompare tracks 53 upcoming Olivia Rodrigo dates. 33 had a recent price on Vivid Seats or TicketNetwork on 21 November 2026 in North America. The five with the lowest figure on either site:
+TourTicketCompare tracks 51 upcoming Olivia Rodrigo dates. 30 had a recent price on Vivid Seats or TicketNetwork on 26 November 2026 in North America. The five with the lowest figure on either site:
 
 | Date | City | Venue | Vivid Seats | TicketNetwork |
 |---|---|---|---|---|
-| 7 December 2026 | [Seattle](/artists/olivia-rodrigo/tickets/seattle-united-states) | Climate Pledge Arena | $359 | $340.40 |
-| 8 December 2026 | [Seattle](/artists/olivia-rodrigo/tickets/seattle-united-states) | Climate Pledge Arena | $343 | $368 |
-| 25 January 2027 | [Inglewood](/artists/olivia-rodrigo/tickets/inglewood-united-states) | Intuit Dome | $407 | $351.90 |
-| 12 December 2026 | [Oakland](/artists/olivia-rodrigo/tickets/oakland-united-states) | Oakland Arena | $372 | $353.05 |
-| 1 December 2026 | [Vancouver](/artists/olivia-rodrigo/tickets/vancouver-canada) | Rogers Arena | $356 | $412.85 |
+| 1 December 2026 | [Vancouver](/artists/olivia-rodrigo/tickets/vancouver-canada) | Rogers Arena | $266 | $255.30 |
+| 2 December 2026 | [Vancouver](/artists/olivia-rodrigo/tickets/vancouver-canada) | Rogers Arena | $347 | $282.90 |
+| 7 December 2026 | [Seattle](/artists/olivia-rodrigo/tickets/seattle-united-states) | Climate Pledge Arena | $343 | $313.95 |
+| 8 December 2026 | [Seattle](/artists/olivia-rodrigo/tickets/seattle-united-states) | Climate Pledge Arena | $326 | $364.55 |
+| 23 February 2027 | [Brooklyn](/artists/olivia-rodrigo/tickets/brooklyn-united-states) | Barclays Center | $389 | $347.30 |
 
-Each figure is that site's lowest listed price for that one date, in US dollars, captured between 20 November, 21:06 UTC and 21 November, 18:01 UTC. They are not final totals, and seat location and fees change what you pay. A city link opens every date there, with its latest checked prices.
+Each figure is that site's lowest listed price for that one date, in US dollars, captured between 26 November, 08:26 UTC and 26 November, 22:38 UTC. They are not final totals, and seat location and fees change what you pay. A city link opens every date there, with its latest checked prices.
 
-Vivid Seats had a price for 33 of these dates and TicketNetwork for 33. In the table, Vivid Seats is lower on 2 dates and TicketNetwork on 3, so the cheaper site changes from date to date.
+Vivid Seats had a price for 30 of these dates and TicketNetwork for 30. In the table, Vivid Seats is lower on 1 date and TicketNetwork on 4, so the cheaper site changes from date to date.
 
 ## How prices moved before shows that have played
 

@@ -1,20 +1,29 @@
 {
   "artistSlug": "metallica",
   "artist": "Metallica",
-  "asOf": "2026-11-21",
+  "asOf": "2026-11-26",
   "currency": "USD",
-  "capturedFrom": "2026-11-21T16:58:00Z",
-  "capturedTo": "2026-11-21T18:03:00Z",
+  "capturedFrom": "2026-11-26T10:03:00Z",
+  "capturedTo": "2026-11-26T22:38:00Z",
   "pricePath": "/artists/metallica/ticket-prices",
   "current": {
-    "pricedDates": 25,
-    "vividSeatsDates": 24,
-    "ticketNetworkDates": 25,
+    "pricedDates": 24,
+    "vividSeatsDates": 23,
+    "ticketNetworkDates": 24,
     "cheapest": [
       {
+        "eventId": "tm-metallica-2027-fayetteville-g5viz_om30atl",
+        "vividSeats": null,
+        "ticketNetwork": 58.65,
+        "city": "Fayetteville",
+        "country": "United States Of America",
+        "venue": "Donald W. Reynolds Razorback Stadium",
+        "localDate": "2027-05-26"
+      },
+      {
         "eventId": "tm-metallica-2027-kansas-city-vv17bz_3gkwemfok",
-        "vividSeats": 78,
-        "ticketNetwork": 65.55,
+        "vividSeats": 85,
+        "ticketNetwork": 64.4,
         "city": "Kansas City",
         "country": "United States Of America",
         "venue": "Arrowhead Stadium",
@@ -22,8 +31,8 @@
       },
       {
         "eventId": "tm-metallica-2027-cleveland-vv17fz_3gkdywngg",
-        "vividSeats": 84,
-        "ticketNetwork": 94.3,
+        "vividSeats": 83,
+        "ticketNetwork": 98.9,
         "city": "Cleveland",
         "country": "United States Of America",
         "venue": "Huntington Bank Field",
@@ -31,8 +40,8 @@
       },
       {
         "eventId": "tm-metallica-2027-orchard-park-vv17gz_3gktmreup",
-        "vividSeats": 96,
-        "ticketNetwork": 92,
+        "vividSeats": 97,
+        "ticketNetwork": 88.55,
         "city": "Orchard Park",
         "country": "United States Of America",
         "venue": "Highmark Stadium",
@@ -40,24 +49,15 @@
       },
       {
         "eventId": "tm-metallica-2027-salt-lake-city-g5vzz_3hepr-9",
-        "vividSeats": 116,
-        "ticketNetwork": 102.35,
+        "vividSeats": 120,
+        "ticketNetwork": 106.95,
         "city": "Salt Lake City",
         "country": "United States Of America",
         "venue": "Rice-Eccles Stadium",
         "localDate": "2027-06-19"
-      },
-      {
-        "eventId": "tm-metallica-2027-indianapolis-vv17fz_3gktr8lni",
-        "vividSeats": 115,
-        "ticketNetwork": 106.95,
-        "city": "Indianapolis",
-        "country": "United States Of America",
-        "venue": "Lucas Oil Stadium",
-        "localDate": "2027-06-05"
       }
     ],
-    "upcomingDates": 25
+    "upcomingDates": 24
   },
   "runUp": {
     "shows": 5,
@@ -90,7 +90,7 @@
     "note": "The four Las Vegas shows were lower on every site that had a reading. The one Uncasville comparison, on TicketNetwork, was higher. Five shows in two cities say little about the 2027 stadium dates."
   },
   "sql": {
-    "current": "provider_pricing_cache: USD rows, verified_at >= 2026-11-20T18:30Z, expires_at > 2026-11-21T19:00Z; StubHub International dropped when under half the lowest other site; page uses Vivid Seats and TicketNetwork only",
+    "current": "provider_pricing_cache: USD rows, verified_at >= 2026-11-25T23:00Z, expires_at > 2026-11-26T23:00Z, low_price >= 10 (MIN_PLAUSIBLE_LISTED_PRICE); Vivid Seats and TicketNetwork only; read 26 Nov 2026",
     "runUp": "provider_pricing_daily (low_price_last): Vivid Seats + TicketNetwork, USD, shows before 2026-11-21; isolated spikes dropped (functions/_price-outliers.js rule); reading nearest 30 days out within 21-40 days vs nearest 2 days out within 0-4 days; same show, same site"
   }
 }

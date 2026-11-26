@@ -1,9 +1,9 @@
 ---
 title: "How to get the cheapest Zach Bryan tickets"
 seo_title: "Cheapest Zach Bryan tickets"
-description: "The lowest listed Zach Bryan prices on 21 November 2026, which sellers list each date, and how prices moved before 8 shows that have already played."
-summary: "Zach Bryan ticket prices by date and site on 21 November 2026, and what prices did before 8 shows that have already played."
-date: 2026-11-21
+description: "The lowest listed Zach Bryan prices on 26 November 2026, which sellers list each date, and how prices moved before 8 shows that have already played."
+summary: "Zach Bryan ticket prices by date and site on 26 November 2026, and what prices did before 8 shows that have already played."
+date: 2026-11-26
 status: published
 tags:
   - tour-data
@@ -15,23 +15,23 @@ related_guides:
   - when-is-the-best-time-to-buy-concert-tickets
 ---
 
-On 21 November 2026, the lowest price listed on Vivid Seats or TicketNetwork for Zach Bryan was $47.15 on TicketNetwork, for Vancouver on 27 July 2027. Before 8 Zach Bryan shows that have already played, a site's lowest price two days out was lower than a month out in 2 of 13 comparisons and higher in 11. This page sets out both.
+On 26 November 2026, the lowest price listed on Vivid Seats or TicketNetwork for Zach Bryan was $49.45 on TicketNetwork, for Vancouver on 27 July 2027. Before 8 Zach Bryan shows that have already played, a site's lowest price two days out was lower than a month out in 2 of 13 comparisons and higher in 11. This page sets out both.
 
-## Cheapest dates on 21 November 2026
+## Cheapest dates on 26 November 2026
 
-TourTicketCompare tracks 20 upcoming Zach Bryan dates. 18 had a recent price on Vivid Seats or TicketNetwork on 21 November 2026. The five with the lowest figure on either site:
+TourTicketCompare tracks 20 upcoming Zach Bryan dates. 20 had a recent price on Vivid Seats or TicketNetwork on 26 November 2026. The five with the lowest figure on either site:
 
 | Date | City | Venue | Vivid Seats | TicketNetwork |
 |---|---|---|---|---|
-| 27 July 2027 | [Vancouver](/artists/zach-bryan/tickets/vancouver-canada) | BC Place | $60 | $47.15 |
+| 27 July 2027 | [Vancouver](/artists/zach-bryan/tickets/vancouver-canada) | BC Place | $64 | $49.45 |
+| 1 August 2027 | [Edmonton](/artists/zach-bryan/tickets/edmonton-canada) | Commonwealth Stadium / Stade du Commonwealth | none listed | $50.60 |
 | 28 July 2027 | [Vancouver](/artists/zach-bryan/tickets/vancouver-canada) | BC Place | $75 | $58.65 |
-| 18 May 2027 | [Baltimore](/artists/zach-bryan/tickets/baltimore-united-states) | M&T Bank Stadium | $80 | $72.45 |
-| 14 May 2027 | [East Rutherford](/artists/zach-bryan/tickets/east-rutherford-united-states) | MetLife Stadium | $92 | $73.60 |
-| 1 May 2027 | [Indianapolis](/artists/zach-bryan/tickets/indianapolis-united-states) | Lucas Oil Stadium | $74 | $117.30 |
+| 1 May 2027 | [Indianapolis](/artists/zach-bryan/tickets/indianapolis-united-states) | Lucas Oil Stadium | $74 | $62.10 |
+| 31 July 2027 | [Edmonton](/artists/zach-bryan/tickets/edmonton-canada) | Commonwealth Stadium / Stade du Commonwealth | none listed | $63.25 |
 
-Each figure is that site's lowest listed price for that one date, in US dollars, captured between 21 November, 11:10 UTC and 21 November, 18:03 UTC. They are not final totals, and seat location and fees change what you pay. A city link opens every date there, with its latest checked prices.
+Each figure is that site's lowest listed price for that one date, in US dollars, captured between 26 November, 19:02 UTC and 26 November, 22:39 UTC. They are not final totals, and seat location and fees change what you pay. A city link opens every date there, with its latest checked prices.
 
-Vivid Seats had a price for 17 of these dates and TicketNetwork for 18. In the table, Vivid Seats is lower on 1 date and TicketNetwork on 4, so the cheaper site changes from date to date.
+Vivid Seats had a price for 17 of these dates and TicketNetwork for 20. In the table, Vivid Seats is lower on 0 dates and TicketNetwork on 3, so the cheaper site changes from date to date.
 
 ## How prices moved before shows that have played
 

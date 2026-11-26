@@ -6467,7 +6467,7 @@ export function renderOnsaleCalendarBody(route) {
       "/guides/how-to-prepare-for-a-ticket-onsale",
       "mini-link"
     )}${anchor("Primary vs resale concert tickets", "/guides/primary-vs-resale-concert-tickets", "mini-link")}</div></section>`
-  )}<div class="action-row">${anchor("Browse artists", "/artists", "button button-secondary")}${anchor(
+  )}<div class="action-row">${anchor("Concert tickets this week", TICKETS_THIS_WEEK_PATH, "button button-secondary")}${anchor("Browse artists", "/artists", "button button-secondary")}${anchor(
     "Browse cities",
     "/cities",
     "button button-secondary"
@@ -6650,7 +6650,7 @@ export function renderRumouredToursBody(route) {
   )}</p>${rumoured.entryCount ? `<section class="section-grid"><div class="section-intro"><h2>Unconfirmed reports</h2><p>Rumours are not announcements. No tickets are linked for these artists until a tour is confirmed and its dates are on sale.</p></div><div class="card-grid">${items}</div></section>` : ""}${collapsedGroupHtml(
     "About this list",
     `<section class="nested-panel"><h2>How this list works</h2><div class="card-grid"><article class="info-card"><h3>Sourced, not guessed</h3><p>Each entry links to the report it comes from. No dates, venues or prices are added on this site.</p></article><article class="info-card"><h3>Leaves the list when real</h3><p>Once a tour is announced and has dates on sale, the artist gets a page and drops off this list.</p></article></div></section>`
-  )}<div class="action-row">${anchor(`${year} confirmed tours`, TOURS_HUB_PATH, "button button-secondary")}${anchor("On sale soon", ONSALE_CALENDAR_PATH, "button button-secondary")}${anchor("Browse artists", "/artists", "button button-secondary")}</div></section></main>`;
+  )}<div class="action-row">${anchor("Concert tickets this week", TICKETS_THIS_WEEK_PATH, "button button-secondary")}${anchor(`${year} confirmed tours`, TOURS_HUB_PATH, "button button-secondary")}${anchor("On sale soon", ONSALE_CALENDAR_PATH, "button button-secondary")}${anchor("Browse artists", "/artists", "button button-secondary")}</div></section></main>`;
 }
 
 function eventLinkPublishable(event) {

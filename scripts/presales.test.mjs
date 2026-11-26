@@ -225,6 +225,8 @@ const text = (html) =>
   const page = await render("/artists/oasis/presale", EVENTS.filter((event) => !event.presales));
   assert(page.status === 200 && page.robots.startsWith("noindex"), "with nothing listed the page renders noindex");
   assert(text(page.main).includes("There's no upcoming presale"), "with nothing listed the page says so");
+  assert(/has ended or is no longer listed\. Tracked dates start [A-Z][a-z]{2}, [A-Z][a-z]{2} \d{1,2}, \d{4} and run to [A-Z][a-z]{2}, [A-Z][a-z]{2} \d{1,2}, \d{4}\./.test(text(page.main)), "with nothing listed the page names only the tracked date range and does not claim a general sale");
+  assert(!/general sale/i.test(text(page.main)), "the page does not claim a general sale the data cannot show");
   assert(/Next Oasis dates/.test(text(page.main)), "with nothing listed the page still opens its next dates, so a late visitor can reach the sale");
 }
 

@@ -65,7 +65,7 @@ export function renderGuide(figures) {
   }
 
   if (first) {
-    lines.push(`## Cheapest dates right now`);
+    lines.push(`## Cheapest dates on ${nextDate}`);
     lines.push(
       `TourTicketCompare tracks ${current.upcomingDates} upcoming ${artist} dates. ${current.pricedDates} had a recent price on Vivid Seats or TicketNetwork on ${nextDate}${current.scopeShort ? ` in ${current.scopeShort}` : ""}. The five with the lowest figure on either site:`
     );
@@ -78,7 +78,7 @@ export function renderGuide(figures) {
       .join("\n");
     lines.push(`${head}\n${body}`);
     lines.push(
-      `Each figure is that site's lowest listed price for that one date, in US dollars, captured between ${utcTime(figures.capturedFrom)} and ${utcTime(figures.capturedTo)}. They are not final totals, and seat location and fees change what you pay. A city link opens every date there.`
+      `Each figure is that site's lowest listed price for that one date, in US dollars, captured between ${utcTime(figures.capturedFrom)} and ${utcTime(figures.capturedTo)}. They are not final totals, and seat location and fees change what you pay. A city link opens every date there, with its latest checked prices.`
     );
     const both = rows.filter(({ entry }) => entry.vividSeats != null && entry.ticketNetwork != null);
     const vividLower = both.filter(({ entry }) => entry.vividSeats < entry.ticketNetwork).length;

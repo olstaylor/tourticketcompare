@@ -17,7 +17,7 @@ related_guides:
 
 On 21 November 2026, the lowest price listed on Vivid Seats or TicketNetwork for Metallica was $65.55 on TicketNetwork, for Kansas City on 29 May 2027. Before 5 Metallica shows that have already played, a site's lowest price two days out was lower than a month out in 7 of 8 comparisons and higher in 1. This page sets out both.
 
-## Cheapest dates right now
+## Cheapest dates on 21 November 2026
 
 TourTicketCompare tracks 25 upcoming Metallica dates. 25 had a recent price on Vivid Seats or TicketNetwork on 21 November 2026. The five with the lowest figure on either site:
 
@@ -29,7 +29,7 @@ TourTicketCompare tracks 25 upcoming Metallica dates. 25 had a recent price on V
 | 19 June 2027 | [Salt Lake City](/artists/metallica/tickets/salt-lake-city-united-states) | Rice-Eccles Stadium | $116 | $102.35 |
 | 5 June 2027 | [Indianapolis](/artists/metallica/tickets/indianapolis-united-states) | Lucas Oil Stadium | $115 | $106.95 |
 
-Each figure is that site's lowest listed price for that one date, in US dollars, captured between 21 November, 16:58 UTC and 21 November, 18:03 UTC. They are not final totals, and seat location and fees change what you pay. A city link opens every date there.
+Each figure is that site's lowest listed price for that one date, in US dollars, captured between 21 November, 16:58 UTC and 21 November, 18:03 UTC. They are not final totals, and seat location and fees change what you pay. A city link opens every date there, with its latest checked prices.
 
 Vivid Seats had a price for 24 of these dates and TicketNetwork for 25. In the table, Vivid Seats is lower on 1 date and TicketNetwork on 4, so the cheaper site changes from date to date.
 

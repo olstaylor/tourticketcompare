@@ -17,7 +17,7 @@ related_guides:
 
 On 21 November 2026, the lowest price listed on Vivid Seats or TicketNetwork for Olivia Rodrigo in North America was $340.40 on TicketNetwork, for Seattle on 7 December 2026. Before 27 Olivia Rodrigo shows that have already played, a site's lowest price two days out was lower than a month out in 20 of 49 comparisons and higher in 25. This page sets out both.
 
-## Cheapest dates right now
+## Cheapest dates on 21 November 2026
 
 TourTicketCompare tracks 53 upcoming Olivia Rodrigo dates. 33 had a recent price on Vivid Seats or TicketNetwork on 21 November 2026 in North America. The five with the lowest figure on either site:
 
@@ -29,7 +29,7 @@ TourTicketCompare tracks 53 upcoming Olivia Rodrigo dates. 33 had a recent price
 | 12 December 2026 | [Oakland](/artists/olivia-rodrigo/tickets/oakland-united-states) | Oakland Arena | $372 | $353.05 |
 | 1 December 2026 | [Vancouver](/artists/olivia-rodrigo/tickets/vancouver-canada) | Rogers Arena | $356 | $412.85 |
 
-Each figure is that site's lowest listed price for that one date, in US dollars, captured between 20 November, 21:06 UTC and 21 November, 18:01 UTC. They are not final totals, and seat location and fees change what you pay. A city link opens every date there.
+Each figure is that site's lowest listed price for that one date, in US dollars, captured between 20 November, 21:06 UTC and 21 November, 18:01 UTC. They are not final totals, and seat location and fees change what you pay. A city link opens every date there, with its latest checked prices.
 
 Vivid Seats had a price for 33 of these dates and TicketNetwork for 33. In the table, Vivid Seats is lower on 2 dates and TicketNetwork on 3, so the cheaper site changes from date to date.
 

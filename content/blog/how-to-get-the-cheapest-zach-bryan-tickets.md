@@ -17,7 +17,7 @@ related_guides:
 
 On 21 November 2026, the lowest price listed on Vivid Seats or TicketNetwork for Zach Bryan was $47.15 on TicketNetwork, for Vancouver on 27 July 2027. Before 8 Zach Bryan shows that have already played, a site's lowest price two days out was lower than a month out in 2 of 13 comparisons and higher in 11. This page sets out both.
 
-## Cheapest dates right now
+## Cheapest dates on 21 November 2026
 
 TourTicketCompare tracks 20 upcoming Zach Bryan dates. 18 had a recent price on Vivid Seats or TicketNetwork on 21 November 2026. The five with the lowest figure on either site:
 
@@ -29,7 +29,7 @@ TourTicketCompare tracks 20 upcoming Zach Bryan dates. 18 had a recent price on 
 | 14 May 2027 | [East Rutherford](/artists/zach-bryan/tickets/east-rutherford-united-states) | MetLife Stadium | $92 | $73.60 |
 | 1 May 2027 | [Indianapolis](/artists/zach-bryan/tickets/indianapolis-united-states) | Lucas Oil Stadium | $74 | $117.30 |
 
-Each figure is that site's lowest listed price for that one date, in US dollars, captured between 21 November, 11:10 UTC and 21 November, 18:03 UTC. They are not final totals, and seat location and fees change what you pay. A city link opens every date there.
+Each figure is that site's lowest listed price for that one date, in US dollars, captured between 21 November, 11:10 UTC and 21 November, 18:03 UTC. They are not final totals, and seat location and fees change what you pay. A city link opens every date there, with its latest checked prices.
 
 Vivid Seats had a price for 17 of these dates and TicketNetwork for 18. In the table, Vivid Seats is lower on 1 date and TicketNetwork on 4, so the cheaper site changes from date to date.
 

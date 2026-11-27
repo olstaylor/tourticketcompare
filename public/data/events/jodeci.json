@@ -1352,7 +1352,7 @@
     "vividseats_url": "https://www.vividseats.com/jodeci-tickets-birmingham-bjcc-concert-hall-12-3-2026/production/7353354",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-birmingham-alabama-12-03-2026/event/200064F79E992B52",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1404,13 +1404,6 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-07-31T15:00:00Z",
-        "end": "2026-11-27T05:55:00Z"
-      }
     ],
     "genre": "R&B",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8167878/Jodeci-tickets-Thu-Dec-3-2026-Concert-Hall-at-the-BJCC",

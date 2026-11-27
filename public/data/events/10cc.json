@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-llandudno-25-02-2027/event/1F0064EFF1F48D96",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -50,7 +50,12 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_CTsWFUp",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "KENNEDY STREET ENTS LTD"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-10cc-2027-stoke-on-trent-17uyv0g6ctwydoc",
@@ -68,7 +73,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-stokeontrent-26-02-2027/event/370064EFF2E4344E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -103,7 +108,12 @@
     },
     "ticketmaster_discovery_event_id": "17uYv0G6CTwydoC",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "KENNEDY STREET ENTS LTD"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-10cc-2027-harrogate-17u8v0g6ctlxq9y",
@@ -121,7 +131,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-harrogate-27-02-2027/event/350064EFEB89D5F9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -156,7 +166,12 @@
     },
     "ticketmaster_discovery_event_id": "17u8v0G6CTlxq9y",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "KENNEDY STREET ENTS LTD"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-10cc-2027-scarborough-17u8v0g62dwld0w",
@@ -174,7 +189,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/10cc-in-concert-scarborough-28-02-2027/event/350064F0F27FB932",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -209,7 +224,12 @@
     },
     "ticketmaster_discovery_event_id": "17u8v0G62dwLD0w",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "KENNEDY STREET ENTS LTD",
+      "NORTH YORKSHIRE COUNCIL"
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-10cc-2027-leicester-g5vhz_chkdnos",
@@ -227,7 +247,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-leicester-04-03-2027/event/1F0064EF06EEA471",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -262,7 +282,12 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_CHkDnos",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "KENNEDY STREET ENTS LTD"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-10cc-2027-torquay-17uov0g62e2ner2",
@@ -280,7 +305,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-torquay-06-03-2027/event/360064F08F8C2BCF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -315,7 +340,12 @@
     },
     "ticketmaster_discovery_event_id": "17uOv0G62e2NeR2",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "KENNEDY STREET ENTS LTD"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-10cc-2027-truro-g5vhz_2m-aejk",
@@ -333,7 +363,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/10cc-truro-07-03-2027/event/1F0064FBA1142993",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -368,7 +398,12 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_2m-AeJK",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "KENNEDY STREET ENTS LTD"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-10cc-2027-salisbury-g5vhz_ctjq9vl",
@@ -386,7 +421,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-salisbury-08-03-2027/event/1F0064EFE6697D1F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -421,7 +456,12 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_CTJQ9VL",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "KENNEDY STREET ENTS LTD"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-10cc-2027-basingstoke-g5vhz_cts0tzr",
@@ -439,7 +479,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-basingstoke-09-03-2027/event/1F0064EFF392901E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -474,7 +514,12 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_CTS0tZr",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "KENNEDY STREET ENTS LTD"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-10cc-2027-watford-17uyv0g6ctns3km",
@@ -492,7 +537,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-watford-11-03-2027/event/370064EFE3C521B7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -527,7 +572,12 @@
     },
     "ticketmaster_discovery_event_id": "17uYv0G6CTNs3kM",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "KENNEDY STREET ENTS LTD"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-10cc-2027-bath-17uyv0g62evevt9",
@@ -545,7 +595,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-bath-12-03-2027/event/370064F0B49C1FD7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -580,7 +630,12 @@
     },
     "ticketmaster_discovery_event_id": "17uYv0G62eVEvT9",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "KENNEDY STREET ENTS LTD"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-10cc-2027-croydon-g5vhz_ctdn_nm",
@@ -598,7 +653,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-croydon-13-03-2027/event/1F0064EFFBA998EE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -633,7 +688,12 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_CTDn_Nm",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "KENNEDY STREET ENTS LTD"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-10cc-2027-eastbourne-g5vhz_2epbsoo",
@@ -651,7 +711,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-eastbourne-14-03-2027/event/1F0064F096EB3451",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -686,7 +746,12 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_2epBSoo",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "KENNEDY STREET ENTS LTD"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-10cc-2027-aylesbury-17u8v0g6ctc0wu5",
@@ -704,7 +769,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-aylesbury-15-03-2027/event/350064EFED93DD8B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -739,7 +804,12 @@
     },
     "ticketmaster_discovery_event_id": "17u8v0G6CTc0WU5",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "KENNEDY STREET ENTS LTD"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-10cc-2027-coventry-g5vhz_ctmqz4m",
@@ -757,7 +827,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-coventry-17-03-2027/event/1F0064EFEE6B856E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -792,7 +862,12 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_CTmQz4m",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "KENNEDY STREET ENTS LTD"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-10cc-2027-northampton-g5vhz_ctw2ats",
@@ -810,7 +885,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-northampton-18-03-2027/event/1F0064EFFD3C9A71",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -845,7 +920,12 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_CTW2ats",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "KENNEDY STREET ENTS LTD"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-10cc-2027-scunthorpe-17uov0g62e9zs8y",
@@ -863,7 +943,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-scunthorpe-19-03-2027/event/360064F097033430",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -898,7 +978,12 @@
     },
     "ticketmaster_discovery_event_id": "17uOv0G62e9ZS8Y",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "KENNEDY STREET ENTS LTD"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-10cc-2027-derby-17fyv0g6cx5rowg",
@@ -916,7 +1001,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/10cc-in-concert-derby-20-03-2027/event/230064EF8B7A0F75",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -951,7 +1036,12 @@
     },
     "ticketmaster_discovery_event_id": "17FYv0G6CX5rOWg",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "KENNEDY STREET ENTS LTD",
+      "LEGENDS GLOBAL VAILLANT LIVE DERBY"
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-10cc-2027-halifax-g5vhz_2exijk0",
@@ -969,7 +1059,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-halifax-22-03-2027/event/1F0064F0BEA264E4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1004,7 +1094,12 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_2eXIJK0",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "KENNEDY STREET ENTS LTD"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-10cc-2027-perth-17uov0g6ctyjann",
@@ -1022,7 +1117,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-perth-23-03-2027/event/360064EFF9709AAA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1057,7 +1152,12 @@
     },
     "ticketmaster_discovery_event_id": "17uOv0G6CTyjann",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "KENNEDY STREET ENTS LTD"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-10cc-2027-edinburgh-17uov0g6chf_1iz",
@@ -1075,7 +1175,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-edinburgh-24-03-2027/event/360064EF0864AA00",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1110,7 +1210,12 @@
     },
     "ticketmaster_discovery_event_id": "17uOv0G6CHF_1IZ",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "KENNEDY STREET ENTS LTD"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-10cc-2027-stockton-on-tees-g5vhz_2zfodiq",
@@ -1128,7 +1233,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-stocktonontees-25-03-2027/event/1F0064F00883BB1D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1163,7 +1268,12 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_2ZFODiq",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "KENNEDY STREET ENTS LTD"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-10cc-2027-milton-keynes-16mzk4yx7zaue7ed",
@@ -1181,7 +1291,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-milton-keynes-11-05-2027/event/37006570884C1312",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1216,7 +1326,12 @@
     },
     "ticketmaster_discovery_event_id": "16MZk4Yx7ZAue7ed",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "KENNEDY STREET ENTS LTD"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-10cc-2027-hull-1ku8vpjfgag2ojo",
@@ -1234,7 +1349,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-hull-12-05-2027/event/350065708C3D1720",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1269,7 +1384,12 @@
     },
     "ticketmaster_discovery_event_id": "1ku8vPjFGAG2ojO",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "KENNEDY STREET ENTS LTD"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-10cc-2027-tunbridge-wells-1kuyvpjaga5kwmj",
@@ -1287,7 +1407,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-tunbridge-wells-14-05-2027/event/370065709B4F2DE6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1322,7 +1442,12 @@
     },
     "ticketmaster_discovery_event_id": "1kuYvPjaGA5KwMJ",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "KENNEDY STREET ENTS LTD"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-10cc-2027-folkestone-1kuovpjagagra6l",
@@ -1340,7 +1465,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-folkestone-15-05-2027/event/360065709CBC51DF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1375,7 +1500,12 @@
     },
     "ticketmaster_discovery_event_id": "1kuOvPjaGAGRA6L",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "KENNEDY STREET ENTS LTD"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-10cc-2027-dorset-g5vhz_9erpduu",
@@ -1393,7 +1523,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-dorset-17-05-2027/event/1F0065709E583376",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1428,7 +1558,12 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_9erpduU",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "KENNEDY STREET ENTS LTD"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-10cc-2027-hastings-1auzk4ygkeo5pcx",
@@ -1446,7 +1581,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-hastings-18-05-2027/event/36006570A02E5B7E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1481,7 +1616,12 @@
     },
     "ticketmaster_discovery_event_id": "1AUZk4YGkeO5PcX",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "KENNEDY STREET ENTS LTD"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-10cc-2027-carlisle-g5vhz_9e-fkjn",
@@ -1499,7 +1639,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-carlisle-20-05-2027/event/1F006570A1513723",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1534,7 +1674,12 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_9e-fKjN",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "KENNEDY STREET ENTS LTD"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-10cc-2027-ipswich-g5vhz_9exlk-j",
@@ -1552,7 +1697,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-ipswich-22-05-2027/event/1F006570A2AD3866",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1587,7 +1732,12 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_9exlK-J",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "KENNEDY STREET ENTS LTD"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-10cc-2027-rotterdam-z698xzbpz1kfevxad",
@@ -1605,8 +1755,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/10cc-tickets/227062143?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-27",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "227062143",
@@ -1640,7 +1790,8 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1kFEvxAd",
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Rock"
   },
   {
     "id": "tm-10cc-2027-brussels-z698xzg2z1kkfe3o6",
@@ -1658,8 +1809,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.be/event/10cc-tickets/194092807",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-27",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "194092807",
@@ -1693,6 +1844,10 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z1kkfe3O6",
     "timezone": "Europe/Brussels",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Greenhouse Talent"
+    ],
+    "genre": "Rock"
   }
 ]

@@ -1629,7 +1629,7 @@
     "vividseats_url": "https://www.vividseats.com/u2-tickets-miami-gardens-hard-rock-stadium-8-13-2027/production/7926437",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-miami-florida-08-13-2027/event/0D0065716A581A54",
-    "last_verified_at": "2026-11-26",
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1688,7 +1688,7 @@
     "status": "announced",
     "public_onsale_at": "2026-12-04T15:00:00Z",
     "organizer_names": [
-      "PROMOTED BY TEAM"
+      "LIVE NATION MUSIC"
     ],
     "ticket_limit": 4,
     "genre": "Rock",
@@ -1702,6 +1702,11 @@
         "name": "VIP Package Presale: The Hype Group",
         "start": "2026-12-01T15:00:00Z",
         "end": "2026-12-02T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-12-02T15:00:00Z",
+        "end": "2026-12-03T03:00:00Z"
       },
       {
         "name": "Visa Presale",

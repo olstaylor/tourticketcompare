@@ -1075,7 +1075,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-baltimore-cfg-bank-arena-12-3-2026/production/7394001",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-baltimore-maryland-12-03-2026/event/150064FDAF3179F3",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1135,13 +1135,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184425",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184425/Pentatonix-tickets-Thu-Dec-3-2026-CFG-Bank-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/pentatonix-baltimore-tickets-12-3-2026/event/107476105",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-08-14T14:00:00Z",
-        "end": "2026-11-27T03:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],

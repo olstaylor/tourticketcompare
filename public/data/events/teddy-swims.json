@@ -4112,7 +4112,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-glasgow-14-04-2027/event/360064F8DF478A46",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4148,6 +4148,43 @@
     "ticketmaster_discovery_event_id": "17uOv0G62NLoztk",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-12-04T10:00:00Z"
+    "public_onsale_at": "2026-12-04T10:00:00Z",
+    "organizer_names": [
+      "SCOTTISH EVENT CAMPUS LIMITED"
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-12-02T10:00:00Z",
+        "end": "2026-12-04T09:00:00Z"
+      },
+      {
+        "name": "OVO Presale",
+        "start": "2026-12-02T10:00:00Z",
+        "end": "2026-12-04T09:00:00Z"
+      },
+      {
+        "name": "Priority from O2",
+        "start": "2026-12-02T10:00:00Z",
+        "end": "2026-12-04T09:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-12-03T10:00:00Z",
+        "end": "2026-12-04T09:00:00Z"
+      },
+      {
+        "name": "Promoter Presale",
+        "start": "2026-12-03T10:00:00Z",
+        "end": "2026-12-04T09:00:00Z"
+      },
+      {
+        "name": "Spotify Presale",
+        "start": "2026-12-03T12:00:00Z",
+        "end": "2026-12-04T09:00:00Z"
+      }
+    ]
   }
 ]

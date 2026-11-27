@@ -612,7 +612,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-boise-idaho-11-27-2026/event/1E006507D287756D",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -648,13 +648,6 @@
     "ticketmaster_discovery_event_id": "G5vzZ_8L3-M4c",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "Aisle Seat Upgrade",
-        "start": "2026-09-17T16:00:00Z",
-        "end": "2026-11-27T06:59:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -1818,7 +1811,7 @@
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-raleigh-lenovo-center-12-10-2026--concerts-world-music/production/7536791",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-raleigh-north-carolina-12-10-2026/event/2D0064FCA708BBA4",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1877,13 +1870,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255082",
     "stubhub_international_url": "https://www.stubhub.ie/trans-siberian-orchestra-raleigh-tickets-12-10-2026/event/107667924",
-    "presales": [
-      {
-        "name": "T-Mobile® Concert Perks",
-        "start": "2026-09-18T14:00:00Z",
-        "end": "2026-11-27T03:00:00Z"
-      }
-    ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255082/Trans-Siberian-Orchestra-tickets-Thu-Dec-10-2026-Lenovo-Center",
     "organizer_names": [
       "LIVE NATION MUSIC"

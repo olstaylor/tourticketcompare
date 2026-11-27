@@ -839,7 +839,7 @@
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-brooklyn-barclays-center-3-26-2027--concerts-rb/production/7886379",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-brooklyn-new-york-03-26-2027/event/3000656C9A4649CA",
-    "last_verified_at": "2026-11-21",
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -902,11 +902,6 @@
     "ticket_limit": 4,
     "genre": "R&B",
     "presales": [
-      {
-        "name": "Verizon Shine Select Seats",
-        "start": "2026-11-20T15:00:00Z",
-        "end": "2026-11-27T04:59:00Z"
-      },
       {
         "name": "VIP Packages Onsale",
         "start": "2026-11-20T15:00:00Z",

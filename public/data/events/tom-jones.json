@@ -1168,7 +1168,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/tom-jones-tramore-rd-cork-02-07-2027/event/18006570C6434B98",
-    "last_verified_at": "2026-11-24",
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1203,24 +1203,11 @@
     },
     "ticketmaster_discovery_event_id": "1AbZk4YGkdk8Vmb",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-27T09:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "MCD PRODUCTIONS"
     ],
-    "genre": "Rock",
-    "presales": [
-      {
-        "name": "Bank of Ireland Mastercard Presale",
-        "start": "2026-11-25T09:00:00Z",
-        "end": "2026-11-27T08:00:00Z"
-      },
-      {
-        "name": "MCD Presale",
-        "start": "2026-11-26T09:00:00Z",
-        "end": "2026-11-27T08:00:00Z"
-      }
-    ]
+    "genre": "Rock"
   },
   {
     "id": "tm-tom-jones-2027-london-g5vhz_9c-qabn",

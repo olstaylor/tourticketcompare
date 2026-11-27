@@ -1746,7 +1746,7 @@
         "event_id": "8199813",
         "url": "https://www.ticketliquidator.com/tickets/8199813/Steve-Lacy-tickets-Sat-Nov-28-2026-Wamu-Theater-At-Lumen-Field-Event-Center",
         "verified": true,
-        "last_verified_at": "2026-11-26",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1828,7 +1828,7 @@
         "event_id": "8199816",
         "url": "https://www.ticketliquidator.com/tickets/8199816/Steve-Lacy-tickets-Mon-Nov-30-2026-UBC-Doug-Mitchell-Thunderbird-Sports-Centre",
         "verified": true,
-        "last_verified_at": "2026-11-26",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1908,6 +1908,13 @@
         "verified": true,
         "last_verified_at": "2026-11-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8392541",
+        "url": "https://www.ticketliquidator.com/tickets/8392541/Steve-Lacy-tickets-Mon-Apr-26-2027-O2-Arena-London",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16dfZ_98YG7UF9q",
@@ -1915,7 +1922,8 @@
     "status": "on-sale",
     "ticket_limit": 8,
     "genre": "R&B",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8392541"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8392541",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8392541/Steve-Lacy-tickets-Mon-Apr-26-2027-O2-Arena-London"
   },
   {
     "id": "tm-steve-lacy-2027-london-1ku8vpqdgagp_zi",
@@ -1971,6 +1979,13 @@
         "verified": true,
         "last_verified_at": "2026-11-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8392542",
+        "url": "https://www.ticketliquidator.com/tickets/8392542/Steve-Lacy-tickets-Tue-Apr-27-2027-O2-Arena-London",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ku8vPqdGAGP_Zi",
@@ -1978,6 +1993,7 @@
     "status": "on-sale",
     "ticket_limit": 8,
     "genre": "R&B",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8392542"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8392542",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8392542/Steve-Lacy-tickets-Tue-Apr-27-2027-O2-Arena-London"
   }
 ]

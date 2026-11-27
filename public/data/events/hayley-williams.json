@@ -55,11 +55,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8072644",
-        "url": "https://www.ticketliquidator.com/tickets/8072644/The-Hayley-Williams-Show-tickets-Thu-Nov-26-2026-Auditorio-Nacional-Mexico",
-        "verified": true,
-        "last_verified_at": "2026-11-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107162730",
@@ -76,7 +76,7 @@
       "OCESA"
     ],
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8072644/The-Hayley-Williams-Show-tickets-Thu-Nov-26-2026-Auditorio-Nacional-Mexico",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/hayley-williams-tickets-mexico-city-auditorio-nacional-26-11-2026/event/107162730",
     "genre": "Pop"
   },
@@ -139,7 +139,7 @@
         "event_id": "8072651",
         "url": "https://www.ticketliquidator.com/tickets/8072651/The-Hayley-Williams-Show-tickets-Wed-Jan-13-2027-Auditorio-Nacional-Mexico",
         "verified": true,
-        "last_verified_at": "2026-11-26",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -220,7 +220,7 @@
         "event_id": "8220574",
         "url": "https://www.ticketliquidator.com/tickets/8220574/Hayley-Williams-tickets-Fri-Jan-15-2027-Auditorio-Banamex",
         "verified": true,
-        "last_verified_at": "2026-11-26",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       }
     },

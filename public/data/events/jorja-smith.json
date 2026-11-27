@@ -53,6 +53,13 @@
         "verified": true,
         "last_verified_at": "2026-11-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8376028",
+        "url": "https://www.ticketliquidator.com/tickets/8376028/Jorja-Smith-tickets-Wed-May-26-2027-Ziggo-Dome",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vP07O1a",
@@ -62,7 +69,8 @@
       "Mojo Concerts"
     ],
     "genre": "Hip-Hop/Rap",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8376028"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8376028",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8376028/Jorja-Smith-tickets-Wed-May-26-2027-Ziggo-Dome"
   },
   {
     "id": "tm-jorja-smith-2027-brussels-z698xzg2z16v-6xajf",
@@ -232,6 +240,13 @@
         "verified": true,
         "last_verified_at": "2026-11-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8235645",
+        "url": "https://www.ticketliquidator.com/tickets/8235645/Jorja-Smith-tickets-Sat-Jul-17-2027-O2-Arena-London",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Fu8vP7N0aZ75Fd6",
@@ -243,7 +258,8 @@
     ],
     "ticket_limit": 6,
     "genre": "R&B",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8235645"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8235645",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8235645/Jorja-Smith-tickets-Sat-Jul-17-2027-O2-Arena-London"
   },
   {
     "id": "tm-jorja-smith-2027-brisbane-1avgz_8gknnf3nj",

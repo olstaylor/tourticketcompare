@@ -53,6 +53,13 @@
         "verified": true,
         "last_verified_at": "2026-11-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8342847",
+        "url": "https://www.ticketliquidator.com/tickets/8342847/The-Doobie-Brothers-tickets-Fri-Feb-26-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk49GkdwjH7q",
@@ -75,7 +82,8 @@
         "end": "2027-02-22T20:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342847"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342847",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8342847/The-Doobie-Brothers-tickets-Fri-Feb-26-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas"
   },
   {
     "id": "tm-the-doobie-brothers-2027-las-vegas-1a9zk49gkdwlg7i",
@@ -131,6 +139,13 @@
         "verified": true,
         "last_verified_at": "2026-11-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8342848",
+        "url": "https://www.ticketliquidator.com/tickets/8342848/The-Doobie-Brothers-tickets-Sat-Feb-27-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk49GkdwLG7I",
@@ -153,7 +168,8 @@
         "end": "2027-02-23T20:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342848"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342848",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8342848/The-Doobie-Brothers-tickets-Sat-Feb-27-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas"
   },
   {
     "id": "tm-the-doobie-brothers-2027-las-vegas-1a9zk49gkdw-j7d",
@@ -209,6 +225,13 @@
         "verified": true,
         "last_verified_at": "2026-11-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8342849",
+        "url": "https://www.ticketliquidator.com/tickets/8342849/The-Doobie-Brothers-tickets-Fri-Mar-5-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk49Gkdw-j7D",
@@ -231,7 +254,8 @@
         "end": "2027-03-01T20:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342849"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342849",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8342849/The-Doobie-Brothers-tickets-Fri-Mar-5-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas"
   },
   {
     "id": "tm-the-doobie-brothers-2027-las-vegas-1a9zk49gkdwnjac",
@@ -287,6 +311,13 @@
         "verified": true,
         "last_verified_at": "2026-11-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8342850",
+        "url": "https://www.ticketliquidator.com/tickets/8342850/The-Doobie-Brothers-tickets-Sat-Mar-6-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk49GkdwNjAC",
@@ -309,7 +340,8 @@
         "end": "2027-03-02T20:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342850"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342850",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8342850/The-Doobie-Brothers-tickets-Sat-Mar-6-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas"
   },
   {
     "id": "tm-the-doobie-brothers-2027-halifax-1aszk4vgkem55xl",
@@ -365,13 +397,21 @@
         "verified": true,
         "last_verified_at": "2026-11-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8386489",
+        "url": "https://www.ticketliquidator.com/tickets/8386489/The-Doobie-Brothers-tickets-Thu-Aug-5-2027-Scotiabank-Centre",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AsZk4VGkeM55XL",
     "timezone": "America/Halifax",
     "status": "announced",
     "public_onsale_at": "2026-11-27T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8386489"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8386489",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8386489/The-Doobie-Brothers-tickets-Thu-Aug-5-2027-Scotiabank-Centre"
   },
   {
     "id": "tm-the-doobie-brothers-2027-moncton-1aszk4vgkdperjo",
@@ -427,13 +467,21 @@
         "verified": true,
         "last_verified_at": "2026-11-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8386490",
+        "url": "https://www.ticketliquidator.com/tickets/8386490/The-Doobie-Brothers-tickets-Fri-Aug-6-2027-Avenir-Centre",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AsZk4VGkdPERjo",
     "timezone": "America/Halifax",
     "status": "announced",
     "public_onsale_at": "2026-11-27T14:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8386490"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8386490",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8386490/The-Doobie-Brothers-tickets-Fri-Aug-6-2027-Avenir-Centre"
   },
   {
     "id": "tm-the-doobie-brothers-2027-laval-1aszk4wgkdkwh-0",
@@ -489,6 +537,13 @@
         "verified": true,
         "last_verified_at": "2026-11-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8386491",
+        "url": "https://www.ticketliquidator.com/tickets/8386491/The-Doobie-Brothers-tickets-Mon-Aug-9-2027-Place-Bell",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AsZk4wGkdKWH-0",
@@ -510,7 +565,8 @@
         "end": "2027-08-05T16:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8386491"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8386491",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8386491/The-Doobie-Brothers-tickets-Mon-Aug-9-2027-Place-Bell"
   },
   {
     "id": "tm-the-doobie-brothers-2027-kanata-16szk4wjdza2faae",
@@ -703,6 +759,13 @@
         "verified": true,
         "last_verified_at": "2026-11-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8386494",
+        "url": "https://www.ticketliquidator.com/tickets/8386494/The-Doobie-Brothers-tickets-Mon-Aug-16-2027-Canada-Life-Centre",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZk4SGkd30Xaz",
@@ -724,7 +787,8 @@
         "end": "2027-08-12T17:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8386494"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8386494",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8386494/The-Doobie-Brothers-tickets-Mon-Aug-16-2027-Canada-Life-Centre"
   },
   {
     "id": "tm-the-doobie-brothers-2027-edmonton-1aozk4sptc3ze8k",
@@ -780,6 +844,13 @@
         "verified": true,
         "last_verified_at": "2026-11-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8386495",
+        "url": "https://www.ticketliquidator.com/tickets/8386495/The-Doobie-Brothers-tickets-Thu-Aug-19-2027-Rogers-Place",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1aoZk4SPtC3Ze8k",
@@ -801,7 +872,8 @@
         "end": "2027-08-15T18:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8386495"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8386495",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8386495/The-Doobie-Brothers-tickets-Thu-Aug-19-2027-Rogers-Place"
   },
   {
     "id": "tm-the-doobie-brothers-2027-abbotsford-15v7z_9c9zac3",
@@ -857,6 +929,13 @@
         "verified": true,
         "last_verified_at": "2026-11-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8386498",
+        "url": "https://www.ticketliquidator.com/tickets/8386498/The-Doobie-Brothers-tickets-Tue-Aug-24-2027-Rogers-Forum",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "15v7Z_9C9ZaC3",
@@ -882,7 +961,8 @@
         "end": "2027-08-21T05:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8386498"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8386498",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8386498/The-Doobie-Brothers-tickets-Tue-Aug-24-2027-Rogers-Forum"
   },
   {
     "id": "tm-the-doobie-brothers-2027-las-vegas-1a9zk49gkdwpia9",
@@ -938,6 +1018,13 @@
         "verified": true,
         "last_verified_at": "2026-11-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8342851",
+        "url": "https://www.ticketliquidator.com/tickets/8342851/The-Doobie-Brothers-tickets-Fri-Aug-27-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk49GkdwPiA9",
@@ -960,7 +1047,8 @@
         "end": "2027-08-23T19:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342851"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342851",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8342851/The-Doobie-Brothers-tickets-Fri-Aug-27-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas"
   },
   {
     "id": "tm-the-doobie-brothers-2027-las-vegas-1a9zk49gkdwejan",
@@ -1016,6 +1104,13 @@
         "verified": true,
         "last_verified_at": "2026-11-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8342852",
+        "url": "https://www.ticketliquidator.com/tickets/8342852/The-Doobie-Brothers-tickets-Sat-Aug-28-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk49GkdwEjAN",
@@ -1038,7 +1133,8 @@
         "end": "2027-08-24T19:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342852"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342852",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8342852/The-Doobie-Brothers-tickets-Sat-Aug-28-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas"
   },
   {
     "id": "tm-the-doobie-brothers-2027-las-vegas-1a9zk49gkdwtjas",
@@ -1094,6 +1190,13 @@
         "verified": true,
         "last_verified_at": "2026-11-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8342853",
+        "url": "https://www.ticketliquidator.com/tickets/8342853/The-Doobie-Brothers-tickets-Wed-Sep-1-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk49GkdwtjAS",
@@ -1116,7 +1219,8 @@
         "end": "2027-08-28T19:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342853"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342853",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8342853/The-Doobie-Brothers-tickets-Wed-Sep-1-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas"
   },
   {
     "id": "tm-the-doobie-brothers-2027-las-vegas-1a9zk49gkdwljat",
@@ -1172,6 +1276,13 @@
         "verified": true,
         "last_verified_at": "2026-11-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8342855",
+        "url": "https://www.ticketliquidator.com/tickets/8342855/The-Doobie-Brothers-tickets-Fri-Sep-3-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk49GkdwljAT",
@@ -1194,7 +1305,8 @@
         "end": "2027-08-30T19:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342855"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342855",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8342855/The-Doobie-Brothers-tickets-Fri-Sep-3-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas"
   },
   {
     "id": "tm-the-doobie-brothers-2027-las-vegas-1a9zk49gkdwcjkg",
@@ -1250,6 +1362,13 @@
         "verified": true,
         "last_verified_at": "2026-11-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8342856",
+        "url": "https://www.ticketliquidator.com/tickets/8342856/The-Doobie-Brothers-tickets-Sat-Sep-4-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk49GkdwcjkG",
@@ -1272,6 +1391,7 @@
         "end": "2027-08-31T19:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342856"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342856",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8342856/The-Doobie-Brothers-tickets-Sat-Sep-4-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas"
   }
 ]

@@ -55,11 +55,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8284511",
-        "url": "https://www.ticketliquidator.com/tickets/8284511/Mariah-Carey-tickets-Fri-Nov-27-2026-Utilita-Arena-Birmingham",
-        "verified": true,
-        "last_verified_at": "2026-11-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107669566",
@@ -73,7 +73,7 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284511",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284511/Mariah-Carey-tickets-Fri-Nov-27-2026-Utilita-Arena-Birmingham",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/mariah-carey-tickets-birmingham-utilita-arena-birmingham-27-11-2026/event/107669566",
     "organizer_names": [
       "LNM - VIP NATION UK"
@@ -147,7 +147,7 @@
         "event_id": "8276937",
         "url": "https://www.ticketliquidator.com/tickets/8276937/Mariah-Carey-tickets-Mon-Nov-30-2026-O2-Arena-London",
         "verified": true,
-        "last_verified_at": "2026-11-26",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       }
     },
@@ -222,7 +222,7 @@
         "event_id": "8276812",
         "url": "https://www.ticketliquidator.com/tickets/8276812/Mariah-Carey-tickets-Wed-Dec-2-2026-Co-Op-Live",
         "verified": true,
-        "last_verified_at": "2026-11-26",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -438,7 +438,7 @@
         "event_id": "8365855",
         "url": "https://www.ticketliquidator.com/tickets/8365855/Mariah-Carey-tickets-Sat-Jul-3-2027-Scarborough-Open-Air-Theatre",
         "verified": true,
-        "last_verified_at": "2026-11-26",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "stubhub-international": {

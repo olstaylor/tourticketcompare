@@ -51,7 +51,7 @@
         "event_id": "8223803",
         "url": "https://www.ticketliquidator.com/tickets/8223803/Backstreet-Boys-tickets-Sat-Dec-26-2026-Sphere",
         "verified": true,
-        "last_verified_at": "2026-11-26",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -140,7 +140,7 @@
         "event_id": "8223802",
         "url": "https://www.ticketliquidator.com/tickets/8223802/Backstreet-Boys-tickets-Sun-Dec-27-2026-Sphere",
         "verified": true,
-        "last_verified_at": "2026-11-26",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -229,7 +229,7 @@
         "event_id": "8194445",
         "url": "https://www.ticketliquidator.com/tickets/8194445/Backstreet-Boys-tickets-Thu-Dec-31-2026-Sphere",
         "verified": true,
-        "last_verified_at": "2026-11-26",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -318,7 +318,7 @@
         "event_id": "8194446",
         "url": "https://www.ticketliquidator.com/tickets/8194446/Backstreet-Boys-tickets-Fri-Jan-1-2027-Sphere",
         "verified": true,
-        "last_verified_at": "2026-11-26",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -407,7 +407,7 @@
         "event_id": "8194447",
         "url": "https://www.ticketliquidator.com/tickets/8194447/Backstreet-Boys-tickets-Sat-Jan-2-2027-Sphere",
         "verified": true,
-        "last_verified_at": "2026-11-26",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1398,7 +1398,7 @@
         "event_id": "8330023",
         "url": "https://www.ticketliquidator.com/tickets/8330023/Backstreet-Boys-tickets-Tue-Dec-29-2026-Sphere",
         "verified": true,
-        "last_verified_at": "2026-11-26",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1489,6 +1489,13 @@
         "verified": true,
         "last_verified_at": "2026-11-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8392537",
+        "url": "https://www.ticketliquidator.com/tickets/8392537/Backstreet-Boys-tickets-Tue-Jun-8-2027-O2-Arena-London",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_9GknDYIIY",
@@ -1503,7 +1510,8 @@
         "end": "2026-12-04T11:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8392537"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8392537",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8392537/Backstreet-Boys-tickets-Tue-Jun-8-2027-O2-Arena-London"
   },
   {
     "id": "tm-backstreet-boys-2027-london-1adfz_9gkljcn0r",
@@ -1559,6 +1567,13 @@
         "verified": true,
         "last_verified_at": "2026-11-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8392538",
+        "url": "https://www.ticketliquidator.com/tickets/8392538/Backstreet-Boys-tickets-Wed-Jun-9-2027-O2-Arena-London",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_9Gkljcn0R",
@@ -1573,7 +1588,8 @@
         "end": "2026-12-04T11:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8392538"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8392538",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8392538/Backstreet-Boys-tickets-Wed-Jun-9-2027-O2-Arena-London"
   },
   {
     "id": "tm-backstreet-boys-2027-london-1adfz_9gkl9inpq",
@@ -1629,6 +1645,13 @@
         "verified": true,
         "last_verified_at": "2026-11-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8392539",
+        "url": "https://www.ticketliquidator.com/tickets/8392539/Backstreet-Boys-tickets-Fri-Jun-11-2027-O2-Arena-London",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_9Gkl9inpQ",
@@ -1643,7 +1666,8 @@
         "end": "2026-12-04T11:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8392539"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8392539",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8392539/Backstreet-Boys-tickets-Fri-Jun-11-2027-O2-Arena-London"
   },
   {
     "id": "tm-backstreet-boys-2027-london-1adfz_9gklquqr2",
@@ -1699,6 +1723,13 @@
         "verified": true,
         "last_verified_at": "2026-11-27",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8392540",
+        "url": "https://www.ticketliquidator.com/tickets/8392540/Backstreet-Boys-tickets-Sat-Jun-12-2027-O2-Arena-London",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_9GklQuQr2",
@@ -1713,7 +1744,8 @@
         "end": "2026-12-04T11:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8392540"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8392540",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8392540/Backstreet-Boys-tickets-Sat-Jun-12-2027-O2-Arena-London"
   },
   {
     "id": "tm-backstreet-boys-2027-vienna-z698xz5rz1k0efdvi",

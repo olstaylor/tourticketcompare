@@ -373,12 +373,20 @@
         "verified": true,
         "last_verified_at": "2026-11-27",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107686304",
+        "url": "https://www.stubhub.ie/post-malone-salt-lake-city-tickets-12-31-2026/event/107686304",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7Skb",
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347901",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347901/New-Years-Eve-Festival-tickets-Thu-Dec-31-2026-Delta-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347901/New-Years-Eve-Festival-tickets-Thu-Dec-31-2026-Delta-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/post-malone-salt-lake-city-tickets-12-31-2026/event/107686304"
   }
 ]

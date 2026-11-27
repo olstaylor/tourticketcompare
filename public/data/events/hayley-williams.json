@@ -62,11 +62,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107162730",
-        "url": "https://www.stubhub.ie/hayley-williams-tickets-mexico-city-auditorio-nacional-26-11-2026/event/107162730",
-        "verified": true,
-        "last_verified_at": "2026-11-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dVZ_1Q0Q4BC",
@@ -77,7 +77,7 @@
     ],
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/hayley-williams-tickets-mexico-city-auditorio-nacional-26-11-2026/event/107162730",
+    "stubhub_international_url": "",
     "genre": "Pop"
   },
   {
@@ -146,7 +146,7 @@
         "event_id": "107259010",
         "url": "https://www.stubhub.ie/hayley-williams-tickets-mexico-city-auditorio-nacional-13-1-2027/event/107259010",
         "verified": true,
-        "last_verified_at": "2026-11-26",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       }
     },
@@ -286,7 +286,7 @@
         "event_id": "107259012",
         "url": "https://www.stubhub.ie/hayley-williams-tickets-guadalajara-auditorio-telmex-17-1-2027/event/107259012",
         "verified": true,
-        "last_verified_at": "2026-11-26",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       }
     },
@@ -408,7 +408,7 @@
         "event_id": "107666428",
         "url": "https://www.stubhub.ie/hayley-williams-tickets-glasgow-ovo-hydro-arena-glasgow-23-6-2027/event/107666428",
         "verified": true,
-        "last_verified_at": "2026-11-26",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       }
     },
@@ -475,7 +475,7 @@
         "event_id": "107666788",
         "url": "https://www.stubhub.ie/hayley-williams-tickets-cardiff-utilita-arena-cardiff-30-6-2027/event/107666788",
         "verified": true,
-        "last_verified_at": "2026-11-26",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       }
     },

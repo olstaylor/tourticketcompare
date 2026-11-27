@@ -1850,7 +1850,7 @@
         "event_id": "107490080",
         "url": "https://www.stubhub.ie/jonas-brothers-las-vegas-tickets-11-28-2026/event/107490080",
         "verified": true,
-        "last_verified_at": "2026-11-26",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       }
     },
@@ -2005,7 +2005,7 @@
         "event_id": "107482385",
         "url": "https://www.stubhub.ie/jonas-brothers-anaheim-tickets-12-2-2026/event/107482385",
         "verified": true,
-        "last_verified_at": "2026-11-26",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       }
     },
@@ -2094,7 +2094,7 @@
         "event_id": "107524089",
         "url": "https://www.stubhub.ie/jonas-brothers-seattle-tickets-12-5-2026/event/107524089",
         "verified": true,
-        "last_verified_at": "2026-11-26",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       }
     },
@@ -2251,6 +2251,13 @@
         "verified": true,
         "last_verified_at": "2026-11-27",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107686302",
+        "url": "https://www.stubhub.ie/jonas-brothers-denver-tickets-12-9-2026/event/107686302",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_8U_UAYk",
@@ -2269,7 +2276,8 @@
       }
     ],
     "ticket_limit": 8,
-    "genre": "Pop"
+    "genre": "Pop",
+    "stubhub_international_url": "https://www.stubhub.ie/jonas-brothers-denver-tickets-12-9-2026/event/107686302"
   },
   {
     "id": "tm-jonas-brothers-2026-lincoln-vv17bz_8gkmchsxu",
@@ -2594,7 +2602,7 @@
         "event_id": "107482396",
         "url": "https://www.stubhub.ie/jonas-brothers-elmont-tickets-12-19-2026/event/107482396",
         "verified": true,
-        "last_verified_at": "2026-11-26",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       }
     },
@@ -2683,7 +2691,7 @@
         "event_id": "107482397",
         "url": "https://www.stubhub.ie/jonas-brothers-newark-tickets-12-21-2026/event/107482397",
         "verified": true,
-        "last_verified_at": "2026-11-26",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       }
     },
@@ -2772,7 +2780,7 @@
         "event_id": "107625116",
         "url": "https://www.stubhub.ie/jonas-brothers-newark-tickets-12-22-2026/event/107625116",
         "verified": true,
-        "last_verified_at": "2026-11-26",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       }
     },

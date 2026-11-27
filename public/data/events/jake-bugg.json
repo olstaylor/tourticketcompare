@@ -219,6 +219,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107674272",
+        "url": "https://www.stubhub.ie/jake-bugg-tickets-glasgow-the-old-fruitmarket-14-2-2027/event/107674272",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZkf-GkeIvV0Q",
@@ -229,7 +236,8 @@
       "DF CONCERTS LIMITED"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "stubhub_international_url": "https://www.stubhub.ie/jake-bugg-tickets-glasgow-the-old-fruitmarket-14-2-2027/event/107674272"
   },
   {
     "id": "tm-jake-bugg-2027-gateshead-11uyvpf_qopzvc",
@@ -454,7 +462,7 @@
         "event_id": "107669041",
         "url": "https://www.stubhub.ie/jake-bugg-tickets-nottingham-nottingham-royal-concert-hall-23-2-2027/event/107669041",
         "verified": true,
-        "last_verified_at": "2026-11-26",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       }
     },
@@ -519,7 +527,7 @@
         "event_id": "107674266",
         "url": "https://www.stubhub.ie/jake-bugg-tickets-london-union-chapel-london-25-2-2027/event/107674266",
         "verified": true,
-        "last_verified_at": "2026-11-26",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       }
     },
@@ -582,7 +590,7 @@
         "event_id": "107674265",
         "url": "https://www.stubhub.ie/jake-bugg-tickets-london-union-chapel-london-26-2-2027/event/107674265",
         "verified": true,
-        "last_verified_at": "2026-11-26",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       }
     },
@@ -700,7 +708,7 @@
         "event_id": "107665739",
         "url": "https://www.stubhub.ie/jake-bugg-tickets-madrid-teatro-eslava-ochoymedio-club-6-4-2027/event/107665739",
         "verified": true,
-        "last_verified_at": "2026-11-26",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       }
     },
@@ -765,7 +773,7 @@
         "event_id": "107665740",
         "url": "https://www.stubhub.ie/jake-bugg-tickets-barcelona-sala-la-paloma-7-4-2027/event/107665740",
         "verified": true,
-        "last_verified_at": "2026-11-26",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       }
     },

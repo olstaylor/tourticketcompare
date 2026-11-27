@@ -12,23 +12,23 @@ sources:
   - name: Vivid Seats Guarantee terms
     publisher: Vivid Seats
     url: https://www.vividseats.com/guarantee.html
-    last_checked: 2026-10-02
-  - name: Policies
+    last_checked: 2026-11-27
+  - name: About TicketNetwork
     publisher: TicketNetwork
-    url: https://www.ticketnetwork.com/policies
+    url: https://www.ticketnetwork.com/about-us
     last_checked: 2026-10-02
   - name: About Ticket Liquidator
     publisher: Ticket Liquidator
     url: https://www.ticketliquidator.com/company-info
-    last_checked: 2026-10-02
+    last_checked: 2026-11-27
   - name: FanProtect Guarantee Explained
     publisher: StubHub Newsroom
     url: https://newsroom.stubhub.com/2026/07/29/fanprotect-guarantee-explained/
-    last_checked: 2026-09-25
+    last_checked: 2026-11-27
   - name: What's the difference between StubHub North America and StubHub International?
     publisher: StubHub UK Support
     url: https://support.stubhub.co.uk/en/support/solutions/articles/80000695369-what-s-the-difference-between-stubhub-north-america-and-stubhub-international-
-    last_checked: 2026-09-25
+    last_checked: 2026-11-27
 ---
 
 **Short answer:** TourTicketCompare links to a small set of ticket sites, and it does not vet their individual sellers or run their guarantees. Each site publishes its own buyer protection. This page lists what each one says, with a link to its own terms, so the promise is read from the source and not from this site. The terms can change, so check the current version before you buy.
@@ -39,7 +39,7 @@ sources:
 |---|---|---|---|
 | SeatGeek | Resale marketplace, and the primary ticketing platform for some leagues and venues | Buyer Guarantee: tickets delivered in time, valid for entry and matching the order. It may provide replacement tickets or a refund, depending on the situation. | [SeatGeek help centre](https://support.seatgeek.com/hc/en-us/articles/360007200174-Can-I-trust-tickets-sold-on-SeatGeek) |
 | Vivid Seats | Resale marketplace | Buyer Guarantee: a secure transaction, delivery before the event, and valid, authentic tickets. | [Vivid Seats guarantee](https://www.vividseats.com/guarantee.html) |
-| TicketNetwork | Resale marketplace | A 100% Money-Back Guarantee on its company pages. Read the policies page for what it covers, including cancelled and postponed events. | [TicketNetwork policies](https://www.ticketnetwork.com/policies) |
+| TicketNetwork | Resale marketplace | A 100% Money-Back Guarantee, as described on its company page. Read its current terms for what it covers, including cancelled and postponed events. | [TicketNetwork about page](https://www.ticketnetwork.com/about-us) |
 | Ticket Liquidator | Resale marketplace under the same company as TicketNetwork | A 100% Money-Back Guarantee as its company page describes it. | [Ticket Liquidator company page](https://www.ticketliquidator.com/company-info) |
 | StubHub International | StubHub's sites for the UK, Ireland, much of Europe and Mexico. Not StubHub US or Canada. | StubHub's FanProtect Guarantee is described in its newsroom. Confirm that the version for the StubHub International site applies to your order. | [StubHub FanProtect](https://newsroom.stubhub.com/2026/07/29/fanprotect-guarantee-explained/) |
 | Ticketmaster | The official primary seller for many shows | Ticketmaster's own terms apply. This is a plain link. | Ticketmaster's site |

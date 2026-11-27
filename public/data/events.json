@@ -458409,5 +458409,2875 @@
     "genre": "Country",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364221",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364221/Travis-Tritt-tickets-Fri-Mar-19-2027-Billy-Bobs"
+  },
+  {
+    "id": "tm-10cc-2027-llandudno-g5vhz_ctswfup",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Llandudno",
+    "country": "Great Britain",
+    "venue": "Venue Cymru Theatre",
+    "datetime_iso": "2027-02-25T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0064EFF1F48D96",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-llandudno-25-02-2027/event/1F0064EFF1F48D96",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-llandudno-25-02-2027/event/1F0064EFF1F48D96",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064EFF1F48D96",
+        "discovery_event_id": "G5vHZ_CTsWFUp",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-llandudno-25-02-2027/event/1F0064EFF1F48D96",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_CTsWFUp",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-stoke-on-trent-17uyv0g6ctwydoc",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Stoke-On-Trent",
+    "country": "Great Britain",
+    "venue": "Victoria Hall",
+    "datetime_iso": "2027-02-26T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "370064EFF2E4344E",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-stokeontrent-26-02-2027/event/370064EFF2E4344E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-stokeontrent-26-02-2027/event/370064EFF2E4344E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "370064EFF2E4344E",
+        "discovery_event_id": "17uYv0G6CTwydoC",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-stokeontrent-26-02-2027/event/370064EFF2E4344E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uYv0G6CTwydoC",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-harrogate-17u8v0g6ctlxq9y",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Harrogate",
+    "country": "Great Britain",
+    "venue": "Harrogate Convention Centre",
+    "datetime_iso": "2027-02-27T19:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "350064EFEB89D5F9",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-harrogate-27-02-2027/event/350064EFEB89D5F9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-harrogate-27-02-2027/event/350064EFEB89D5F9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "350064EFEB89D5F9",
+        "discovery_event_id": "17u8v0G6CTlxq9y",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-harrogate-27-02-2027/event/350064EFEB89D5F9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17u8v0G6CTlxq9y",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-scarborough-17u8v0g62dwld0w",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc In Concert",
+    "city": "Scarborough",
+    "country": "Great Britain",
+    "venue": "Scarborough Spa Grand Hall",
+    "datetime_iso": "2027-02-28T19:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "350064F0F27FB932",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-in-concert-scarborough-28-02-2027/event/350064F0F27FB932",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-in-concert-scarborough-28-02-2027/event/350064F0F27FB932",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "350064F0F27FB932",
+        "discovery_event_id": "17u8v0G62dwLD0w",
+        "url": "https://www.ticketmaster.co.uk/10cc-in-concert-scarborough-28-02-2027/event/350064F0F27FB932",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17u8v0G62dwLD0w",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-leicester-g5vhz_chkdnos",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Leicester",
+    "country": "Great Britain",
+    "venue": "De Montfort Hall",
+    "datetime_iso": "2027-03-04T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0064EF06EEA471",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-leicester-04-03-2027/event/1F0064EF06EEA471",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-leicester-04-03-2027/event/1F0064EF06EEA471",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064EF06EEA471",
+        "discovery_event_id": "G5vHZ_CHkDnos",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-leicester-04-03-2027/event/1F0064EF06EEA471",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_CHkDnos",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-torquay-17uov0g62e2ner2",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Torquay",
+    "country": "Great Britain",
+    "venue": "Princess Theatre - Torquay",
+    "datetime_iso": "2027-03-06T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "360064F08F8C2BCF",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-torquay-06-03-2027/event/360064F08F8C2BCF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-torquay-06-03-2027/event/360064F08F8C2BCF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "360064F08F8C2BCF",
+        "discovery_event_id": "17uOv0G62e2NeR2",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-torquay-06-03-2027/event/360064F08F8C2BCF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uOv0G62e2NeR2",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-truro-g5vhz_2m-aejk",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc",
+    "city": "Truro",
+    "country": "Great Britain",
+    "venue": "Truro Hall for Cornwall",
+    "datetime_iso": "2027-03-07T19:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0064FBA1142993",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-truro-07-03-2027/event/1F0064FBA1142993",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-truro-07-03-2027/event/1F0064FBA1142993",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064FBA1142993",
+        "discovery_event_id": "G5vHZ_2m-AeJK",
+        "url": "https://www.ticketmaster.co.uk/10cc-truro-07-03-2027/event/1F0064FBA1142993",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_2m-AeJK",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-salisbury-g5vhz_ctjq9vl",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Salisbury",
+    "country": "Great Britain",
+    "venue": "Salisbury City Hall",
+    "datetime_iso": "2027-03-08T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0064EFE6697D1F",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-salisbury-08-03-2027/event/1F0064EFE6697D1F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-salisbury-08-03-2027/event/1F0064EFE6697D1F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064EFE6697D1F",
+        "discovery_event_id": "G5vHZ_CTJQ9VL",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-salisbury-08-03-2027/event/1F0064EFE6697D1F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_CTJQ9VL",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-basingstoke-g5vhz_cts0tzr",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Basingstoke",
+    "country": "Great Britain",
+    "venue": "The Anvil",
+    "datetime_iso": "2027-03-09T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0064EFF392901E",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-basingstoke-09-03-2027/event/1F0064EFF392901E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-basingstoke-09-03-2027/event/1F0064EFF392901E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064EFF392901E",
+        "discovery_event_id": "G5vHZ_CTS0tZr",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-basingstoke-09-03-2027/event/1F0064EFF392901E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_CTS0tZr",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-watford-17uyv0g6ctns3km",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Watford",
+    "country": "Great Britain",
+    "venue": "Watford Colosseum",
+    "datetime_iso": "2027-03-11T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "370064EFE3C521B7",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-watford-11-03-2027/event/370064EFE3C521B7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-watford-11-03-2027/event/370064EFE3C521B7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "370064EFE3C521B7",
+        "discovery_event_id": "17uYv0G6CTNs3kM",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-watford-11-03-2027/event/370064EFE3C521B7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uYv0G6CTNs3kM",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-bath-17uyv0g62evevt9",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Bath",
+    "country": "Great Britain",
+    "venue": "Bath Forum",
+    "datetime_iso": "2027-03-12T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "370064F0B49C1FD7",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-bath-12-03-2027/event/370064F0B49C1FD7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-bath-12-03-2027/event/370064F0B49C1FD7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "370064F0B49C1FD7",
+        "discovery_event_id": "17uYv0G62eVEvT9",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-bath-12-03-2027/event/370064F0B49C1FD7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uYv0G62eVEvT9",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-croydon-g5vhz_ctdn_nm",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Croydon",
+    "country": "Great Britain",
+    "venue": "Fairfield Halls",
+    "datetime_iso": "2027-03-13T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0064EFFBA998EE",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-croydon-13-03-2027/event/1F0064EFFBA998EE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-croydon-13-03-2027/event/1F0064EFFBA998EE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064EFFBA998EE",
+        "discovery_event_id": "G5vHZ_CTDn_Nm",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-croydon-13-03-2027/event/1F0064EFFBA998EE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_CTDn_Nm",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-eastbourne-g5vhz_2epbsoo",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Eastbourne",
+    "country": "Great Britain",
+    "venue": "Congress Theatre",
+    "datetime_iso": "2027-03-14T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0064F096EB3451",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-eastbourne-14-03-2027/event/1F0064F096EB3451",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-eastbourne-14-03-2027/event/1F0064F096EB3451",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064F096EB3451",
+        "discovery_event_id": "G5vHZ_2epBSoo",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-eastbourne-14-03-2027/event/1F0064F096EB3451",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_2epBSoo",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-aylesbury-17u8v0g6ctc0wu5",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Aylesbury",
+    "country": "Great Britain",
+    "venue": "The Waterside Theatre, Aylesbury",
+    "datetime_iso": "2027-03-15T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "350064EFED93DD8B",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-aylesbury-15-03-2027/event/350064EFED93DD8B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-aylesbury-15-03-2027/event/350064EFED93DD8B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "350064EFED93DD8B",
+        "discovery_event_id": "17u8v0G6CTc0WU5",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-aylesbury-15-03-2027/event/350064EFED93DD8B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17u8v0G6CTc0WU5",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-coventry-g5vhz_ctmqz4m",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Coventry",
+    "country": "Great Britain",
+    "venue": "Warwick Arts Centre, Coventry",
+    "datetime_iso": "2027-03-17T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0064EFEE6B856E",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-coventry-17-03-2027/event/1F0064EFEE6B856E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-coventry-17-03-2027/event/1F0064EFEE6B856E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064EFEE6B856E",
+        "discovery_event_id": "G5vHZ_CTmQz4m",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-coventry-17-03-2027/event/1F0064EFEE6B856E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_CTmQz4m",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-northampton-g5vhz_ctw2ats",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Northampton",
+    "country": "Great Britain",
+    "venue": "Royal and Derngate",
+    "datetime_iso": "2027-03-18T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0064EFFD3C9A71",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-northampton-18-03-2027/event/1F0064EFFD3C9A71",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-northampton-18-03-2027/event/1F0064EFFD3C9A71",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064EFFD3C9A71",
+        "discovery_event_id": "G5vHZ_CTW2ats",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-northampton-18-03-2027/event/1F0064EFFD3C9A71",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_CTW2ats",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-scunthorpe-17uov0g62e9zs8y",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Scunthorpe",
+    "country": "Great Britain",
+    "venue": "Baths Hall",
+    "datetime_iso": "2027-03-19T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "360064F097033430",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-scunthorpe-19-03-2027/event/360064F097033430",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-scunthorpe-19-03-2027/event/360064F097033430",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "360064F097033430",
+        "discovery_event_id": "17uOv0G62e9ZS8Y",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-scunthorpe-19-03-2027/event/360064F097033430",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uOv0G62e9ZS8Y",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-derby-17fyv0g6cx5rowg",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc In Concert",
+    "city": "Derby",
+    "country": "Great Britain",
+    "venue": "Vaillant Live, Derby",
+    "datetime_iso": "2027-03-20T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "230064EF8B7A0F75",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-in-concert-derby-20-03-2027/event/230064EF8B7A0F75",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-in-concert-derby-20-03-2027/event/230064EF8B7A0F75",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "230064EF8B7A0F75",
+        "discovery_event_id": "17FYv0G6CX5rOWg",
+        "url": "https://www.ticketmaster.co.uk/10cc-in-concert-derby-20-03-2027/event/230064EF8B7A0F75",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17FYv0G6CX5rOWg",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-halifax-g5vhz_2exijk0",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Halifax",
+    "country": "Great Britain",
+    "venue": "Victoria Theatre",
+    "datetime_iso": "2027-03-22T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0064F0BEA264E4",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-halifax-22-03-2027/event/1F0064F0BEA264E4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-halifax-22-03-2027/event/1F0064F0BEA264E4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064F0BEA264E4",
+        "discovery_event_id": "G5vHZ_2eXIJK0",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-halifax-22-03-2027/event/1F0064F0BEA264E4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_2eXIJK0",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-perth-17uov0g6ctyjann",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Perth",
+    "country": "Great Britain",
+    "venue": "Perth Concert Hall",
+    "datetime_iso": "2027-03-23T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "360064EFF9709AAA",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-perth-23-03-2027/event/360064EFF9709AAA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-perth-23-03-2027/event/360064EFF9709AAA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "360064EFF9709AAA",
+        "discovery_event_id": "17uOv0G6CTyjann",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-perth-23-03-2027/event/360064EFF9709AAA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uOv0G6CTyjann",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-edinburgh-17uov0g6chf_1iz",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Edinburgh",
+    "country": "Great Britain",
+    "venue": "Usher Hall",
+    "datetime_iso": "2027-03-24T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "360064EF0864AA00",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-edinburgh-24-03-2027/event/360064EF0864AA00",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-edinburgh-24-03-2027/event/360064EF0864AA00",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "360064EF0864AA00",
+        "discovery_event_id": "17uOv0G6CHF_1IZ",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-edinburgh-24-03-2027/event/360064EF0864AA00",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uOv0G6CHF_1IZ",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-stockton-on-tees-g5vhz_2zfodiq",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Stockton-on-Tees",
+    "country": "Great Britain",
+    "venue": "Stockton Globe",
+    "datetime_iso": "2027-03-25T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0064F00883BB1D",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-stocktonontees-25-03-2027/event/1F0064F00883BB1D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-stocktonontees-25-03-2027/event/1F0064F00883BB1D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064F00883BB1D",
+        "discovery_event_id": "G5vHZ_2ZFODiq",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-stocktonontees-25-03-2027/event/1F0064F00883BB1D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_2ZFODiq",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-milton-keynes-16mzk4yx7zaue7ed",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Milton Keynes",
+    "country": "Great Britain",
+    "venue": "Milton Keynes Theatre",
+    "datetime_iso": "2027-05-11T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "37006570884C1312",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-milton-keynes-11-05-2027/event/37006570884C1312",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-milton-keynes-11-05-2027/event/37006570884C1312",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "37006570884C1312",
+        "discovery_event_id": "16MZk4Yx7ZAue7ed",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-milton-keynes-11-05-2027/event/37006570884C1312",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16MZk4Yx7ZAue7ed",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-hull-1ku8vpjfgag2ojo",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Hull",
+    "country": "Great Britain",
+    "venue": "Hull New Theatre",
+    "datetime_iso": "2027-05-12T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "350065708C3D1720",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-hull-12-05-2027/event/350065708C3D1720",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-hull-12-05-2027/event/350065708C3D1720",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "350065708C3D1720",
+        "discovery_event_id": "1ku8vPjFGAG2ojO",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-hull-12-05-2027/event/350065708C3D1720",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ku8vPjFGAG2ojO",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-tunbridge-wells-1kuyvpjaga5kwmj",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Tunbridge Wells",
+    "country": "Great Britain",
+    "venue": "Tunbridge Wells Assembly Hall",
+    "datetime_iso": "2027-05-14T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "370065709B4F2DE6",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-tunbridge-wells-14-05-2027/event/370065709B4F2DE6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-tunbridge-wells-14-05-2027/event/370065709B4F2DE6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "370065709B4F2DE6",
+        "discovery_event_id": "1kuYvPjaGA5KwMJ",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-tunbridge-wells-14-05-2027/event/370065709B4F2DE6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kuYvPjaGA5KwMJ",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-folkestone-1kuovpjagagra6l",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Folkestone",
+    "country": "Great Britain",
+    "venue": "Leas Cliff Hall",
+    "datetime_iso": "2027-05-15T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "360065709CBC51DF",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-folkestone-15-05-2027/event/360065709CBC51DF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-folkestone-15-05-2027/event/360065709CBC51DF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "360065709CBC51DF",
+        "discovery_event_id": "1kuOvPjaGAGRA6L",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-folkestone-15-05-2027/event/360065709CBC51DF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kuOvPjaGAGRA6L",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-dorset-g5vhz_9erpduu",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Dorset",
+    "country": "Great Britain",
+    "venue": "Weymouth Pavilion",
+    "datetime_iso": "2027-05-17T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0065709E583376",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-dorset-17-05-2027/event/1F0065709E583376",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-dorset-17-05-2027/event/1F0065709E583376",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0065709E583376",
+        "discovery_event_id": "G5vHZ_9erpduU",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-dorset-17-05-2027/event/1F0065709E583376",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_9erpduU",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-hastings-1auzk4ygkeo5pcx",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Hastings",
+    "country": "Great Britain",
+    "venue": "White Rock Theatre",
+    "datetime_iso": "2027-05-18T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "36006570A02E5B7E",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-hastings-18-05-2027/event/36006570A02E5B7E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-hastings-18-05-2027/event/36006570A02E5B7E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "36006570A02E5B7E",
+        "discovery_event_id": "1AUZk4YGkeO5PcX",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-hastings-18-05-2027/event/36006570A02E5B7E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AUZk4YGkeO5PcX",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-carlisle-g5vhz_9e-fkjn",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Carlisle",
+    "country": "Great Britain",
+    "venue": "Carlisle Sands Centre",
+    "datetime_iso": "2027-05-20T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F006570A1513723",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-carlisle-20-05-2027/event/1F006570A1513723",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-carlisle-20-05-2027/event/1F006570A1513723",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F006570A1513723",
+        "discovery_event_id": "G5vHZ_9e-fKjN",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-carlisle-20-05-2027/event/1F006570A1513723",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_9e-fKjN",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-ipswich-g5vhz_9exlk-j",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Ipswich",
+    "country": "Great Britain",
+    "venue": "Ipswich Regent Theatre",
+    "datetime_iso": "2027-05-22T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F006570A2AD3866",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-ipswich-22-05-2027/event/1F006570A2AD3866",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-ipswich-22-05-2027/event/1F006570A2AD3866",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F006570A2AD3866",
+        "discovery_event_id": "G5vHZ_9exlK-J",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-ipswich-22-05-2027/event/1F006570A2AD3866",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_9exlK-J",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-rotterdam-z698xzbpz1kfevxad",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc",
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "venue": "de Doelen",
+    "datetime_iso": "2027-11-12T19:15:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "227062143",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/10cc-tickets/227062143?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/10cc-tickets/227062143?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "227062143",
+        "discovery_event_id": "Z698xZbpZ1kFEvxAd",
+        "url": "https://www.ticketmaster.nl/event/10cc-tickets/227062143?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ1kFEvxAd",
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-brussels-z698xzg2z1kkfe3o6",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc",
+    "city": "Brussels",
+    "country": "Belgium",
+    "venue": "Cirque Royal - Koninklijk Circus",
+    "datetime_iso": "2027-11-17T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "194092807",
+    "ticketmaster_url": "https://www.ticketmaster.be/event/10cc-tickets/194092807",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.be/event/10cc-tickets/194092807",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "194092807",
+        "discovery_event_id": "Z698xZG2Z1kkfe3O6",
+        "url": "https://www.ticketmaster.be/event/10cc-tickets/194092807",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZG2Z1kkfe3O6",
+    "timezone": "Europe/Brussels",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-doobie-brothers-2027-las-vegas-1a9zk49gkdwjh7q",
+    "artist_slug": "the-doobie-brothers",
+    "artist_name": "The Doobie Brothers",
+    "event_name": "The Doobie Brothers: Live In Las Vegas",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Fontainebleau Las Vegas",
+    "datetime_iso": "2027-02-27T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006557F273C11D",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-02-26-2027/event/17006557F273C11D",
+    "seatgeek_url": "https://seatgeek.com/the-doobie-brothers-tickets/las-vegas-nevada-fontainebleau-at-liv-las-vegas-2027-02-26-8-pm/concert/18723363",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-02-26-2027/event/17006557F273C11D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006557F273C11D",
+        "discovery_event_id": "1A9Zk49GkdwjH7q",
+        "url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-02-26-2027/event/17006557F273C11D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk49GkdwjH7q",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-doobie-brothers-2027-las-vegas-1a9zk49gkdwlg7i",
+    "artist_slug": "the-doobie-brothers",
+    "artist_name": "The Doobie Brothers",
+    "event_name": "The Doobie Brothers: Live In Las Vegas",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Fontainebleau Las Vegas",
+    "datetime_iso": "2027-02-28T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006557F27CC128",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-02-27-2027/event/17006557F27CC128",
+    "seatgeek_url": "https://seatgeek.com/the-doobie-brothers-tickets/las-vegas-nevada-fontainebleau-at-liv-las-vegas-2027-02-27-8-pm/concert/18723365",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-02-27-2027/event/17006557F27CC128",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006557F27CC128",
+        "discovery_event_id": "1A9Zk49GkdwLG7I",
+        "url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-02-27-2027/event/17006557F27CC128",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk49GkdwLG7I",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-doobie-brothers-2027-las-vegas-1a9zk49gkdw-j7d",
+    "artist_slug": "the-doobie-brothers",
+    "artist_name": "The Doobie Brothers",
+    "event_name": "The Doobie Brothers: Live In Las Vegas",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Fontainebleau Las Vegas",
+    "datetime_iso": "2027-03-06T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006557F285C13B",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-03-05-2027/event/17006557F285C13B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-03-05-2027/event/17006557F285C13B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006557F285C13B",
+        "discovery_event_id": "1A9Zk49Gkdw-j7D",
+        "url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-03-05-2027/event/17006557F285C13B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk49Gkdw-j7D",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-doobie-brothers-2027-las-vegas-1a9zk49gkdwnjac",
+    "artist_slug": "the-doobie-brothers",
+    "artist_name": "The Doobie Brothers",
+    "event_name": "The Doobie Brothers: Live In Las Vegas",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Fontainebleau Las Vegas",
+    "datetime_iso": "2027-03-07T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006557F28DC14E",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-03-06-2027/event/17006557F28DC14E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-03-06-2027/event/17006557F28DC14E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006557F28DC14E",
+        "discovery_event_id": "1A9Zk49GkdwNjAC",
+        "url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-03-06-2027/event/17006557F28DC14E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk49GkdwNjAC",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-doobie-brothers-2027-halifax-1aszk4vgkem55xl",
+    "artist_slug": "the-doobie-brothers",
+    "artist_name": "The Doobie Brothers",
+    "event_name": "The Doobie Brothers - Walk This World Tour",
+    "city": "Halifax",
+    "country": "Canada",
+    "venue": "Scotiabank Centre",
+    "datetime_iso": "2027-08-05T23:00:00Z",
+    "tour_name": "Walk This World Tour",
+    "ticketmaster_event_id": "31006574B72CBF9F",
+    "ticketmaster_url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-halifax-nova-scotia-08-05-2027/event/31006574B72CBF9F",
+    "seatgeek_url": "https://seatgeek.com/the-doobie-brothers-tickets/halifax-canada-scotiabank-centre-2027-08-05-8-pm/concert/18867594",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-halifax-nova-scotia-08-05-2027/event/31006574B72CBF9F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "31006574B72CBF9F",
+        "discovery_event_id": "1AsZk4VGkeM55XL",
+        "url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-halifax-nova-scotia-08-05-2027/event/31006574B72CBF9F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AsZk4VGkeM55XL",
+    "timezone": "America/Halifax",
+    "status": "announced",
+    "public_onsale_at": "2026-11-27T14:00:00Z"
+  },
+  {
+    "id": "tm-the-doobie-brothers-2027-moncton-1aszk4vgkdperjo",
+    "artist_slug": "the-doobie-brothers",
+    "artist_name": "The Doobie Brothers",
+    "event_name": "The Doobie Brothers - Walk This World Tour",
+    "city": "Moncton",
+    "country": "Canada",
+    "venue": "Avenir Centre",
+    "datetime_iso": "2027-08-06T23:00:00Z",
+    "tour_name": "Walk This World Tour",
+    "ticketmaster_event_id": "31006574E59EF711",
+    "ticketmaster_url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-moncton-new-brunswick-08-06-2027/event/31006574E59EF711",
+    "seatgeek_url": "https://seatgeek.com/the-doobie-brothers-tickets/moncton-canada-avenir-centre-2027-08-06-8-pm/concert/18867593",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-moncton-new-brunswick-08-06-2027/event/31006574E59EF711",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "31006574E59EF711",
+        "discovery_event_id": "1AsZk4VGkdPERjo",
+        "url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-moncton-new-brunswick-08-06-2027/event/31006574E59EF711",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AsZk4VGkdPERjo",
+    "timezone": "America/Halifax",
+    "status": "announced",
+    "public_onsale_at": "2026-11-27T14:00:00Z"
+  },
+  {
+    "id": "tm-the-doobie-brothers-2027-laval-1aszk4wgkdkwh-0",
+    "artist_slug": "the-doobie-brothers",
+    "artist_name": "The Doobie Brothers",
+    "event_name": "The Doobie Brothers - Walk This World Tour",
+    "city": "Laval",
+    "country": "Canada",
+    "venue": "Place Bell",
+    "datetime_iso": "2027-08-10T00:00:00Z",
+    "tour_name": "Walk This World Tour",
+    "ticketmaster_event_id": "31006572D3F7C864",
+    "ticketmaster_url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-laval-quebec-08-09-2027/event/31006572D3F7C864",
+    "seatgeek_url": "https://seatgeek.com/the-doobie-brothers-tickets/laval-canada-place-bell-2027-08-09-8-pm/concert/18867596",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-laval-quebec-08-09-2027/event/31006572D3F7C864",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "31006572D3F7C864",
+        "discovery_event_id": "1AsZk4wGkdKWH-0",
+        "url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-laval-quebec-08-09-2027/event/31006572D3F7C864",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AsZk4wGkdKWH-0",
+    "timezone": "America/Toronto",
+    "status": "announced",
+    "public_onsale_at": "2026-11-27T15:00:00Z"
+  },
+  {
+    "id": "tm-the-doobie-brothers-2027-kanata-16szk4wjdza2faae",
+    "artist_slug": "the-doobie-brothers",
+    "artist_name": "The Doobie Brothers",
+    "event_name": "The Doobie Brothers - Walk This World Tour",
+    "city": "Kanata",
+    "country": "Canada",
+    "venue": "Canadian Tire Centre",
+    "datetime_iso": "2027-08-11T00:00:00Z",
+    "tour_name": "Walk This World Tour",
+    "ticketmaster_event_id": "31006572983E7441",
+    "ticketmaster_url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-kanata-ontario-08-10-2027/event/31006572983E7441",
+    "seatgeek_url": "https://seatgeek.com/the-doobie-brothers-tickets/kanata-canada-canadian-tire-centre-2027-08-10-8-pm/concert/18867597",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-kanata-ontario-08-10-2027/event/31006572983E7441",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "31006572983E7441",
+        "discovery_event_id": "16sZk4wJdZA2FAAe",
+        "url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-kanata-ontario-08-10-2027/event/31006572983E7441",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16sZk4wJdZA2FAAe",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-27T15:00:00Z"
+  },
+  {
+    "id": "tm-the-doobie-brothers-2027-st-catharines-1a8zk4sgkdjlu6e",
+    "artist_slug": "the-doobie-brothers",
+    "artist_name": "The Doobie Brothers",
+    "event_name": "The Doobie Brothers - Walk This World Tour",
+    "city": "St Catharines",
+    "country": "Canada",
+    "venue": "Meridian Centre",
+    "datetime_iso": "2027-08-13T00:00:00Z",
+    "tour_name": "Walk This World Tour",
+    "ticketmaster_event_id": "10006573DCAF61E7",
+    "ticketmaster_url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-st-catharines-ontario-08-12-2027/event/10006573DCAF61E7",
+    "seatgeek_url": "https://seatgeek.com/the-doobie-brothers-tickets/st-catharines-canada-meridian-centre-2027-08-12-8-pm/concert/18867592",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-st-catharines-ontario-08-12-2027/event/10006573DCAF61E7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006573DCAF61E7",
+        "discovery_event_id": "1A8Zk4SGkdjlU6E",
+        "url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-st-catharines-ontario-08-12-2027/event/10006573DCAF61E7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8Zk4SGkdjlU6E",
+    "timezone": "America/Toronto",
+    "status": "announced",
+    "public_onsale_at": "2026-11-27T15:00:00Z"
+  },
+  {
+    "id": "tm-the-doobie-brothers-2027-winnipeg-1aozk4sgkd30xaz",
+    "artist_slug": "the-doobie-brothers",
+    "artist_name": "The Doobie Brothers",
+    "event_name": "The Doobie Brothers - Walk This World Tour",
+    "city": "Winnipeg",
+    "country": "Canada",
+    "venue": "Canada Life Centre",
+    "datetime_iso": "2027-08-17T01:00:00Z",
+    "tour_name": "Walk This World Tour",
+    "ticketmaster_event_id": "11006573D293E278",
+    "ticketmaster_url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-winnipeg-manitoba-08-16-2027/event/11006573D293E278",
+    "seatgeek_url": "https://seatgeek.com/the-doobie-brothers-tickets/winnipeg-canada-canada-life-centre-2027-08-16-8-pm/concert/18867595",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-winnipeg-manitoba-08-16-2027/event/11006573D293E278",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006573D293E278",
+        "discovery_event_id": "1AoZk4SGkd30Xaz",
+        "url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-winnipeg-manitoba-08-16-2027/event/11006573D293E278",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AoZk4SGkd30Xaz",
+    "timezone": "America/Winnipeg",
+    "status": "announced",
+    "public_onsale_at": "2026-11-27T15:00:00Z"
+  },
+  {
+    "id": "tm-the-doobie-brothers-2027-edmonton-1aozk4sptc3ze8k",
+    "artist_slug": "the-doobie-brothers",
+    "artist_name": "The Doobie Brothers",
+    "event_name": "The Doobie Brothers - Walk This World Tour",
+    "city": "Edmonton",
+    "country": "Canada",
+    "venue": "Rogers Place",
+    "datetime_iso": "2027-08-20T02:00:00Z",
+    "tour_name": "Walk This World Tour",
+    "ticketmaster_event_id": "11006573969392F5",
+    "ticketmaster_url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-edmonton-alberta-08-19-2027/event/11006573969392F5",
+    "seatgeek_url": "https://seatgeek.com/the-doobie-brothers-tickets/edmonton-canada-rogers-place-2027-08-19-8-pm/concert/18867604",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-edmonton-alberta-08-19-2027/event/11006573969392F5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006573969392F5",
+        "discovery_event_id": "1aoZk4SPtC3Ze8k",
+        "url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-edmonton-alberta-08-19-2027/event/11006573969392F5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1aoZk4SPtC3Ze8k",
+    "timezone": "America/Edmonton",
+    "status": "announced",
+    "public_onsale_at": "2026-11-27T16:00:00Z"
+  },
+  {
+    "id": "tm-the-doobie-brothers-2027-abbotsford-15v7z_9c9zac3",
+    "artist_slug": "the-doobie-brothers",
+    "artist_name": "The Doobie Brothers",
+    "event_name": "The Doobie Brothers: Walk This World Tour",
+    "city": "Abbotsford",
+    "country": "Canada",
+    "venue": "Rogers Forum",
+    "datetime_iso": "2027-08-25T03:00:00Z",
+    "tour_name": "Walk This World Tour",
+    "ticketmaster_event_id": "1100657397009392",
+    "ticketmaster_url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-abbotsford-british-columbia-08-24-2027/event/1100657397009392",
+    "seatgeek_url": "https://seatgeek.com/the-doobie-brothers-tickets/abbotsford-canada-rogers-forum-2027-08-24-8-pm/concert/18867609",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-abbotsford-british-columbia-08-24-2027/event/1100657397009392",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1100657397009392",
+        "discovery_event_id": "15v7Z_9C9ZaC3",
+        "url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-abbotsford-british-columbia-08-24-2027/event/1100657397009392",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "15v7Z_9C9ZaC3",
+    "timezone": "America/Vancouver",
+    "status": "announced",
+    "public_onsale_at": "2026-11-27T17:00:00Z"
+  },
+  {
+    "id": "tm-the-doobie-brothers-2027-las-vegas-1a9zk49gkdwpia9",
+    "artist_slug": "the-doobie-brothers",
+    "artist_name": "The Doobie Brothers",
+    "event_name": "The Doobie Brothers: Live In Las Vegas",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Fontainebleau Las Vegas",
+    "datetime_iso": "2027-08-28T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006557F296C157",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-08-27-2027/event/17006557F296C157",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-08-27-2027/event/17006557F296C157",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006557F296C157",
+        "discovery_event_id": "1A9Zk49GkdwPiA9",
+        "url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-08-27-2027/event/17006557F296C157",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk49GkdwPiA9",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-doobie-brothers-2027-las-vegas-1a9zk49gkdwejan",
+    "artist_slug": "the-doobie-brothers",
+    "artist_name": "The Doobie Brothers",
+    "event_name": "The Doobie Brothers: Live In Las Vegas",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Fontainebleau Las Vegas",
+    "datetime_iso": "2027-08-29T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006557F29DC163",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-08-28-2027/event/17006557F29DC163",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-08-28-2027/event/17006557F29DC163",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006557F29DC163",
+        "discovery_event_id": "1A9Zk49GkdwEjAN",
+        "url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-08-28-2027/event/17006557F29DC163",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk49GkdwEjAN",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-doobie-brothers-2027-las-vegas-1a9zk49gkdwtjas",
+    "artist_slug": "the-doobie-brothers",
+    "artist_name": "The Doobie Brothers",
+    "event_name": "The Doobie Brothers: Live In Las Vegas",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Fontainebleau Las Vegas",
+    "datetime_iso": "2027-09-02T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006557F2A5C173",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-09-01-2027/event/17006557F2A5C173",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-09-01-2027/event/17006557F2A5C173",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006557F2A5C173",
+        "discovery_event_id": "1A9Zk49GkdwtjAS",
+        "url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-09-01-2027/event/17006557F2A5C173",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk49GkdwtjAS",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-doobie-brothers-2027-las-vegas-1a9zk49gkdwljat",
+    "artist_slug": "the-doobie-brothers",
+    "artist_name": "The Doobie Brothers",
+    "event_name": "The Doobie Brothers: Live In Las Vegas",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Fontainebleau Las Vegas",
+    "datetime_iso": "2027-09-04T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006557F2ADC17F",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-09-03-2027/event/17006557F2ADC17F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-09-03-2027/event/17006557F2ADC17F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006557F2ADC17F",
+        "discovery_event_id": "1A9Zk49GkdwljAT",
+        "url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-09-03-2027/event/17006557F2ADC17F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk49GkdwljAT",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-doobie-brothers-2027-las-vegas-1a9zk49gkdwcjkg",
+    "artist_slug": "the-doobie-brothers",
+    "artist_name": "The Doobie Brothers",
+    "event_name": "The Doobie Brothers: Live In Las Vegas",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Fontainebleau Las Vegas",
+    "datetime_iso": "2027-09-05T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006557F2B5C18C",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-09-04-2027/event/17006557F2B5C18C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-09-04-2027/event/17006557F2B5C18C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006557F2B5C18C",
+        "discovery_event_id": "1A9Zk49GkdwcjkG",
+        "url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-09-04-2027/event/17006557F2B5C18C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk49GkdwcjkG",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jorja-smith-2027-amsterdam-z698xzbpz16vp07o1a",
+    "artist_slug": "jorja-smith",
+    "artist_name": "Jorja Smith",
+    "event_name": "10 Years of Jorja Smith",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Ziggo Dome",
+    "datetime_iso": "2027-05-26T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1964120289",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/10-years-of-jorja-smith-tickets/1964120289?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/10-years-of-jorja-smith-tickets/1964120289?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1964120289",
+        "discovery_event_id": "Z698xZbpZ16vP07O1a",
+        "url": "https://www.ticketmaster.nl/event/10-years-of-jorja-smith-tickets/1964120289?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ16vP07O1a",
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jorja-smith-2027-brussels-z698xzg2z16v-6xajf",
+    "artist_slug": "jorja-smith",
+    "artist_name": "Jorja Smith",
+    "event_name": "Jorja Smith - 10 Years Of Jorja Smith",
+    "city": "Brussels",
+    "country": "Belgium",
+    "venue": "ING ARENA",
+    "datetime_iso": "2027-05-29T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1847885708",
+    "ticketmaster_url": "https://www.ticketmaster.be/event/jorja-smith-10-years-of-jorja-smith-tickets/1847885708",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.be/event/jorja-smith-10-years-of-jorja-smith-tickets/1847885708",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1847885708",
+        "discovery_event_id": "Z698xZG2Z16v-6xAjF",
+        "url": "https://www.ticketmaster.be/event/jorja-smith-10-years-of-jorja-smith-tickets/1847885708",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZG2Z16v-6xAjF",
+    "timezone": "Europe/Brussels",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jorja-smith-2027-dusseldorf-z698xzc2z16vc4ra7p",
+    "artist_slug": "jorja-smith",
+    "artist_name": "Jorja Smith",
+    "event_name": "Jorja Smith - 10 Years of Jorja Smith",
+    "city": "Düsseldorf",
+    "country": "Germany",
+    "venue": "Mitsubishi Electric HALLE",
+    "datetime_iso": "2027-06-01T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1395785125",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/jorja-smith-10-years-of-jorja-smith-tickets/1395785125?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/jorja-smith-10-years-of-jorja-smith-tickets/1395785125?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1395785125",
+        "discovery_event_id": "Z698xZC2Z16vC4rA7P",
+        "url": "https://www.ticketmaster.de/event/jorja-smith-10-years-of-jorja-smith-tickets/1395785125?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16vC4rA7P",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jorja-smith-2027-london-1fu8vp7n0az75fd6",
+    "artist_slug": "jorja-smith",
+    "artist_name": "Jorja Smith",
+    "event_name": "10 Years of Jorja Smith - All the Hits",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-07-17T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "350065123909A726",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10-years-of-jorja-smith-all-london-17-07-2027/event/350065123909A726",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10-years-of-jorja-smith-all-london-17-07-2027/event/350065123909A726",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "350065123909A726",
+        "discovery_event_id": "1Fu8vP7N0aZ75Fd6",
+        "url": "https://www.ticketmaster.co.uk/10-years-of-jorja-smith-all-london-17-07-2027/event/350065123909A726",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Fu8vP7N0aZ75Fd6",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jorja-smith-2027-brisbane-1avgz_8gknnf3nj",
+    "artist_slug": "jorja-smith",
+    "artist_name": "Jorja Smith",
+    "event_name": "Jorja Smith",
+    "city": "Brisbane",
+    "country": "Australia",
+    "venue": "Riverstage",
+    "datetime_iso": "2027-11-06T08:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1300650AAA512AA6",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/jorja-smith-brisbane-06-11-2027/event/1300650AAA512AA6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/jorja-smith-brisbane-06-11-2027/event/1300650AAA512AA6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1300650AAA512AA6",
+        "discovery_event_id": "1AvGZ_8Gknnf3nJ",
+        "url": "https://www.ticketmaster.com.au/jorja-smith-brisbane-06-11-2027/event/1300650AAA512AA6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvGZ_8Gknnf3nJ",
+    "timezone": "Australia/Brisbane",
+    "status": "on-sale"
   }
 ]

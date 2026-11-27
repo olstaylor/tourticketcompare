@@ -8456,6 +8456,84 @@
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
       ]
+    },
+    {
+      "slug": "10cc",
+      "name": "10cc",
+      "short_description": "Rock act listed on Ticketmaster.",
+      "image_alt": "10cc artist ticket information",
+      "factual_summary": "10cc is listed by Ticketmaster under Rock. The dates on this page come from Ticketmaster and are checked nightly for changes.",
+      "ticket_buying_notes": "These links go to the 10cc page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "10cc Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "10cc tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find 10cc tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "the-doobie-brothers",
+      "name": "The Doobie Brothers",
+      "short_description": "Rock act listed on Ticketmaster.",
+      "image_alt": "The Doobie Brothers artist ticket information",
+      "factual_summary": "The Doobie Brothers is listed by Ticketmaster under Rock. The dates on this page come from Ticketmaster and are checked nightly for changes.",
+      "ticket_buying_notes": "These links go to the The Doobie Brothers page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "The Doobie Brothers Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "The Doobie Brothers tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find The Doobie Brothers tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "jorja-smith",
+      "name": "Jorja Smith",
+      "short_description": "R&B act listed on Ticketmaster.",
+      "image_alt": "Jorja Smith artist ticket information",
+      "factual_summary": "Jorja Smith is listed by Ticketmaster under R&B. The dates on this page come from Ticketmaster and are checked nightly for changes.",
+      "ticket_buying_notes": "These links go to the Jorja Smith page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "Jorja Smith Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "Jorja Smith tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find Jorja Smith tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
     }
   ],
   "tours": [],
@@ -16790,6 +16868,90 @@
       "last_checked_at": "2026-11-25",
       "disclosure_required": true,
       "url": "https://seatgeek.com/rush-tickets"
+    },
+    {
+      "link_id": "tm-artist-10cc",
+      "artist_slug": "10cc",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-11-27",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/10cc-tickets/artist/767049"
+    },
+    {
+      "link_id": "sg-artist-10cc",
+      "artist_slug": "10cc",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-11-27",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/10cc-tickets"
+    },
+    {
+      "link_id": "tm-artist-the-doobie-brothers",
+      "artist_slug": "the-doobie-brothers",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-11-27",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/the-doobie-brothers-tickets/artist/734946"
+    },
+    {
+      "link_id": "sg-artist-the-doobie-brothers",
+      "artist_slug": "the-doobie-brothers",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-11-27",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/the-doobie-brothers-tickets"
+    },
+    {
+      "link_id": "tm-artist-jorja-smith",
+      "artist_slug": "jorja-smith",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-11-27",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/jorja-smith-tickets/artist/2319329"
+    },
+    {
+      "link_id": "sg-artist-jorja-smith",
+      "artist_slug": "jorja-smith",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-11-27",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/jorja-smith-tickets"
     }
   ],
   "safety_rules": [

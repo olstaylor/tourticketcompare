@@ -1,0 +1,267 @@
+[
+  {
+    "id": "tm-jorja-smith-2027-amsterdam-z698xzbpz16vp07o1a",
+    "artist_slug": "jorja-smith",
+    "artist_name": "Jorja Smith",
+    "event_name": "10 Years of Jorja Smith",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Ziggo Dome",
+    "datetime_iso": "2027-05-26T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1964120289",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/10-years-of-jorja-smith-tickets/1964120289?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/10-years-of-jorja-smith-tickets/1964120289?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1964120289",
+        "discovery_event_id": "Z698xZbpZ16vP07O1a",
+        "url": "https://www.ticketmaster.nl/event/10-years-of-jorja-smith-tickets/1964120289?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ16vP07O1a",
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jorja-smith-2027-brussels-z698xzg2z16v-6xajf",
+    "artist_slug": "jorja-smith",
+    "artist_name": "Jorja Smith",
+    "event_name": "Jorja Smith - 10 Years Of Jorja Smith",
+    "city": "Brussels",
+    "country": "Belgium",
+    "venue": "ING ARENA",
+    "datetime_iso": "2027-05-29T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1847885708",
+    "ticketmaster_url": "https://www.ticketmaster.be/event/jorja-smith-10-years-of-jorja-smith-tickets/1847885708",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.be/event/jorja-smith-10-years-of-jorja-smith-tickets/1847885708",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1847885708",
+        "discovery_event_id": "Z698xZG2Z16v-6xAjF",
+        "url": "https://www.ticketmaster.be/event/jorja-smith-10-years-of-jorja-smith-tickets/1847885708",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZG2Z16v-6xAjF",
+    "timezone": "Europe/Brussels",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jorja-smith-2027-dusseldorf-z698xzc2z16vc4ra7p",
+    "artist_slug": "jorja-smith",
+    "artist_name": "Jorja Smith",
+    "event_name": "Jorja Smith - 10 Years of Jorja Smith",
+    "city": "Düsseldorf",
+    "country": "Germany",
+    "venue": "Mitsubishi Electric HALLE",
+    "datetime_iso": "2027-06-01T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1395785125",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/jorja-smith-10-years-of-jorja-smith-tickets/1395785125?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/jorja-smith-10-years-of-jorja-smith-tickets/1395785125?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1395785125",
+        "discovery_event_id": "Z698xZC2Z16vC4rA7P",
+        "url": "https://www.ticketmaster.de/event/jorja-smith-10-years-of-jorja-smith-tickets/1395785125?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16vC4rA7P",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jorja-smith-2027-london-1fu8vp7n0az75fd6",
+    "artist_slug": "jorja-smith",
+    "artist_name": "Jorja Smith",
+    "event_name": "10 Years of Jorja Smith - All the Hits",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-07-17T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "350065123909A726",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10-years-of-jorja-smith-all-london-17-07-2027/event/350065123909A726",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10-years-of-jorja-smith-all-london-17-07-2027/event/350065123909A726",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "350065123909A726",
+        "discovery_event_id": "1Fu8vP7N0aZ75Fd6",
+        "url": "https://www.ticketmaster.co.uk/10-years-of-jorja-smith-all-london-17-07-2027/event/350065123909A726",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Fu8vP7N0aZ75Fd6",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jorja-smith-2027-brisbane-1avgz_8gknnf3nj",
+    "artist_slug": "jorja-smith",
+    "artist_name": "Jorja Smith",
+    "event_name": "Jorja Smith",
+    "city": "Brisbane",
+    "country": "Australia",
+    "venue": "Riverstage",
+    "datetime_iso": "2027-11-06T08:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1300650AAA512AA6",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/jorja-smith-brisbane-06-11-2027/event/1300650AAA512AA6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/jorja-smith-brisbane-06-11-2027/event/1300650AAA512AA6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1300650AAA512AA6",
+        "discovery_event_id": "1AvGZ_8Gknnf3nJ",
+        "url": "https://www.ticketmaster.com.au/jorja-smith-brisbane-06-11-2027/event/1300650AAA512AA6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvGZ_8Gknnf3nJ",
+    "timezone": "Australia/Brisbane",
+    "status": "on-sale"
+  }
+]

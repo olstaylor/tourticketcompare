@@ -4104,6 +4104,48 @@ const VERIFIED_TICKET_LINKS = {
     redirectUrl: "https://www.ticketmaster.com/muse-tickets/artist/1400322",
     verified: true
   },
+  "10cc:ticketmaster": {
+    artistSlug: "10cc",
+    provider: "ticketmaster",
+    linkId: "tm-artist-10cc",
+    redirectUrl: "https://www.ticketmaster.com/10cc-tickets/artist/767049",
+    verified: true
+  },
+  "10cc:seatgeek": {
+    artistSlug: "10cc",
+    provider: "seatgeek",
+    linkId: "sg-artist-10cc",
+    redirectUrl: "https://seatgeek.com/10cc-tickets",
+    verified: true
+  },
+  "the-doobie-brothers:ticketmaster": {
+    artistSlug: "the-doobie-brothers",
+    provider: "ticketmaster",
+    linkId: "tm-artist-the-doobie-brothers",
+    redirectUrl: "https://www.ticketmaster.com/the-doobie-brothers-tickets/artist/734946",
+    verified: true
+  },
+  "the-doobie-brothers:seatgeek": {
+    artistSlug: "the-doobie-brothers",
+    provider: "seatgeek",
+    linkId: "sg-artist-the-doobie-brothers",
+    redirectUrl: "https://seatgeek.com/the-doobie-brothers-tickets",
+    verified: true
+  },
+  "jorja-smith:ticketmaster": {
+    artistSlug: "jorja-smith",
+    provider: "ticketmaster",
+    linkId: "tm-artist-jorja-smith",
+    redirectUrl: "https://www.ticketmaster.com/jorja-smith-tickets/artist/2319329",
+    verified: true
+  },
+  "jorja-smith:seatgeek": {
+    artistSlug: "jorja-smith",
+    provider: "seatgeek",
+    linkId: "sg-artist-jorja-smith",
+    redirectUrl: "https://seatgeek.com/jorja-smith-tickets",
+    verified: true
+  }
 };
 
 function withOutVersionHeader(response) {

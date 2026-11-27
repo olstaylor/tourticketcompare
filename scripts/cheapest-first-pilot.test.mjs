@@ -63,6 +63,12 @@ assert(r.variant === "" && r.specs === one, "one priced lane (missing, stale or 
 const zero = [spec("ticketmaster", null), spec("seatgeek", 0), spec("vivid-seats", 50)];
 assert(all.applyCheapestFirst(zero, "e1").variant === "", "a zero price is not eligible");
 assert(all.applyCheapestFirst([], "e1").variant === "", "no specs: unchanged");
+// StubHub International's understated cached price is never promoted.
+const sh = [spec("ticketmaster", null), spec("seatgeek", 90), spec("stubhub-international", 70)];
+r = all.applyCheapestFirst(sh, "e1");
+assert(r.variant === "" && r.specs === sh, "StubHub International as the lowest lane: card unchanged");
+r = all.applyCheapestFirst([spec("ticketmaster", null), spec("seatgeek", 60), spec("stubhub-international", 70)], "e1");
+assert(r.variant === "cheapest_first" && r.specs[0].provider === "seatgeek", "another seller lowest: promoted as normal");
 // Off switch.
 const two = [spec("ticketmaster", null), spec("seatgeek", 90), spec("vivid-seats", 70)];
 r = none.applyCheapestFirst(two, "e1");

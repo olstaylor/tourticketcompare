@@ -2436,7 +2436,9 @@ function cheapestFirstBucket(showId) {
 }
 function applyCheapestFirst(ctaSpecs, showId) {
   const low = CHEAPEST_FIRST_PILOT_PERCENT > 0 ? lowestListedSpec(ctaSpecs) : null;
-  if (!low) return { specs: ctaSpecs, variant: "", lowest: null };
+  // StubHub International's cached price runs ~26-31% below StubHub's own page
+  // (fees), so it is never promoted on a price comparison; the card stays as is.
+  if (!low || low.provider === "stubhub-international") return { specs: ctaSpecs, variant: "", lowest: null };
   if (cheapestFirstBucket(showId) >= CHEAPEST_FIRST_PILOT_PERCENT) return { specs: ctaSpecs, variant: "control", lowest: null };
   return { specs: [low, ...ctaSpecs.filter((spec) => spec !== low)], variant: "cheapest_first", lowest: low };
 }

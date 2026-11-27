@@ -461279,5 +461279,706 @@
     "ticketmaster_discovery_event_id": "1AvGZ_8Gknnf3nJ",
     "timezone": "Australia/Brisbane",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-teddy-swims-2027-glasgow-17uov0g62nloztk",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims - The UGLY Tour",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "OVO Hydro",
+    "datetime_iso": "2027-04-14T17:30:00Z",
+    "tour_name": "The UGLY Tour",
+    "ticketmaster_event_id": "360064F8DF478A46",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-glasgow-14-04-2027/event/360064F8DF478A46",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-glasgow-14-04-2027/event/360064F8DF478A46",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "360064F8DF478A46",
+        "discovery_event_id": "17uOv0G62NLoztk",
+        "url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-glasgow-14-04-2027/event/360064F8DF478A46",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uOv0G62NLoztk",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-12-04T10:00:00Z"
+  },
+  {
+    "id": "tm-steve-lacy-2027-london-1ku8vpqdgagp_zi",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "event_name": "Steve Lacy",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-04-27T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "350065743C95902C",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/steve-lacy-london-27-04-2027/event/350065743C95902C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/steve-lacy-london-27-04-2027/event/350065743C95902C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "350065743C95902C",
+        "discovery_event_id": "1ku8vPqdGAGP_Zi",
+        "url": "https://www.ticketmaster.co.uk/steve-lacy-london-27-04-2027/event/350065743C95902C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ku8vPqdGAGP_Zi",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-backstreet-boys-2027-london-1adfz_9gkndyiiy",
+    "artist_slug": "backstreet-boys",
+    "artist_name": "Backstreet Boys",
+    "event_name": "Backstreet Boys: Into the Millennium - Homecoming: Live in London",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-06-08T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3500657ABBC28A30",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/backstreet-boys-into-the-millennium-homecoming-london-08-06-2027/event/3500657ABBC28A30",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/backstreet-boys-into-the-millennium-homecoming-london-08-06-2027/event/3500657ABBC28A30",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500657ABBC28A30",
+        "discovery_event_id": "1AdfZ_9GknDYIIY",
+        "url": "https://www.ticketmaster.co.uk/backstreet-boys-into-the-millennium-homecoming-london-08-06-2027/event/3500657ABBC28A30",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdfZ_9GknDYIIY",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-12-04T12:00:00Z"
+  },
+  {
+    "id": "tm-backstreet-boys-2027-london-1adfz_9gkljcn0r",
+    "artist_slug": "backstreet-boys",
+    "artist_name": "Backstreet Boys",
+    "event_name": "Backstreet Boys: Into the Millennium - Homecoming: Live in London",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-06-09T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3500657ADCB6A92F",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/backstreet-boys-into-the-millennium-homecoming-london-09-06-2027/event/3500657ADCB6A92F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/backstreet-boys-into-the-millennium-homecoming-london-09-06-2027/event/3500657ADCB6A92F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500657ADCB6A92F",
+        "discovery_event_id": "1AdfZ_9Gkljcn0R",
+        "url": "https://www.ticketmaster.co.uk/backstreet-boys-into-the-millennium-homecoming-london-09-06-2027/event/3500657ADCB6A92F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdfZ_9Gkljcn0R",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-12-04T12:00:00Z"
+  },
+  {
+    "id": "tm-backstreet-boys-2027-london-1adfz_9gkl9inpq",
+    "artist_slug": "backstreet-boys",
+    "artist_name": "Backstreet Boys",
+    "event_name": "Backstreet Boys: Into the Millennium - Homecoming: Live in London",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-06-11T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3500657AD7B2A59A",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/backstreet-boys-into-the-millennium-homecoming-london-11-06-2027/event/3500657AD7B2A59A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/backstreet-boys-into-the-millennium-homecoming-london-11-06-2027/event/3500657AD7B2A59A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500657AD7B2A59A",
+        "discovery_event_id": "1AdfZ_9Gkl9inpQ",
+        "url": "https://www.ticketmaster.co.uk/backstreet-boys-into-the-millennium-homecoming-london-11-06-2027/event/3500657AD7B2A59A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdfZ_9Gkl9inpQ",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-12-04T12:00:00Z"
+  },
+  {
+    "id": "tm-backstreet-boys-2027-london-1adfz_9gklquqr2",
+    "artist_slug": "backstreet-boys",
+    "artist_name": "Backstreet Boys",
+    "event_name": "Backstreet Boys: Into the Millennium - Homecoming: Live in London",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-06-12T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3500657ADA35A78F",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/backstreet-boys-into-the-millennium-homecoming-london-12-06-2027/event/3500657ADA35A78F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/backstreet-boys-into-the-millennium-homecoming-london-12-06-2027/event/3500657ADA35A78F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500657ADA35A78F",
+        "discovery_event_id": "1AdfZ_9GklQuQr2",
+        "url": "https://www.ticketmaster.co.uk/backstreet-boys-into-the-millennium-homecoming-london-12-06-2027/event/3500657ADA35A78F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdfZ_9GklQuQr2",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-12-04T12:00:00Z"
+  },
+  {
+    "id": "tm-backstreet-boys-2027-vienna-z698xz5rz1k0efdvi",
+    "artist_slug": "backstreet-boys",
+    "artist_name": "Backstreet Boys",
+    "event_name": "Backstreet Boys: Into The Millennium - Homecoming",
+    "city": "Vienna",
+    "country": "Austria",
+    "venue": "Ernst-Happel-Stadion",
+    "datetime_iso": "2027-06-24T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "927203068",
+    "ticketmaster_url": "https://www.ticketmaster.at/event/backstreet-boys-into-the-millennium-homecoming-tickets/927203068?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.at/event/backstreet-boys-into-the-millennium-homecoming-tickets/927203068?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "927203068",
+        "discovery_event_id": "Z698xZ5rZ1k0EFdvI",
+        "url": "https://www.ticketmaster.at/event/backstreet-boys-into-the-millennium-homecoming-tickets/927203068?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ5rZ1k0EFdvI",
+    "timezone": "Europe/Vienna",
+    "status": "announced",
+    "public_onsale_at": "2026-12-04T11:00:00Z"
+  },
+  {
+    "id": "tm-backstreet-boys-2027-vienna-z698xz5rz16vos_wa7",
+    "artist_slug": "backstreet-boys",
+    "artist_name": "Backstreet Boys",
+    "event_name": "Backstreet Boys: Into The Millennium - Homecoming",
+    "city": "Vienna",
+    "country": "Austria",
+    "venue": "Ernst-Happel-Stadion",
+    "datetime_iso": "2027-06-25T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1473672244",
+    "ticketmaster_url": "https://www.ticketmaster.at/event/backstreet-boys-into-the-millennium-homecoming-tickets/1473672244?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.at/event/backstreet-boys-into-the-millennium-homecoming-tickets/1473672244?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1473672244",
+        "discovery_event_id": "Z698xZ5rZ16voS_wa7",
+        "url": "https://www.ticketmaster.at/event/backstreet-boys-into-the-millennium-homecoming-tickets/1473672244?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ5rZ16voS_wa7",
+    "timezone": "Europe/Vienna",
+    "status": "announced",
+    "public_onsale_at": "2026-12-04T11:00:00Z"
+  },
+  {
+    "id": "tm-backstreet-boys-2027-amsterdam-z698xzbpz1ko30moe",
+    "artist_slug": "backstreet-boys",
+    "artist_name": "Backstreet Boys",
+    "event_name": "Backstreet Boys: Into The Millennium - Homecoming",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Johan Cruijff ArenA",
+    "datetime_iso": "2027-07-02T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "812937467",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/backstreet-boys-into-the-millennium-homecoming-tickets/812937467?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/backstreet-boys-into-the-millennium-homecoming-tickets/812937467?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "812937467",
+        "discovery_event_id": "Z698xZbpZ1kO30MoE",
+        "url": "https://www.ticketmaster.nl/event/backstreet-boys-into-the-millennium-homecoming-tickets/812937467?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ1kO30MoE",
+    "timezone": "Europe/Amsterdam",
+    "status": "announced",
+    "public_onsale_at": "2026-12-04T11:00:00Z"
+  },
+  {
+    "id": "tm-backstreet-boys-2027-zurich-z698xzu3z16v4tp3v6",
+    "artist_slug": "backstreet-boys",
+    "artist_name": "Backstreet Boys",
+    "event_name": "Backstreet Boys: Into The Millennium - Homecoming",
+    "city": "Zürich",
+    "country": "Switzerland",
+    "venue": "Stadion Letzigrund",
+    "datetime_iso": "2027-07-16T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1569592047",
+    "ticketmaster_url": "https://www.ticketmaster.ch/event/backstreet-boys-into-the-millennium-homecoming-tickets/1569592047?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ch/event/backstreet-boys-into-the-millennium-homecoming-tickets/1569592047?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1569592047",
+        "discovery_event_id": "Z698xZu3Z16v4tp3v6",
+        "url": "https://www.ticketmaster.ch/event/backstreet-boys-into-the-millennium-homecoming-tickets/1569592047?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZu3Z16v4tp3v6",
+    "timezone": "Europe/Zurich",
+    "status": "announced",
+    "public_onsale_at": "2026-12-04T11:00:00Z"
+  },
+  {
+    "id": "tm-backstreet-boys-2027-hamburg-z698xzc2z16vague4k",
+    "artist_slug": "backstreet-boys",
+    "artist_name": "Backstreet Boys",
+    "event_name": "Backstreet Boys: Into The Millennium - Homecoming",
+    "city": "Hamburg",
+    "country": "Germany",
+    "venue": "Volksparkstadion",
+    "datetime_iso": "2027-07-23T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1275342546",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/backstreet-boys-into-the-millennium-homecoming-tickets/1275342546?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/backstreet-boys-into-the-millennium-homecoming-tickets/1275342546?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1275342546",
+        "discovery_event_id": "Z698xZC2Z16vague4k",
+        "url": "https://www.ticketmaster.de/event/backstreet-boys-into-the-millennium-homecoming-tickets/1275342546?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16vague4k",
+    "timezone": "Europe/Berlin",
+    "status": "announced",
+    "public_onsale_at": "2026-12-04T11:00:00Z"
+  },
+  {
+    "id": "tm-backstreet-boys-2027-munich-z698xzc2z16vgs1fje",
+    "artist_slug": "backstreet-boys",
+    "artist_name": "Backstreet Boys",
+    "event_name": "Backstreet Boys: Into The Millennium - Homecoming",
+    "city": "Munich",
+    "country": "Germany",
+    "venue": "Allianz Arena",
+    "datetime_iso": "2027-07-30T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1333288702",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/backstreet-boys-into-the-millennium-homecoming-tickets/1333288702?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/backstreet-boys-into-the-millennium-homecoming-tickets/1333288702?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1333288702",
+        "discovery_event_id": "Z698xZC2Z16vGS1Fje",
+        "url": "https://www.ticketmaster.de/event/backstreet-boys-into-the-millennium-homecoming-tickets/1333288702?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16vGS1Fje",
+    "timezone": "Europe/Berlin",
+    "status": "announced",
+    "public_onsale_at": "2026-12-04T11:00:00Z"
+  },
+  {
+    "id": "tm-backstreet-boys-2027-munich-z698xzc2z1kgdpop9",
+    "artist_slug": "backstreet-boys",
+    "artist_name": "Backstreet Boys",
+    "event_name": "Backstreet Boys: Into The Millennium - Homecoming",
+    "city": "Munich",
+    "country": "Germany",
+    "venue": "Allianz Arena",
+    "datetime_iso": "2027-07-31T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "303960957",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/backstreet-boys-into-the-millennium-homecoming-tickets/303960957?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/backstreet-boys-into-the-millennium-homecoming-tickets/303960957?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "303960957",
+        "discovery_event_id": "Z698xZC2Z1kGdPOP9",
+        "url": "https://www.ticketmaster.de/event/backstreet-boys-into-the-millennium-homecoming-tickets/303960957?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z1kGdPOP9",
+    "timezone": "Europe/Berlin",
+    "status": "announced",
+    "public_onsale_at": "2026-12-04T11:00:00Z"
   }
 ]

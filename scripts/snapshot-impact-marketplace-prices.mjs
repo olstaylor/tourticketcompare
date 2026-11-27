@@ -89,6 +89,7 @@ const D1_RETRY_BACKOFF_MS = 3000;
 // with them and the next hourly run picks them up. Each wrangler call is also
 // bounded, so a stuck D1 import fails with a named error before the cap.
 const FETCH_DEADLINE_MS = 6 * 60 * 1000;
+const FETCH_CONCURRENCY = Math.max(1, Number(process.env.IMPACT_FETCH_CONCURRENCY) || 5);
 const D1_EXEC_TIMEOUT_MS = 90 * 1000;
 
 async function d1ExecuteFile(exec, options, file) {
@@ -436,29 +437,38 @@ async function run(options, deps = {}) {
   const clock = deps.clock || Date.now;
   const startedAt = clock();
   const deadlineMs = deps.fetchDeadlineMs ?? FETCH_DEADLINE_MS;
-  for (const [index, item] of selected.entries()) {
+  // Lookups run FETCH_CONCURRENCY at a time. One at a time (~1.7s each) a
+  // 6-minute run reached only ~200 of ~3,500 priced dates, so the rest aged past
+  // the 12h label between runs (2026-11-27: 44% of prices stale with every job
+  // green). Results are applied in roster order, so output stays deterministic.
+  const concurrency = Math.max(1, Math.floor(deps.concurrency ?? FETCH_CONCURRENCY));
+  for (let index = 0; index < selected.length; index += concurrency) {
     if (clock() - startedAt > deadlineMs) {
       deferred = selected.length - index;
       console.error(`::warning::${config.slug}: fetch deadline of ${Math.round(deadlineMs / 1000)}s reached after ${index} of ${selected.length} events; ${deferred} deferred to the next run`);
       break;
     }
+    const batch = selected.slice(index, index + concurrency);
     // Query by the already-verified provider event ID, not by artist name.
     // This keeps every cache row tied to one exact catalog record and avoids
     // broad artist-keyword pagination (for example, "Harry Styles").
-    const catalog = deps.fetchArtistCatalog
-      ? await deps.fetchArtistCatalog(config, item.externalId)
-      : await fetchArtistCatalog(config, item.externalId, deps.env, deps.fetchImpl, deps.sleep);
-    const capturedAt = deps.now || new Date();
-    if (!catalog.ok) {
-      timingObservations.push(timingObservation(item.event, config.slug, item.externalId, "failed", capturedAt));
-      errors.push({ event_id: item.id, reason: catalog.reason });
-      continue;
+    const catalogs = await Promise.all(batch.map((item) => deps.fetchArtistCatalog
+      ? deps.fetchArtistCatalog(config, item.externalId)
+      : fetchArtistCatalog(config, item.externalId, deps.env, deps.fetchImpl, deps.sleep)));
+    for (const [offset, item] of batch.entries()) {
+      const catalog = catalogs[offset];
+      const capturedAt = deps.now || new Date();
+      if (!catalog.ok) {
+        timingObservations.push(timingObservation(item.event, config.slug, item.externalId, "failed", capturedAt));
+        errors.push({ event_id: item.id, reason: catalog.reason });
+        continue;
+      }
+      fetched += 1;
+      const price = exactPrice(catalog.candidates, item.externalId);
+      timingObservations.push(timingObservation(item.event, config.slug, item.externalId, checkOutcome(catalog.candidates, item.externalId, price), capturedAt, price));
+      if (price) rows.push(buildRow(config, item, price, capturedAt, options.freshnessHours));
+      checks.push({ event_id: item.id, provider: config.slug, outcome: checkOutcome(catalog.candidates, item.externalId, price) });
     }
-    fetched += 1;
-    const price = exactPrice(catalog.candidates, item.externalId);
-    timingObservations.push(timingObservation(item.event, config.slug, item.externalId, checkOutcome(catalog.candidates, item.externalId, price), capturedAt, price));
-    if (price) rows.push(buildRow(config, item, price, capturedAt, options.freshnessHours));
-    checks.push({ event_id: item.id, provider: config.slug, outcome: checkOutcome(catalog.candidates, item.externalId, price) });
   }
   const written = options.apply ? await (deps.writer ? deps.writer(rows, options) : writeRows(rows, options, deps)) : 0;
   const timingContext = { events, observations: timingObservations, metadataAt: now.toISOString() };
@@ -655,7 +665,7 @@ async function selfTest() {
   let tick = 0;
   let asked = 0;
   const deadlined = await run({ provider: "ticket-liquidator", apply: false, eventId: "", limit: null, freshnessHours: 6, database: "x", remote: true }, {
-    data: [manyEvents, []], now: new Date("2026-07-13T00:00:00Z"), fetchDeadlineMs: 1000,
+    data: [manyEvents, []], now: new Date("2026-07-13T00:00:00Z"), fetchDeadlineMs: 1000, concurrency: 1,
     clock: () => (tick += 400),
     async fetchArtistCatalog(_config, id) { asked += 1; return { ok: true, candidates: [{ ...candidate, externalId: id }] }; }
   });
@@ -665,6 +675,17 @@ async function selfTest() {
   assert.equal(deadlined.failed, 0, "a deadline is not a failure");
   assert.equal(deadlined.usable, asked, "everything fetched before the deadline is kept");
 
+  // Parallel lookups price the same events and keep roster order.
+  let inFlight = 0;
+  let peak = 0;
+  const parallel = await run({ provider: "ticket-liquidator", apply: false, eventId: "", limit: null, freshnessHours: 6, database: "x", remote: true }, {
+    data: [manyEvents, []], now: new Date("2026-07-13T00:00:00Z"), concurrency: 3,
+    async fetchArtistCatalog(_config, id) { inFlight += 1; peak = Math.max(peak, inFlight); await new Promise((r) => setTimeout(r, 5)); inFlight -= 1; return { ok: true, candidates: [{ ...candidate, externalId: id }] }; }
+  });
+  assert.equal(parallel.usable, 4);
+  assert.equal(peak, 3, "lookups overlap, bounded by the concurrency");
+  assert.deepEqual(parallel.proposed_rows.map((r) => r.event_id), ["e-a", "e-b", "e-c", "e-d"], "roster order is kept");
+
   // Two capped scheduled runs must reach the entire roster, including a
   // completed lookup that supplied no price. No remote D1 calls in this test.
   const completed = new Map();
@@ -673,7 +694,7 @@ async function selfTest() {
     let cappedTick = 0;
     const visited = [];
     await run({ provider: "ticket-liquidator", priority: true, priorityIds: [], apply: true, eventId: "", limit: null, freshnessHours: 6, database: "x", remote: true }, {
-      data: [manyEvents, []], now: new Date(`2026-07-13T0${pass}:00:00Z`), fetchDeadlineMs: 1000,
+      data: [manyEvents, []], now: new Date(`2026-07-13T0${pass}:00:00Z`), fetchDeadlineMs: 1000, concurrency: 1,
       clock: () => (cappedTick += 400),
       async readPriceChecks({ provider }) { assert.equal(provider, "ticket-liquidator"); return [...completed].map(([event_id, checked_at]) => ({ event_id, checked_at })); },
       async fetchArtistCatalog(_config, id) { visited.push(id); return { ok: true, candidates: [] }; },

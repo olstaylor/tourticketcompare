@@ -2116,6 +2116,8 @@ const PRICE_DISCLOSURE =
   "Starting prices are recorded separately from each ticket site, in its source currency. Seats, ticket quantities and included fees may differ, so these are not like-for-like totals. Check the full order total, delivery and terms on the ticket site.";
 const PRICE_SUMMARY = "Starting prices only. Seats and fees vary, and your final total is set at checkout on the ticket site.";
 const LOWEST_FEE_NOTE = "fees not confirmed";
+const LOWEST_FEE_NOTE_STUBHUB_INTERNATIONAL = "fees not confirmed; StubHub's own page may show a higher price";
+const lowestFeeNote = (providerSlug) => (providerSlug === "stubhub-international" ? LOWEST_FEE_NOTE_STUBHUB_INTERNATIONAL : LOWEST_FEE_NOTE);
 const PRICE_UNAVAILABLE_NOTE = "No listed price yet.";
 const PRICE_HISTORY_LABEL = "Show price history";
 const LAST_SEEN_MAX_DAYS = 7;
@@ -2581,7 +2583,7 @@ function renderShowCard(show, options = {}) {
         lowLine.append(lowStrong, ` on ${lowest.name}`);
         const lowNote = document.createElement("span");
         lowNote.className = "provider-cta-lowest-note";
-        lowNote.textContent = `Checked ${relativeCheckAge(lowest.lane.fetchedAt)} · ${LOWEST_FEE_NOTE}`;
+        lowNote.textContent = `Checked ${relativeCheckAge(lowest.lane.fetchedAt)} · ${lowestFeeNote(lowest.provider)}`;
         lowLine.append(lowNote);
         body.append(lowLine);
       }

@@ -14,6 +14,8 @@ const appJs = await readFile(new URL("../public/app.js", import.meta.url), "utf8
 for (const name of ["PRICE_SUMMARY", "PRICE_DISCLOSURE", "NO_PRICE_NOTE", "PRICE_HISTORY_LABEL", "MONEY_DISCLOSURE", "LOWEST_FEE_NOTE"]) {
   assert(appJs.includes(JSON.stringify(wording[name])), `public/app.js mirrors ${name} (${JSON.stringify(wording[name])})`);
 }
+assert(appJs.includes(JSON.stringify(wording.LOWEST_FEE_NOTE_STUBHUB_INTERNATIONAL).replace(/\\u0027/g, "'")) || appJs.includes(wording.LOWEST_FEE_NOTE_STUBHUB_INTERNATIONAL), "public/app.js mirrors LOWEST_FEE_NOTE_STUBHUB_INTERNATIONAL");
+assert(wording.lowestFeeNote("stubhub-international") === wording.LOWEST_FEE_NOTE_STUBHUB_INTERNATIONAL && wording.lowestFeeNote("vivid-seats") === wording.LOWEST_FEE_NOTE && wording.lowestFeeNote() === wording.LOWEST_FEE_NOTE, "only StubHub International gets the longer note");
 assert(appJs.includes(JSON.stringify(wording.LAST_SEEN_TAIL)), "public/app.js mirrors LAST_SEEN_TAIL");
 assert(appJs.includes(`const LAST_SEEN_MAX_DAYS = ${wording.LAST_SEEN_MAX_DAYS};`), "public/app.js mirrors LAST_SEEN_MAX_DAYS");
 {

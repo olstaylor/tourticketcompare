@@ -67,7 +67,7 @@ const smokeVersion = smoke.match(/const APP_ASSET_VERSION = "([0-9a-z]+)"/)?.[1]
 assert.equal(appVersion, smokeVersion);
 assert.equal(shell.match(/\/ttc-shell\.css\?v=([0-9a-z]+)/)?.[1], "20261107a");
 assert.equal(route.match(/\/ttc-home\.css\?v=([0-9a-z]+)/)?.[1], "20261023b");
-assert.equal(route.match(/\/ttc-home\.js\?v=([0-9a-z]+)/)?.[1], "20261123a");
+assert.equal(route.match(/\/ttc-home\.js\?v=([0-9a-z]+)/)?.[1], "20261127a");
 assert.match(route, /\/artist-board\.js\?v=20261124e/);
 assert.match(route, /\/currency-converter\.js\?v=20260821a/);
 

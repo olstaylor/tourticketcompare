@@ -65,7 +65,7 @@
         "event_id": "8223803",
         "url": "https://www.ticketnetwork.com/en/p/8223803",
         "verified": true,
-        "last_verified_at": "2026-11-26",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       }
     },
@@ -154,7 +154,7 @@
         "event_id": "8223802",
         "url": "https://www.ticketnetwork.com/en/p/8223802",
         "verified": true,
-        "last_verified_at": "2026-11-26",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       }
     },
@@ -243,7 +243,7 @@
         "event_id": "8194445",
         "url": "https://www.ticketnetwork.com/en/p/8194445",
         "verified": true,
-        "last_verified_at": "2026-11-26",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       }
     },
@@ -332,7 +332,7 @@
         "event_id": "8194446",
         "url": "https://www.ticketnetwork.com/en/p/8194446",
         "verified": true,
-        "last_verified_at": "2026-11-26",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       }
     },
@@ -421,7 +421,7 @@
         "event_id": "8194447",
         "url": "https://www.ticketnetwork.com/en/p/8194447",
         "verified": true,
-        "last_verified_at": "2026-11-26",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       }
     },
@@ -1412,7 +1412,7 @@
         "event_id": "8330023",
         "url": "https://www.ticketnetwork.com/en/p/8330023",
         "verified": true,
-        "last_verified_at": "2026-11-26",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       }
     },
@@ -1482,6 +1482,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8392537",
+        "url": "https://www.ticketnetwork.com/en/p/8392537",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_9GknDYIIY",
@@ -1495,7 +1502,8 @@
         "start": "2026-12-01T11:00:00Z",
         "end": "2026-12-04T11:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8392537"
   },
   {
     "id": "tm-backstreet-boys-2027-london-1adfz_9gkljcn0r",
@@ -1544,6 +1552,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8392538",
+        "url": "https://www.ticketnetwork.com/en/p/8392538",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_9Gkljcn0R",
@@ -1557,7 +1572,8 @@
         "start": "2026-12-01T11:00:00Z",
         "end": "2026-12-04T11:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8392538"
   },
   {
     "id": "tm-backstreet-boys-2027-london-1adfz_9gkl9inpq",
@@ -1606,6 +1622,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8392539",
+        "url": "https://www.ticketnetwork.com/en/p/8392539",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_9Gkl9inpQ",
@@ -1619,7 +1642,8 @@
         "start": "2026-12-01T11:00:00Z",
         "end": "2026-12-04T11:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8392539"
   },
   {
     "id": "tm-backstreet-boys-2027-london-1adfz_9gklquqr2",
@@ -1668,6 +1692,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8392540",
+        "url": "https://www.ticketnetwork.com/en/p/8392540",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_9GklQuQr2",
@@ -1681,7 +1712,8 @@
         "start": "2026-12-01T11:00:00Z",
         "end": "2026-12-04T11:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8392540"
   },
   {
     "id": "tm-backstreet-boys-2027-vienna-z698xz5rz1k0efdvi",

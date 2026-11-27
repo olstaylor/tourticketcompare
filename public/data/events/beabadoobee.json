@@ -782,11 +782,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8094857",
-        "url": "https://www.ticketnetwork.com/en/p/8094857",
-        "verified": true,
-        "last_verified_at": "2026-11-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZb_Z16v38kfe3",
@@ -797,7 +797,7 @@
     "organizer_names": [
       "Live Nation Norway AS"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8094857",
+    "ticketnetwork_url": "",
     "genre": "Rock"
   },
   {
@@ -852,7 +852,7 @@
         "event_id": "8094858",
         "url": "https://www.ticketnetwork.com/en/p/8094858",
         "verified": true,
-        "last_verified_at": "2026-11-26",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -939,7 +939,7 @@
         "event_id": "8094855",
         "url": "https://www.ticketnetwork.com/en/p/8094855",
         "verified": true,
-        "last_verified_at": "2026-11-26",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       }
     },
@@ -1020,7 +1020,7 @@
         "event_id": "8094856",
         "url": "https://www.ticketnetwork.com/en/p/8094856",
         "verified": true,
-        "last_verified_at": "2026-11-26",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       }
     },

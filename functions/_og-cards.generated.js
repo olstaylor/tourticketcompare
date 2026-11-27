@@ -190,6 +190,7 @@ export const OG_CARDS = {
   "/artists/def-leppard/presale": {"url":"/og/artists-def-leppard-presale.png","alt":"Presale: Def Leppard"},
   "/artists/def-leppard/ticket-prices": {"url":"/og/artists-def-leppard-ticket-prices.png","alt":"Ticket prices: Def Leppard"},
   "/artists/dermot-kennedy": {"url":"/og/artists-dermot-kennedy.png","alt":"Tickets & tour dates: Dermot Kennedy"},
+  "/artists/dermot-kennedy/ticket-prices": {"url":"/og/artists-dermot-kennedy-ticket-prices.png","alt":"Ticket prices: Dermot Kennedy"},
   "/artists/dinosaur-jr": {"url":"/og/artists-dinosaur-jr.png","alt":"Tickets & tour dates: Dinosaur Jr."},
   "/artists/dinosaur-jr/ticket-prices": {"url":"/og/artists-dinosaur-jr-ticket-prices.png","alt":"Ticket prices: Dinosaur Jr."},
   "/artists/dinosaur-jr/tickets/brooklyn-united-states": {"url":"/og/artists-dinosaur-jr-tickets-brooklyn-united-states.png","alt":"Tickets: Dinosaur Jr. in Brooklyn"},

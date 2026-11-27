@@ -220,11 +220,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107189083",
-        "url": "https://www.stubhub.ie/culture-club-tickets-manchester-manchester-ao-arena-10-12-2026/event/107189083",
-        "verified": true,
-        "last_verified_at": "2026-11-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_G33V7ia",
@@ -238,7 +238,7 @@
     ],
     "ticket_limit": 6,
     "genre": "Rock",
-    "stubhub_international_url": "https://www.stubhub.ie/culture-club-tickets-manchester-manchester-ao-arena-10-12-2026/event/107189083"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-culture-club-2026-liverpool-17uyv0g659ybvks",
@@ -493,11 +493,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107200077",
-        "url": "https://www.stubhub.ie/culture-club-tickets-glasgow-ovo-hydro-arena-glasgow-15-12-2026/event/107200077",
-        "verified": true,
-        "last_verified_at": "2026-11-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uOv0G659z_CrY",
@@ -510,7 +510,7 @@
       "SCOTTISH EVENT CAMPUS LIMITED"
     ],
     "genre": "Rock",
-    "stubhub_international_url": "https://www.stubhub.ie/culture-club-tickets-glasgow-ovo-hydro-arena-glasgow-15-12-2026/event/107200077"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-culture-club-2026-sheffield-17u8v0g659uvycg",

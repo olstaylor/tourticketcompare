@@ -1397,11 +1397,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107189139",
-        "url": "https://www.stubhub.ie/john-summit-chicago-tickets-11-25-2026/event/107189139",
-        "verified": true,
-        "last_verified_at": "2026-11-25",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": null,
@@ -1415,7 +1415,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/john-summit-chicago-tickets-11-25-2026/event/107189139",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -1562,7 +1562,7 @@
         "event_id": "107189140",
         "url": "https://www.stubhub.ie/john-summit-brooklyn-tickets-11-28-2026/event/107189140",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1644,7 +1644,7 @@
         "event_id": "107189141",
         "url": "https://www.stubhub.ie/john-summit-oakland-tickets-12-4-2026/event/107189141",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1726,7 +1726,7 @@
         "event_id": "107289083",
         "url": "https://www.stubhub.ie/john-summit-oakland-tickets-12-5-2026/event/107289083",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1935,7 +1935,7 @@
         "event_id": "107670646",
         "url": "https://www.stubhub.ie/john-summit-brooklyn-tickets-11-29-2026/event/107670646",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2156,7 +2156,7 @@
         "event_id": "107671906",
         "url": "https://www.stubhub.ie/john-summit-tickets-amsterdam-ziggo-dome-13-2-2027/event/107671906",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -2237,7 +2237,7 @@
         "event_id": "107671913",
         "url": "https://www.stubhub.ie/john-summit-tickets-london-the-o2-arena-27-2-2027/event/107671913",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -2330,7 +2330,7 @@
         "event_id": "107672167",
         "url": "https://www.stubhub.ie/john-summit-tickets-zurich-halle-622-zurich-eventhalle-20-2-2027/event/107672167",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       }
     },

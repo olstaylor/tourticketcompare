@@ -488,7 +488,7 @@
         "event_id": "107673343",
         "url": "https://www.stubhub.ie/dermot-kennedy-tickets-belfast-ormeau-park-26-6-2027/event/107673343",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       }
     },
@@ -1500,6 +1500,13 @@
         "verified": true,
         "last_verified_at": "2026-11-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107154106",
+        "url": "https://www.stubhub.ie/dermot-kennedy-tickets-vancouver-rogers-arena-9-16-2027/event/107154106",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZkoSGkeDFaj7",
@@ -1513,7 +1520,8 @@
     "ticket_limit": 6,
     "genre": "Rock",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7836902",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7836902/Dermot-Kennedy-tickets-Thu-Sep-16-2027-Rogers-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7836902/Dermot-Kennedy-tickets-Thu-Sep-16-2027-Rogers-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/dermot-kennedy-tickets-vancouver-rogers-arena-9-16-2027/event/107154106"
   },
   {
     "id": "tm-dermot-kennedy-2027-seattle-vvg1hz_6xvw_39",

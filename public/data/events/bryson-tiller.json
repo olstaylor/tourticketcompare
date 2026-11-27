@@ -871,17 +871,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107271077",
-        "url": "https://www.stubhub.ie/bryson-tiller-tickets-dusseldorf-mitsubishi-electric-halle-26-11-2026/event/107271077",
-        "verified": true,
-        "last_verified_at": "2026-11-25",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16voJuk_e",
     "timezone": "Europe/Berlin",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/bryson-tiller-tickets-dusseldorf-mitsubishi-electric-halle-26-11-2026/event/107271077",
+    "stubhub_international_url": "",
     "organizer_names": [
       "prime entertainment GmbH"
     ],
@@ -1062,7 +1062,7 @@
         "event_id": "107258136",
         "url": "https://www.stubhub.ie/bryson-tiller-tickets-manchester-co-op-live-3-12-2026/event/107258136",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -1195,7 +1195,7 @@
         "event_id": "107265079",
         "url": "https://www.stubhub.ie/bryson-tiller-tickets-cardiff-utilita-arena-cardiff-5-12-2026/event/107265079",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -1279,7 +1279,7 @@
         "event_id": "107258138",
         "url": "https://www.stubhub.ie/bryson-tiller-tickets-london-the-o2-arena-7-12-2026/event/107258138",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -1368,7 +1368,7 @@
         "event_id": "107265080",
         "url": "https://www.stubhub.ie/bryson-tiller-tickets-birmingham-bp-pulse-live-9-12-2026/event/107265080",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "ticketnetwork": {

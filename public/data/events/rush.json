@@ -62,11 +62,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "106997148",
-        "url": "https://www.stubhub.ie/rush-atlanta-tickets-11-25-2026/event/106997148",
-        "verified": true,
-        "last_verified_at": "2026-11-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZbgd3i_aC",
@@ -79,7 +79,7 @@
     "genre": "Rock",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/rush-atlanta-tickets-11-25-2026/event/106997148"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-rush-2026-atlanta-vvg1zzbgq3ik-i",

@@ -19,6 +19,7 @@ Numbered SQL files applied to the production D1 database `tourticketcompare-dema
 | `0013_email_alerts.sql` | `email_alert_sends` (one row per date-alert email, with its unsubscribe token) and `email_unsubscribes` (opt-outs from that link) | **Self-applying.** `scripts/send-date-alerts.mjs` (send mode) and `functions/api/unsubscribe.js` run the same `CREATE ... IF NOT EXISTS` statements first, so nothing needs applying by hand. Added 2026-10-02. |
 | `0014_event_price_timing.sql` | Retained event schedule revisions and compact provider checkpoint evidence for internal analysis | **Self-applying after merge.** Created by the snapshot writers' price-check imports; not applied to production during implementation. |
 | `0015_impact_action_ledger.sql` | `impact_action_ledger` (one row per Impact order: seller, state, commission, currency, order/lock/clearing dates, matched TTC page only when proven), `impact_action_state_history` (one row per state change) and `impact_action_import_runs` (one row per nightly import with ok/incomplete/failed) | **Self-applying.** `scripts/sync-impact-action-ledger.mjs` runs the same `CREATE ... IF NOT EXISTS` statements first. Added 2026-11-24. |
+| `0016_price_alert_subscriptions.sql` | `price_alert_subscriptions` (one row per address × show asking for a price-drop email; `pending` until confirmed by email) | **Self-applying.** `functions/api/price-alert.js` runs the same `CREATE ... IF NOT EXISTS` statements first. Added 2026-11-27. |
 
 Notes:
 

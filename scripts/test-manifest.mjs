@@ -181,6 +181,8 @@ export const STEPS = [
   { id: "alerts:date:self-test",                  lane: "units",  run: "node scripts/send-date-alerts.mjs --self-test" },
   { id: "alerts:digest:self-test",                lane: "units",  run: "node scripts/send-weekly-digest.mjs --self-test" },
   { id: "test:unsubscribe",                       lane: "units",  run: "node scripts/unsubscribe.test.mjs" },
+  { id: "alerts:price:self-test",                 lane: "units",  run: "node scripts/send-price-alerts.mjs --self-test" },
+  { id: "test:price-alert-signup",                lane: "units",  run: "node scripts/price-alert-signup.test.mjs" },
   { id: "content:voice:self-test",                lane: "units",  run: "node scripts/check-site-voice.mjs --self-test" },
   { id: "content:voice:check",                    lane: "quick",  run: "node scripts/check-site-voice.mjs" },
   { id: "content:owner-copy:self-test",           lane: "units",  run: "node scripts/check-owner-copy.mjs --self-test" },

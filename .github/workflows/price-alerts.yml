@@ -1,0 +1,70 @@
+name: Price-drop alerts
+
+# Price-drop emails to confirmed subscribers (scripts/send-price-alerts.mjs).
+# Manual only: there is deliberately no schedule until the owner has reviewed a
+# test send and decided to run it automatically.
+#
+# preview  counts due alerts; sends and writes nothing
+# test     sends one clearly marked sample to test_to; records nothing
+# send     sends due alerts and records each in D1 so no one is emailed twice
+#
+# Nothing is emailed unless PRICE_ALERTS_PROVIDER is "resend" (repository
+# variable) and the secrets below exist; otherwise test and send are a dry run.
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "preview, test or send"
+        required: true
+        type: choice
+        options: [preview, test, send]
+        default: preview
+      test_to:
+        description: "Recipient for a test send"
+        required: false
+        default: ""
+      limit:
+        description: "Most alerts one send run emails"
+        required: false
+        default: "100"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: price-alerts
+  cancel-in-progress: false
+
+jobs:
+  alerts:
+    if: github.repository == 'olstaylor/tourticketcompare'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Run price alerts
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          PRICE_ALERTS_PROVIDER: ${{ vars.PRICE_ALERTS_PROVIDER || 'stub' }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          ALERT_EMAIL_FROM: ${{ secrets.ALERT_EMAIL_FROM || 'TourTicketCompare <alerts@tourticketcompare.com>' }}
+          ALERT_POSTAL_ADDRESS: ${{ secrets.ALERT_POSTAL_ADDRESS }}
+          ALERT_REPLY_TO: ${{ secrets.ALERT_REPLY_TO }}
+          MODE: ${{ inputs.mode }}
+          TEST_TO: ${{ inputs.test_to }}
+          LIMIT: ${{ inputs.limit }}
+        run: |
+          set -euo pipefail
+          args=(--mode "$MODE" --limit "${LIMIT:-100}")
+          if [ "$MODE" = "test" ]; then args+=(--test-to "$TEST_TO"); fi
+          node scripts/send-price-alerts.mjs "${args[@]}"

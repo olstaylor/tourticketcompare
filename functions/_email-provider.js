@@ -3,11 +3,13 @@
 //
 // PRICE_ALERTS_PROVIDER (wrangler.toml [vars]):
 //   "stub"    (default) nothing leaves the building; send() reports delivered:false
-//   "resend"  sends through Resend; needs RESEND_API_KEY and ALERT_EMAIL_FROM
+//   "resend"  sends through Resend; needs RESEND_API_KEY (ALERT_EMAIL_FROM optional)
 // Swapping provider means adding one adapter here and changing that value.
 //
 // Pure fetch, no node imports, so it runs in Pages Functions and in scripts.
 
+// Works once tourticketcompare.com is verified in Resend; same default as the workflows.
+const DEFAULT_FROM = "TourTicketCompare <alerts@tourticketcompare.com>";
 const RESEND_ENDPOINT = "https://api.resend.com/emails";
 
 export const STUB_PROVIDER = Object.freeze({
@@ -20,8 +22,8 @@ export const STUB_PROVIDER = Object.freeze({
 
 function resendProvider(env) {
   const apiKey = String(env.RESEND_API_KEY || "").trim();
-  const from = String(env.ALERT_EMAIL_FROM || "").trim();
-  if (!apiKey || !from) return null;
+  const from = String(env.ALERT_EMAIL_FROM || "").trim() || DEFAULT_FROM;
+  if (!apiKey) return null;
   const replyTo = String(env.ALERT_REPLY_TO || "").trim();
   return {
     name: "resend",

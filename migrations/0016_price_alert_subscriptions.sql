@@ -16,6 +16,8 @@ CREATE TABLE IF NOT EXISTS price_alert_subscriptions (
   status TEXT NOT NULL,
   confirm_token TEXT NOT NULL,
   consent_text TEXT NOT NULL,
+  target_price REAL,
+  target_currency TEXT,
   source_path TEXT,
   created_at TEXT NOT NULL,
   confirm_sent_at TEXT,

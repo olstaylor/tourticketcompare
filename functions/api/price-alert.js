@@ -14,6 +14,8 @@ import { EMAIL_ALERT_SCHEMA_STATEMENTS } from "../_email-alerts.js";
 import {
   PRICE_ALERT_SCHEMA_STATEMENTS,
   PRICE_ALERT_CONSENT_TEXT,
+  PRICE_ALERT_TARGET,
+  targetCurrencyOk,
   PRICE_ALERT_CONFIRM_KIND_PREFIX,
   PRICE_ALERT_CAPS,
   randomToken,
@@ -89,6 +91,19 @@ export async function onRequestPost({ request, env }) {
   if (!emailOk(email)) return json({ ok: false, status: "invalid_email" }, 400);
   if (!slugOk(slug) || !idOk(eventId)) return json({ ok: false, status: "invalid_show" }, 400);
 
+  // Optional target: "only when it falls to X", in the currency the visitor
+  // saw. Both parts or neither; a bad value is refused, never guessed.
+  const rawTarget = payload?.target;
+  let target = null;
+  let targetCurrency = null;
+  if (rawTarget !== undefined && rawTarget !== null && String(rawTarget).trim() !== "") {
+    target = Math.round(Number(String(rawTarget).replace(/[,\s]/g, "")) * 100) / 100;
+    targetCurrency = clean(payload?.targetCurrency, 3).toUpperCase();
+    if (!Number.isFinite(target) || target < PRICE_ALERT_TARGET.min || target > PRICE_ALERT_TARGET.max || !targetCurrencyOk(targetCurrency)) {
+      return json({ ok: false, status: "invalid_target" }, 400);
+    }
+  }
+
   const now = Date.now();
   const found = await findEvent(env, slug, eventId);
   if (found.error) return json({ ok: false, status: "show_check_unavailable" }, 503);
@@ -125,13 +140,14 @@ export async function onRequestPost({ request, env }) {
     const unsubscribeToken = randomToken();
     await db
       .prepare(
-        `INSERT INTO price_alert_subscriptions (email, event_id, artist_slug, status, confirm_token, consent_text, source_path, created_at)
-         VALUES (?1, ?2, ?3, 'pending', ?4, ?5, ?6, ?7)
+        `INSERT INTO price_alert_subscriptions (email, event_id, artist_slug, status, confirm_token, consent_text, source_path, created_at, target_price, target_currency)
+         VALUES (?1, ?2, ?3, 'pending', ?4, ?5, ?6, ?7, ?8, ?9)
          ON CONFLICT(email, event_id) DO UPDATE SET
            status = 'pending', confirm_token = excluded.confirm_token, consent_text = excluded.consent_text,
-           source_path = excluded.source_path, created_at = excluded.created_at, confirmed_at = NULL`
+           source_path = excluded.source_path, created_at = excluded.created_at, confirmed_at = NULL,
+           target_price = excluded.target_price, target_currency = excluded.target_currency`
       )
-      .bind(email, eventId, slug, confirmToken, PRICE_ALERT_CONSENT_TEXT, clean(payload?.sourcePath, 255) || "/", nowIso)
+      .bind(email, eventId, slug, confirmToken, PRICE_ALERT_CONSENT_TEXT, clean(payload?.sourcePath, 255) || "/", nowIso, target, targetCurrency)
       .run();
 
     // The confirmation email carries its own unsubscribe token, recorded the

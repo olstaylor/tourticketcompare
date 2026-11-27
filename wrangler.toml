@@ -25,10 +25,10 @@ CLICK_TRACKING_ENABLED = "true"
 OUT_CLICK_ID_SUBID_ENABLED = "true"
 OUT_CLICK_ID_SUBID_PARAM = "subId1"
 TICKETMASTER_DISCOVERY_ENABLED = "true"
-# Price-drop email alerts (docs/OPERATIONS.md). "stub" sends nothing; "resend"
-# also needs the RESEND_API_KEY, ALERT_EMAIL_FROM and ALERT_POSTAL_ADDRESS
-# secrets in the Pages dashboard. Roll back by setting it to "stub".
-PRICE_ALERTS_PROVIDER = "stub"
+# Price-drop email alerts (docs/OPERATIONS.md). "resend" only sends once the
+# RESEND_API_KEY and ALERT_POSTAL_ADDRESS secrets exist in the Pages dashboard;
+# without them it behaves as "stub" and sends nothing. Roll back by setting "stub".
+PRICE_ALERTS_PROVIDER = "resend"
 TICKETMASTER_EVENTS_TTL_MINUTES = "30"
 TICKETMASTER_ARTIST_EVENTS_LIMIT = "100"
 TICKETMASTER_DISCOVERY_PRICE_CHECKS_ENABLED = "false"

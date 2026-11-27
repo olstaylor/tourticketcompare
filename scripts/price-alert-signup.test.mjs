@@ -34,9 +34,9 @@ function fakeDb() {
         async run() {
           if (/^INSERT INTO rate_limits/.test(q)) db.rate += 1;
           else if (/^INSERT INTO price_alert_subscriptions/.test(q)) {
-            const [email, event_id, artist_slug, confirm_token, consent_text, source_path, created_at] = st.a;
+            const [email, event_id, artist_slug, confirm_token, consent_text, source_path, created_at, target_price, target_currency] = st.a;
             const prev = subs.get(`${email}|${event_id}`);
-            Object.assign(prev || {}, {}); subs.set(`${email}|${event_id}`, Object.assign(prev || {}, { email, event_id, artist_slug, status: "pending", confirm_token, consent_text, source_path, created_at, confirmed_at: null }));
+            Object.assign(prev || {}, {}); subs.set(`${email}|${event_id}`, Object.assign(prev || {}, { email, event_id, artist_slug, status: "pending", confirm_token, consent_text, source_path, created_at, target_price, target_currency, confirmed_at: null }));
           } else if (/^INSERT INTO email_alert_sends/.test(q)) {
             const [email, artist_slug, alert_kind, token, claimed_at] = st.a;
             sends.set(`${email}|${alert_kind}`, { email, artist_slug, alert_kind, status: "claimed", unsubscribe_token: token, claimed_at });
@@ -116,6 +116,22 @@ const good = { email: "Fan@Example.org", artistSlug: "fixture-artist", eventId: 
   assert(noDb.status === 503, "missing D1 is reported");
 }
 
+// Optional target price.
+{
+  const env = () => ({ DEMAND_DB: fakeDb(), ASSETS: assets });
+  const run = async (extra) => { const e = env(); const res = await signup.onRequestPost({ request: post({ ...good, ...extra }), env: e }); return { res, db: e.DEMAND_DB }; };
+  let { res, db } = await run({ target: "150", targetCurrency: "usd" });
+  const row = [...db.subs.values()][0];
+  assert(res.status === 200 && row.target_price === 150 && row.target_currency === "USD", "target and currency stored");
+  assert(/falls to my target price/.test(row.consent_text), "consent wording mentions the target");
+  ({ res, db } = await run({}));
+  assert(res.status === 200 && [...db.subs.values()][0].target_price === null, "no target is fine");
+  for (const bad of [{ target: "150" }, { target: "abc", targetCurrency: "USD" }, { target: "1", targetCurrency: "USD" }, { target: "99999999", targetCurrency: "USD" }, { target: "150", targetCurrency: "US" }]) {
+    ({ res, db } = await run(bad));
+    assert(res.status === 400 && (await res.json()).status === "invalid_target" && db.subs.size === 0, "bad target refused: " + JSON.stringify(bad));
+  }
+}
+
 // Confirm: GET changes nothing; POST confirms; stale and unknown tokens do not.
 {
   const db = fakeDb();
@@ -144,6 +160,7 @@ const good = { email: "Fan@Example.org", artistSlug: "fixture-artist", eventId: 
   assert([...db.subs.values()][0].status === "pending", "after unsubscribing, a new request starts again at pending");
 }
 
+assert(createEmailProvider({ PRICE_ALERTS_PROVIDER: "resend", RESEND_API_KEY: "k" }).live === true, "resend with a key needs no From override");
 assert(createEmailProvider({}).live === false && createEmailProvider({ PRICE_ALERTS_PROVIDER: "resend" }).live === false && createEmailProvider({ PRICE_ALERTS_PROVIDER: "typo" }).live === false, "anything short of full config is the stub");
 
 console.log(`price-alert: ${passed} checks passed`);

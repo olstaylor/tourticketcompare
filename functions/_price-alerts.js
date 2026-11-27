@@ -16,6 +16,8 @@ export const PRICE_ALERT_SCHEMA_STATEMENTS = Object.freeze([
   status TEXT NOT NULL,
   confirm_token TEXT NOT NULL,
   consent_text TEXT NOT NULL,
+  target_price REAL,
+  target_currency TEXT,
   source_path TEXT,
   created_at TEXT NOT NULL,
   confirm_sent_at TEXT,
@@ -29,7 +31,11 @@ export const PRICE_ALERT_SCHEMA_STATEMENTS = Object.freeze([
 // Exact wording shown next to the signup button; stored with every signup as
 // the record of what was agreed to. Change the wording => change this string.
 export const PRICE_ALERT_CONSENT_TEXT =
-  "Email me when the lowest listed price for this show drops. I'll confirm by email first. You'll get only price-drop emails for this show, at most 2 a week, and can unsubscribe any time.";
+  "Email me when the lowest listed price for this show drops, or falls to my target price if I set one. I'll confirm by email first. You'll get only price emails for this show, at most 2 a week, and can unsubscribe any time.";
+
+// Target price limits (a typo like 1 or 99999999 is rejected, not stored).
+export const PRICE_ALERT_TARGET = Object.freeze({ min: 5, max: 100000 });
+export const targetCurrencyOk = (v) => /^[A-Z]{3}$/.test(String(v || ""));
 
 export const PRICE_ALERT_KIND_PREFIX = "price_drop:";
 export const PRICE_ALERT_CONFIRM_KIND_PREFIX = "price_alert_confirm:";
@@ -100,19 +106,26 @@ export function alertShowLabel(drop) {
  */
 export function buildPriceDropEmail({ drop, unsubscribeToken, postalAddress }) {
   const label = alertShowLabel(drop);
-  const subject = `Price drop: ${drop.artist}, ${drop.city} ${shortDate(drop.localDate)}`;
+  const subject = Number(drop.target) > 0
+    ? `Under your target: ${drop.artist}, ${drop.city} ${shortDate(drop.localDate)}`
+    : `Price drop: ${drop.artist}, ${drop.city} ${shortDate(drop.localDate)}`;
   const pct = Math.floor(drop.dropShare * 100);
-  const line = `${drop.site}'s lowest listed price for ${label} was ${money(drop.from, drop.currency)} on ${longDate(drop.fromDate)} and is ${money(drop.to, drop.currency)} on ${longDate(drop.toDate)} (${pct}% lower).`;
+  const target = Number(drop.target) > 0 ? ` That is at or below your target of ${money(drop.target, drop.currency)}.` : "";
+  const line = drop.from && drop.from > drop.to
+    ? `${drop.site}'s lowest listed price for ${label} was ${money(drop.from, drop.currency)} on ${longDate(drop.fromDate)} and is ${money(drop.to, drop.currency)} on ${longDate(drop.toDate)} (${pct}% lower).${target}`
+    : `${drop.site}'s lowest listed price for ${label} is ${money(drop.to, drop.currency)} on ${longDate(drop.toDate)}.${target}`;
   const captured = `Captured ${drop.capturedAt.slice(0, 10)} ${drop.capturedAt.slice(11, 16)} UTC.`;
   const caveat = "This is a listed starting price from a snapshot, not a promise of availability or a checkout total. Fees and what's left are shown on the seller's page.";
   const url = new URL(drop.eventPath, SITE_URL);
-  url.searchParams.set("utm_source", "ttc_alerts");
-  url.searchParams.set("utm_medium", "email");
+  // The show page carries the normal buy buttons (and /api/out); the email
+  // itself never holds a seller or affiliate link.
+  url.searchParams.set("utm_source", "email");
+  url.searchParams.set("utm_medium", "alert");
   url.searchParams.set("utm_campaign", "price_alert");
-  const why = `You asked for price-drop emails for this show and confirmed by email. We send at most ${PRICE_ALERT_CAPS.perAddressPerWeek} a week.`;
+  const why = `You asked for price emails for this show and confirmed by email. We send at most ${PRICE_ALERT_CAPS.perAddressPerWeek} a week.`;
   const unsubscribe = unsubscribeUrl(unsubscribeToken);
   const text = [line, captured, "", `See this show: ${url}`, "", caveat, "", "--", why, `Unsubscribe from all TourTicketCompare emails: ${unsubscribe}`, INDEPENDENCE, postalAddress].join("\n");
-  const html = shell(subject, `<p style="margin:0 0 8px">${escapeHtml(line)}</p><p style="margin:0 0 16px;font-size:14px;color:#555">${escapeHtml(captured)}</p>${button(url.toString(), "See this show")}<p style="margin:0 0 16px;font-size:14px">${escapeHtml(caveat)}</p>`, [
+  const html = shell(subject, `<p style="margin:0 0 8px">${escapeHtml(line)}</p><p style="margin:0 0 16px;font-size:14px;color:#555">${escapeHtml(captured)}</p>${button(url.toString(), `See ${drop.artist} in ${drop.city}`)}<p style="margin:0 0 16px;font-size:14px">${escapeHtml(caveat)}</p>`, [
     escapeHtml(why),
     `<a href="${escapeHtml(unsubscribe)}" style="color:#555">Unsubscribe from all TourTicketCompare emails</a>.`,
     escapeHtml(INDEPENDENCE),

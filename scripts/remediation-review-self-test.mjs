@@ -84,7 +84,7 @@ assert.match(artistModule, /function refreshCityOptions/);
 assert.match(artistModule, /var visibleCountry = !grouped && country/);
 assert.match(artistModule, /if \(visibleCountry\) bar\.append\(country\)/);
 assert.match(priceHistoryModule, /\/api\/price-history\?showId=/);
-assert.match(priceHistoryModule, /intent: "price_alert"/);
+assert.match(priceHistoryModule, /\/api\/price-alert"/);
 assert.match(priceHistoryModule, /price-alert-interest-template/);
 assert.match(route, /data-price-history=/);
 

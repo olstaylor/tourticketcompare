@@ -14,8 +14,8 @@
 //   test               Sends one clearly marked sample to --test-to. Records nothing.
 //   send               Sends due alerts and records each in email_alert_sends.
 //
-// Nothing sends unless PRICE_ALERTS_PROVIDER=resend with RESEND_API_KEY,
-// ALERT_EMAIL_FROM and ALERT_POSTAL_ADDRESS set. Otherwise test and send are a
+// Nothing sends unless PRICE_ALERTS_PROVIDER=resend with RESEND_API_KEY and
+// ALERT_POSTAL_ADDRESS set. Otherwise test and send are a
 // dry run that says what they would have done and records nothing.
 
 import { randomBytes } from "node:crypto";
@@ -33,6 +33,7 @@ import {
 } from "../functions/_price-alerts.js";
 import { createEmailProvider } from "../functions/_email-provider.js";
 import { detectPriceDrops } from "./lib/price-drop-posts.mjs";
+import { latestReadings, targetHitsFor } from "./lib/price-target-hits.mjs";
 import { PRICE_MOVE_SITES } from "./lib/data-stories.mjs";
 import { runD1, sqlString, parseD1Results } from "./send-date-alerts.mjs";
 
@@ -102,7 +103,7 @@ export const alertKind = (drop) => `${PRICE_ALERT_KIND_PREFIX}${drop.key}`;
  * sends:         email_alert_sends rows (any kind)
  * unsubscribes:  email_unsubscribes rows
  */
-export function planPriceAlerts({ subscriptions = [], drops = [], sends = [], unsubscribes = [], now = Date.now() }) {
+export function planPriceAlerts({ subscriptions = [], drops = [], readings = [], sends = [], unsubscribes = [], now = Date.now() }) {
   const optOut = new Map(unsubscribes.map((r) => [r.email, r.unsubscribed_at]));
   const dropsByEvent = new Map();
   for (const d of drops) {
@@ -127,13 +128,19 @@ export function planPriceAlerts({ subscriptions = [], drops = [], sends = [], un
   const skipped = { no_drop: 0, unsubscribed: 0, already_sent: 0, show_cooldown: 0, weekly_cap: 0 };
   const candidates = [];
   for (const sub of subscriptions) {
-    const shown = dropsByEvent.get(sub.event_id);
+    // A subscriber with a target gets the target rule instead of the drop rule:
+    // the lowest fresh reading at or below it, in the currency they set it in.
+    const target = Number(sub.target_price);
+    const hasTarget = target > 0 && sub.target_currency;
+    const shown = hasTarget
+      ? targetHitsFor(readings, sub.event_id, target, sub.target_currency).map((r) => ({ ...r, key: `${r.key}|t${target}`, target }))
+      : dropsByEvent.get(sub.event_id);
     if (!shown?.length) { skipped.no_drop += 1; continue; }
     const out = optOut.get(sub.email);
     // Unsubscribing withdraws consent; confirming again afterwards is fresh consent.
     if (out && !(String(sub.confirmed_at || "") > String(out))) { skipped.unsubscribed += 1; continue; }
     // One alert per show per run: the biggest fall across ticket sites.
-    const drop = [...shown].sort((a, b) => b.dropShare - a.dropShare)[0];
+    const drop = hasTarget ? shown[0] : [...shown].sort((a, b) => b.dropShare - a.dropShare)[0];
     if (sentKinds.has(`${sub.email}|${alertKind(drop)}`)) { skipped.already_sent += 1; continue; }
     if ((lastForShow.get(`${sub.email}|${sub.event_id}`) || 0) > cooldownAgo) { skipped.show_cooldown += 1; continue; }
     candidates.push({ email: sub.email, drop });
@@ -163,8 +170,8 @@ async function readState(options, now) {
     options
   );
   const present = new Set(tables.map((r) => r.name));
-  if (!present.has("price_alert_subscriptions")) return { subscriptions: [], drops: [], sends: [], unsubscribes: [] };
-  const statements = ["SELECT email, event_id, artist_slug, confirmed_at FROM price_alert_subscriptions WHERE status = 'confirmed'"];
+  if (!present.has("price_alert_subscriptions")) return { subscriptions: [], drops: [], readings: [], sends: [], unsubscribes: [] };
+  const statements = ["SELECT email, event_id, artist_slug, confirmed_at, target_price, target_currency FROM price_alert_subscriptions WHERE status = 'confirmed'"];
   if (present.has("email_unsubscribes")) statements.push("SELECT email, unsubscribed_at FROM email_unsubscribes");
   if (present.has("email_alert_sends")) statements.push(`SELECT email, artist_slug, alert_kind, status, claimed_at, sent_at FROM email_alert_sends WHERE alert_kind LIKE '${PRICE_ALERT_KIND_PREFIX}%'`);
   const results = await runD1(statements, options);
@@ -172,14 +179,16 @@ async function readState(options, now) {
   const unsubscribes = present.has("email_unsubscribes") ? results[1] : [];
   const sends = present.has("email_alert_sends") ? results[results.length - 1] : [];
   let drops = [];
+  let readings = [];
   if (subscriptions.length) {
     const asOf = new Date(now).toISOString().slice(0, 10);
     const [rows] = await runD1([alertRowsSql(subscriptions.map((s) => s.event_id), asOf)], options);
     const read = async (f) => JSON.parse(await fs.readFile(path.join(REPO_ROOT, f), "utf8"));
     const [events, artists] = await Promise.all([read("public/data/events.json"), read("public/data/artists.json")]);
     drops = detectPriceDrops(rows, events, artists, { now, rules: { perArtist: Infinity, maxDrafts: Infinity } });
+    readings = latestReadings(rows, events, artists, { now });
   }
-  return { subscriptions, drops, sends, unsubscribes };
+  return { subscriptions, drops, readings, sends, unsubscribes };
 }
 
 function printPlan({ due, skipped }, limit) {
@@ -275,10 +284,24 @@ function selfTest() {
   assert.ok(email.text.includes("Captured 2026-11-27 12:00 UTC"), "carries the capture time");
   assert.ok(!/cheapest|best price|guarantee|selling fast|sold out|hurry|price match/i.test(email.text), "no cheapest, scarcity or guarantee wording");
   assert.ok(!/api\/out|evyy|impact/i.test(email.text + email.html), "never links through the redirect or an affiliate URL");
-  assert.ok(email.text.includes("utm_campaign=price_alert") && email.headers["List-Unsubscribe-Post"] === "List-Unsubscribe=One-Click" && email.text.includes("1 Test Street"), "tracked link, one-click unsubscribe, postal address");
+  assert.ok(email.text.includes("utm_source=email&utm_medium=alert&utm_campaign=price_alert") && email.headers["List-Unsubscribe-Post"] === "List-Unsubscribe=One-Click" && email.text.includes("1 Test Street"), "tracked link, one-click unsubscribe, postal address");
+  // Target price rule.
+  const reading = (over = {}) => ({ key: "e1|vivid-seats|USD|90", eventId: "e1", artistSlug: "a", artist: "A", city: "Leeds", venue: "Arena", localDate: "2027-03-01", provider: "vivid-seats", site: "Vivid Seats", currency: "USD", from: 120, fromDate: "2026-11-20", to: 90, toDate: "2026-11-27", capturedAt: "2026-11-27T11:00:00.000Z", dropShare: 0.25, eventPath: "/events/x", ...over });
+  const tsub = (t, c = "USD") => sub({ target_price: t, target_currency: c });
+  assert.equal(planPriceAlerts({ subscriptions: [tsub(100)], readings: [reading()], now }).due.length, 1, "price at or below target is due, with no 20% drop needed");
+  assert.equal(planPriceAlerts({ subscriptions: [tsub(90)], readings: [reading()], now }).due.length, 1, "exactly at target counts");
+  assert.equal(planPriceAlerts({ subscriptions: [tsub(80)], readings: [reading()], now }).due.length, 0, "above target is not due");
+  assert.equal(planPriceAlerts({ subscriptions: [tsub(100, "GBP")], readings: [reading()], now }).due.length, 0, "a target in another currency never matches");
+  assert.equal(planPriceAlerts({ subscriptions: [tsub(100)], readings: [reading(), reading({ provider: "ticketnetwork", site: "TicketNetwork", to: 85, key: "e1|ticketnetwork|USD|85" })], now }).due[0].drop.to, 85, "lowest site under the target wins");
+  assert.equal(planPriceAlerts({ subscriptions: [tsub(100)], drops: [drop()], readings: [], now }).due.length, 0, "a target subscriber is not sent plain drops");
+  const hit = planPriceAlerts({ subscriptions: [tsub(100)], readings: [reading()], now }).due[0];
+  const tEmail = buildPriceDropEmail({ drop: hit.drop, unsubscribeToken: "a".repeat(48), postalAddress: "1 Test Street" });
+  assert.ok(tEmail.text.includes("at or below your target of $100") && tEmail.text.includes("$120") && tEmail.text.includes("$90"), "target email states target, old and new price");
+  assert.ok(planPriceAlerts({ subscriptions: [tsub(100)], readings: [reading({ from: null, fromDate: "", dropShare: 0 })], now }).due.length === 1 && buildPriceDropEmail({ drop: { ...reading({ from: null, fromDate: "" }), target: 100 }, unsubscribeToken: "a".repeat(48), postalAddress: "x" }).text.includes("is $90 on"), "no earlier reading: states the current price only");
   assert.ok(alertRowsSql(["e1", "bad id'; DROP"], "2026-11-27").includes("IN ('e1')"), "show ids are validated before they reach SQL");
   assert.equal(readProvider({}).canSend, false, "default provider is the stub");
   assert.equal(readProvider({ PRICE_ALERTS_PROVIDER: "resend", RESEND_API_KEY: "k", ALERT_EMAIL_FROM: "a <a@b.test>" }).canSend, false, "no postal address, no sending");
+  assert.equal(readProvider({ PRICE_ALERTS_PROVIDER: "resend", ALERT_POSTAL_ADDRESS: "PO Box 1" }).canSend, false, "no API key, no sending");
   assert.equal(readProvider({ PRICE_ALERTS_PROVIDER: "resend", RESEND_API_KEY: "k", ALERT_EMAIL_FROM: "a <a@b.test>", ALERT_POSTAL_ADDRESS: "PO Box 1" }).canSend, true);
   assert.equal(parseArgs([]).mode, "preview");
   assert.throws(() => parseArgs(["--mode", "test"]), /--test-to/);

@@ -100,7 +100,7 @@
         "event_id": 18758661,
         "url": "https://seatgeek.com/travis-tritt-tickets/oxford-alabama-oxford-performing-arts-center-2027-04-16-7-30-pm/concert/18758661",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -170,7 +170,7 @@
         "event_id": 18105539,
         "url": "https://seatgeek.com/travis-tritt-tickets/macon-georgia-macon-city-auditorium-2027-04-22-7-30-pm/concert/18105539",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -241,7 +241,7 @@
         "event_id": 18757257,
         "url": "https://seatgeek.com/travis-tritt-tickets/northfield-ohio-mgm-northfield-park-center-stage-2027-05-14-8-pm/concert/18757257",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -323,7 +323,7 @@
         "event_id": 18757506,
         "url": "https://seatgeek.com/travis-tritt-tickets/waterloo-new-york-the-vine-at-del-lago-resort-and-casino-2027-05-21-8-pm/concert/18757506",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -394,7 +394,7 @@
         "event_id": 18756742,
         "url": "https://seatgeek.com/travis-tritt-tickets/charles-town-west-virginia-hollywood-casino-at-charles-town-races-2027-05-22-7-pm/concert/18756742",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -466,7 +466,7 @@
         "event_id": 18756343,
         "url": "https://seatgeek.com/travis-tritt-tickets/durham-north-carolina-dpac-durham-performing-arts-center-2027-06-18-7-30-pm/concert/18756343",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -607,7 +607,7 @@
         "event_id": 18756251,
         "url": "https://seatgeek.com/travis-tritt-tickets/bossier-city-louisiana-horseshoe-casino-riverdome-2027-07-16-8-pm/concert/18756251",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1303,7 +1303,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAoud",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAoud",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/travis-tritt-tickets/fort-worth-texas-billy-bob-s-texas-2027-03-19-10-pm/concert/18758679",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAoud",
@@ -1319,11 +1319,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18758679,
+        "url": "https://seatgeek.com/travis-tritt-tickets/fort-worth-texas-billy-bob-s-texas-2027-03-19-10-pm/concert/18758679",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

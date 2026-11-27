@@ -1501,7 +1501,7 @@
         "event_id": 18673558,
         "url": "https://seatgeek.com/foreigner-tickets/milwaukee-wisconsin-bmo-pavilion-2027-07-02-8-pm/concert/18673558",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1575,7 +1575,7 @@
         "event_id": 18780602,
         "url": "https://seatgeek.com/foreigner-tickets/uncasville-connecticut-mohegan-sun-arena-2027-05-01-8-pm/concert/18780602",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1653,7 +1653,7 @@
         "event_id": 18778525,
         "url": "https://seatgeek.com/foreigner-tickets/bangor-maine-maine-savings-amphitheater-2027-07-16-7-pm/concert/18778525",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1745,7 +1745,7 @@
         "event_id": 18778524,
         "url": "https://seatgeek.com/foreigner-tickets/gilford-new-hampshire-banknh-pavilion-2027-07-17-7-pm/concert/18778524",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1831,7 +1831,7 @@
         "event_id": 18778526,
         "url": "https://seatgeek.com/foreigner-tickets/bethel-new-york-bethel-woods-center-for-the-arts-2027-07-18-7-pm/concert/18778526",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1898,7 +1898,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA6uy",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6uy",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/foreigner-tickets/irvine-california-orange-county-great-park-2027-03-27-5-15-pm/concert/18888690",
     "vividseats_url": "https://www.vividseats.com/foreigner-tickets-irvine-great-park-live-3-27-2027/production/7841801",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6uy",
@@ -1914,11 +1914,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18888690,
+        "url": "https://seatgeek.com/foreigner-tickets/irvine-california-orange-county-great-park-2027-03-27-5-15-pm/concert/18888690",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7841801,

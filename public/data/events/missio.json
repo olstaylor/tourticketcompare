@@ -887,7 +887,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZIvb",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvb",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/missio-tickets/chicago-illinois-beat-kitchen-2027-01-13-8-pm/concert/18889023",
     "vividseats_url": "https://www.vividseats.com/missio-tickets-chicago-beat-kitchen-1-13-2027/production/7425065",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvb",
@@ -903,11 +903,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18889023,
+        "url": "https://seatgeek.com/missio-tickets/chicago-illinois-beat-kitchen-2027-01-13-8-pm/concert/18889023",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7425065,

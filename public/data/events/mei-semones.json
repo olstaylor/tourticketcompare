@@ -151,7 +151,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "14344424",
     "ticketmaster_url": "https://www.ticketweb.ca/event/mei-semones-the-concert-hall-tickets/14344424",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mei-semones-tickets/toronto-canada-the-concert-hall-toronto-2027-02-27-7-pm/concert/18939610",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.ca/event/mei-semones-the-concert-hall-tickets/14344424",
@@ -167,11 +167,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18939610,
+        "url": "https://seatgeek.com/mei-semones-tickets/toronto-canada-the-concert-hall-toronto-2027-02-27-7-pm/concert/18939610",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -515,7 +515,7 @@
         "event_id": 18844961,
         "url": "https://seatgeek.com/mei-semones-tickets/carrboro-north-carolina-cat-s-cradle-carrboro-2027-04-10-8-pm/concert/18844961",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -655,7 +655,7 @@
         "event_id": 18638869,
         "url": "https://seatgeek.com/mei-semones-tickets/houston-texas-white-oak-music-hall-upstairs-2027-04-16-7-pm/concert/18638869",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -733,7 +733,7 @@
         "event_id": 18645989,
         "url": "https://seatgeek.com/mei-semones-tickets/tucson-arizona-la-rosa-tucson-2027-04-20-8-pm/concert/18645989",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -806,7 +806,7 @@
         "event_id": 18844674,
         "url": "https://seatgeek.com/mei-semones-tickets/san-diego-california-music-box-san-diego-2027-04-21-8-pm/concert/18844674",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -876,7 +876,7 @@
         "event_id": 18637391,
         "url": "https://seatgeek.com/mei-semones-tickets/san-francisco-california-castro-theatre-2027-04-24-8-pm/concert/18637391",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1368,7 +1368,7 @@
         "event_id": 18863054,
         "url": "https://seatgeek.com/mei-semones-tickets/columbus-ohio-ace-of-cups-2027-05-07-7-pm/concert/18863054",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1503,7 +1503,7 @@
         "event_id": 18662617,
         "url": "https://seatgeek.com/mei-semones-tickets/los-angeles-california-the-fonda-theatre-2027-04-23-9-pm/concert/18662617",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "vivid-seats": {

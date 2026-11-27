@@ -4095,5 +4095,59 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167524",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8167524/Teddy-Swims-tickets-Sat-Mar-20-2027-O2-Arena-Prague",
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-prague-o2-arena-20-3-2027/event/107458278"
+  },
+  {
+    "id": "tm-teddy-swims-2027-glasgow-17uov0g62nloztk",
+    "artist_slug": "teddy-swims",
+    "artist_name": "Teddy Swims",
+    "event_name": "Teddy Swims - The UGLY Tour",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "OVO Hydro",
+    "datetime_iso": "2027-04-14T17:30:00Z",
+    "tour_name": "The UGLY Tour",
+    "ticketmaster_event_id": "360064F8DF478A46",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-glasgow-14-04-2027/event/360064F8DF478A46",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-glasgow-14-04-2027/event/360064F8DF478A46",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "360064F8DF478A46",
+        "discovery_event_id": "17uOv0G62NLoztk",
+        "url": "https://www.ticketmaster.co.uk/teddy-swims-the-ugly-tour-glasgow-14-04-2027/event/360064F8DF478A46",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uOv0G62NLoztk",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-12-04T10:00:00Z"
   }
 ]

@@ -1921,5 +1921,58 @@
         "end": "2026-11-27T09:59:00Z"
       }
     ]
+  },
+  {
+    "id": "tm-steve-lacy-2027-london-1ku8vpqdgagp_zi",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "event_name": "Steve Lacy",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-04-27T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "350065743C95902C",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/steve-lacy-london-27-04-2027/event/350065743C95902C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/steve-lacy-london-27-04-2027/event/350065743C95902C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "350065743C95902C",
+        "discovery_event_id": "1ku8vPqdGAGP_Zi",
+        "url": "https://www.ticketmaster.co.uk/steve-lacy-london-27-04-2027/event/350065743C95902C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ku8vPqdGAGP_Zi",
+    "timezone": "Europe/London",
+    "status": "on-sale"
   }
 ]

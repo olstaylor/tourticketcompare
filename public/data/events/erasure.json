@@ -511,7 +511,7 @@
     "ticketmaster_event_id": "1F006537FBED7DA7",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/erasure-radio-radio-tour-leeds-08-05-2027/event/1F006537FBED7DA7",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/erasure-tickets-leeds-first-direct-arena---leeds-5-8-2027/production/7632443",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/erasure-radio-radio-tour-leeds-08-05-2027/event/1F006537FBED7DA7",
     "last_verified_at": "2026-11-07",
@@ -533,11 +533,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7632443,
+        "url": "https://www.vividseats.com/erasure-tickets-leeds-first-direct-arena---leeds-5-8-2027/production/7632443",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

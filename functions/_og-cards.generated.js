@@ -9,6 +9,7 @@
 // `npm run og:check` fails only on a manifest that points at a missing file.
 
 export const OG_CARDS = {
+  "/artists/10cc": {"url":"/og/artists-10cc.png","alt":"Tickets & tour dates: 10cc"},
   "/artists/a-boogie-wit-da-hoodie": {"url":"/og/artists-a-boogie-wit-da-hoodie.png","alt":"Tickets & tour dates: A Boogie Wit Da Hoodie"},
   "/artists/a-boogie-wit-da-hoodie/presale": {"url":"/og/artists-a-boogie-wit-da-hoodie-presale.png","alt":"Presale: A Boogie Wit Da Hoodie"},
   "/artists/a-boogie-wit-da-hoodie/ticket-prices": {"url":"/og/artists-a-boogie-wit-da-hoodie-ticket-prices.png","alt":"Ticket prices: A Boogie Wit Da Hoodie"},
@@ -402,6 +403,7 @@ export const OG_CARDS = {
   "/artists/jonas-brothers": {"url":"/og/artists-jonas-brothers.png","alt":"Tickets & tour dates: Jonas Brothers"},
   "/artists/jonas-brothers/ticket-prices": {"url":"/og/artists-jonas-brothers-ticket-prices.png","alt":"Ticket prices: Jonas Brothers"},
   "/artists/jonas-brothers/tickets/newark-united-states": {"url":"/og/artists-jonas-brothers-tickets-newark-united-states.png","alt":"Tickets: Jonas Brothers in Newark"},
+  "/artists/jorja-smith": {"url":"/og/artists-jorja-smith.png","alt":"Tickets & tour dates: Jorja Smith"},
   "/artists/josiah-queen": {"url":"/og/artists-josiah-queen.png","alt":"Tickets & tour dates: Josiah Queen"},
   "/artists/josiah-queen/ticket-prices": {"url":"/og/artists-josiah-queen-ticket-prices.png","alt":"Ticket prices: Josiah Queen"},
   "/artists/josiah-queen/tickets/fort-worth-united-states": {"url":"/og/artists-josiah-queen-tickets-fort-worth-united-states.png","alt":"Tickets: Josiah Queen in Fort Worth"},
@@ -787,6 +789,7 @@ export const OG_CARDS = {
   "/artists/the-dead-south/presale": {"url":"/og/artists-the-dead-south-presale.png","alt":"Presale: The Dead South"},
   "/artists/the-dead-south/ticket-prices": {"url":"/og/artists-the-dead-south-ticket-prices.png","alt":"Ticket prices: The Dead South"},
   "/artists/the-dead-south/tickets/montreal-canada": {"url":"/og/artists-the-dead-south-tickets-montreal-canada.png","alt":"Tickets: The Dead South in Montreal"},
+  "/artists/the-doobie-brothers": {"url":"/og/artists-the-doobie-brothers.png","alt":"Tickets & tour dates: The Doobie Brothers"},
   "/artists/the-interrupters": {"url":"/og/artists-the-interrupters.png","alt":"Tickets & tour dates: The Interrupters"},
   "/artists/the-interrupters/ticket-prices": {"url":"/og/artists-the-interrupters-ticket-prices.png","alt":"Ticket prices: The Interrupters"},
   "/artists/the-lemonheads": {"url":"/og/artists-the-lemonheads.png","alt":"Tickets & tour dates: The Lemonheads"},
@@ -1071,6 +1074,7 @@ export const OG_CARDS = {
   "/cities/san-jose-united-states": {"url":"/og/cities-san-jose-united-states.png","alt":"Concerts in: San Jose"},
   "/cities/saskatoon-canada": {"url":"/og/cities-saskatoon-canada.png","alt":"Concerts in: Saskatoon"},
   "/cities/savannah-united-states": {"url":"/og/cities-savannah-united-states.png","alt":"Concerts in: Savannah"},
+  "/cities/scarborough-united-kingdom": {"url":"/og/cities-scarborough-united-kingdom.png","alt":"Concerts in: Scarborough"},
   "/cities/seattle-united-states": {"url":"/og/cities-seattle-united-states.png","alt":"Concerts in: Seattle"},
   "/cities/sevilla-spain": {"url":"/og/cities-sevilla-spain.png","alt":"Concerts in: Sevilla"},
   "/cities/spokane-united-states": {"url":"/og/cities-spokane-united-states.png","alt":"Concerts in: Spokane"},

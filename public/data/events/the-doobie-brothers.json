@@ -1,0 +1,911 @@
+[
+  {
+    "id": "tm-the-doobie-brothers-2027-las-vegas-1a9zk49gkdwjh7q",
+    "artist_slug": "the-doobie-brothers",
+    "artist_name": "The Doobie Brothers",
+    "event_name": "The Doobie Brothers: Live In Las Vegas",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Fontainebleau Las Vegas",
+    "datetime_iso": "2027-02-27T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006557F273C11D",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-02-26-2027/event/17006557F273C11D",
+    "seatgeek_url": "https://seatgeek.com/the-doobie-brothers-tickets/las-vegas-nevada-fontainebleau-at-liv-las-vegas-2027-02-26-8-pm/concert/18723363",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-02-26-2027/event/17006557F273C11D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006557F273C11D",
+        "discovery_event_id": "1A9Zk49GkdwjH7q",
+        "url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-02-26-2027/event/17006557F273C11D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk49GkdwjH7q",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-doobie-brothers-2027-las-vegas-1a9zk49gkdwlg7i",
+    "artist_slug": "the-doobie-brothers",
+    "artist_name": "The Doobie Brothers",
+    "event_name": "The Doobie Brothers: Live In Las Vegas",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Fontainebleau Las Vegas",
+    "datetime_iso": "2027-02-28T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006557F27CC128",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-02-27-2027/event/17006557F27CC128",
+    "seatgeek_url": "https://seatgeek.com/the-doobie-brothers-tickets/las-vegas-nevada-fontainebleau-at-liv-las-vegas-2027-02-27-8-pm/concert/18723365",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-02-27-2027/event/17006557F27CC128",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006557F27CC128",
+        "discovery_event_id": "1A9Zk49GkdwLG7I",
+        "url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-02-27-2027/event/17006557F27CC128",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk49GkdwLG7I",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-doobie-brothers-2027-las-vegas-1a9zk49gkdw-j7d",
+    "artist_slug": "the-doobie-brothers",
+    "artist_name": "The Doobie Brothers",
+    "event_name": "The Doobie Brothers: Live In Las Vegas",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Fontainebleau Las Vegas",
+    "datetime_iso": "2027-03-06T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006557F285C13B",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-03-05-2027/event/17006557F285C13B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-03-05-2027/event/17006557F285C13B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006557F285C13B",
+        "discovery_event_id": "1A9Zk49Gkdw-j7D",
+        "url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-03-05-2027/event/17006557F285C13B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk49Gkdw-j7D",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-doobie-brothers-2027-las-vegas-1a9zk49gkdwnjac",
+    "artist_slug": "the-doobie-brothers",
+    "artist_name": "The Doobie Brothers",
+    "event_name": "The Doobie Brothers: Live In Las Vegas",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Fontainebleau Las Vegas",
+    "datetime_iso": "2027-03-07T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006557F28DC14E",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-03-06-2027/event/17006557F28DC14E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-03-06-2027/event/17006557F28DC14E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006557F28DC14E",
+        "discovery_event_id": "1A9Zk49GkdwNjAC",
+        "url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-03-06-2027/event/17006557F28DC14E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk49GkdwNjAC",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-doobie-brothers-2027-halifax-1aszk4vgkem55xl",
+    "artist_slug": "the-doobie-brothers",
+    "artist_name": "The Doobie Brothers",
+    "event_name": "The Doobie Brothers - Walk This World Tour",
+    "city": "Halifax",
+    "country": "Canada",
+    "venue": "Scotiabank Centre",
+    "datetime_iso": "2027-08-05T23:00:00Z",
+    "tour_name": "Walk This World Tour",
+    "ticketmaster_event_id": "31006574B72CBF9F",
+    "ticketmaster_url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-halifax-nova-scotia-08-05-2027/event/31006574B72CBF9F",
+    "seatgeek_url": "https://seatgeek.com/the-doobie-brothers-tickets/halifax-canada-scotiabank-centre-2027-08-05-8-pm/concert/18867594",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-halifax-nova-scotia-08-05-2027/event/31006574B72CBF9F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "31006574B72CBF9F",
+        "discovery_event_id": "1AsZk4VGkeM55XL",
+        "url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-halifax-nova-scotia-08-05-2027/event/31006574B72CBF9F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AsZk4VGkeM55XL",
+    "timezone": "America/Halifax",
+    "status": "announced",
+    "public_onsale_at": "2026-11-27T14:00:00Z"
+  },
+  {
+    "id": "tm-the-doobie-brothers-2027-moncton-1aszk4vgkdperjo",
+    "artist_slug": "the-doobie-brothers",
+    "artist_name": "The Doobie Brothers",
+    "event_name": "The Doobie Brothers - Walk This World Tour",
+    "city": "Moncton",
+    "country": "Canada",
+    "venue": "Avenir Centre",
+    "datetime_iso": "2027-08-06T23:00:00Z",
+    "tour_name": "Walk This World Tour",
+    "ticketmaster_event_id": "31006574E59EF711",
+    "ticketmaster_url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-moncton-new-brunswick-08-06-2027/event/31006574E59EF711",
+    "seatgeek_url": "https://seatgeek.com/the-doobie-brothers-tickets/moncton-canada-avenir-centre-2027-08-06-8-pm/concert/18867593",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-moncton-new-brunswick-08-06-2027/event/31006574E59EF711",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "31006574E59EF711",
+        "discovery_event_id": "1AsZk4VGkdPERjo",
+        "url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-moncton-new-brunswick-08-06-2027/event/31006574E59EF711",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AsZk4VGkdPERjo",
+    "timezone": "America/Halifax",
+    "status": "announced",
+    "public_onsale_at": "2026-11-27T14:00:00Z"
+  },
+  {
+    "id": "tm-the-doobie-brothers-2027-laval-1aszk4wgkdkwh-0",
+    "artist_slug": "the-doobie-brothers",
+    "artist_name": "The Doobie Brothers",
+    "event_name": "The Doobie Brothers - Walk This World Tour",
+    "city": "Laval",
+    "country": "Canada",
+    "venue": "Place Bell",
+    "datetime_iso": "2027-08-10T00:00:00Z",
+    "tour_name": "Walk This World Tour",
+    "ticketmaster_event_id": "31006572D3F7C864",
+    "ticketmaster_url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-laval-quebec-08-09-2027/event/31006572D3F7C864",
+    "seatgeek_url": "https://seatgeek.com/the-doobie-brothers-tickets/laval-canada-place-bell-2027-08-09-8-pm/concert/18867596",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-laval-quebec-08-09-2027/event/31006572D3F7C864",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "31006572D3F7C864",
+        "discovery_event_id": "1AsZk4wGkdKWH-0",
+        "url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-laval-quebec-08-09-2027/event/31006572D3F7C864",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AsZk4wGkdKWH-0",
+    "timezone": "America/Toronto",
+    "status": "announced",
+    "public_onsale_at": "2026-11-27T15:00:00Z"
+  },
+  {
+    "id": "tm-the-doobie-brothers-2027-kanata-16szk4wjdza2faae",
+    "artist_slug": "the-doobie-brothers",
+    "artist_name": "The Doobie Brothers",
+    "event_name": "The Doobie Brothers - Walk This World Tour",
+    "city": "Kanata",
+    "country": "Canada",
+    "venue": "Canadian Tire Centre",
+    "datetime_iso": "2027-08-11T00:00:00Z",
+    "tour_name": "Walk This World Tour",
+    "ticketmaster_event_id": "31006572983E7441",
+    "ticketmaster_url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-kanata-ontario-08-10-2027/event/31006572983E7441",
+    "seatgeek_url": "https://seatgeek.com/the-doobie-brothers-tickets/kanata-canada-canadian-tire-centre-2027-08-10-8-pm/concert/18867597",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-kanata-ontario-08-10-2027/event/31006572983E7441",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "31006572983E7441",
+        "discovery_event_id": "16sZk4wJdZA2FAAe",
+        "url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-kanata-ontario-08-10-2027/event/31006572983E7441",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16sZk4wJdZA2FAAe",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-27T15:00:00Z"
+  },
+  {
+    "id": "tm-the-doobie-brothers-2027-st-catharines-1a8zk4sgkdjlu6e",
+    "artist_slug": "the-doobie-brothers",
+    "artist_name": "The Doobie Brothers",
+    "event_name": "The Doobie Brothers - Walk This World Tour",
+    "city": "St Catharines",
+    "country": "Canada",
+    "venue": "Meridian Centre",
+    "datetime_iso": "2027-08-13T00:00:00Z",
+    "tour_name": "Walk This World Tour",
+    "ticketmaster_event_id": "10006573DCAF61E7",
+    "ticketmaster_url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-st-catharines-ontario-08-12-2027/event/10006573DCAF61E7",
+    "seatgeek_url": "https://seatgeek.com/the-doobie-brothers-tickets/st-catharines-canada-meridian-centre-2027-08-12-8-pm/concert/18867592",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-st-catharines-ontario-08-12-2027/event/10006573DCAF61E7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006573DCAF61E7",
+        "discovery_event_id": "1A8Zk4SGkdjlU6E",
+        "url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-st-catharines-ontario-08-12-2027/event/10006573DCAF61E7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8Zk4SGkdjlU6E",
+    "timezone": "America/Toronto",
+    "status": "announced",
+    "public_onsale_at": "2026-11-27T15:00:00Z"
+  },
+  {
+    "id": "tm-the-doobie-brothers-2027-winnipeg-1aozk4sgkd30xaz",
+    "artist_slug": "the-doobie-brothers",
+    "artist_name": "The Doobie Brothers",
+    "event_name": "The Doobie Brothers - Walk This World Tour",
+    "city": "Winnipeg",
+    "country": "Canada",
+    "venue": "Canada Life Centre",
+    "datetime_iso": "2027-08-17T01:00:00Z",
+    "tour_name": "Walk This World Tour",
+    "ticketmaster_event_id": "11006573D293E278",
+    "ticketmaster_url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-winnipeg-manitoba-08-16-2027/event/11006573D293E278",
+    "seatgeek_url": "https://seatgeek.com/the-doobie-brothers-tickets/winnipeg-canada-canada-life-centre-2027-08-16-8-pm/concert/18867595",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-winnipeg-manitoba-08-16-2027/event/11006573D293E278",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006573D293E278",
+        "discovery_event_id": "1AoZk4SGkd30Xaz",
+        "url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-winnipeg-manitoba-08-16-2027/event/11006573D293E278",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AoZk4SGkd30Xaz",
+    "timezone": "America/Winnipeg",
+    "status": "announced",
+    "public_onsale_at": "2026-11-27T15:00:00Z"
+  },
+  {
+    "id": "tm-the-doobie-brothers-2027-edmonton-1aozk4sptc3ze8k",
+    "artist_slug": "the-doobie-brothers",
+    "artist_name": "The Doobie Brothers",
+    "event_name": "The Doobie Brothers - Walk This World Tour",
+    "city": "Edmonton",
+    "country": "Canada",
+    "venue": "Rogers Place",
+    "datetime_iso": "2027-08-20T02:00:00Z",
+    "tour_name": "Walk This World Tour",
+    "ticketmaster_event_id": "11006573969392F5",
+    "ticketmaster_url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-edmonton-alberta-08-19-2027/event/11006573969392F5",
+    "seatgeek_url": "https://seatgeek.com/the-doobie-brothers-tickets/edmonton-canada-rogers-place-2027-08-19-8-pm/concert/18867604",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-edmonton-alberta-08-19-2027/event/11006573969392F5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006573969392F5",
+        "discovery_event_id": "1aoZk4SPtC3Ze8k",
+        "url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-edmonton-alberta-08-19-2027/event/11006573969392F5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1aoZk4SPtC3Ze8k",
+    "timezone": "America/Edmonton",
+    "status": "announced",
+    "public_onsale_at": "2026-11-27T16:00:00Z"
+  },
+  {
+    "id": "tm-the-doobie-brothers-2027-abbotsford-15v7z_9c9zac3",
+    "artist_slug": "the-doobie-brothers",
+    "artist_name": "The Doobie Brothers",
+    "event_name": "The Doobie Brothers: Walk This World Tour",
+    "city": "Abbotsford",
+    "country": "Canada",
+    "venue": "Rogers Forum",
+    "datetime_iso": "2027-08-25T03:00:00Z",
+    "tour_name": "Walk This World Tour",
+    "ticketmaster_event_id": "1100657397009392",
+    "ticketmaster_url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-abbotsford-british-columbia-08-24-2027/event/1100657397009392",
+    "seatgeek_url": "https://seatgeek.com/the-doobie-brothers-tickets/abbotsford-canada-rogers-forum-2027-08-24-8-pm/concert/18867609",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-abbotsford-british-columbia-08-24-2027/event/1100657397009392",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1100657397009392",
+        "discovery_event_id": "15v7Z_9C9ZaC3",
+        "url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-abbotsford-british-columbia-08-24-2027/event/1100657397009392",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "15v7Z_9C9ZaC3",
+    "timezone": "America/Vancouver",
+    "status": "announced",
+    "public_onsale_at": "2026-11-27T17:00:00Z"
+  },
+  {
+    "id": "tm-the-doobie-brothers-2027-las-vegas-1a9zk49gkdwpia9",
+    "artist_slug": "the-doobie-brothers",
+    "artist_name": "The Doobie Brothers",
+    "event_name": "The Doobie Brothers: Live In Las Vegas",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Fontainebleau Las Vegas",
+    "datetime_iso": "2027-08-28T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006557F296C157",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-08-27-2027/event/17006557F296C157",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-08-27-2027/event/17006557F296C157",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006557F296C157",
+        "discovery_event_id": "1A9Zk49GkdwPiA9",
+        "url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-08-27-2027/event/17006557F296C157",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk49GkdwPiA9",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-doobie-brothers-2027-las-vegas-1a9zk49gkdwejan",
+    "artist_slug": "the-doobie-brothers",
+    "artist_name": "The Doobie Brothers",
+    "event_name": "The Doobie Brothers: Live In Las Vegas",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Fontainebleau Las Vegas",
+    "datetime_iso": "2027-08-29T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006557F29DC163",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-08-28-2027/event/17006557F29DC163",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-08-28-2027/event/17006557F29DC163",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006557F29DC163",
+        "discovery_event_id": "1A9Zk49GkdwEjAN",
+        "url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-08-28-2027/event/17006557F29DC163",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk49GkdwEjAN",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-doobie-brothers-2027-las-vegas-1a9zk49gkdwtjas",
+    "artist_slug": "the-doobie-brothers",
+    "artist_name": "The Doobie Brothers",
+    "event_name": "The Doobie Brothers: Live In Las Vegas",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Fontainebleau Las Vegas",
+    "datetime_iso": "2027-09-02T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006557F2A5C173",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-09-01-2027/event/17006557F2A5C173",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-09-01-2027/event/17006557F2A5C173",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006557F2A5C173",
+        "discovery_event_id": "1A9Zk49GkdwtjAS",
+        "url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-09-01-2027/event/17006557F2A5C173",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk49GkdwtjAS",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-doobie-brothers-2027-las-vegas-1a9zk49gkdwljat",
+    "artist_slug": "the-doobie-brothers",
+    "artist_name": "The Doobie Brothers",
+    "event_name": "The Doobie Brothers: Live In Las Vegas",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Fontainebleau Las Vegas",
+    "datetime_iso": "2027-09-04T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006557F2ADC17F",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-09-03-2027/event/17006557F2ADC17F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-09-03-2027/event/17006557F2ADC17F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006557F2ADC17F",
+        "discovery_event_id": "1A9Zk49GkdwljAT",
+        "url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-09-03-2027/event/17006557F2ADC17F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk49GkdwljAT",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-doobie-brothers-2027-las-vegas-1a9zk49gkdwcjkg",
+    "artist_slug": "the-doobie-brothers",
+    "artist_name": "The Doobie Brothers",
+    "event_name": "The Doobie Brothers: Live In Las Vegas",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Fontainebleau Las Vegas",
+    "datetime_iso": "2027-09-05T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006557F2B5C18C",
+    "ticketmaster_url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-09-04-2027/event/17006557F2B5C18C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-09-04-2027/event/17006557F2B5C18C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006557F2B5C18C",
+        "discovery_event_id": "1A9Zk49GkdwcjkG",
+        "url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-09-04-2027/event/17006557F2B5C18C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk49GkdwcjkG",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  }
+]

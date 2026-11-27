@@ -1,0 +1,1698 @@
+[
+  {
+    "id": "tm-10cc-2027-llandudno-g5vhz_ctswfup",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Llandudno",
+    "country": "Great Britain",
+    "venue": "Venue Cymru Theatre",
+    "datetime_iso": "2027-02-25T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0064EFF1F48D96",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-llandudno-25-02-2027/event/1F0064EFF1F48D96",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-llandudno-25-02-2027/event/1F0064EFF1F48D96",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064EFF1F48D96",
+        "discovery_event_id": "G5vHZ_CTsWFUp",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-llandudno-25-02-2027/event/1F0064EFF1F48D96",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_CTsWFUp",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-stoke-on-trent-17uyv0g6ctwydoc",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Stoke-On-Trent",
+    "country": "Great Britain",
+    "venue": "Victoria Hall",
+    "datetime_iso": "2027-02-26T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "370064EFF2E4344E",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-stokeontrent-26-02-2027/event/370064EFF2E4344E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-stokeontrent-26-02-2027/event/370064EFF2E4344E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "370064EFF2E4344E",
+        "discovery_event_id": "17uYv0G6CTwydoC",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-stokeontrent-26-02-2027/event/370064EFF2E4344E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uYv0G6CTwydoC",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-harrogate-17u8v0g6ctlxq9y",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Harrogate",
+    "country": "Great Britain",
+    "venue": "Harrogate Convention Centre",
+    "datetime_iso": "2027-02-27T19:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "350064EFEB89D5F9",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-harrogate-27-02-2027/event/350064EFEB89D5F9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-harrogate-27-02-2027/event/350064EFEB89D5F9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "350064EFEB89D5F9",
+        "discovery_event_id": "17u8v0G6CTlxq9y",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-harrogate-27-02-2027/event/350064EFEB89D5F9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17u8v0G6CTlxq9y",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-scarborough-17u8v0g62dwld0w",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc In Concert",
+    "city": "Scarborough",
+    "country": "Great Britain",
+    "venue": "Scarborough Spa Grand Hall",
+    "datetime_iso": "2027-02-28T19:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "350064F0F27FB932",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-in-concert-scarborough-28-02-2027/event/350064F0F27FB932",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-in-concert-scarborough-28-02-2027/event/350064F0F27FB932",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "350064F0F27FB932",
+        "discovery_event_id": "17u8v0G62dwLD0w",
+        "url": "https://www.ticketmaster.co.uk/10cc-in-concert-scarborough-28-02-2027/event/350064F0F27FB932",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17u8v0G62dwLD0w",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-leicester-g5vhz_chkdnos",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Leicester",
+    "country": "Great Britain",
+    "venue": "De Montfort Hall",
+    "datetime_iso": "2027-03-04T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0064EF06EEA471",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-leicester-04-03-2027/event/1F0064EF06EEA471",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-leicester-04-03-2027/event/1F0064EF06EEA471",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064EF06EEA471",
+        "discovery_event_id": "G5vHZ_CHkDnos",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-leicester-04-03-2027/event/1F0064EF06EEA471",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_CHkDnos",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-torquay-17uov0g62e2ner2",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Torquay",
+    "country": "Great Britain",
+    "venue": "Princess Theatre - Torquay",
+    "datetime_iso": "2027-03-06T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "360064F08F8C2BCF",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-torquay-06-03-2027/event/360064F08F8C2BCF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-torquay-06-03-2027/event/360064F08F8C2BCF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "360064F08F8C2BCF",
+        "discovery_event_id": "17uOv0G62e2NeR2",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-torquay-06-03-2027/event/360064F08F8C2BCF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uOv0G62e2NeR2",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-truro-g5vhz_2m-aejk",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc",
+    "city": "Truro",
+    "country": "Great Britain",
+    "venue": "Truro Hall for Cornwall",
+    "datetime_iso": "2027-03-07T19:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0064FBA1142993",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-truro-07-03-2027/event/1F0064FBA1142993",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-truro-07-03-2027/event/1F0064FBA1142993",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064FBA1142993",
+        "discovery_event_id": "G5vHZ_2m-AeJK",
+        "url": "https://www.ticketmaster.co.uk/10cc-truro-07-03-2027/event/1F0064FBA1142993",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_2m-AeJK",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-salisbury-g5vhz_ctjq9vl",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Salisbury",
+    "country": "Great Britain",
+    "venue": "Salisbury City Hall",
+    "datetime_iso": "2027-03-08T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0064EFE6697D1F",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-salisbury-08-03-2027/event/1F0064EFE6697D1F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-salisbury-08-03-2027/event/1F0064EFE6697D1F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064EFE6697D1F",
+        "discovery_event_id": "G5vHZ_CTJQ9VL",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-salisbury-08-03-2027/event/1F0064EFE6697D1F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_CTJQ9VL",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-basingstoke-g5vhz_cts0tzr",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Basingstoke",
+    "country": "Great Britain",
+    "venue": "The Anvil",
+    "datetime_iso": "2027-03-09T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0064EFF392901E",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-basingstoke-09-03-2027/event/1F0064EFF392901E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-basingstoke-09-03-2027/event/1F0064EFF392901E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064EFF392901E",
+        "discovery_event_id": "G5vHZ_CTS0tZr",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-basingstoke-09-03-2027/event/1F0064EFF392901E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_CTS0tZr",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-watford-17uyv0g6ctns3km",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Watford",
+    "country": "Great Britain",
+    "venue": "Watford Colosseum",
+    "datetime_iso": "2027-03-11T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "370064EFE3C521B7",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-watford-11-03-2027/event/370064EFE3C521B7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-watford-11-03-2027/event/370064EFE3C521B7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "370064EFE3C521B7",
+        "discovery_event_id": "17uYv0G6CTNs3kM",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-watford-11-03-2027/event/370064EFE3C521B7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uYv0G6CTNs3kM",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-bath-17uyv0g62evevt9",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Bath",
+    "country": "Great Britain",
+    "venue": "Bath Forum",
+    "datetime_iso": "2027-03-12T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "370064F0B49C1FD7",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-bath-12-03-2027/event/370064F0B49C1FD7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-bath-12-03-2027/event/370064F0B49C1FD7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "370064F0B49C1FD7",
+        "discovery_event_id": "17uYv0G62eVEvT9",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-bath-12-03-2027/event/370064F0B49C1FD7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uYv0G62eVEvT9",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-croydon-g5vhz_ctdn_nm",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Croydon",
+    "country": "Great Britain",
+    "venue": "Fairfield Halls",
+    "datetime_iso": "2027-03-13T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0064EFFBA998EE",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-croydon-13-03-2027/event/1F0064EFFBA998EE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-croydon-13-03-2027/event/1F0064EFFBA998EE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064EFFBA998EE",
+        "discovery_event_id": "G5vHZ_CTDn_Nm",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-croydon-13-03-2027/event/1F0064EFFBA998EE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_CTDn_Nm",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-eastbourne-g5vhz_2epbsoo",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Eastbourne",
+    "country": "Great Britain",
+    "venue": "Congress Theatre",
+    "datetime_iso": "2027-03-14T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0064F096EB3451",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-eastbourne-14-03-2027/event/1F0064F096EB3451",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-eastbourne-14-03-2027/event/1F0064F096EB3451",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064F096EB3451",
+        "discovery_event_id": "G5vHZ_2epBSoo",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-eastbourne-14-03-2027/event/1F0064F096EB3451",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_2epBSoo",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-aylesbury-17u8v0g6ctc0wu5",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Aylesbury",
+    "country": "Great Britain",
+    "venue": "The Waterside Theatre, Aylesbury",
+    "datetime_iso": "2027-03-15T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "350064EFED93DD8B",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-aylesbury-15-03-2027/event/350064EFED93DD8B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-aylesbury-15-03-2027/event/350064EFED93DD8B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "350064EFED93DD8B",
+        "discovery_event_id": "17u8v0G6CTc0WU5",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-aylesbury-15-03-2027/event/350064EFED93DD8B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17u8v0G6CTc0WU5",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-coventry-g5vhz_ctmqz4m",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Coventry",
+    "country": "Great Britain",
+    "venue": "Warwick Arts Centre, Coventry",
+    "datetime_iso": "2027-03-17T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0064EFEE6B856E",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-coventry-17-03-2027/event/1F0064EFEE6B856E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-coventry-17-03-2027/event/1F0064EFEE6B856E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064EFEE6B856E",
+        "discovery_event_id": "G5vHZ_CTmQz4m",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-coventry-17-03-2027/event/1F0064EFEE6B856E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_CTmQz4m",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-northampton-g5vhz_ctw2ats",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Northampton",
+    "country": "Great Britain",
+    "venue": "Royal and Derngate",
+    "datetime_iso": "2027-03-18T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0064EFFD3C9A71",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-northampton-18-03-2027/event/1F0064EFFD3C9A71",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-northampton-18-03-2027/event/1F0064EFFD3C9A71",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064EFFD3C9A71",
+        "discovery_event_id": "G5vHZ_CTW2ats",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-northampton-18-03-2027/event/1F0064EFFD3C9A71",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_CTW2ats",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-scunthorpe-17uov0g62e9zs8y",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Scunthorpe",
+    "country": "Great Britain",
+    "venue": "Baths Hall",
+    "datetime_iso": "2027-03-19T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "360064F097033430",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-scunthorpe-19-03-2027/event/360064F097033430",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-scunthorpe-19-03-2027/event/360064F097033430",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "360064F097033430",
+        "discovery_event_id": "17uOv0G62e9ZS8Y",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-scunthorpe-19-03-2027/event/360064F097033430",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uOv0G62e9ZS8Y",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-derby-17fyv0g6cx5rowg",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc In Concert",
+    "city": "Derby",
+    "country": "Great Britain",
+    "venue": "Vaillant Live, Derby",
+    "datetime_iso": "2027-03-20T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "230064EF8B7A0F75",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-in-concert-derby-20-03-2027/event/230064EF8B7A0F75",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-in-concert-derby-20-03-2027/event/230064EF8B7A0F75",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "230064EF8B7A0F75",
+        "discovery_event_id": "17FYv0G6CX5rOWg",
+        "url": "https://www.ticketmaster.co.uk/10cc-in-concert-derby-20-03-2027/event/230064EF8B7A0F75",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17FYv0G6CX5rOWg",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-halifax-g5vhz_2exijk0",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Halifax",
+    "country": "Great Britain",
+    "venue": "Victoria Theatre",
+    "datetime_iso": "2027-03-22T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0064F0BEA264E4",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-halifax-22-03-2027/event/1F0064F0BEA264E4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-halifax-22-03-2027/event/1F0064F0BEA264E4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064F0BEA264E4",
+        "discovery_event_id": "G5vHZ_2eXIJK0",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-halifax-22-03-2027/event/1F0064F0BEA264E4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_2eXIJK0",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-perth-17uov0g6ctyjann",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Perth",
+    "country": "Great Britain",
+    "venue": "Perth Concert Hall",
+    "datetime_iso": "2027-03-23T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "360064EFF9709AAA",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-perth-23-03-2027/event/360064EFF9709AAA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-perth-23-03-2027/event/360064EFF9709AAA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "360064EFF9709AAA",
+        "discovery_event_id": "17uOv0G6CTyjann",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-perth-23-03-2027/event/360064EFF9709AAA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uOv0G6CTyjann",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-edinburgh-17uov0g6chf_1iz",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Edinburgh",
+    "country": "Great Britain",
+    "venue": "Usher Hall",
+    "datetime_iso": "2027-03-24T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "360064EF0864AA00",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-edinburgh-24-03-2027/event/360064EF0864AA00",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-edinburgh-24-03-2027/event/360064EF0864AA00",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "360064EF0864AA00",
+        "discovery_event_id": "17uOv0G6CHF_1IZ",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-edinburgh-24-03-2027/event/360064EF0864AA00",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uOv0G6CHF_1IZ",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-stockton-on-tees-g5vhz_2zfodiq",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Stockton-on-Tees",
+    "country": "Great Britain",
+    "venue": "Stockton Globe",
+    "datetime_iso": "2027-03-25T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0064F00883BB1D",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-stocktonontees-25-03-2027/event/1F0064F00883BB1D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-stocktonontees-25-03-2027/event/1F0064F00883BB1D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064F00883BB1D",
+        "discovery_event_id": "G5vHZ_2ZFODiq",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-stocktonontees-25-03-2027/event/1F0064F00883BB1D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_2ZFODiq",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-milton-keynes-16mzk4yx7zaue7ed",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Milton Keynes",
+    "country": "Great Britain",
+    "venue": "Milton Keynes Theatre",
+    "datetime_iso": "2027-05-11T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "37006570884C1312",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-milton-keynes-11-05-2027/event/37006570884C1312",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-milton-keynes-11-05-2027/event/37006570884C1312",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "37006570884C1312",
+        "discovery_event_id": "16MZk4Yx7ZAue7ed",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-milton-keynes-11-05-2027/event/37006570884C1312",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16MZk4Yx7ZAue7ed",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-hull-1ku8vpjfgag2ojo",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Hull",
+    "country": "Great Britain",
+    "venue": "Hull New Theatre",
+    "datetime_iso": "2027-05-12T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "350065708C3D1720",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-hull-12-05-2027/event/350065708C3D1720",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-hull-12-05-2027/event/350065708C3D1720",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "350065708C3D1720",
+        "discovery_event_id": "1ku8vPjFGAG2ojO",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-hull-12-05-2027/event/350065708C3D1720",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ku8vPjFGAG2ojO",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-tunbridge-wells-1kuyvpjaga5kwmj",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Tunbridge Wells",
+    "country": "Great Britain",
+    "venue": "Tunbridge Wells Assembly Hall",
+    "datetime_iso": "2027-05-14T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "370065709B4F2DE6",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-tunbridge-wells-14-05-2027/event/370065709B4F2DE6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-tunbridge-wells-14-05-2027/event/370065709B4F2DE6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "370065709B4F2DE6",
+        "discovery_event_id": "1kuYvPjaGA5KwMJ",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-tunbridge-wells-14-05-2027/event/370065709B4F2DE6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kuYvPjaGA5KwMJ",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-folkestone-1kuovpjagagra6l",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Folkestone",
+    "country": "Great Britain",
+    "venue": "Leas Cliff Hall",
+    "datetime_iso": "2027-05-15T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "360065709CBC51DF",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-folkestone-15-05-2027/event/360065709CBC51DF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-folkestone-15-05-2027/event/360065709CBC51DF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "360065709CBC51DF",
+        "discovery_event_id": "1kuOvPjaGAGRA6L",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-folkestone-15-05-2027/event/360065709CBC51DF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kuOvPjaGAGRA6L",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-dorset-g5vhz_9erpduu",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Dorset",
+    "country": "Great Britain",
+    "venue": "Weymouth Pavilion",
+    "datetime_iso": "2027-05-17T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0065709E583376",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-dorset-17-05-2027/event/1F0065709E583376",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-dorset-17-05-2027/event/1F0065709E583376",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0065709E583376",
+        "discovery_event_id": "G5vHZ_9erpduU",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-dorset-17-05-2027/event/1F0065709E583376",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_9erpduU",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-hastings-1auzk4ygkeo5pcx",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Hastings",
+    "country": "Great Britain",
+    "venue": "White Rock Theatre",
+    "datetime_iso": "2027-05-18T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "36006570A02E5B7E",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-hastings-18-05-2027/event/36006570A02E5B7E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-hastings-18-05-2027/event/36006570A02E5B7E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "36006570A02E5B7E",
+        "discovery_event_id": "1AUZk4YGkeO5PcX",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-hastings-18-05-2027/event/36006570A02E5B7E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AUZk4YGkeO5PcX",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-carlisle-g5vhz_9e-fkjn",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Carlisle",
+    "country": "Great Britain",
+    "venue": "Carlisle Sands Centre",
+    "datetime_iso": "2027-05-20T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F006570A1513723",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-carlisle-20-05-2027/event/1F006570A1513723",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-carlisle-20-05-2027/event/1F006570A1513723",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F006570A1513723",
+        "discovery_event_id": "G5vHZ_9e-fKjN",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-carlisle-20-05-2027/event/1F006570A1513723",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_9e-fKjN",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-ipswich-g5vhz_9exlk-j",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc & Another Bloody Greatest Hits Tour",
+    "city": "Ipswich",
+    "country": "Great Britain",
+    "venue": "Ipswich Regent Theatre",
+    "datetime_iso": "2027-05-22T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F006570A2AD3866",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-ipswich-22-05-2027/event/1F006570A2AD3866",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-ipswich-22-05-2027/event/1F006570A2AD3866",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F006570A2AD3866",
+        "discovery_event_id": "G5vHZ_9exlK-J",
+        "url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-ipswich-22-05-2027/event/1F006570A2AD3866",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_9exlK-J",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-rotterdam-z698xzbpz1kfevxad",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc",
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "venue": "de Doelen",
+    "datetime_iso": "2027-11-12T19:15:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "227062143",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/10cc-tickets/227062143?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/10cc-tickets/227062143?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "227062143",
+        "discovery_event_id": "Z698xZbpZ1kFEvxAd",
+        "url": "https://www.ticketmaster.nl/event/10cc-tickets/227062143?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ1kFEvxAd",
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-10cc-2027-brussels-z698xzg2z1kkfe3o6",
+    "artist_slug": "10cc",
+    "artist_name": "10cc",
+    "event_name": "10cc",
+    "city": "Brussels",
+    "country": "Belgium",
+    "venue": "Cirque Royal - Koninklijk Circus",
+    "datetime_iso": "2027-11-17T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "194092807",
+    "ticketmaster_url": "https://www.ticketmaster.be/event/10cc-tickets/194092807",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.be/event/10cc-tickets/194092807",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "194092807",
+        "discovery_event_id": "Z698xZG2Z1kkfe3O6",
+        "url": "https://www.ticketmaster.be/event/10cc-tickets/194092807",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZG2Z1kkfe3O6",
+    "timezone": "Europe/Brussels",
+    "status": "on-sale"
+  }
+]

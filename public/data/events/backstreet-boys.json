@@ -1451,7 +1451,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/backstreet-boys-into-the-millennium-homecoming-london-08-06-2027/event/3500657ABBC28A30",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1487,7 +1487,15 @@
     "ticketmaster_discovery_event_id": "1AdfZ_9GknDYIIY",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-12-04T12:00:00Z"
+    "public_onsale_at": "2026-12-04T12:00:00Z",
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "BSB Army Presale",
+        "start": "2026-12-01T11:00:00Z",
+        "end": "2026-12-04T11:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-backstreet-boys-2027-london-1adfz_9gkljcn0r",
@@ -1505,7 +1513,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/backstreet-boys-into-the-millennium-homecoming-london-09-06-2027/event/3500657ADCB6A92F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1541,7 +1549,15 @@
     "ticketmaster_discovery_event_id": "1AdfZ_9Gkljcn0R",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-12-04T12:00:00Z"
+    "public_onsale_at": "2026-12-04T12:00:00Z",
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "BSB Army Presale",
+        "start": "2026-12-01T11:00:00Z",
+        "end": "2026-12-04T11:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-backstreet-boys-2027-london-1adfz_9gkl9inpq",
@@ -1559,7 +1575,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/backstreet-boys-into-the-millennium-homecoming-london-11-06-2027/event/3500657AD7B2A59A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1595,7 +1611,15 @@
     "ticketmaster_discovery_event_id": "1AdfZ_9Gkl9inpQ",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-12-04T12:00:00Z"
+    "public_onsale_at": "2026-12-04T12:00:00Z",
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "BSB Army Presale",
+        "start": "2026-12-01T11:00:00Z",
+        "end": "2026-12-04T11:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-backstreet-boys-2027-london-1adfz_9gklquqr2",
@@ -1613,7 +1637,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/backstreet-boys-into-the-millennium-homecoming-london-12-06-2027/event/3500657ADA35A78F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1649,7 +1673,15 @@
     "ticketmaster_discovery_event_id": "1AdfZ_9GklQuQr2",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-12-04T12:00:00Z"
+    "public_onsale_at": "2026-12-04T12:00:00Z",
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "BSB Army Presale",
+        "start": "2026-12-01T11:00:00Z",
+        "end": "2026-12-04T11:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-backstreet-boys-2027-vienna-z698xz5rz1k0efdvi",
@@ -1667,8 +1699,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.at/event/backstreet-boys-into-the-millennium-homecoming-tickets/927203068?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-27",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "927203068",
@@ -1703,7 +1735,23 @@
     "ticketmaster_discovery_event_id": "Z698xZ5rZ1k0EFdvI",
     "timezone": "Europe/Vienna",
     "status": "announced",
-    "public_onsale_at": "2026-12-04T11:00:00Z"
+    "public_onsale_at": "2026-12-04T11:00:00Z",
+    "organizer_names": [
+      "Live Nation Austria GmbH"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "BSB Army Presale",
+        "start": "2026-12-01T09:00:00Z",
+        "end": "2026-12-04T11:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-12-02T11:00:00Z",
+        "end": "2026-12-04T11:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-backstreet-boys-2027-vienna-z698xz5rz16vos_wa7",
@@ -1721,8 +1769,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.at/event/backstreet-boys-into-the-millennium-homecoming-tickets/1473672244?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-27",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1473672244",
@@ -1757,7 +1805,23 @@
     "ticketmaster_discovery_event_id": "Z698xZ5rZ16voS_wa7",
     "timezone": "Europe/Vienna",
     "status": "announced",
-    "public_onsale_at": "2026-12-04T11:00:00Z"
+    "public_onsale_at": "2026-12-04T11:00:00Z",
+    "organizer_names": [
+      "Live Nation Austria GmbH"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "BSB Army Presale",
+        "start": "2026-12-01T09:00:00Z",
+        "end": "2026-12-04T11:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-12-02T11:00:00Z",
+        "end": "2026-12-04T11:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-backstreet-boys-2027-amsterdam-z698xzbpz1ko30moe",
@@ -1775,8 +1839,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/backstreet-boys-into-the-millennium-homecoming-tickets/812937467?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-27",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "812937467",
@@ -1811,7 +1875,28 @@
     "ticketmaster_discovery_event_id": "Z698xZbpZ1kO30MoE",
     "timezone": "Europe/Amsterdam",
     "status": "announced",
-    "public_onsale_at": "2026-12-04T11:00:00Z"
+    "public_onsale_at": "2026-12-04T11:00:00Z",
+    "organizer_names": [
+      "Mojo Concerts"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "BSB Army Presale",
+        "start": "2026-12-01T09:00:00Z",
+        "end": "2026-12-04T10:00:00Z"
+      },
+      {
+        "name": "Mastercard Presale",
+        "start": "2026-12-01T11:00:00Z",
+        "end": "2026-12-04T10:00:00Z"
+      },
+      {
+        "name": "MOJO Presale",
+        "start": "2026-12-03T11:00:00Z",
+        "end": "2026-12-04T10:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-backstreet-boys-2027-zurich-z698xzu3z16v4tp3v6",
@@ -1829,8 +1914,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ch/event/backstreet-boys-into-the-millennium-homecoming-tickets/1569592047?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-27",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1569592047",
@@ -1865,7 +1950,38 @@
     "ticketmaster_discovery_event_id": "Z698xZu3Z16v4tp3v6",
     "timezone": "Europe/Zurich",
     "status": "announced",
-    "public_onsale_at": "2026-12-04T11:00:00Z"
+    "public_onsale_at": "2026-12-04T11:00:00Z",
+    "organizer_names": [
+      "Live Nation Schweiz AG"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "BSB Army Presale",
+        "start": "2026-12-01T09:00:00Z",
+        "end": "2026-12-04T10:00:00Z"
+      },
+      {
+        "name": "Sunrise Priority Tickets",
+        "start": "2026-12-01T11:00:00Z",
+        "end": "2026-12-04T10:00:00Z"
+      },
+      {
+        "name": "Supercard/Scoop Prio Tickets",
+        "start": "2026-12-01T11:00:00Z",
+        "end": "2026-12-04T10:00:00Z"
+      },
+      {
+        "name": "TWINT Prio Tickets",
+        "start": "2026-12-01T11:00:00Z",
+        "end": "2026-12-04T10:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-12-02T11:00:00Z",
+        "end": "2026-12-04T10:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-backstreet-boys-2027-hamburg-z698xzc2z16vague4k",
@@ -1883,8 +1999,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/backstreet-boys-into-the-millennium-homecoming-tickets/1275342546?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-27",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1275342546",
@@ -1919,7 +2035,33 @@
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vague4k",
     "timezone": "Europe/Berlin",
     "status": "announced",
-    "public_onsale_at": "2026-12-04T11:00:00Z"
+    "public_onsale_at": "2026-12-04T11:00:00Z",
+    "organizer_names": [
+      "Live Nation GmbH"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "BSB Army Presale",
+        "start": "2026-12-01T09:00:00Z",
+        "end": "2026-12-04T11:00:00Z"
+      },
+      {
+        "name": "PayPal Prio Tickets",
+        "start": "2026-12-01T11:00:00Z",
+        "end": "2026-12-04T11:00:00Z"
+      },
+      {
+        "name": "Telekom Prio Tickets",
+        "start": "2026-12-01T11:00:00Z",
+        "end": "2026-12-04T11:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-12-02T11:00:00Z",
+        "end": "2026-12-04T11:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-backstreet-boys-2027-munich-z698xzc2z16vgs1fje",
@@ -1937,8 +2079,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/backstreet-boys-into-the-millennium-homecoming-tickets/1333288702?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-27",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1333288702",
@@ -1973,7 +2115,33 @@
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vGS1Fje",
     "timezone": "Europe/Berlin",
     "status": "announced",
-    "public_onsale_at": "2026-12-04T11:00:00Z"
+    "public_onsale_at": "2026-12-04T11:00:00Z",
+    "organizer_names": [
+      "Live Nation GmbH"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "BSB Army Presale",
+        "start": "2026-12-01T09:00:00Z",
+        "end": "2026-12-04T11:00:00Z"
+      },
+      {
+        "name": "PayPal Prio Tickets",
+        "start": "2026-12-01T11:00:00Z",
+        "end": "2026-12-04T11:00:00Z"
+      },
+      {
+        "name": "Telekom Prio Tickets",
+        "start": "2026-12-01T11:00:00Z",
+        "end": "2026-12-04T11:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-12-02T11:00:00Z",
+        "end": "2026-12-04T11:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-backstreet-boys-2027-munich-z698xzc2z1kgdpop9",
@@ -1991,8 +2159,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/backstreet-boys-into-the-millennium-homecoming-tickets/303960957?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-27",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "303960957",
@@ -2027,6 +2195,32 @@
     "ticketmaster_discovery_event_id": "Z698xZC2Z1kGdPOP9",
     "timezone": "Europe/Berlin",
     "status": "announced",
-    "public_onsale_at": "2026-12-04T11:00:00Z"
+    "public_onsale_at": "2026-12-04T11:00:00Z",
+    "organizer_names": [
+      "Live Nation GmbH"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "BSB Army Presale",
+        "start": "2026-12-01T09:00:00Z",
+        "end": "2026-12-04T11:00:00Z"
+      },
+      {
+        "name": "PayPal Prio Tickets",
+        "start": "2026-12-01T11:00:00Z",
+        "end": "2026-12-04T11:00:00Z"
+      },
+      {
+        "name": "Telekom Prio Tickets",
+        "start": "2026-12-01T11:00:00Z",
+        "end": "2026-12-04T11:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-12-02T11:00:00Z",
+        "end": "2026-12-04T11:00:00Z"
+      }
+    ]
   }
 ]

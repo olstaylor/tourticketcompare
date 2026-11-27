@@ -796,7 +796,7 @@
     "vividseats_url": "https://www.vividseats.com/muse-tickets-leeds-roundhay-park-6-27-2027/production/7834672",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/american-express-presents-roundhay-festival-muse-leeds-27-06-2027/event/1F0065659F0A3775",
-    "last_verified_at": "2026-11-25",
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -854,8 +854,7 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "organizer_names": [
-      "AEG PRESENTS LTD",
-      "AEG PRESENTS"
+      "AEG PRESENTS LTD"
     ],
     "ticket_limit": 6,
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8365852",

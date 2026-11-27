@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-02-26-2027/event/17006557F273C11D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -50,7 +50,24 @@
     },
     "ticketmaster_discovery_event_id": "1A9Zk49GkdwjH7q",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-30T17:00:00Z",
+        "end": "2027-01-30T06:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-30T17:00:00Z",
+        "end": "2027-02-22T20:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-doobie-brothers-2027-las-vegas-1a9zk49gkdwlg7i",
@@ -68,7 +85,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-02-27-2027/event/17006557F27CC128",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -103,7 +120,24 @@
     },
     "ticketmaster_discovery_event_id": "1A9Zk49GkdwLG7I",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-30T17:00:00Z",
+        "end": "2027-01-30T06:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-30T17:00:00Z",
+        "end": "2027-02-23T20:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-doobie-brothers-2027-las-vegas-1a9zk49gkdw-j7d",
@@ -121,7 +155,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-03-05-2027/event/17006557F285C13B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -156,7 +190,24 @@
     },
     "ticketmaster_discovery_event_id": "1A9Zk49Gkdw-j7D",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-30T17:00:00Z",
+        "end": "2027-01-30T06:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-30T17:00:00Z",
+        "end": "2027-03-01T20:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-doobie-brothers-2027-las-vegas-1a9zk49gkdwnjac",
@@ -174,7 +225,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-03-06-2027/event/17006557F28DC14E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -209,7 +260,24 @@
     },
     "ticketmaster_discovery_event_id": "1A9Zk49GkdwNjAC",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-30T17:00:00Z",
+        "end": "2027-01-30T06:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-30T17:00:00Z",
+        "end": "2027-03-02T20:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-doobie-brothers-2027-halifax-1aszk4vgkem55xl",
@@ -335,7 +403,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-laval-quebec-08-09-2027/event/31006572D3F7C864",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -371,7 +439,22 @@
     "ticketmaster_discovery_event_id": "1AsZk4wGkdKWH-0",
     "timezone": "America/Toronto",
     "status": "announced",
-    "public_onsale_at": "2026-11-27T15:00:00Z"
+    "public_onsale_at": "2026-11-27T15:00:00Z",
+    "organizer_names": [
+      "EVENKO CO-PRO WITH LIVE NATION",
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Forfaits VIP Packages",
+        "start": "2026-11-27T15:00:00Z",
+        "end": "2027-08-05T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-doobie-brothers-2027-kanata-16szk4wjdza2faae",
@@ -389,7 +472,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-kanata-ontario-08-10-2027/event/31006572983E7441",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -425,7 +508,22 @@
     "ticketmaster_discovery_event_id": "16sZk4wJdZA2FAAe",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-27T15:00:00Z"
+    "public_onsale_at": "2026-11-27T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-27T15:00:00Z",
+        "end": "2027-08-06T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-doobie-brothers-2027-st-catharines-1a8zk4sgkdjlu6e",
@@ -443,7 +541,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-st-catharines-ontario-08-12-2027/event/10006573DCAF61E7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -479,7 +577,21 @@
     "ticketmaster_discovery_event_id": "1A8Zk4SGkdjlU6E",
     "timezone": "America/Toronto",
     "status": "announced",
-    "public_onsale_at": "2026-11-27T15:00:00Z"
+    "public_onsale_at": "2026-11-27T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-27T15:00:00Z",
+        "end": "2027-08-08T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-doobie-brothers-2027-winnipeg-1aozk4sgkd30xaz",
@@ -497,7 +609,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-winnipeg-manitoba-08-16-2027/event/11006573D293E278",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -533,7 +645,22 @@
     "ticketmaster_discovery_event_id": "1AoZk4SGkd30Xaz",
     "timezone": "America/Winnipeg",
     "status": "announced",
-    "public_onsale_at": "2026-11-27T15:00:00Z"
+    "public_onsale_at": "2026-11-27T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-ROGERS",
+      "LIVE NATION CANADA-RBC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-27T15:00:00Z",
+        "end": "2027-08-12T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-doobie-brothers-2027-edmonton-1aozk4sptc3ze8k",
@@ -551,7 +678,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-edmonton-alberta-08-19-2027/event/11006573969392F5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -587,7 +714,22 @@
     "ticketmaster_discovery_event_id": "1aoZk4SPtC3Ze8k",
     "timezone": "America/Edmonton",
     "status": "announced",
-    "public_onsale_at": "2026-11-27T16:00:00Z"
+    "public_onsale_at": "2026-11-27T16:00:00Z",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-27T16:00:00Z",
+        "end": "2027-08-15T18:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-doobie-brothers-2027-abbotsford-15v7z_9c9zac3",
@@ -605,7 +747,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-abbotsford-british-columbia-08-24-2027/event/1100657397009392",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -641,7 +783,26 @@
     "ticketmaster_discovery_event_id": "15v7Z_9C9ZaC3",
     "timezone": "America/Vancouver",
     "status": "announced",
-    "public_onsale_at": "2026-11-27T17:00:00Z"
+    "public_onsale_at": "2026-11-27T17:00:00Z",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Amex Reserved Tickets",
+        "start": "2026-11-27T17:00:00Z",
+        "end": "2027-08-11T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-27T17:00:00Z",
+        "end": "2027-08-21T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-doobie-brothers-2027-las-vegas-1a9zk49gkdwpia9",
@@ -659,7 +820,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-08-27-2027/event/17006557F296C157",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -694,7 +855,24 @@
     },
     "ticketmaster_discovery_event_id": "1A9Zk49GkdwPiA9",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-30T17:00:00Z",
+        "end": "2027-01-30T06:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-30T17:00:00Z",
+        "end": "2027-08-23T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-doobie-brothers-2027-las-vegas-1a9zk49gkdwejan",
@@ -712,7 +890,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-08-28-2027/event/17006557F29DC163",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -747,7 +925,24 @@
     },
     "ticketmaster_discovery_event_id": "1A9Zk49GkdwEjAN",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-30T17:00:00Z",
+        "end": "2027-01-30T06:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-30T17:00:00Z",
+        "end": "2027-08-24T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-doobie-brothers-2027-las-vegas-1a9zk49gkdwtjas",
@@ -765,7 +960,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-09-01-2027/event/17006557F2A5C173",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -800,7 +995,24 @@
     },
     "ticketmaster_discovery_event_id": "1A9Zk49GkdwtjAS",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-30T17:00:00Z",
+        "end": "2027-01-30T06:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-30T17:00:00Z",
+        "end": "2027-08-28T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-doobie-brothers-2027-las-vegas-1a9zk49gkdwljat",
@@ -818,7 +1030,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-09-03-2027/event/17006557F2ADC17F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -853,7 +1065,24 @@
     },
     "ticketmaster_discovery_event_id": "1A9Zk49GkdwljAT",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-30T17:00:00Z",
+        "end": "2027-01-30T06:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-30T17:00:00Z",
+        "end": "2027-08-30T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-doobie-brothers-2027-las-vegas-1a9zk49gkdwcjkg",
@@ -871,7 +1100,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-doobie-brothers-live-in-las-las-vegas-nevada-09-04-2027/event/17006557F2B5C18C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -906,6 +1135,23 @@
     },
     "ticketmaster_discovery_event_id": "1A9Zk49GkdwcjkG",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-10-30T17:00:00Z",
+        "end": "2027-01-30T06:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-10-30T17:00:00Z",
+        "end": "2027-08-31T19:00:00Z"
+      }
+    ]
   }
 ]

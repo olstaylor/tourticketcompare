@@ -1881,7 +1881,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-san-diego-california-11-30-2026/event/0A00650D864B747A",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-27",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1935,13 +1935,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8214367/Jonas-Brothers-tickets-Mon-Nov-30-2026-Viejas-Arena-At-Aztec-Bowl",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "Jonas Brothers VIP Package Onsale",
-        "start": "2026-08-21T17:00:00Z",
-        "end": "2026-11-26T20:00:00Z"
-      }
     ],
     "ticket_limit": 8,
     "genre": "Pop"

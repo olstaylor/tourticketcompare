@@ -26306,7 +26306,7 @@
     "country": "Australia",
     "city": "Adelaide",
     "venue": "The Drive",
-    "datetime_iso": "2026-12-04T09:15:00Z",
+    "datetime_iso": "2026-12-04T09:00:00Z",
     "timezone": "Australia/Adelaide",
     "tour_name": "",
     "status": "on-sale"
@@ -71489,7 +71489,7 @@
     "datetime_iso": "2027-07-02T16:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-bon-jovi-2027-london-1adjz_fgkuq9ee5",
@@ -71537,7 +71537,7 @@
     "datetime_iso": "2027-04-08T18:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-hardy-2027-manchester-g5dzz_96q1kyy",
@@ -71549,7 +71549,7 @@
     "datetime_iso": "2027-04-09T18:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-hardy-2027-glasgow-1auzk4sgketugdu",
@@ -71561,7 +71561,7 @@
     "datetime_iso": "2027-04-11T18:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "Promise Not To Cancel Solo Tour",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-hardy-2027-belfast-1adoz_pgkuppsm9",
@@ -71573,7 +71573,7 @@
     "datetime_iso": "2027-04-13T18:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-feid-2027-chicago-vv1kvzvpq9gach3aw",
@@ -72245,7 +72245,7 @@
     "datetime_iso": "2027-06-05T18:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-london-g5dzz_9kck9dk",
@@ -72257,7 +72257,7 @@
     "datetime_iso": "2027-06-06T18:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-berlin-z698xzc2z1a6oxuf",
@@ -72269,7 +72269,7 @@
     "datetime_iso": "2027-06-13T18:00:00Z",
     "timezone": "Europe/Berlin",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-staind-2027-hannover-z698xzc2z1k0-ep0o",
@@ -72281,7 +72281,7 @@
     "datetime_iso": "2027-06-14T18:00:00Z",
     "timezone": "Europe/Berlin",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-steve-lacy-2027-london-16dfz_98yg7uf9q",
@@ -72293,7 +72293,7 @@
     "datetime_iso": "2027-04-26T17:30:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-garth-brooks-2027-birmingham-1aozk4mgkenweqi",

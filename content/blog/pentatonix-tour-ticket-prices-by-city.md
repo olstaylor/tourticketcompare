@@ -1,10 +1,10 @@
 ---
 title: "Pentatonix tour tickets: listed prices city by city"
 seo_title: "Pentatonix tour ticket prices by city"
-description: "Pentatonix tour: the next date in 16 cities, $27.60 in North Little Rock at the low end, $121.90 in Lubbock at the high end."
-summary: "TicketNetwork's lowest listed price for the next Pentatonix date in each of 16 cities, each figure with the time it was captured. Snapshots 26 November 2026."
+description: "Pentatonix tour: the next date in 16 cities, $27.60 in North Little Rock at the low end, $120.75 in Lubbock at the high end."
+summary: "TicketNetwork's lowest listed price for the next Pentatonix date in each of 16 cities, each figure with the time it was captured. Snapshots 27 November 2026."
 date: 2026-10-24
-updated: 2026-11-26
+updated: 2026-11-27
 status: published
 tags:
   - tour-data
@@ -14,28 +14,28 @@ related_guides:
   - primary-vs-resale-concert-tickets
 ---
 
-Pentatonix's Christmas in the City Tour has 16 dates that TourTicketCompare tracks. In the United States, 16 cities had a recent listed price on TicketNetwork. The next date in North Little Rock was listed at $27.60 at the low end, and the next date in Lubbock at $121.90 at the high end, 4.4 times as much. The median city was listed at $68.43.
+Pentatonix's Christmas in the City Tour has 16 dates that TourTicketCompare tracks. In the United States, 16 cities had a recent listed price on TicketNetwork. The next date in North Little Rock was listed at $27.60 at the low end, and the next date in Lubbock at $120.75 at the high end, 4.3 times as much. The median city was listed at $69.
 
 ## Pentatonix ticket prices by city
 
 | City | Next date | Venue | Lowest listed | Site | Captured |
 |---|---|---|---|---|---|
-| [North Little Rock](/artists/pentatonix/tickets/north-little-rock-united-states) | 12 December 2026 | Simmons Bank Arena | $27.60 | TicketNetwork | 26 November, 10:03 UTC |
-| [Glendale](/artists/pentatonix/tickets/glendale-united-states) | 19 December 2026 | Desert Diamond Arena | $47.15 | TicketNetwork | 26 November, 10:03 UTC |
-| [Albany](/artists/pentatonix/tickets/albany-united-states) | 29 November 2026 | MVP Arena | $48.30 | TicketNetwork | 26 November, 10:03 UTC |
-| [Bossier City](/artists/pentatonix/tickets/bossier-city-united-states) | 13 December 2026 | Brookshire Grocery Arena | $48.30 | TicketNetwork | 26 November, 10:03 UTC |
-| [Baltimore](/artists/pentatonix/tickets/baltimore-united-states) | 3 December 2026 | CFG Bank Arena | $51.75 | TicketNetwork | 26 November, 10:03 UTC |
-| [Nashville](/artists/pentatonix/tickets/nashville-united-states) | 9 December 2026 | Bridgestone Arena | $54.05 | TicketNetwork | 26 November, 10:03 UTC |
-| [Columbia](/artists/pentatonix/tickets/columbia-united-states) | 5 December 2026 | Colonial Life Arena | $57.50 | TicketNetwork | 26 November, 10:03 UTC |
-| [Charlottesville](/artists/pentatonix/tickets/charlottesville-united-states) | 28 November 2026 | John Paul Jones Arena | $66.70 | TicketNetwork | 26 November, 10:03 UTC |
-| [Raleigh](/artists/pentatonix/tickets/raleigh-united-states) | 7 December 2026 | Lenovo Center | $70.15 | TicketNetwork | 26 November, 10:03 UTC |
-| [Austin](/artists/pentatonix/tickets/austin-united-states) | 15 December 2026 | Moody Center ATX | $81.65 | TicketNetwork | 26 November, 10:03 UTC |
-| [San Diego](/artists/pentatonix/tickets/san-diego-united-states) | 20 December 2026 | Viejas Arena at Aztec Bowl San Diego State University | $88.55 | TicketNetwork | 26 November, 10:03 UTC |
-| [Atlanta](/artists/pentatonix/tickets/atlanta-united-states) | 10 December 2026 | State Farm Arena | $92 | TicketNetwork | 26 November, 10:03 UTC |
-| [Inglewood](/artists/pentatonix/tickets/inglewood-united-states) | 22 December 2026 | Kia Forum | $98.90 | TicketNetwork | 26 November, 10:03 UTC |
-| [Greenville](/artists/pentatonix/tickets/greenville-united-states) | 6 December 2026 | Bon Secours Wellness Arena | $104.65 | TicketNetwork | 26 November, 10:03 UTC |
-| [Fort Worth](/artists/pentatonix/tickets/fort-worth-united-states) | 16 December 2026 | Ariat Arena | $117.30 | TicketNetwork | 26 November, 10:03 UTC |
-| [Lubbock](/artists/pentatonix/tickets/lubbock-united-states) | 17 December 2026 | United Supermarkets Arena | $121.90 | TicketNetwork | 26 November, 10:03 UTC |
+| [North Little Rock](/artists/pentatonix/tickets/north-little-rock-united-states) | 12 December 2026 | Simmons Bank Arena | $27.60 | TicketNetwork | 27 November, 20:00 UTC |
+| [Bossier City](/artists/pentatonix/tickets/bossier-city-united-states) | 13 December 2026 | Brookshire Grocery Arena | $48.30 | TicketNetwork | 27 November, 20:00 UTC |
+| [Glendale](/artists/pentatonix/tickets/glendale-united-states) | 19 December 2026 | Desert Diamond Arena | $48.30 | TicketNetwork | 27 November, 20:00 UTC |
+| [Albany](/artists/pentatonix/tickets/albany-united-states) | 29 November 2026 | MVP Arena | $51.75 | TicketNetwork | 27 November, 20:00 UTC |
+| [Baltimore](/artists/pentatonix/tickets/baltimore-united-states) | 3 December 2026 | CFG Bank Arena | $51.75 | TicketNetwork | 27 November, 20:00 UTC |
+| [Nashville](/artists/pentatonix/tickets/nashville-united-states) | 9 December 2026 | Bridgestone Arena | $52.90 | TicketNetwork | 27 November, 20:00 UTC |
+| [Columbia](/artists/pentatonix/tickets/columbia-united-states) | 5 December 2026 | Colonial Life Arena | $57.50 | TicketNetwork | 27 November, 20:00 UTC |
+| [Charlottesville](/artists/pentatonix/tickets/charlottesville-united-states) | 28 November 2026 | John Paul Jones Arena | $67.85 | TicketNetwork | 27 November, 19:59 UTC |
+| [Raleigh](/artists/pentatonix/tickets/raleigh-united-states) | 7 December 2026 | Lenovo Center | $70.15 | TicketNetwork | 27 November, 20:00 UTC |
+| [Austin](/artists/pentatonix/tickets/austin-united-states) | 15 December 2026 | Moody Center ATX | $81.65 | TicketNetwork | 27 November, 20:00 UTC |
+| [San Diego](/artists/pentatonix/tickets/san-diego-united-states) | 20 December 2026 | Viejas Arena at Aztec Bowl San Diego State University | $83.95 | TicketNetwork | 27 November, 20:00 UTC |
+| [Atlanta](/artists/pentatonix/tickets/atlanta-united-states) | 10 December 2026 | State Farm Arena | $90.85 | TicketNetwork | 27 November, 20:00 UTC |
+| [Inglewood](/artists/pentatonix/tickets/inglewood-united-states) | 22 December 2026 | Kia Forum | $98.90 | TicketNetwork | 27 November, 20:00 UTC |
+| [Greenville](/artists/pentatonix/tickets/greenville-united-states) | 6 December 2026 | Bon Secours Wellness Arena | $109.25 | TicketNetwork | 27 November, 20:00 UTC |
+| [Fort Worth](/artists/pentatonix/tickets/fort-worth-united-states) | 16 December 2026 | Ariat Arena | $117.30 | TicketNetwork | 27 November, 20:00 UTC |
+| [Lubbock](/artists/pentatonix/tickets/lubbock-united-states) | 17 December 2026 | United Supermarkets Arena | $120.75 | TicketNetwork | 27 November, 20:00 UTC |
 
 Each figure is the lowest listed price on TicketNetwork for the next date in that city, so a city with several dates shows only its first. Cities are ordered from the lowest listed price to the highest. Open a city to see every date there.
 
@@ -45,20 +45,20 @@ Vivid Seats also had a recent listed price for the next date in 14 of these citi
 
 | City | Next date | Venue | Lowest listed | Site | Captured |
 |---|---|---|---|---|---|
-| [Charlottesville](/artists/pentatonix/tickets/charlottesville-united-states) | 28 November 2026 | John Paul Jones Arena | $57 | Vivid Seats | 26 November, 19:48 UTC |
-| [Albany](/artists/pentatonix/tickets/albany-united-states) | 29 November 2026 | MVP Arena | $51 | Vivid Seats | 26 November, 19:48 UTC |
-| [Baltimore](/artists/pentatonix/tickets/baltimore-united-states) | 3 December 2026 | CFG Bank Arena | $60 | Vivid Seats | 26 November, 19:48 UTC |
-| [Columbia](/artists/pentatonix/tickets/columbia-united-states) | 5 December 2026 | Colonial Life Arena | $84 | Vivid Seats | 26 November, 19:48 UTC |
-| [Greenville](/artists/pentatonix/tickets/greenville-united-states) | 6 December 2026 | Bon Secours Wellness Arena | $79 | Vivid Seats | 26 November, 19:48 UTC |
-| [Raleigh](/artists/pentatonix/tickets/raleigh-united-states) | 7 December 2026 | Lenovo Center | $70 | Vivid Seats | 26 November, 19:48 UTC |
-| [Nashville](/artists/pentatonix/tickets/nashville-united-states) | 9 December 2026 | Bridgestone Arena | $57 | Vivid Seats | 26 November, 19:48 UTC |
-| [Atlanta](/artists/pentatonix/tickets/atlanta-united-states) | 10 December 2026 | State Farm Arena | $76 | Vivid Seats | 26 November, 19:48 UTC |
-| [North Little Rock](/artists/pentatonix/tickets/north-little-rock-united-states) | 12 December 2026 | Simmons Bank Arena | $30 | Vivid Seats | 26 November, 19:48 UTC |
-| [Bossier City](/artists/pentatonix/tickets/bossier-city-united-states) | 13 December 2026 | Brookshire Grocery Arena | $57 | Vivid Seats | 26 November, 19:48 UTC |
-| [Austin](/artists/pentatonix/tickets/austin-united-states) | 15 December 2026 | Moody Center ATX | $88 | Vivid Seats | 26 November, 19:48 UTC |
-| [Lubbock](/artists/pentatonix/tickets/lubbock-united-states) | 17 December 2026 | United Supermarkets Arena | $95 | Vivid Seats | 26 November, 19:48 UTC |
-| [Glendale](/artists/pentatonix/tickets/glendale-united-states) | 19 December 2026 | Desert Diamond Arena | $55 | Vivid Seats | 26 November, 19:48 UTC |
-| [Inglewood](/artists/pentatonix/tickets/inglewood-united-states) | 22 December 2026 | Kia Forum | $69 | Vivid Seats | 26 November, 19:48 UTC |
+| [Charlottesville](/artists/pentatonix/tickets/charlottesville-united-states) | 28 November 2026 | John Paul Jones Arena | $60 | Vivid Seats | 27 November, 18:59 UTC |
+| [Albany](/artists/pentatonix/tickets/albany-united-states) | 29 November 2026 | MVP Arena | $51 | Vivid Seats | 27 November, 14:26 UTC |
+| [Baltimore](/artists/pentatonix/tickets/baltimore-united-states) | 3 December 2026 | CFG Bank Arena | $64 | Vivid Seats | 27 November, 14:26 UTC |
+| [Columbia](/artists/pentatonix/tickets/columbia-united-states) | 5 December 2026 | Colonial Life Arena | $84 | Vivid Seats | 27 November, 14:26 UTC |
+| [Greenville](/artists/pentatonix/tickets/greenville-united-states) | 6 December 2026 | Bon Secours Wellness Arena | $79 | Vivid Seats | 27 November, 14:26 UTC |
+| [Raleigh](/artists/pentatonix/tickets/raleigh-united-states) | 7 December 2026 | Lenovo Center | $70 | Vivid Seats | 27 November, 14:26 UTC |
+| [Nashville](/artists/pentatonix/tickets/nashville-united-states) | 9 December 2026 | Bridgestone Arena | $61 | Vivid Seats | 27 November, 14:26 UTC |
+| [Atlanta](/artists/pentatonix/tickets/atlanta-united-states) | 10 December 2026 | State Farm Arena | $75 | Vivid Seats | 27 November, 14:26 UTC |
+| [North Little Rock](/artists/pentatonix/tickets/north-little-rock-united-states) | 12 December 2026 | Simmons Bank Arena | $30 | Vivid Seats | 27 November, 14:26 UTC |
+| [Bossier City](/artists/pentatonix/tickets/bossier-city-united-states) | 13 December 2026 | Brookshire Grocery Arena | $57 | Vivid Seats | 27 November, 14:26 UTC |
+| [Austin](/artists/pentatonix/tickets/austin-united-states) | 15 December 2026 | Moody Center ATX | $88 | Vivid Seats | 27 November, 14:26 UTC |
+| [Lubbock](/artists/pentatonix/tickets/lubbock-united-states) | 17 December 2026 | United Supermarkets Arena | $94 | Vivid Seats | 27 November, 14:26 UTC |
+| [Glendale](/artists/pentatonix/tickets/glendale-united-states) | 19 December 2026 | Desert Diamond Arena | $55 | Vivid Seats | 27 November, 14:26 UTC |
+| [Inglewood](/artists/pentatonix/tickets/inglewood-united-states) | 22 December 2026 | Kia Forum | $71 | Vivid Seats | 27 November, 14:26 UTC |
 
 ## How this was worked out
 

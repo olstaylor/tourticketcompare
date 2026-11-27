@@ -46,6 +46,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8342847",
+        "url": "https://www.ticketnetwork.com/en/p/8342847",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk49GkdwjH7q",
@@ -67,7 +74,8 @@
         "start": "2026-10-30T17:00:00Z",
         "end": "2027-02-22T20:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342847"
   },
   {
     "id": "tm-the-doobie-brothers-2027-las-vegas-1a9zk49gkdwlg7i",
@@ -116,6 +124,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8342848",
+        "url": "https://www.ticketnetwork.com/en/p/8342848",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk49GkdwLG7I",
@@ -137,7 +152,8 @@
         "start": "2026-10-30T17:00:00Z",
         "end": "2027-02-23T20:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342848"
   },
   {
     "id": "tm-the-doobie-brothers-2027-las-vegas-1a9zk49gkdw-j7d",
@@ -186,6 +202,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8342849",
+        "url": "https://www.ticketnetwork.com/en/p/8342849",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk49Gkdw-j7D",
@@ -207,7 +230,8 @@
         "start": "2026-10-30T17:00:00Z",
         "end": "2027-03-01T20:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342849"
   },
   {
     "id": "tm-the-doobie-brothers-2027-las-vegas-1a9zk49gkdwnjac",
@@ -256,6 +280,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8342850",
+        "url": "https://www.ticketnetwork.com/en/p/8342850",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk49GkdwNjAC",
@@ -277,7 +308,8 @@
         "start": "2026-10-30T17:00:00Z",
         "end": "2027-03-02T20:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342850"
   },
   {
     "id": "tm-the-doobie-brothers-2027-halifax-1aszk4vgkem55xl",
@@ -326,12 +358,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8386489",
+        "url": "https://www.ticketnetwork.com/en/p/8386489",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AsZk4VGkeM55XL",
     "timezone": "America/Halifax",
     "status": "announced",
-    "public_onsale_at": "2026-11-27T14:00:00Z"
+    "public_onsale_at": "2026-11-27T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8386489"
   },
   {
     "id": "tm-the-doobie-brothers-2027-moncton-1aszk4vgkdperjo",
@@ -380,12 +420,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8386490",
+        "url": "https://www.ticketnetwork.com/en/p/8386490",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AsZk4VGkdPERjo",
     "timezone": "America/Halifax",
     "status": "announced",
-    "public_onsale_at": "2026-11-27T14:00:00Z"
+    "public_onsale_at": "2026-11-27T14:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8386490"
   },
   {
     "id": "tm-the-doobie-brothers-2027-laval-1aszk4wgkdkwh-0",
@@ -434,6 +482,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8386491",
+        "url": "https://www.ticketnetwork.com/en/p/8386491",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AsZk4wGkdKWH-0",
@@ -454,7 +509,8 @@
         "start": "2026-11-27T15:00:00Z",
         "end": "2027-08-05T16:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8386491"
   },
   {
     "id": "tm-the-doobie-brothers-2027-kanata-16szk4wjdza2faae",
@@ -640,6 +696,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8386494",
+        "url": "https://www.ticketnetwork.com/en/p/8386494",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZk4SGkd30Xaz",
@@ -660,7 +723,8 @@
         "start": "2026-11-27T15:00:00Z",
         "end": "2027-08-12T17:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8386494"
   },
   {
     "id": "tm-the-doobie-brothers-2027-edmonton-1aozk4sptc3ze8k",
@@ -709,6 +773,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8386495",
+        "url": "https://www.ticketnetwork.com/en/p/8386495",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1aoZk4SPtC3Ze8k",
@@ -729,7 +800,8 @@
         "start": "2026-11-27T16:00:00Z",
         "end": "2027-08-15T18:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8386495"
   },
   {
     "id": "tm-the-doobie-brothers-2027-abbotsford-15v7z_9c9zac3",
@@ -778,6 +850,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8386498",
+        "url": "https://www.ticketnetwork.com/en/p/8386498",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "15v7Z_9C9ZaC3",
@@ -802,7 +881,8 @@
         "start": "2026-11-27T17:00:00Z",
         "end": "2027-08-21T05:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8386498"
   },
   {
     "id": "tm-the-doobie-brothers-2027-las-vegas-1a9zk49gkdwpia9",
@@ -851,6 +931,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8342851",
+        "url": "https://www.ticketnetwork.com/en/p/8342851",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk49GkdwPiA9",
@@ -872,7 +959,8 @@
         "start": "2026-10-30T17:00:00Z",
         "end": "2027-08-23T19:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342851"
   },
   {
     "id": "tm-the-doobie-brothers-2027-las-vegas-1a9zk49gkdwejan",
@@ -921,6 +1009,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8342852",
+        "url": "https://www.ticketnetwork.com/en/p/8342852",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk49GkdwEjAN",
@@ -942,7 +1037,8 @@
         "start": "2026-10-30T17:00:00Z",
         "end": "2027-08-24T19:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342852"
   },
   {
     "id": "tm-the-doobie-brothers-2027-las-vegas-1a9zk49gkdwtjas",
@@ -991,6 +1087,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8342853",
+        "url": "https://www.ticketnetwork.com/en/p/8342853",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk49GkdwtjAS",
@@ -1012,7 +1115,8 @@
         "start": "2026-10-30T17:00:00Z",
         "end": "2027-08-28T19:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342853"
   },
   {
     "id": "tm-the-doobie-brothers-2027-las-vegas-1a9zk49gkdwljat",
@@ -1061,6 +1165,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8342855",
+        "url": "https://www.ticketnetwork.com/en/p/8342855",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk49GkdwljAT",
@@ -1082,7 +1193,8 @@
         "start": "2026-10-30T17:00:00Z",
         "end": "2027-08-30T19:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342855"
   },
   {
     "id": "tm-the-doobie-brothers-2027-las-vegas-1a9zk49gkdwcjkg",
@@ -1131,6 +1243,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8342856",
+        "url": "https://www.ticketnetwork.com/en/p/8342856",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk49GkdwcjkG",
@@ -1152,6 +1271,7 @@
         "start": "2026-10-30T17:00:00Z",
         "end": "2027-08-31T19:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342856"
   }
 ]

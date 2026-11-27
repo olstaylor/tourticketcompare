@@ -1739,7 +1739,7 @@
         "event_id": "8199813",
         "url": "https://www.ticketnetwork.com/en/p/8199813",
         "verified": true,
-        "last_verified_at": "2026-11-26",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1821,7 +1821,7 @@
         "event_id": "8199816",
         "url": "https://www.ticketnetwork.com/en/p/8199816",
         "verified": true,
-        "last_verified_at": "2026-11-26",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1901,13 +1901,21 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8392541",
+        "url": "https://www.ticketnetwork.com/en/p/8392541",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16dfZ_98YG7UF9q",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticket_limit": 8,
-    "genre": "R&B"
+    "genre": "R&B",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8392541"
   },
   {
     "id": "tm-steve-lacy-2027-london-1ku8vpqdgagp_zi",
@@ -1956,12 +1964,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8392542",
+        "url": "https://www.ticketnetwork.com/en/p/8392542",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ku8vPqdGAGP_Zi",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticket_limit": 8,
-    "genre": "R&B"
+    "genre": "R&B",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8392542"
   }
 ]

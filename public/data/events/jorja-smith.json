@@ -46,6 +46,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8376028",
+        "url": "https://www.ticketnetwork.com/en/p/8376028",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vP07O1a",
@@ -54,7 +61,8 @@
     "organizer_names": [
       "Mojo Concerts"
     ],
-    "genre": "Hip-Hop/Rap"
+    "genre": "Hip-Hop/Rap",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8376028"
   },
   {
     "id": "tm-jorja-smith-2027-brussels-z698xzg2z16v-6xajf",
@@ -217,6 +225,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8235645",
+        "url": "https://www.ticketnetwork.com/en/p/8235645",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Fu8vP7N0aZ75Fd6",
@@ -227,7 +242,8 @@
       "SONY MUSIC UK (ON BEHALF OF JORJA SMITH)"
     ],
     "ticket_limit": 6,
-    "genre": "R&B"
+    "genre": "R&B",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8235645"
   },
   {
     "id": "tm-jorja-smith-2027-brisbane-1avgz_8gknnf3nj",

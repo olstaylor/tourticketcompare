@@ -347,7 +347,6 @@ export const OG_CARDS = {
   "/artists/harry-styles/tickets/toronto-canada": {"url":"/og/artists-harry-styles-tickets-toronto-canada.png","alt":"Tickets: Harry Styles in Toronto"},
   "/artists/hayley-williams": {"url":"/og/artists-hayley-williams.png","alt":"Tickets & tour dates: Hayley Williams"},
   "/artists/hayley-williams/ticket-prices": {"url":"/og/artists-hayley-williams-ticket-prices.png","alt":"Ticket prices: Hayley Williams"},
-  "/artists/hayley-williams/tickets/ciudad-de-m-xico-mexico": {"url":"/og/artists-hayley-williams-tickets-ciudad-de-m-xico-mexico.png","alt":"Tickets: Hayley Williams in Ciudad de México"},
   "/artists/hazlett": {"url":"/og/artists-hazlett.png","alt":"Tickets & tour dates: Hazlett"},
   "/artists/hazlett/ticket-prices": {"url":"/og/artists-hazlett-ticket-prices.png","alt":"Ticket prices: Hazlett"},
   "/artists/hilary-duff": {"url":"/og/artists-hilary-duff.png","alt":"Tickets & tour dates: Hilary Duff"},

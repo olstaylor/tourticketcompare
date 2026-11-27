@@ -564,7 +564,7 @@
     "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAvzfw",
     "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAvzfw",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/valley-tickets/regina-canada-casino-regina-2027-02-18-8-pm/concert/18908049",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAvzfw",
@@ -580,11 +580,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18908049,
+        "url": "https://seatgeek.com/valley-tickets/regina-canada-casino-regina-2027-02-18-8-pm/concert/18908049",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

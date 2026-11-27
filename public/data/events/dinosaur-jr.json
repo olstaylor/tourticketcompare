@@ -2124,7 +2124,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAP_A",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAP_A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dinosaur-jr-tickets/detroit-michigan-the-majestic-theatre-mi-2027-03-06-7-pm/concert/18540455",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAP_A",
@@ -2140,11 +2140,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18540455,
+        "url": "https://seatgeek.com/dinosaur-jr-tickets/detroit-michigan-the-majestic-theatre-mi-2027-03-06-7-pm/concert/18540455",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

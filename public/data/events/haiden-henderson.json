@@ -584,7 +584,7 @@
         "event_id": 18612968,
         "url": "https://seatgeek.com/haiden-henderson-tickets/atlanta-georgia-the-masquerade-hell-2027-04-14-7-pm/concert/18612968",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -639,7 +639,7 @@
         "event_id": 18613118,
         "url": "https://seatgeek.com/haiden-henderson-tickets/charlotte-north-carolina-the-underground-at-the-fillmore-charlotte-2027-04-18-8-pm/concert/18613118",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -720,7 +720,7 @@
         "event_id": 18613187,
         "url": "https://seatgeek.com/haiden-henderson-tickets/washington-district-of-columbia-the-atlantis-2027-04-20-6-30-pm/concert/18613187",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -798,7 +798,7 @@
         "event_id": 18613099,
         "url": "https://seatgeek.com/haiden-henderson-tickets/philadelphia-pennsylvania-brooklyn-bowl-philadelphia-2027-04-22-8-pm/concert/18613099",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -879,7 +879,7 @@
         "event_id": 18612878,
         "url": "https://seatgeek.com/haiden-henderson-tickets/new-york-new-york-irving-plaza-2027-04-23-7-pm/concert/18612878",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -959,7 +959,7 @@
         "event_id": 18613146,
         "url": "https://seatgeek.com/haiden-henderson-tickets/boston-massachusetts-big-night-live-2027-04-24-6-pm/concert/18613146",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1153,7 +1153,7 @@
         "event_id": 18669978,
         "url": "https://seatgeek.com/haiden-henderson-tickets/englewood-colorado-gothic-theatre-2027-05-08-8-pm/concert/18669978",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1350,7 +1350,7 @@
         "event_id": 18850714,
         "url": "https://seatgeek.com/haiden-henderson-tickets/nashville-tennessee-the-basement-east-2027-04-13-8-pm/concert/18850714",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1423,7 +1423,7 @@
         "event_id": 18809827,
         "url": "https://seatgeek.com/haiden-henderson-tickets/san-francisco-california-brick-and-mortar-music-hall-2027-05-14-8-pm/concert/18809827",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1496,7 +1496,7 @@
         "event_id": 18669773,
         "url": "https://seatgeek.com/haiden-henderson-tickets/west-hollywood-california-troubadour-2027-05-15-7-pm/concert/18669773",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1566,7 +1566,7 @@
         "event_id": 18694629,
         "url": "https://seatgeek.com/haiden-henderson-tickets/portland-oregon-hawthorne-theatre-2027-05-12-8-pm/concert/18694629",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1617,7 +1617,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA79uF",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA79uF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/haiden-henderson-tickets/seattle-washington-el-corazon-2027-05-11-8-pm/concert/18716288",
     "vividseats_url": "https://www.vividseats.com/haiden-henderson-tickets-seattle-el-corazon-5-11-2027/production/7613114",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA79uF",
@@ -1633,11 +1633,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18716288,
+        "url": "https://seatgeek.com/haiden-henderson-tickets/seattle-washington-el-corazon-2027-05-11-8-pm/concert/18716288",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7613114,
@@ -1706,7 +1706,7 @@
         "event_id": 18847838,
         "url": "https://seatgeek.com/haiden-henderson-tickets/minneapolis-minnesota-7th-street-entry-2027-05-02-8-pm/concert/18847838",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "vivid-seats": {

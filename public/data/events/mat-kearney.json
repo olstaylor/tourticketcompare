@@ -99,7 +99,7 @@
         "event_id": 18725770,
         "url": "https://seatgeek.com/mat-kearney-tickets/durham-north-carolina-carolina-theatre-durham-2027-04-16-7-30-pm/concert/18725770",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -171,7 +171,7 @@
         "event_id": 18725925,
         "url": "https://seatgeek.com/mat-kearney-tickets/charlotte-north-carolina-the-fillmore-charlotte-2027-04-18-8-pm/concert/18725925",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -257,7 +257,7 @@
         "event_id": 18726087,
         "url": "https://seatgeek.com/mat-kearney-tickets/washington-district-of-columbia-lincoln-theatre-dc-2027-04-22-8-pm/concert/18726087",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -335,7 +335,7 @@
         "event_id": 18726580,
         "url": "https://seatgeek.com/mat-kearney-tickets/atlantic-city-new-jersey-music-box-at-the-borgata-2027-04-23-8-pm/concert/18726580",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-27",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -387,7 +387,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7s83",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7s83",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mat-kearney-tickets/portsmouth-new-hampshire-the-historic-theater-at-the-music-hall-2027-04-26-7-pm/concert/18875357",
     "vividseats_url": "https://www.vividseats.com/mat-kearney-tickets-portsmouth-the-music-hall-lounge-in-the-historic-theater---portsmouth-4-26-2027/production/7768717",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7s83",
@@ -403,11 +403,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18875357,
+        "url": "https://seatgeek.com/mat-kearney-tickets/portsmouth-new-hampshire-the-historic-theater-at-the-music-hall-2027-04-26-7-pm/concert/18875357",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7768717,
@@ -2168,7 +2168,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAKG7",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAKG7",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mat-kearney-tickets/ventura-california-ventura-music-hall-2027-08-23-8-pm/concert/18821176",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAKG7",
@@ -2184,11 +2184,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18821176,
+        "url": "https://seatgeek.com/mat-kearney-tickets/ventura-california-ventura-music-hall-2027-08-23-8-pm/concert/18821176",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

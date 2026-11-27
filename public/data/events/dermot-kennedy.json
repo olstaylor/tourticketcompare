@@ -737,7 +737,7 @@
     "tour_name": "The Weight of the Woods Tour",
     "ticketmaster_event_id": "20006478DCD74653",
     "ticketmaster_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-birmingham-alabama-08-29-2027/event/20006478DCD74653",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dermot-kennedy-tickets/birmingham-alabama-avondale-brewing-company-2027-08-29-6-30-pm/concert/18147756",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-birmingham-alabama-08-29-2027/event/20006478DCD74653",
@@ -753,11 +753,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18147756,
+        "url": "https://seatgeek.com/dermot-kennedy-tickets/birmingham-alabama-avondale-brewing-company-2027-08-29-6-30-pm/concert/18147756",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

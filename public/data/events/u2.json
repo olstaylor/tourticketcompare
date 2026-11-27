@@ -2213,7 +2213,7 @@
     "tour_name": "The Greatest Show on Earth World Tour",
     "ticketmaster_event_id": "10006577D4D6A6EF",
     "ticketmaster_url": "https://www.ticketmaster.ca/u2-the-greatest-show-on-earth-toronto-ontario-09-07-2027/event/10006577D4D6A6EF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/u2-tickets/toronto-canada-rogers-stadium-toronto-2027-09-07-7-30-pm/concert/18869412",
     "vividseats_url": "https://www.vividseats.com/u2-tickets-toronto-rogers-stadium---toronto-9-7-2027--concerts-rock/production/7926466",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/u2-the-greatest-show-on-earth-toronto-ontario-09-07-2027/event/10006577D4D6A6EF",
@@ -2229,11 +2229,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18869412,
+        "url": "https://seatgeek.com/u2-tickets/toronto-canada-rogers-stadium-toronto-2027-09-07-7-30-pm/concert/18869412",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7926466,
@@ -2305,7 +2305,7 @@
     "tour_name": "The Greatest Show on Earth World Tour",
     "ticketmaster_event_id": "10006577D87CABC5",
     "ticketmaster_url": "https://www.ticketmaster.ca/u2-the-greatest-show-on-earth-toronto-ontario-09-09-2027/event/10006577D87CABC5",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/u2-tickets/toronto-canada-rogers-stadium-toronto-2027-09-09-7-30-pm/concert/18869413",
     "vividseats_url": "https://www.vividseats.com/u2-tickets-toronto-rogers-stadium---toronto-9-9-2027--concerts-rock/production/7926470",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/u2-the-greatest-show-on-earth-toronto-ontario-09-09-2027/event/10006577D87CABC5",
@@ -2321,11 +2321,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18869413,
+        "url": "https://seatgeek.com/u2-tickets/toronto-canada-rogers-stadium-toronto-2027-09-09-7-30-pm/concert/18869413",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7926470,

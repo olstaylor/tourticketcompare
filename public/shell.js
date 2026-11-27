@@ -217,6 +217,7 @@
       guideSlug: guideMatch ? guideMatch[1] : "",
       position: Number(cta.dataset.ctaPosition || 0) || undefined,
       orderArm: cta.dataset.ctaOrderArm || undefined,
+      ctaVariant: cta.dataset.ctaVariant || undefined,
       ctaLocation: location,
       priceSnapshot: cta.dataset.ctaPriceSnapshot === "present" ? "present" : "absent",
       lowestListed: lowestListed,

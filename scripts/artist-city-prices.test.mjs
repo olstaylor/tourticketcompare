@@ -795,7 +795,11 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
     const arm = /data-cta-order-arm="([^"]+)"/.exec(html)?.[1];
     const alphabetical = ["ticketmaster", "seatgeek", "stubhub-international", "ticket-liquidator", "ticketnetwork", "vivid-seats"];
     const expected = arm === "reverse" ? [alphabetical[0], ...alphabetical.slice(1).reverse()] : alphabetical;
-    assert(providers.join(",") === expected.join(","), "primary first, then marketplaces in the date's arm order");
+    // Cheapest-first pilot (2026-11-27): in that cohort the lowest listed lane leads and every other button keeps its place.
+    const lead = /data-cta-variant="cheapest_first"/.test(html) ? providers[0] : null;
+    const rest = lead ? providers.slice(1) : providers;
+    const expectedRest = lead ? expected.filter((p) => p !== lead) : expected;
+    assert(rest.join(",") === expectedRest.join(","), "primary first, then marketplaces in the date's arm order");
     // Owner decision 2026-11-16: a card may name its lowest listed price as one
     // plain line (provider and amount), never a ranking badge or a savings claim.
     assert(!/data-cta-lowest|provider-cta-badge/.test(html), "no ranking badge markup on a card");

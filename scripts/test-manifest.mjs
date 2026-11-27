@@ -99,6 +99,7 @@ export const STEPS = [
   { id: "test:price-disclosure-fields",            lane: "quick",  run: "npm run test:price-disclosure-fields" },
   { id: "test:price-wording",                     lane: "quick",  run: "npm run test:price-wording" },
   { id: "test:provider-order",                    lane: "quick",  run: "npm run test:provider-order" },
+  { id: "test:cheapest-first",                    lane: "quick",  run: "npm run test:cheapest-first" },
   { id: "test:upcoming-shows",                    lane: "quick",  run: "npm run test:upcoming-shows" },
   { id: "test:selling-soon",                      lane: "quick",  run: "npm run test:selling-soon" },
   { id: "test:embed",                             lane: "quick",  run: "npm run test:embed" },

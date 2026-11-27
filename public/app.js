@@ -2086,8 +2086,9 @@ function renderProviderCtaButton(name, href, amount, analytics = {}) {
     cta.dataset.ctaOrderArm = analytics.orderArm;
     cta.dataset.ctaPosition = String(analytics.position);
   }
+  if (analytics.ctaVariant) cta.dataset.ctaVariant = analytics.ctaVariant;
   text(cta, "span", name, "provider-cta-name");
-  text(cta, "span", general ? `${analytics.checkKind === "page" ? "Artist page" : "Site search"} · not this date` : analytics.provider === "ticketmaster" ? "Primary seller · may include resale" : analytics.provider === "seatgeek" ? "Marketplace · check ticket type" : "Resale marketplace", "provider-cta-role");
+  text(cta, "span", general ? `${analytics.checkKind === "page" ? "Artist page" : "Site search"} · not this date` : analytics.lowestListed ? "Lowest listed price we track" : analytics.provider === "ticketmaster" ? "Primary seller · may include resale" : analytics.provider === "seatgeek" ? "Marketplace · check ticket type" : "Resale marketplace", "provider-cta-role");
   text(cta, "span", (amount ? ["From", amount].join(" ") : "") || (analytics.provider === "ticketmaster" ? "See tickets" : "Check prices"), `provider-cta-value${amount ? " provider-cta-price" : " provider-cta-check"}`);
   return cta;
 }
@@ -2420,6 +2421,26 @@ function lowestListedSpec(ctaSpecs) {
   return priced.reduce((low, spec) => (spec.lane.price < low.lane.price ? spec : low));
 }
 
+// Cheapest-first pilot (owner approved 2026-11-27). Keep in sync with
+// cheapestFirstBucket / applyCheapestFirst in functions/[[path]].js
+// (scripts/cheapest-first-pilot.test.mjs fails if they drift). Percent 0 = off.
+const CHEAPEST_FIRST_PILOT_PERCENT = 50;
+function cheapestFirstBucket(showId) {
+  let h = 2166136261;
+  const text = `${String(showId || "")}:cheapest-first-v1`;
+  for (let i = 0; i < text.length; i += 1) h = Math.imul(h ^ text.charCodeAt(i), 16777619);
+  h ^= h >>> 15;
+  h = Math.imul(h, 739982445);
+  h ^= h >>> 12;
+  return (h >>> 0) % 100;
+}
+function applyCheapestFirst(ctaSpecs, showId) {
+  const low = CHEAPEST_FIRST_PILOT_PERCENT > 0 ? lowestListedSpec(ctaSpecs) : null;
+  if (!low) return { specs: ctaSpecs, variant: "", lowest: null };
+  if (cheapestFirstBucket(showId) >= CHEAPEST_FIRST_PILOT_PERCENT) return { specs: ctaSpecs, variant: "control", lowest: null };
+  return { specs: [low, ...ctaSpecs.filter((spec) => spec !== low)], variant: "cheapest_first", lowest: low };
+}
+
 // "Check prices" buttons offered on a date with no matched link on that
 // resale site: SeatGeek's artist page, or an artist search on TicketNetwork and
 // Ticket Liquidator. The server publishes the /api/out links on the board
@@ -2589,8 +2610,9 @@ function renderShowCard(show, options = {}) {
       ctaGroup.className = "provider-cta-group";
       const orderArm = providerOrderArm(show.id);
       ctaSpecs.sort((a, b) => providerDisplayRankForArm(a.provider, orderArm) - providerDisplayRankForArm(b.provider, orderArm));
-      ctaSpecs.forEach((spec, index) => {
-        ctaGroup.append(renderProviderCtaButton(spec.name, spec.href, spec.priceAmount || "", { ...analyticsBase, provider: spec.provider, orderArm, position: index + 1 }));
+      const pilot = applyCheapestFirst(ctaSpecs, show.id);
+      pilot.specs.forEach((spec, index) => {
+        ctaGroup.append(renderProviderCtaButton(spec.name, spec.href, spec.priceAmount || "", { ...analyticsBase, provider: spec.provider, orderArm, ctaVariant: pilot.variant, lowestListed: spec === pilot.lowest, position: index + 1 }));
       });
       // A date with no matched link on a resale site still offers that site's
       // artist page or search as a generic "Check prices" button. Keep in sync

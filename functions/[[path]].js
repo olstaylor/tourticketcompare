@@ -6867,14 +6867,14 @@ function renderProviderCtaButtonHtml(name, href, amount, analytics = {}) {
   const valueClass = amount ? "provider-cta-value provider-cta-price" : "provider-cta-value provider-cta-check";
   const ctaLocation = analytics.ctaLocation || "event_card";
   const trackedHref = withCtaLocation(href, ctaLocation);
-  const dataAttrs = ` data-cta-provider="${escapeAttr(analytics.provider || slugify(name))}" data-cta-artist="${escapeAttr(analytics.artistSlug || "")}" data-cta-show-id="${escapeAttr(analytics.showId || "")}" data-cta-price-snapshot="${amount ? "present" : "absent"}" data-cta-location="${escapeAttr(ctaLocation)}"${analytics.orderArm && analytics.position ? ` data-cta-order-arm="${escapeAttr(analytics.orderArm)}" data-cta-position="${escapeAttr(analytics.position)}"` : ""}`;
+  const dataAttrs = ` data-cta-provider="${escapeAttr(analytics.provider || slugify(name))}" data-cta-artist="${escapeAttr(analytics.artistSlug || "")}" data-cta-show-id="${escapeAttr(analytics.showId || "")}" data-cta-price-snapshot="${amount ? "present" : "absent"}" data-cta-location="${escapeAttr(ctaLocation)}"${analytics.orderArm && analytics.position ? ` data-cta-order-arm="${escapeAttr(analytics.orderArm)}" data-cta-position="${escapeAttr(analytics.position)}"` : ""}${analytics.ctaVariant ? ` data-cta-variant="${escapeAttr(analytics.ctaVariant)}"` : ""}`;
   const primary = analytics.provider === "ticketmaster";
   // A button that opens the artist's page or a site search, not this date, says
   // so on the button itself: on a phone the note under the card is off screen.
   const general = analytics.checkKind === "page" || analytics.checkKind === "search";
   const role = general
     ? `${analytics.checkKind === "page" ? "Artist page" : "Site search"} · not this date`
-    : primary ? "Primary seller · may include resale" : analytics.provider === "seatgeek" ? "Marketplace · check ticket type" : "Resale marketplace";
+    : analytics.lowestListed ? "Lowest listed price we track" : primary ? "Primary seller · may include resale" : analytics.provider === "seatgeek" ? "Marketplace · check ticket type" : "Resale marketplace";
   const roleText = analytics.dateLabel && !general ? `${role} · ${analytics.dateLabel}` : role;
   return `<a class="provider-cta${amount ? " provider-cta-priced" : ""}${primary ? " provider-cta-primary" : ""}${general ? " provider-cta-general" : ""}" href="${escapeAttr(trackedHref)}" target="_blank" rel="${escapeAttr(outboundCtaRel(trackedHref) || "noopener")}"${dataAttrs}><span class="provider-cta-name">${escapeHtml(name)}</span><span class="provider-cta-role">${escapeHtml(roleText)}</span><span class="${valueClass}">${amount ? "From " : ""}${escapeHtml(value)}</span></a>`;
 }
@@ -7116,6 +7116,30 @@ function lowestListedSpec(ctaSpecs) {
   return priced.reduce((low, spec) => (spec.lane.price < low.lane.price ? spec : low));
 }
 
+// Cheapest-first pilot (owner approved 2026-11-27; proposal in
+// plans/cheapest-button-pilot.md). On a date card that already names a lowest
+// listed price (2+ fresh priced lanes, one currency), a deterministic share of
+// events puts that lane's button first. Nothing else changes: same links, same
+// /api/out contract, other buttons keep their order, never chosen by commission.
+// Set the percent to 0 to turn it off. Keep in sync with public/app.js
+// (scripts/cheapest-first-pilot.test.mjs fails if they drift).
+const CHEAPEST_FIRST_PILOT_PERCENT = 50;
+function cheapestFirstBucket(showId) {
+  let h = 2166136261;
+  const text = `${String(showId || "")}:cheapest-first-v1`;
+  for (let i = 0; i < text.length; i += 1) h = Math.imul(h ^ text.charCodeAt(i), 16777619);
+  h ^= h >>> 15;
+  h = Math.imul(h, 739982445);
+  h ^= h >>> 12;
+  return (h >>> 0) % 100;
+}
+function applyCheapestFirst(ctaSpecs, showId) {
+  const low = CHEAPEST_FIRST_PILOT_PERCENT > 0 ? lowestListedSpec(ctaSpecs) : null;
+  if (!low) return { specs: ctaSpecs, variant: "", lowest: null };
+  if (cheapestFirstBucket(showId) >= CHEAPEST_FIRST_PILOT_PERCENT) return { specs: ctaSpecs, variant: "control", lowest: null };
+  return { specs: [low, ...ctaSpecs.filter((spec) => spec !== low)], variant: "cheapest_first", lowest: low };
+}
+
 // The line naming the cheapest listed price on a card, only when two or more
 // buttons show one. What a price means ("starting prices only, not the final
 // total") is said once per board, in PRICE_SUMMARY, not on every card.
@@ -7194,7 +7218,8 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
       ctaHtml = onsaleHtml;
     }
   } else if (show.id) {
-    const ctaSpecs = serverShowCtaSpecs(show, { seatGeekAvailable, vividSeatsAvailable, marketplaceAvailability });
+    const baseSpecs = serverShowCtaSpecs(show, { seatGeekAvailable, vividSeatsAvailable, marketplaceAvailability });
+    const { specs: ctaSpecs, variant: ctaVariant, lowest: pilotLowest } = applyCheapestFirst(baseSpecs, show.id);
     // A date with no matched link on a resale site still offers that site's
     // artist page (SeatGeek) or an artist search (TicketNetwork, Ticket
     // Liquidator) as a generic "Check prices" button (owner request
@@ -7218,6 +7243,8 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
             ...analyticsBase,
             provider: spec.provider,
             orderArm: providerOrderArm(show.id),
+            ctaVariant,
+            lowestListed: spec === pilotLowest,
             position: index + 1
           })
         )
@@ -9237,7 +9264,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
   next = next.replace(/\s*<link rel="preload" as="fetch" href="\/data\/catalog\.json" crossorigin \/>/, "");
   next = next.replace(
     '<script src="/app.js?v=20261123a" defer></script>',
-    '<script src="/shell.js?v=20261124b" defer></script>'
+    '<script src="/shell.js?v=20261127b" defer></script>'
   );
   // Feed autodiscovery, so a reader pointed at any blog page finds the feed
   // without the visitor copying /blog/rss.xml from the page copy.

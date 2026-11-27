@@ -1649,7 +1649,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AA7P8f",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7P8f",
     "seatgeek_url": "https://seatgeek.com/two-door-cinema-club-tickets/austin-texas-united-heritage-hall-2027-05-27-8-pm/concert/18711344",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/two-door-cinema-club-tickets-central-east-austin-united-heritage-hall-5-27-2027--concerts-alternative/production/7748403",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7P8f",
     "last_verified_at": "2026-11-07",
@@ -1671,11 +1671,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7748403,
+        "url": "https://www.vividseats.com/two-door-cinema-club-tickets-central-east-austin-united-heritage-hall-5-27-2027--concerts-alternative/production/7748403",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1789,7 +1789,7 @@
     "ticketmaster_event_id": "35006565E141C67D",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/two-door-cinema-club-with-guests-scarborough-06-08-2027/event/35006565E141C67D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/two-door-cinema-club-tickets-scarborough-scarborough-open-air-theatre-8-6-2027/production/7914817",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/two-door-cinema-club-with-guests-scarborough-06-08-2027/event/35006565E141C67D",
     "last_verified_at": "2026-11-26",
@@ -1811,11 +1811,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7914817,
+        "url": "https://www.vividseats.com/two-door-cinema-club-tickets-scarborough-scarborough-open-air-theatre-8-6-2027/production/7914817",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

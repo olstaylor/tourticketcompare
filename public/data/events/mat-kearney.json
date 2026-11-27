@@ -2169,7 +2169,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAAKG7",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAKG7",
     "seatgeek_url": "https://seatgeek.com/mat-kearney-tickets/ventura-california-ventura-music-hall-2027-08-23-8-pm/concert/18821176",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mat-kearney-tickets-ventura-ventura-music-hall-8-23-2027/production/7765957",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAKG7",
     "last_verified_at": null,
@@ -2191,11 +2191,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7765957,
+        "url": "https://www.vividseats.com/mat-kearney-tickets-ventura-ventura-music-hall-8-23-2027/production/7765957",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

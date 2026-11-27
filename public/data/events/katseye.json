@@ -1604,7 +1604,7 @@
     "ticketmaster_event_id": "3600657793952DAC",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/edinburgh-summer-sessions-katseye-edinburgh-24-08-2027/event/3600657793952DAC",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/katseye-tickets-edinburgh-royal-highland-centre-8-24-2027/production/7932107",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/edinburgh-summer-sessions-katseye-edinburgh-24-08-2027/event/3600657793952DAC",
     "last_verified_at": "2026-11-25",
@@ -1626,11 +1626,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7932107,
+        "url": "https://www.vividseats.com/katseye-tickets-edinburgh-royal-highland-centre-8-24-2027/production/7932107",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

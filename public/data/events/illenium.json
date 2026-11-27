@@ -401,7 +401,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAAPj3",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAPj3",
     "seatgeek_url": "https://seatgeek.com/illenium-tickets/vail-colorado-dobson-ice-arena-2026-12-11-6-pm/concert/18667727",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/illenium-tickets-vail-dobson-ice-arena-12-11-2026/production/7672540",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAPj3",
     "last_verified_at": null,
@@ -423,11 +423,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7672540,
+        "url": "https://www.vividseats.com/illenium-tickets-vail-dobson-ice-arena-12-11-2026/production/7672540",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

@@ -627,6 +627,8 @@ const detailsLinkOf = (cardHtml) => cardHtml.match(/<a class="text-link show-det
   const llms = await (await llmsGet({ request: new Request(`${ORIGIN}/llms.txt`), env: env(EVENTS) })).text();
   assert(sitemap.includes("<urlset") && !sitemap.includes("/events/"), "the sitemap lists no event page");
   assert(llms.length > 0 && !llms.includes("/events/"), "llms.txt lists no event page");
+  assert(llms.includes("## Start here") && llms.indexOf("## Start here") < llms.indexOf("## Buying guides"), "llms.txt opens with a Start here list ahead of the full guide index");
+  assert(!/## Start here[\s\S]*?\/guides\/missing/.test(llms), "Start here only lists live guides");
 }
 
 // ─── per-show context (deriveEventContext) ──────────────────────────────────

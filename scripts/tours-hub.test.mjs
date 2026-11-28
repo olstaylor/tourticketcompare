@@ -127,4 +127,12 @@ assert(venueTypeFromName("O2 Arena") === "arena", "arena is read from the venue 
 assert(venueTypeFromName("Madison Square Garden") === "" && venueTypeFromName("") === "" && venueTypeFromName(null) === "", "a venue whose name says neither is left unclassified");
 assert(withChips.includes('data-size="stadium"') && withChips.includes("matched on the venue's name only"), "venue type chips and the name-only note render");
 
+const withReport = renderToursHubBody({
+  path: TOURS_HUB_PATH,
+  hub: { ...hub, priceReport: { path: "/blog/have-2027-concert-ticket-prices-gone-down-since-first-listed", summary: "Prices were lower at 54% of comparisons.", dateModified: "2026-12-01" } },
+  breadcrumb: []
+});
+assert(withReport.includes("Prices were lower at 54% of comparisons.") && withReport.includes("not a forecast") && withReport.includes("Dec 1, 2026"), "the price box quotes the published report with its date and caveat");
+assert(!withChips.includes("toursHubPriceTitle") && !empty.includes("toursHubPriceTitle"), "no price box without a published report");
+
 console.log(`tours-hub: ${passed} assertions passed`);

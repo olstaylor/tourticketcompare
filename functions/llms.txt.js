@@ -237,6 +237,30 @@ export const onRequestGet = withEdgeCache(async function llmsHandler({ request, 
       ]
     : [];
 
+  // "Start here": the pages that answer the questions people put to answer
+  // engines. Each entry is read from the same route and blog records as the
+  // sections below and is dropped when its page is not live, so the list
+  // cannot point at a page that does not exist. Data-led posts are the newest
+  // tagged "tour-data" posts, so the list rolls forward without edits.
+  const START_HERE_GUIDES = [
+    "/guides/seatgeek-vs-ticketmaster",
+    "/guides/vivid-seats-vs-ticketmaster",
+    "/guides/vivid-seats-vs-seatgeek",
+    "/guides/seatgeek-vs-stubhub",
+    "/guides/concert-ticket-fees-explained",
+    "/guides/when-is-the-best-time-to-buy-concert-tickets"
+  ];
+  const startHereLines = [
+    ...START_HERE_GUIDES.filter((path) => GUIDE_ROUTES[path]).map((path) =>
+      linkLine(origin, path, GUIDE_ROUTES[path].h1 || GUIDE_ROUTES[path].title, GUIDE_ROUTES[path].description)
+    ),
+    ...blogPosts
+      .filter((post) => post.tags.includes("tour-data"))
+      .sort((a, b) => b.datePublished.localeCompare(a.datePublished))
+      .slice(0, 4)
+      .map((post) => linkLine(origin, post.path, post.title, post.description))
+  ];
+
   const artists = await loadIndexableArtists(env);
   const locations = await loadIndexableLocations(env, artists.map((artist) => artist.slug));
   const allEvents = await loadJsonAsset(env, "/data/events.json");
@@ -350,7 +374,13 @@ Key facts:
 
 ${trustLines.join("\n")}
 
-## Buying guides
+${startHereLines.length ? `## Start here
+
+Short, sourced answers and dated price-movement reports. Prices in these pages are provider-listed snapshots with their capture date, not checkout totals.
+
+${startHereLines.join("\n")}
+
+` : ""}## Buying guides
 
 ${guideLines.join("\n")}
 ${

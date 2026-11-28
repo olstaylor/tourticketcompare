@@ -795,6 +795,15 @@ async function resolveRoute(pathname, env) {
       .map((artist) => slugify(artist.slug));
     const hub = deriveToursHub(hubEvents, catalog, undefined, undefined, indexableSlugs);
     hub.cityRuns = deriveToursHubCityRuns(hubEvents, indexableSlugs);
+    // A dated price-movement fact, read from the published data-led post so the
+    // box can never carry a figure the report does not. Absent until that post
+    // is published (a draft has no route and no entry here).
+    const priceReport = deriveBlogPosts(await loadBlogContent(env)).find(
+      (post) => post.slug === TOURS_HUB_PRICE_REPORT_SLUG && blogPostIndexable(post)
+    );
+    hub.priceReport = priceReport
+      ? { path: priceReport.path, summary: priceReport.summary, dateModified: priceReport.dateModified }
+      : null;
     return {
       type: "tours-hub",
       path,
@@ -6409,6 +6418,18 @@ export function renderOnsaleCalendarBody(route) {
 const TOURS_HUB_RUNS_SHOWN = 6;
 const TOURS_HUB_MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
+const TOURS_HUB_PRICE_REPORT_SLUG = "have-2027-concert-ticket-prices-gone-down-since-first-listed";
+
+function renderToursHubPriceReport(report) {
+  if (!report?.summary) return "";
+  const dated = formatVerificationDate(report.dateModified);
+  return `<section class="nested-panel" aria-labelledby="toursHubPriceTitle"><h2 id="toursHubPriceTitle">Have 2027 ticket prices moved?</h2><p>${escapeHtml(
+    report.summary
+  )}</p><p class="muted">Resale listed prices, each site compared only with itself; not a forecast${
+    dated ? `. Report updated ${escapeHtml(dated)}` : ""
+  }. ${anchor("Read the full report", report.path, "text-link")}</p></section>`;
+}
+
 function toursHubArtistMeta(artist) {
   const plural = (count, one, many) => `${count} ${count === 1 ? one : many}`;
   const first = TOURS_HUB_MONTHS[artist.firstMonth - 1];
@@ -6478,7 +6499,7 @@ export function renderToursHubBody(route) {
     route
   )}<h1 id="toursHubTitle">${escapeHtml(`${hub.year} concert tours`)}</h1><p class="lead">${escapeHtml(
     lead
-  )}</p>${runsHtml}<section class="section-grid"><div class="section-intro"><h2>${escapeHtml(
+  )}</p>${renderToursHubPriceReport(hub.priceReport)}${runsHtml}<section class="section-grid"><div class="section-intro"><h2>${escapeHtml(
     `Artists with ${hub.year} dates`
   )}</h2><p>Most dates first. Months are in each venue's local calendar.</p></div>${chips}${listHtml}</section>${collapsedGroupHtml(
     "About this list",

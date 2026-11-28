@@ -1,0 +1,109 @@
+{
+  "artistSlug": "olivia-rodrigo",
+  "artist": "Olivia Rodrigo",
+  "asOf": "2026-11-26",
+  "currency": "USD",
+  "capturedFrom": "2026-11-26T08:26:00Z",
+  "capturedTo": "2026-11-26T22:38:00Z",
+  "pricePath": "/artists/olivia-rodrigo/ticket-prices",
+  "current": {
+    "pricedDates": 30,
+    "vividSeatsDates": 30,
+    "ticketNetworkDates": 30,
+    "scope": "Dates are in the United States and Canada. UK and Europe dates are left out because Vivid Seats and TicketNetwork quote a different basis there",
+    "cheapest": [
+      {
+        "eventId": "tm-olivia-rodrigo-2026-vancouver-1av7z_agkueipzb",
+        "vividSeats": 266,
+        "ticketNetwork": 255.3,
+        "city": "Vancouver",
+        "country": "Canada",
+        "venue": "Rogers Arena",
+        "localDate": "2026-12-01"
+      },
+      {
+        "eventId": "tm-olivia-rodrigo-2026-vancouver-1av7z_agkueckzj",
+        "vividSeats": 347,
+        "ticketNetwork": 282.9,
+        "city": "Vancouver",
+        "country": "Canada",
+        "venue": "Rogers Arena",
+        "localDate": "2026-12-02"
+      },
+      {
+        "eventId": "tm-olivia-rodrigo-2026-seattle-vvg1hz_amovxty",
+        "vividSeats": 343,
+        "ticketNetwork": 313.95,
+        "city": "Seattle",
+        "country": "United States Of America",
+        "venue": "Climate Pledge Arena",
+        "localDate": "2026-12-07"
+      },
+      {
+        "eventId": "tm-olivia-rodrigo-2026-seattle-vvg1hz_amegpa1",
+        "vividSeats": 326,
+        "ticketNetwork": 364.55,
+        "city": "Seattle",
+        "country": "United States Of America",
+        "venue": "Climate Pledge Arena",
+        "localDate": "2026-12-08"
+      },
+      {
+        "eventId": "tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwkupi",
+        "vividSeats": 389,
+        "ticketNetwork": 347.3,
+        "city": "Brooklyn",
+        "country": "United States Of America",
+        "venue": "Barclays Center",
+        "localDate": "2027-02-23"
+      }
+    ],
+    "scopeShort": "North America",
+    "upcomingDates": 51
+  },
+  "runUp": {
+    "shows": 27,
+    "showCities": [
+      "Atlanta",
+      "Boston",
+      "Charlotte",
+      "Chicago",
+      "Columbus",
+      "Hartford",
+      "Montreal",
+      "Orlando",
+      "Philadelphia",
+      "Pittsburgh",
+      "Sunrise",
+      "Toronto",
+      "Washington"
+    ],
+    "firstShow": "2026-09-25",
+    "lastShow": "2026-11-20",
+    "firstObserved": "2026-08-26",
+    "lastObserved": "2026-11-18",
+    "bySeller": [
+      {
+        "site": "Vivid Seats",
+        "comparisons": 24,
+        "lower": 12,
+        "higher": 11,
+        "same": 1,
+        "medianPct": -2.2
+      },
+      {
+        "site": "TicketNetwork",
+        "comparisons": 25,
+        "lower": 8,
+        "higher": 14,
+        "same": 3,
+        "medianPct": 4.9
+      }
+    ],
+    "note": "Vivid Seats was split almost evenly, 12 lower against 11 higher. TicketNetwork was higher at more shows than lower, 14 against 8."
+  },
+  "sql": {
+    "current": "provider_pricing_cache: USD rows, verified_at >= 2026-11-25T23:00Z, expires_at > 2026-11-26T23:00Z, low_price >= 10 (MIN_PLAUSIBLE_LISTED_PRICE); Vivid Seats and TicketNetwork only; read 26 Nov 2026",
+    "runUp": "provider_pricing_daily (low_price_last): Vivid Seats + TicketNetwork, USD, shows before 2026-11-21; isolated spikes dropped (functions/_price-outliers.js rule); reading nearest 30 days out within 21-40 days vs nearest 2 days out within 0-4 days; same show, same site"
+  }
+}

@@ -54,6 +54,8 @@
     "test:edge-cache": "node scripts/edge-cache.test.mjs",
     "test:data-stories": "node scripts/data-stories.test.mjs",
     "test:price-drops": "node scripts/price-drop-posts.test.mjs",
+    "test:cheapest-guide": "node scripts/cheapest-guide.test.mjs",
+    "cheapest-guide:build": "node scripts/build-cheapest-guide.mjs",
     "report:price-drops": "node scripts/report-price-drops.mjs",
     "test:artist-city-research": "node scripts/artist-city-research.test.mjs",
     "stories:build": "node scripts/build-data-story.mjs",

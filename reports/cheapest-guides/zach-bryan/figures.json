@@ -1,0 +1,99 @@
+{
+  "artistSlug": "zach-bryan",
+  "artist": "Zach Bryan",
+  "asOf": "2026-11-26",
+  "currency": "USD",
+  "capturedFrom": "2026-11-26T19:02:00Z",
+  "capturedTo": "2026-11-26T22:39:00Z",
+  "pricePath": "",
+  "current": {
+    "pricedDates": 20,
+    "vividSeatsDates": 17,
+    "ticketNetworkDates": 20,
+    "cheapest": [
+      {
+        "eventId": "tm-zach-bryan-2027-vancouver-1k78vp4fgacgpjm",
+        "vividSeats": 64,
+        "ticketNetwork": 49.45,
+        "city": "Vancouver",
+        "country": "Canada",
+        "venue": "BC Place",
+        "localDate": "2027-07-27"
+      },
+      {
+        "eventId": "tm-zach-bryan-2027-edmonton-1av7z_fgkw2fvlh",
+        "vividSeats": null,
+        "ticketNetwork": 50.6,
+        "city": "Edmonton",
+        "country": "Canada",
+        "venue": "Commonwealth Stadium / Stade du Commonwealth",
+        "localDate": "2027-08-01"
+      },
+      {
+        "eventId": "tm-zach-bryan-2027-vancouver-1av7z_fgks885w5",
+        "vividSeats": 75,
+        "ticketNetwork": 58.65,
+        "city": "Vancouver",
+        "country": "Canada",
+        "venue": "BC Place",
+        "localDate": "2027-07-28"
+      },
+      {
+        "eventId": "tm-zach-bryan-2027-indianapolis-vv17fz_fgkwtxpko",
+        "vividSeats": 74,
+        "ticketNetwork": 62.1,
+        "city": "Indianapolis",
+        "country": "United States Of America",
+        "venue": "Lucas Oil Stadium",
+        "localDate": "2027-05-01"
+      },
+      {
+        "eventId": "tm-zach-bryan-2027-edmonton-16v7z_43bg7l9tm",
+        "vividSeats": null,
+        "ticketNetwork": 63.25,
+        "city": "Edmonton",
+        "country": "Canada",
+        "venue": "Commonwealth Stadium / Stade du Commonwealth",
+        "localDate": "2027-07-31"
+      }
+    ],
+    "upcomingDates": 20
+  },
+  "runUp": {
+    "shows": 8,
+    "showCities": [
+      "Auburn",
+      "Denver (2 shows)",
+      "Foxborough (2 shows)",
+      "Glendale",
+      "Toronto (2 shows)"
+    ],
+    "firstShow": "2026-08-14",
+    "lastShow": "2026-10-10",
+    "firstObserved": "2026-07-22",
+    "lastObserved": "2026-10-08",
+    "bySeller": [
+      {
+        "site": "Vivid Seats",
+        "comparisons": 7,
+        "lower": 1,
+        "higher": 6,
+        "same": 0,
+        "medianPct": 14.6
+      },
+      {
+        "site": "TicketNetwork",
+        "comparisons": 6,
+        "lower": 1,
+        "higher": 5,
+        "same": 0,
+        "medianPct": 7.3
+      }
+    ],
+    "note": "Most comparisons were higher two days before the show than a month before. Several of these shows had lowest listings under $60, where a few dollars is a large percentage."
+  },
+  "sql": {
+    "current": "provider_pricing_cache: USD rows, verified_at >= 2026-11-25T23:00Z, expires_at > 2026-11-26T23:00Z, low_price >= 10 (MIN_PLAUSIBLE_LISTED_PRICE); Vivid Seats and TicketNetwork only; read 26 Nov 2026",
+    "runUp": "provider_pricing_daily (low_price_last): Vivid Seats + TicketNetwork, USD, shows before 2026-11-21; isolated spikes dropped (functions/_price-outliers.js rule); reading nearest 30 days out within 21-40 days vs nearest 2 days out within 0-4 days; same show, same site"
+  }
+}

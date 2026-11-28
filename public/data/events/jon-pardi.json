@@ -434,7 +434,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "070064E9B90D2B09",
     "ticketmaster_url": "https://www.ticketmaster.com/jon-pardi-gamblin-man-tour-2026-peoria-illinois-11-13-2026/event/070064E9B90D2B09",
-    "seatgeek_url": "https://seatgeek.com/jon-pardi-tickets/peoria-illinois-peoria-civic-center-arena-2027-04-18-7-pm/concert/18862818",
+    "seatgeek_url": "https://seatgeek.com/jon-pardi-tickets/peoria-illinois-peoria-civic-center-arena-2027-04-18-7-pm/concert/18390874",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jon-pardi-gamblin-man-tour-2026-peoria-illinois-11-13-2026/event/070064E9B90D2B09",
@@ -450,10 +450,10 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18862818,
-        "url": "https://seatgeek.com/jon-pardi-tickets/peoria-illinois-peoria-civic-center-arena-2027-04-18-7-pm/concert/18862818",
+        "event_id": 18390874,
+        "url": "https://seatgeek.com/jon-pardi-tickets/peoria-illinois-peoria-civic-center-arena-2027-04-18-7-pm/concert/18390874",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-28",
         "availability_status": "listed"
       },
       "vivid-seats": {

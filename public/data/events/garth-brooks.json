@@ -590,7 +590,7 @@
         "event_id": 18726838,
         "url": "https://seatgeek.com/garth-brooks-tickets/hamilton-canada-td-coliseum-2026-12-04-8-pm/concert/18726838",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-28",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -648,7 +648,7 @@
         "event_id": 18726837,
         "url": "https://seatgeek.com/garth-brooks-tickets/hamilton-canada-td-coliseum-2026-12-05-8-pm/concert/18726837",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-28",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -706,7 +706,7 @@
         "event_id": 18739726,
         "url": "https://seatgeek.com/garth-brooks-tickets/hamilton-canada-td-coliseum-2026-12-06-2-pm/concert/18739726",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-28",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1737,7 +1737,7 @@
     "tour_name": "Blame It All On My Roots Arena Tour",
     "ticketmaster_event_id": "160065741626F4A3",
     "ticketmaster_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-lexington-kentucky-02-12-2027/event/160065741626F4A3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/garth-brooks-tickets/lexington-kentucky-rupp-arena-2027-02-12-8-pm/concert/18867376",
     "vividseats_url": "https://www.vividseats.com/garth-brooks-tickets-lexington-rupp-arena-2-12-2027/production/7921639",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-lexington-kentucky-02-12-2027/event/160065741626F4A3",
@@ -1753,11 +1753,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18867376,
+        "url": "https://seatgeek.com/garth-brooks-tickets/lexington-kentucky-rupp-arena-2027-02-12-8-pm/concert/18867376",
+        "verified": true,
+        "last_verified_at": "2026-11-28",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7921639,
@@ -1812,7 +1812,7 @@
     "tour_name": "Blame It All On My Roots Arena Tour",
     "ticketmaster_event_id": "16006574162BF4A7",
     "ticketmaster_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-lexington-kentucky-02-13-2027/event/16006574162BF4A7",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/garth-brooks-tickets/lexington-kentucky-rupp-arena-2027-02-13-8-pm/concert/18867378",
     "vividseats_url": "https://www.vividseats.com/garth-brooks-tickets-lexington-rupp-arena-2-13-2027/production/7921641",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-lexington-kentucky-02-13-2027/event/16006574162BF4A7",
@@ -1828,11 +1828,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18867378,
+        "url": "https://seatgeek.com/garth-brooks-tickets/lexington-kentucky-rupp-arena-2027-02-13-8-pm/concert/18867378",
+        "verified": true,
+        "last_verified_at": "2026-11-28",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7921641,
@@ -1887,7 +1887,7 @@
     "tour_name": "Blame It All On My Roots Arena Tour",
     "ticketmaster_event_id": "20006577A3C826A8",
     "ticketmaster_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-birmingham-alabama-02-19-2027/event/20006577A3C826A8",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/garth-brooks-tickets/birmingham-alabama-legacy-arena-at-the-bjcc-2027-02-19-8-pm/concert/18869433",
     "vividseats_url": "https://www.vividseats.com/garth-brooks-tickets-birmingham-legacy-arena-at-the-bjcc-2-19-2027--concerts-country-and-folk/production/7926372",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-birmingham-alabama-02-19-2027/event/20006577A3C826A8",
@@ -1903,11 +1903,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18869433,
+        "url": "https://seatgeek.com/garth-brooks-tickets/birmingham-alabama-legacy-arena-at-the-bjcc-2027-02-19-8-pm/concert/18869433",
+        "verified": true,
+        "last_verified_at": "2026-11-28",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7926372,
@@ -1962,7 +1962,7 @@
     "tour_name": "Blame It All On My Roots Arena Tour",
     "ticketmaster_event_id": "20006577A42626C4",
     "ticketmaster_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-birmingham-alabama-02-20-2027/event/20006577A42626C4",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/garth-brooks-tickets/birmingham-alabama-legacy-arena-at-the-bjcc-2027-02-20-8-pm/concert/18869435",
     "vividseats_url": "https://www.vividseats.com/garth-brooks-tickets-birmingham-legacy-arena-at-the-bjcc-2-20-2027--concerts-country-and-folk/production/7926374",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-birmingham-alabama-02-20-2027/event/20006577A42626C4",
@@ -1978,11 +1978,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18869435,
+        "url": "https://seatgeek.com/garth-brooks-tickets/birmingham-alabama-legacy-arena-at-the-bjcc-2027-02-20-8-pm/concert/18869435",
+        "verified": true,
+        "last_verified_at": "2026-11-28",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7926374,

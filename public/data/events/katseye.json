@@ -408,7 +408,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "080064A9C8CDBB55",
     "ticketmaster_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-detroit-michigan-11-03-2026/event/080064A9C8CDBB55",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/katseye-tickets/detroit-michigan-little-caesars-arena-2027-01-08-8-pm/concert/18240146",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-detroit-michigan-11-03-2026/event/080064A9C8CDBB55",
@@ -424,11 +424,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18240146,
+        "url": "https://seatgeek.com/katseye-tickets/detroit-michigan-little-caesars-arena-2027-01-08-8-pm/concert/18240146",
+        "verified": true,
+        "last_verified_at": "2026-11-28",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -493,7 +493,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "040064ABAC947B12",
     "ticketmaster_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-chicago-illinois-11-05-2026/event/040064ABAC947B12",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/katseye-tickets/chicago-illinois-united-center-2027-01-06-8-pm/concert/18240147",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-chicago-illinois-11-05-2026/event/040064ABAC947B12",
@@ -509,11 +509,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18240147,
+        "url": "https://seatgeek.com/katseye-tickets/chicago-illinois-united-center-2027-01-06-8-pm/concert/18240147",
+        "verified": true,
+        "last_verified_at": "2026-11-28",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -578,7 +578,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "060064ACF981D91C",
     "ticketmaster_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-minneapolis-minnesota-11-07-2026/event/060064ACF981D91C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/katseye-tickets/minneapolis-minnesota-target-center-2027-01-10-8-pm/concert/18240148",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-minneapolis-minnesota-11-07-2026/event/060064ACF981D91C",
@@ -594,11 +594,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18240148,
+        "url": "https://seatgeek.com/katseye-tickets/minneapolis-minnesota-target-center-2027-01-10-8-pm/concert/18240148",
+        "verified": true,
+        "last_verified_at": "2026-11-28",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

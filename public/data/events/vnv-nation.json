@@ -834,7 +834,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0900634AE6286D6D",
     "ticketmaster_url": "https://www.ticketmaster.com/vnv-nation-los-angeles-california-03-20-2027/event/0900634AE6286D6D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/vnv-nation-tickets/los-angeles-california-the-belasco-los-angeles-2027-03-20-7-pm/concert/18927942",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/vnv-nation-los-angeles-california-03-20-2027/event/0900634AE6286D6D",
@@ -850,11 +850,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18927942,
+        "url": "https://seatgeek.com/vnv-nation-tickets/los-angeles-california-the-belasco-los-angeles-2027-03-20-7-pm/concert/18927942",
+        "verified": true,
+        "last_verified_at": "2026-11-28",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

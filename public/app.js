@@ -2305,7 +2305,7 @@ function renderPriceAlertInterest(artistSlug, eventId) {
   form.className = "price-alert-interest";
   form.dataset.priceAlertInterest = slug;
   form.dataset.eventId = id;
-  text(form, "p", "Want an email when this price drops? Price-drop emails aren't ready yet. Leave your email if you'd use them, and it helps decide whether to build them.", "muted");
+  text(form, "p", "Want an email when this price drops? Enter your email and we'll send a link to confirm first. You'll get price-drop emails for this show only, at most 2 a week, and can unsubscribe any time.", "muted");
   const row = document.createElement("div");
   row.className = "price-alert-interest-row";
   const inputId = `price-alert-email-${slugify(id)}`;
@@ -2330,7 +2330,7 @@ function renderPriceAlertInterest(artistSlug, eventId) {
   const submit = document.createElement("button");
   submit.className = "button button-secondary";
   submit.type = "submit";
-  submit.textContent = "I'd use this";
+  submit.textContent = "Email me price drops";
   row.append(email, honeypot, submit);
   form.append(label, row);
   const status = text(form, "p", "", "disclosure-note");
@@ -3986,7 +3986,7 @@ function renderSimplePage(type) {
     const actions = document.createElement("div"); actions.className = "action-row"; actions.append(buttonLink("About TourTicketCompare", "/about", "primary"), buttonLink("Contact", "/contact", "secondary"), buttonLink("Affiliate disclosure", "/affiliate-disclosure", "secondary"), buttonLink("Terms of use", "/terms", "secondary"));
     section.append(
       policySection("Information the site collects", [], [
-        "Email forms. The artist date-alert form and the price-drop “register interest” form collect the email address you enter. The site also stores the artist you chose, the page you submitted from, the referring page, your browser's user-agent string, a request key (see below) and the time of the signup. For price-drop interest it also records which date you were looking at.",
+        "Email forms. The artist date-alert form and the price-drop alert form collect the email address you enter. The site also stores the artist you chose, the page you submitted from, the referring page, your browser's user-agent string, a request key (see below) and the time of the signup. For price-drop alerts it also records which date you were looking at, the exact wording you agreed to, and when you confirmed by email.",
         "Site measurement. When you view a page or click a ticket button, the site's own server records the page, the referring site, any campaign tags in the link, the ticket site and event involved, your browser's user-agent string and the device type derived from it, page-load performance timings, and the time.",
         "Request keys. A request key is a one-way hash of your IP address and user-agent. The same connection and browser always produce the same key, so it links records from one device across visits, not only within one, and it limits repeated form submissions. The raw IP address is not stored in these records."
       ]),
@@ -3997,7 +3997,7 @@ function renderSimplePage(type) {
       ]]),
       policySection("How the information is used", [], [
         "To run the site and its forms, and to email you about the artist you asked about if you joined a date alert.",
-        "To count interest in price-drop emails. No price emails are sent; the count decides whether they are worth building.",
+        "To email you when the lowest listed price for a date you asked about drops, only after you confirm by email. At most two price emails a week, each with an unsubscribe link.",
         "To understand which pages, guides and ticket links are useful, and to measure clicks through affiliate links.",
         "To investigate broken links, incorrect event details, abuse, and technical problems."
       ]),
@@ -4839,9 +4839,9 @@ document.addEventListener("click", async (event) => {
   }
 });
 
-// Delegated submit for the price-drop demand instrument. Records interest via
-// the existing gated /api/signup endpoint (intent=price_alert); no email is
-// ever sent — this only gauges demand.
+// Delegated submit for the price-drop alert form. Posts to /api/price-alert,
+// which stores a pending request and emails a confirmation link (double
+// opt-in); price emails follow only after the address confirms.
 document.addEventListener("submit", async (event) => {
   const form = event.target?.closest?.("form[data-price-alert-interest]");
   if (!form) return;
@@ -4859,12 +4859,12 @@ document.addEventListener("submit", async (event) => {
     setStatus("Enter your email address first.");
     return;
   }
-  setStatus("Recording your interest…");
+  setStatus("Sending…");
   form.dataset.submitting = "true";
   const submitButton = form.querySelector('button[type="submit"]');
   if (submitButton) submitButton.disabled = true;
   try {
-    const response = await fetch("/api/signup", {
+    const response = await fetch("/api/price-alert", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -4872,16 +4872,19 @@ document.addEventListener("submit", async (event) => {
         website: honeypot,
         artistSlug: String(form.dataset.priceAlertInterest || "").trim(),
         eventId: String(form.dataset.eventId || "").trim(),
-        intent: "price_alert",
+        target: String(form.querySelector('input[name="target"]')?.value || "").trim(),
+        targetCurrency: String(form.dataset.targetCurrency || ""),
         sourcePath: window.location.pathname
       })
     });
     const data = await response.json().catch(() => null);
     if (response.ok && data?.ok) {
-      setStatus("Thanks — interest noted. Price emails aren't being sent yet; this just helps gauge demand.");
+      setStatus(data.emailSent
+        ? "Check your inbox for a link to confirm. Nothing is sent until you do."
+        : "Request noted, but price emails aren't switched on yet.");
       if (emailInput) emailInput.value = "";
     } else {
-      setStatus("That couldn't be recorded just now — please try again later.");
+      setStatus(data?.status === "rate_limited" ? "Too many tries just now. Please try again in a few minutes." : "That couldn't be saved just now — please try again later.");
       delete form.dataset.submitting;
       if (submitButton) submitButton.disabled = false;
     }

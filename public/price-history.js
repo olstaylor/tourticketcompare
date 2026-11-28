@@ -33,6 +33,12 @@
       input.id = "price-alert-email-" + suffix;
       label.setAttribute("for", input.id);
     }
+    var targetInput = form.querySelector('input[name="target"]');
+    var targetLabel = form.querySelector('[data-alert-target] label');
+    if (targetInput && targetLabel) {
+      targetInput.id = "price-alert-target-" + suffix;
+      targetLabel.setAttribute("for", targetInput.id);
+    }
     return form;
   }
 
@@ -112,8 +118,24 @@
     return node;
   }
 
+  // The optional target is offered only once the panel knows which currency
+  // the show's prices are in, so the number means what the visitor sees.
+  function offerTarget(form, data) {
+    var box = form && form.querySelector("[data-alert-target]");
+    if (!box) return;
+    var providers = Array.isArray(data && data.providers) ? data.providers : [];
+    var currencies = providers.map(function (s) { return String(s && s.currency || "").toUpperCase(); }).filter(function (c) { return /^[A-Z]{3}$/.test(c); });
+    var first = currencies[0];
+    if (!first || currencies.some(function (c) { return c !== first; })) return;
+    form.dataset.targetCurrency = first;
+    var tag = box.querySelector("[data-alert-target-currency]");
+    if (tag) tag.textContent = first;
+    box.hidden = false;
+  }
+
   function renderPriceHistory(panel, wrap, data) {
     var interest = panel.querySelector("form[data-price-alert-interest]");
+    offerTarget(interest, data);
     panel.replaceChildren();
     var rendered = 0;
     (Array.isArray(data && data.providers) ? data.providers : []).forEach(function (series) {
@@ -197,10 +219,10 @@
     if (website) return;
     if (!email) { if (status) status.textContent = "Enter your email address first."; return; }
     form.dataset.submitting = "true";
-    if (status) status.textContent = "Recording your interest…";
+    if (status) status.textContent = "Sending…";
     var submit = form.querySelector('button[type="submit"]');
     if (submit) submit.disabled = true;
-    fetch("/api/signup", {
+    fetch("/api/price-alert", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -208,13 +230,23 @@
         website: website,
         artistSlug: String(form.dataset.priceAlertInterest || ""),
         eventId: String(form.dataset.eventId || ""),
-        intent: "price_alert",
+        target: String((form.querySelector('input[name="target"]') || {}).value || "").trim(),
+        targetCurrency: String(form.dataset.targetCurrency || ""),
         sourcePath: window.location.pathname
       })
-    }).then(function (response) { return response.json().then(function (data) { return { ok: response.ok && data && data.ok }; }); })
+    }).then(function (response) { return response.json().then(function (data) { return { ok: response.ok && data && data.ok, data: data || {} }; }); })
       .then(function (result) {
-        if (!result.ok) throw new Error("signup_failed");
-        if (status) status.textContent = "Thanks — interest noted. Price emails aren't being sent yet; this just helps gauge demand.";
+        if (!result.ok) {
+          if (status && result.data.status === "invalid_target") status.textContent = "That target price didn't look right. Enter a whole number, or leave it blank.";
+          else if (status && result.data.status === "rate_limited") status.textContent = "Too many tries just now. Please try again in a few minutes.";
+          if (status && (result.data.status === "invalid_target" || result.data.status === "rate_limited")) {
+            form.dataset.submitting = "";
+            if (submit) submit.disabled = false;
+            return;
+          }
+          throw new Error("signup_failed");
+        }
+        if (status) status.textContent = result.data.emailSent ? "Check your inbox for a link to confirm. Nothing is sent until you do." : "Request noted, but price emails aren't switched on yet.";
         var input = form.querySelector('input[name="email"]');
         if (input) input.value = "";
       }).catch(function () {

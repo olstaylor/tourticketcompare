@@ -39,7 +39,7 @@ Current-state snapshot: data counts, per-artist status and the generated route s
 
 ## Per-artist status
 
-As of 2026-11-21, 275 of the 283 artists are `indexable_with_substantial_content` (103 of 110 in the September snapshot below) with `verified_providers: ["ticketmaster","seatgeek"]` and both `<slug>:ticketmaster` and `<slug>:seatgeek` entries in `VERIFIED_TICKET_LINKS`; the remaining 8 are `review_required` shells with no CTA. "SG verified" = events carrying `provider_links.seatgeek.verified === true`.
+As of 2026-11-28, 286 of the 292 artists are `indexable_with_substantial_content` (103 of 110 in the September snapshot below) with `verified_providers: ["ticketmaster","seatgeek"]` and both `<slug>:ticketmaster` and `<slug>:seatgeek` entries in `VERIFIED_TICKET_LINKS`; the remaining 6 are `review_required` shells with no CTA. "SG verified" = events carrying `provider_links.seatgeek.verified === true`.
 
 | Slug | `last_verified_at` | Events | With `seatgeek_url` | SG verified | `needs_recheck` | Tour name | Notes |
 |---|---|---|---|---|---|---|---|
@@ -51,7 +51,7 @@ As of 2026-11-21, 275 of the 283 artists are `indexable_with_substantial_content
 | morgan-wallen | 2026-11-28 | 32 | 28 | 18 | **6** | Still the Problem Tour | — |
 | jay-z | 2026-11-28 | 7 | 3 | 3 | 0 | JAY-Z Yankee Stadium 2026 | Inglewood/London rows have blank `tour_name`, owner-accepted. |
 | olivia-rodrigo | 2026-11-28 | 80 | 52 | 52 | **6** | The Unraveled Tour | All 6 recheck rows retain a standalone SeatGeek CTA via verified provenance. |
-| bruno-mars | 2026-11-28 | 76 | 19 | 19 | 0 | The Romantic Tour | Four Mexico City events intentionally excluded (`ticketmaster.com.mx` not in the allowlist). |
+| bruno-mars | 2026-11-28 | 76 | 19 | 19 | 0 | The Romantic Tour | Four Mexico City events still excluded pending a separate check (`ticketmaster.com.mx` is now on the allowlist). |
 | ed-sheeran | 2026-11-28 | 27 | 23 | 18 | **2** | The Loop Tour | Recheck rows: Nashville (no-link), Arlington (standalone SeatGeek CTA). |
 | shakira | 2026-11-28 | 31 | 16 | 5 | **1** | Las Mujeres Ya No Lloran | No recheck rows: the re-added "Shakira Stadium" Madrid duplicate of 2026-10-03 was removed and tombstoned on 2026-09-27 (pre-pilot event integrity cleanup). |
 | raye | 2026-11-28 | 5 | 0 | 0 | 0 | — | No event records; artist-level CTA only. |
@@ -349,7 +349,7 @@ Generated 2026-11-27: 45 of the 286 editorially-indexable artists have no upcomi
 Mechanism: `docs/ARCHITECTURE.md`. Deploy: `docs/DEPLOYMENT.md`. Provider lanes: `docs/PROVIDER_DATA_POLICY.md`. Automation: `docs/OPERATIONS.md`.
 
 - **Providers:** SeatGeek is the primary CTA (artist and event level); Ticketmaster is a plain, unmonetized link source; Vivid Seats, TicketNetwork, Ticket Liquidator and StubHub International are event-level affiliate lanes.
-- **Ticketmaster allowlist:** 12 country storefronts. `ticketmaster.com.mx` is excluded, so the four Bruno Mars Mexico City dates stay out.
+- **Ticketmaster allowlist:** `functions/api/out.js` allows 26 Ticketmaster-family hosts, including `ticketmaster.com.mx` (audit 2026-11-28). The Bruno Mars Mexico City dates still need a separate check before they are added.
 - **Prices:** numeric listed-price snapshots are live for Vivid Seats, TicketNetwork and StubHub International (cache-only, exact-event, fail-closed). SeatGeek listed-price display is approved when a fresh, exact-event partner-API snapshot passes its source and freshness gates; the current client feed has produced no usable numeric rows. Ticket Liquidator has rights (owner-confirmed 2026-09-12) and 745 verified event links, but stays price-disabled until its feed carries a numeric `CurrentPrice`.
 - **Schema offers:** `MusicEvent` `offers` is on site-wide (`SCHEMA_OFFERS_ENABLED=true`) for the three numeric-price lanes only, and never emits availability.
 - **Price coverage** (2026-09-24, production): 98.3% of mapped, on-sale upcoming dates on indexable artists showed a price. `price-coverage-report.yml` recomputes this daily into the `automation:price-coverage` issue. Not machine-pinned.

@@ -25,7 +25,7 @@
 // the same two tables from the Search Console API instead (last 28 complete
 // days, scripts/lib/search-console-api.mjs) with the read-only service-account
 // key in GSC_SERVICE_ACCOUNT_JSON. The weekly workflow
-// .github/workflows/seo-opportunities.yml runs --gsc-api --remote --issue.
+// Run locally; the weekly workflow was removed (2026-10-30).
 import assert from "node:assert/strict";
 import { execFile } from "node:child_process";
 import { createVerify, generateKeyPairSync } from "node:crypto";
@@ -443,7 +443,7 @@ async function selfTest() {
 
   // Rolling issue.
   const issueBody = buildIssueBody(markdown, { runUrl: "https://github.com/o/r/actions/runs/1" });
-  check(issueBody.startsWith("# SEO opportunities") && issueBody.includes("seo-opportunities.yml") && issueBody.includes("actions/runs/1"), "issue body is the report plus a footer");
+  check(issueBody.startsWith("# SEO opportunities") && issueBody.includes("report-seo-opportunities.mjs") && issueBody.includes("actions/runs/1"), "issue body is the report plus a footer");
   const huge = buildIssueBody("x\n".repeat(40000));
   check(huge.length <= MAX_ISSUE_BODY && huge.includes("_(truncated)_"), "an oversize report is truncated under GitHub's limit");
   const ghCalls = [];

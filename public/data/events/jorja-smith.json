@@ -223,7 +223,7 @@
     "ticketmaster_event_id": "350065123909A726",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/10-years-of-jorja-smith-all-london-17-07-2027/event/350065123909A726",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jorja-smith-tickets-london-the-o2---london-7-17-2027/production/7475328",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/10-years-of-jorja-smith-all-london-17-07-2027/event/350065123909A726",
     "last_verified_at": "2026-11-27",
@@ -245,11 +245,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7475328,
+        "url": "https://www.vividseats.com/jorja-smith-tickets-london-the-o2---london-7-17-2027/production/7475328",
+        "verified": true,
+        "last_verified_at": "2026-11-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

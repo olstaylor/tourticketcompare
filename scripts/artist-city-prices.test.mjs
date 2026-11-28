@@ -1017,4 +1017,46 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   assert(!/Starting from/.test(noDb.description) && noDb.description.length > 0, "a cache outage keeps the price-free artist description");
 }
 
+// ─── /concert-tickets-this-week: priced dates in the next 7 days, noindex ───
+{
+  const inDays = (n) => new Date(NOW_MS + n * 86400000).toISOString();
+  const WEEK_A = fixtureEvent({ id: "fixture-week-a", city: "Weekville", venue: VENUE, iso: inDays(2) });
+  const WEEK_FAR = fixtureEvent({ id: "fixture-week-far", city: "Farville", venue: VENUE, iso: inDays(9) });
+  const WEEK_NOPRICE = fixtureEvent({ id: "fixture-week-noprice", city: "Nopriceville", venue: VENUE, iso: inDays(3) });
+  const WEEK_HELD = { ...fixtureEvent({ id: "fixture-week-held", city: "Heldville", venue: VENUE, iso: inDays(3) }), ticketmaster_status_code: "cancelled" };
+  const WEEK_ONE = (() => {
+    const e = fixtureEvent({ id: "fixture-week-one", city: "Oneville", venue: VENUE, iso: inDays(4) });
+    for (const key of ["seatgeek", "vivid-seats", "ticketnetwork", "ticket-liquidator", "stubhub-international"]) e.provider_links[key] = { ...e.provider_links[key], verified: false };
+    return e;
+  })();
+  const weekEvents = [WEEK_A, WEEK_FAR, WEEK_NOPRICE, WEEK_HELD, WEEK_ONE];
+  const row = (id, provider, low, source) => ({ event_id: id, provider, low_price: low, currency: "USD", verified_at: "2026-08-09T09:00:00Z", expires_at: "2026-08-10T09:00:00Z", source });
+  const weekRows = [
+    row(WEEK_A.id, "vivid-seats", 150, "vividseats_impact_marketplace_api"),
+    row(WEEK_A.id, "ticketnetwork", 170, "ticketnetwork_impact_marketplace_api"),
+    row(WEEK_FAR.id, "vivid-seats", 99, "vividseats_impact_marketplace_api"),
+    row(WEEK_HELD.id, "vivid-seats", 99, "vividseats_impact_marketplace_api"),
+    row(WEEK_ONE.id, "vivid-seats", 99, "vividseats_impact_marketplace_api")
+  ];
+  const page = await render("/concert-tickets-this-week", { events: weekEvents, priceRows: weekRows });
+  assert(page.status === 200, "the this-week page renders");
+  assert(/noindex/.test(page.robots), "the this-week page launches noindex");
+  const body = text(page.main);
+  assert(body.includes("Weekville") && /150/.test(body), "a priced date in the next 7 days is listed with its price");
+  assert(!body.includes("Farville"), "a date more than 7 days away is not listed");
+  assert(!body.includes("Nopriceville"), "a date with no listed price is left out, not shown blank");
+  assert(!body.includes("Heldville"), "a cancelled date is never listed");
+  assert(!body.includes("Oneville"), "a date with fewer than two verified sellers is not listed");
+  const outHrefs = [...page.main.matchAll(/href="(\/api\/out\?[^"]+)"/g)].map((m) => m[1]);
+  assert(outHrefs.length >= 1 && outHrefs.every((href) => href.includes("ctaLocation=this_week_answer")), "buttons report this_week_answer");
+  assert(CTA_LOCATIONS.includes("this_week_answer"), "this_week_answer is in the allowlist, or /api/out discards it");
+  assert(!/cheapest|save |guarantee/i.test(body), "no cheapest, savings or guarantee wording");
+  assert(page.main.split("About prices, seller order").length === 2, "one money disclosure for the page");
+  assert(!page.main.includes("Jump to a day"), "one day of dates needs no day links");
+  const unpriced = await render("/concert-tickets-this-week", { events: weekEvents, withDb: false });
+  assert(unpriced.status === 200 && !unpriced.main.includes("/api/out") && unpriced.main.includes("No dates with a listed price"), "with no price on record the page links to no ticket site");
+  const none = await render("/concert-tickets-this-week", { events: [] });
+  assert(none.status === 200 && none.main.includes("No dates with a listed price"), "no events, honest empty state");
+}
+
 console.log(`artist-city-prices: ${passed} checks passed`);

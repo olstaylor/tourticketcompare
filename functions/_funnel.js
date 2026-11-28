@@ -245,6 +245,8 @@ export const CTA_LOCATIONS = Object.freeze([
   "home_answer",
   // The priced dates opening the /on-sale calendar (2026-10-30).
   "onsale_answer",
+  // The priced dates on /concert-tickets-this-week (owner-approved 2026-11-25).
+  "this_week_answer",
   // The priced next-date tables near the top of three comparison guides
   // (seatgeek-vs-ticketmaster, vivid-seats-vs-ticketmaster, is-seatgeek-legit),
   // per-page buy path 2026-11-20.

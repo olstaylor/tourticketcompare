@@ -41,6 +41,7 @@ import { derivePlayingSoon, renderPlayingSoonHtml } from "./_playing-soon.js";
 import { deriveToursHub, deriveToursHubCityRuns, deriveHomeCityRuns, TOURS_HUB_PATH, TOURS_HUB_YEAR } from "./_tours-hub.js";
 import { deriveRumouredTours, RUMOURED_TOURS_PATH } from "./_rumoured-tours.js";
 import { PRICE_MOVERS_PATH, fetchPriceMoverRows, derivePriceMovers } from "./_price-movers.js";
+import { TICKETS_THIS_WEEK_PATH, TICKETS_THIS_WEEK_INDEXABLE, TICKETS_THIS_WEEK_MAX_PANELS, TICKETS_THIS_WEEK_PANELS_PER_DAY, deriveThisWeekPicks } from "./_tickets-this-week.js";
 import {
   WORTH_WAITING_PATH,
   WORTH_WAITING_COMPARE_DAYS,
@@ -872,6 +873,20 @@ async function resolveRoute(pathname, env) {
       description: "Shows where a ticket site's lowest listed price has fallen over the last week, with both prices, the site and when it was checked. Not a forecast.",
       movers,
       breadcrumb: [{ name: "Price drops", path }]
+    };
+  }
+
+  // Concert tickets this week: dates in the next 7 days that have a listed
+  // price, rendered with the shared price panel. Noindex while measured
+  // (functions/_tickets-this-week.js).
+  if (path === TICKETS_THIS_WEEK_PATH) {
+    return {
+      type: "this-week-tickets",
+      path,
+      indexable: TICKETS_THIS_WEEK_INDEXABLE,
+      title: "Concert Tickets This Week: Listed Prices | TourTicketCompare",
+      description: "Concerts in the next 7 days with each ticket site's lowest listed price, when it was checked and where to open each site. Listed prices, not checkout totals.",
+      breadcrumb: [{ name: "Tickets this week", path }]
     };
   }
 
@@ -2733,6 +2748,66 @@ function renderOnsalePriceAnswers(picks, catalog, events, env) {
     .filter(Boolean);
   if (!panels.length) return "";
   return `<section class="section-grid home-next-dates" aria-label="Lowest listed prices for dates going on sale">${panels.join("")}${renderMoneyDisclosureHtml()}</section>`;
+}
+
+// Concert tickets this week: one price panel per date that has a dated, approved
+// listed price right now. A date with no price is left out, not shown blank.
+// Same renderer, CTA gates and /api/out links as the home and on-sale panels.
+function renderThisWeekTicketPanels(picks, catalog, events, env) {
+  const bySlug = new Map((catalog?.artists || []).map((artist) => [artist.slug, artist]));
+  const availability = {
+    seatGeekAvailable: isSeatGeekConfigured(env),
+    vividSeatsAvailable: isVividSeatsConfigured(env),
+    marketplaceAvailability: Object.fromEntries(IMPACT_MARKETPLACE_PROVIDERS.map((provider) => [provider.slug, isImpactMarketplaceConfigured(env, provider)]))
+  };
+  const specsFor = (show) => serverShowCtaSpecs(show, availability);
+  const panels = [];
+  // Venue-local day of each panel, for the "Jump to a day" row: 30 panels run
+  // to ~9,000px on a phone, so a visitor going on Saturday can skip ahead.
+  const days = [];
+  for (const { slug, show } of onsalePickShows(picks, events)) {
+    const artist = bySlug.get(slug);
+    if (!artist) continue;
+    const priced = deriveCityDatePrices([show], { ctaSpecsFor: specsFor, wasChecked: pricesWereChecked }).rows[0];
+    if (!priced?.lowest) continue;
+    const day = formatShowDateServer(show.dateTimeISO, show.timezone).replace(/, \d{4}$/, "");
+    if (day && days[days.length - 1]?.day === day && days[days.length - 1].count >= TICKETS_THIS_WEEK_PANELS_PER_DAY) continue;
+    const html = renderArtistNextDatesPriceAnswer(artist, [show], availability, {
+      heading: `${artist.name}, ${show.city}`,
+      caption: `Ticket options for ${artist.name} in ${show.city}`,
+      titleId: `weekDate${panels.length}`,
+      ctaLocation: "this_week_answer",
+      cardHrefFor: (cardAnchor) => `/artists/${artist.slug}#${cardAnchor}`
+    });
+    if (html) {
+      const last = days[days.length - 1];
+      if (day && last?.day === day) last.count += 1;
+      else if (day) days.push({ day, count: 1, titleId: `weekDate${panels.length}` });
+      panels.push(html);
+    }
+    if (panels.length >= TICKETS_THIS_WEEK_MAX_PANELS) break;
+  }
+  if (!panels.length) return "";
+  const dayNav = days.length > 1
+    ? `<nav class="mini-link-grid" aria-label="Jump to a day">${days
+        .map(({ day, count, titleId }) => anchor(`${day} (${count})`, `#${titleId}`))
+        .join("")}</nav>`
+    : "";
+  return `${dayNav}<section class="section-grid home-next-dates" aria-label="Lowest listed prices for concerts in the next 7 days">${panels.join("")}${renderMoneyDisclosureHtml()}</section>`;
+}
+
+export function renderThisWeekTicketsBody(route) {
+  const body = route.weekTicketsHtml
+    ? route.weekTicketsHtml
+    : `<section class="nested-panel"><h2>No dates with a listed price right now</h2><p>None of the concerts in the next 7 days has a checked listed price at the moment. Browse the ${anchor("compare hub", "/compare-concert-ticket-prices", "text-link")} or open an artist page for its latest checked prices.</p></section>`;
+  return `<main id="mainContent"><section class="content-page" aria-labelledby="weekTicketsTitle">${renderBreadcrumbHtml(
+    route
+  )}<h1 id="weekTicketsTitle">Concert tickets this week</h1><p class="lead">${escapeHtml(
+    "Concerts in the next 7 days where a ticket site has a listed price, with the site, the price and when it was checked. Open each site and check the seats and the final total before you pay."
+  )}</p>${body}${collapsedGroupHtml(
+    "Limits to keep in mind",
+    `<section class="nested-panel"><h2>What this does and doesn't say</h2><ul class="check-list"><li><strong>Prices are listed prices, not a checkout total.</strong> Fees, delivery and seat location differ by listing. The ticket site confirms the final price.</li><li><strong>Each price carries the time it was checked.</strong> Listings change quickly this close to a show and can sell out.</li><li><strong>Only tracked shows are covered.</strong> A show missing here may have no checked price yet, or may not be tracked.</li></ul></section>`
+  )}<div class="action-row">${anchor("Price drops this week", PRICE_MOVERS_PATH, "button button-secondary")}${anchor("Concerts going on sale", ONSALE_CALENDAR_PATH, "button button-secondary")}${anchor("Browse artists", "/artists", "button button-secondary")}</div></section></main>`;
 }
 
 function renderHomepagePriceAnswers(route, catalog, events, env) {
@@ -6399,7 +6474,7 @@ export function renderOnsaleCalendarBody(route) {
       "/guides/how-to-prepare-for-a-ticket-onsale",
       "mini-link"
     )}${anchor("Primary vs resale concert tickets", "/guides/primary-vs-resale-concert-tickets", "mini-link")}</div></section>`
-  )}<div class="action-row">${anchor("Browse artists", "/artists", "button button-secondary")}${anchor(
+  )}<div class="action-row">${anchor("Concert tickets this week", TICKETS_THIS_WEEK_PATH, "button button-secondary")}${anchor("Browse artists", "/artists", "button button-secondary")}${anchor(
     "Browse cities",
     "/cities",
     "button button-secondary"
@@ -6582,7 +6657,7 @@ export function renderRumouredToursBody(route) {
   )}</p>${rumoured.entryCount ? `<section class="section-grid"><div class="section-intro"><h2>Unconfirmed reports</h2><p>Rumours are not announcements. No tickets are linked for these artists until a tour is confirmed and its dates are on sale.</p></div><div class="card-grid">${items}</div></section>` : ""}${collapsedGroupHtml(
     "About this list",
     `<section class="nested-panel"><h2>How this list works</h2><div class="card-grid"><article class="info-card"><h3>Sourced, not guessed</h3><p>Each entry links to the report it comes from. No dates, venues or prices are added on this site.</p></article><article class="info-card"><h3>Leaves the list when real</h3><p>Once a tour is announced and has dates on sale, the artist gets a page and drops off this list.</p></article></div></section>`
-  )}<div class="action-row">${anchor(`${year} confirmed tours`, TOURS_HUB_PATH, "button button-secondary")}${anchor("On sale soon", ONSALE_CALENDAR_PATH, "button button-secondary")}${anchor("Browse artists", "/artists", "button button-secondary")}</div></section></main>`;
+  )}<div class="action-row">${anchor("Concert tickets this week", TICKETS_THIS_WEEK_PATH, "button button-secondary")}${anchor(`${year} confirmed tours`, TOURS_HUB_PATH, "button button-secondary")}${anchor("On sale soon", ONSALE_CALENDAR_PATH, "button button-secondary")}${anchor("Browse artists", "/artists", "button button-secondary")}</div></section></main>`;
 }
 
 function eventLinkPublishable(event) {
@@ -8823,6 +8898,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   if (route.type === "rumoured-tours") return renderRumouredToursBody(route);
   if (route.type === "worth-waiting") return renderWorthWaitingBody(route);
   if (route.type === "price-movers") return renderPriceMoversBody(route);
+  if (route.type === "this-week-tickets") return renderThisWeekTicketsBody(route);
   if (route.type === "my-shows") return renderMyShowsBody(route);
   if (route.type === "presale") return renderPresalePageBody(route, events, env);
 
@@ -9758,7 +9834,7 @@ async function renderRequest(context) {
   const demotedSlugs = listsOnly ? await loadDemotedArtistSlugs(env) : new Set();
   const catalog = withoutDemotedArtists(route.catalog || await loadCatalog(env), demotedSlugs);
   const needsGuideEvents = route.type === "guide" && ((Array.isArray(route.comparisonProviders) && route.comparisonProviders.length === 2) || GUIDE_UPCOMING_ARTIST_PATHS.has(route.path));
-  const needsEvents = GUIDE_BUY_PATHS.has(route.path) || route.type === "artist" || route.type === "artist-city" || route.type === "price-guide" || route.type === "city" || route.type === "venue" || route.type === "comparison-hub" || needsGuideEvents || THIS_WEEK_GUIDE_PATHS.has(route.path) || route.path === "/artists" || route.path === "/" || route.type === "onsale-calendar";
+  const needsEvents = GUIDE_BUY_PATHS.has(route.path) || route.type === "artist" || route.type === "artist-city" || route.type === "price-guide" || route.type === "city" || route.type === "venue" || route.type === "comparison-hub" || needsGuideEvents || THIS_WEEK_GUIDE_PATHS.has(route.path) || route.path === "/artists" || route.path === "/" || route.type === "onsale-calendar" || route.type === "this-week-tickets";
   const events = withoutDemotedEvents(route.events || (needsEvents ? await loadEvents(env) : []), demotedSlugs);
   timer.mark("data");
   let priceLowSeries = new Map();
@@ -9770,8 +9846,9 @@ async function renderRequest(context) {
   let homePickSlugs = null;
   let homeCityRuns = null;
   let onsalePicks = null;
+  let weekPicks = null;
   let guideBuyPicks = null;
-  if ((route.type === "artist" || route.type === "artist-city" || route.type === "price-guide" || route.type === "presale" || route.type === "city" || route.type === "venue" || route.type === "comparison-hub" || route.type === "event" || route.path === "/" || route.type === "onsale-calendar" || GUIDE_BUY_PATHS.has(route.path)) && events.length) {
+  if ((route.type === "artist" || route.type === "artist-city" || route.type === "price-guide" || route.type === "presale" || route.type === "city" || route.type === "venue" || route.type === "comparison-hub" || route.type === "event" || route.path === "/" || route.type === "onsale-calendar" || route.type === "this-week-tickets" || GUIDE_BUY_PATHS.has(route.path)) && events.length) {
     // Query prices for exactly the cards each route renders, not a fixed prefix
     // of the board. A card the server never queried can neither show a snapshot
     // nor honestly report one as absent, so the old six-show slice left the rest
@@ -9817,6 +9894,12 @@ async function renderRequest(context) {
         .filter((event) => locationShowIds.has(String(event?.id || "")))
         .map((event) => futureShowsForArtist([event], event.artist_slug, 1)[0])
         .filter(Boolean);
+    } else if (route.type === "this-week-tickets") {
+      const weekMeta = new Map((await loadArtistsMeta(env)).filter(Boolean).map((artist) => [slugify(artist.slug), artist]));
+      const weekSlugs = [...new Set(events.map((event) => slugify(event?.artist_slug)).filter(Boolean))]
+        .filter((slug) => artistPageIndexable(weekMeta.get(slug), events, slug));
+      weekPicks = deriveThisWeekPicks(events, weekSlugs).map(({ slug, eventId }) => ({ slug, showId: eventId }));
+      priceCandidates = onsalePickShows(weekPicks, events).map(({ show }) => show);
     } else if (route.type === "onsale-calendar") {
       onsalePicks = await onsalePickList(route, events, env);
       priceCandidates = onsalePickShows(onsalePicks, events).map(({ show }) => show);
@@ -9903,6 +9986,9 @@ async function renderRequest(context) {
       marketplaceAvailability: Object.fromEntries(IMPACT_MARKETPLACE_PROVIDERS.map((provider) => [provider.slug, isImpactMarketplaceConfigured(env, provider)]))
     });
     if (guideBuyHtml) renderRoute = { ...renderRoute, guideBuyHtml };
+  }
+  if (route.type === "this-week-tickets") {
+    renderRoute = { ...renderRoute, weekTicketsHtml: renderThisWeekTicketPanels(weekPicks || [], catalog, renderEvents, env) };
   }
   if (onsalePicks?.length) {
     const onsalePriceHtml = renderOnsalePriceAnswers(onsalePicks, catalog, renderEvents, env);

@@ -3,16 +3,16 @@
   "note": "Content fingerprints for static routes. content_updated_at advances only when content_hash changes, so a published \"Updated\" date never moves without the copy moving. Do not hand-edit; run `npm run content:provenance`.",
   "routes": {
     "/guides/how-to-compare-concert-ticket-prices": {
-      "content_hash": "fb68407286e43a30",
-      "content_updated_at": "2026-11-20"
+      "content_hash": "3ee3cc10d34e0362",
+      "content_updated_at": "2026-11-26"
     },
     "/guides/vivid-seats-vs-ticketmaster": {
-      "content_hash": "a194a177af4e3363",
-      "content_updated_at": "2026-11-22"
+      "content_hash": "c1e42c5fa53f289b",
+      "content_updated_at": "2026-11-26"
     },
     "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats": {
-      "content_hash": "0186bfb5654a394f",
-      "content_updated_at": "2026-11-22"
+      "content_hash": "9c153c4aaaa0b36c",
+      "content_updated_at": "2026-11-26"
     },
     "/guides/seatgeek-vs-ticketmaster": {
       "content_hash": "31eb9fdcd5b9986e",
@@ -47,8 +47,8 @@
       "content_updated_at": "2026-11-20"
     },
     "/guides/seatgeek-promo-code-guide": {
-      "content_hash": "85ed28aff2a8acc3",
-      "content_updated_at": "2026-11-20"
+      "content_hash": "40a51193650a9059",
+      "content_updated_at": "2026-11-26"
     },
     "/guides/concert-ticket-fees-explained": {
       "content_hash": "beac0040f4db5127",
@@ -75,32 +75,32 @@
       "content_updated_at": "2026-11-20"
     },
     "/guides/seatgeek-vs-stubhub": {
-      "content_hash": "b962355585577185",
-      "content_updated_at": "2026-11-20"
+      "content_hash": "5e010d696321ee80",
+      "content_updated_at": "2026-11-26"
     },
     "/guides/vivid-seats-vs-seatgeek": {
-      "content_hash": "15ffab0c486e8fe0",
-      "content_updated_at": "2026-11-20"
+      "content_hash": "1fffa87146340f18",
+      "content_updated_at": "2026-11-26"
     },
     "/guides/vivid-seats-vs-stubhub": {
-      "content_hash": "38abad051f8f2db5",
-      "content_updated_at": "2026-11-20"
+      "content_hash": "f6266f6cc5d49847",
+      "content_updated_at": "2026-11-26"
     },
     "/guides/is-vivid-seats-legit": {
       "content_hash": "1c4d9746809af510",
       "content_updated_at": "2026-11-20"
     },
     "/guides/is-seatgeek-legit": {
-      "content_hash": "f460d78bc6fa1c9a",
-      "content_updated_at": "2026-11-20"
+      "content_hash": "97590f0e813b81a7",
+      "content_updated_at": "2026-11-26"
     },
     "/guides/is-ticket-liquidator-legit": {
-      "content_hash": "7d3bd97bfe6f5517",
-      "content_updated_at": "2026-11-20"
+      "content_hash": "c8df7d8a77242ff3",
+      "content_updated_at": "2026-11-26"
     },
     "/guides/is-ticketnetwork-legit": {
-      "content_hash": "76eaa67b7243adcd",
-      "content_updated_at": "2026-11-20"
+      "content_hash": "1f96154a8f606aed",
+      "content_updated_at": "2026-11-26"
     },
     "/guides/no-tickets-left-on-ticketmaster": {
       "content_hash": "729bbb3900fed301",

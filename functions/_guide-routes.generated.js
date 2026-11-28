@@ -17,28 +17,28 @@ export const GUIDE_ROUTES = {
   "/guides/how-to-compare-concert-ticket-prices": {
     title: "How to Compare Concert Ticket Prices | TourTicketCompare",
     h1: "How to Compare Concert Ticket Prices Safely",
-    description: "A practical method for comparing the same concert: match the listing, use checked prices to shortlist ticket sites, then verify the final total and terms.",
+    description: "Six steps to compare the same concert across ticket sites: match the listing, shortlist with listed prices, compare seats, then decide at the order summary.",
     fullContent: true,
     datePublished: "2026-06-11",
-    lastmod: "2026-11-20"
+    lastmod: "2026-11-26"
   },
   "/guides/vivid-seats-vs-ticketmaster": {
     title: "Vivid Seats vs Ticketmaster 2026: Fees and Which Is Better",
     h1: "Vivid Seats vs Ticketmaster: Which Is Better?",
-    description: "Is Vivid Seats cheaper than Ticketmaster? Not for every show: Ticketmaster mostly sells face-value tickets, Vivid Seats resale. Fees, delivery and protection.",
+    description: "Separate companies, and neither wins every time. Ticketmaster mostly sells official primary tickets; Vivid Seats is resale. Fees, delivery, protection.",
     fullContent: true,
     comparisonProviders: ["ticketmaster","vivid-seats"],
     datePublished: "2026-08-20",
-    lastmod: "2026-11-22"
+    lastmod: "2026-11-26"
   },
   "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats": {
-    title: "Ticketmaster vs SeatGeek vs Vivid Seats: The Difference",
+    title: "Ticketmaster vs SeatGeek vs Vivid Seats: Which to Use",
     h1: "Ticketmaster vs SeatGeek vs Vivid Seats: What's the Difference?",
-    description: "Which is cheaper: Ticketmaster, SeatGeek or Vivid Seats? Not always the same one. Who sets the price, fees, delivery and protection compared.",
+    description: "Which is cheaper or more reliable: Ticketmaster, SeatGeek or Vivid Seats? What each sells, how fees show, delivery, buyer protection and how to choose.",
     fullContent: true,
     comparisonProviders: ["seatgeek","vivid-seats"],
     datePublished: "2026-06-11",
-    lastmod: "2026-11-22"
+    lastmod: "2026-11-26"
   },
   "/guides/seatgeek-vs-ticketmaster": {
     title: "SeatGeek vs Ticketmaster 2026: Fees and Prices Compared",
@@ -109,11 +109,11 @@ export const GUIDE_ROUTES = {
   "/guides/seatgeek-promo-code-guide": {
     title: "SeatGeek Promo Code Guide: Verify Safely | TourTicketCompare",
     h1: "How should I verify a SeatGeek promo code safely?",
-    description: "Learn how to verify SeatGeek promo-code claims safely by checking eligibility, final checkout totals, fees, and order terms on SeatGeek before purchase.",
+    description: "Does a SeatGeek promo code work? Only checkout can say. How codes usually work, why they fail and how to test one safely before you pay.",
     fullContent: true,
     comparisonProviders: ["ticketmaster","seatgeek"],
     datePublished: "2026-06-11",
-    lastmod: "2026-11-20"
+    lastmod: "2026-11-26"
   },
   "/guides/concert-ticket-fees-explained": {
     title: "Concert Ticket Fees Explained | TourTicketCompare",
@@ -164,29 +164,29 @@ export const GUIDE_ROUTES = {
     lastmod: "2026-11-20"
   },
   "/guides/seatgeek-vs-stubhub": {
-    title: "SeatGeek vs StubHub: Which Is Better? Fees and Protection",
+    title: "SeatGeek vs StubHub: Which Is Cheaper or Safer?",
     h1: "SeatGeek vs StubHub: How Do They Compare?",
-    description: "Is SeatGeek cheaper than StubHub? Not for every show. Both are resale marketplaces: compare all-in fees, buyer protection, delivery and cancelled events.",
+    description: "Neither is cheaper or safer for every event. Both are resale marketplaces with buyer protection. Compare fees, protection, delivery and cancelled shows.",
     fullContent: true,
     datePublished: "2026-09-25",
-    lastmod: "2026-11-20"
+    lastmod: "2026-11-26"
   },
   "/guides/vivid-seats-vs-seatgeek": {
-    title: "Vivid Seats vs SeatGeek: Fees, Guarantees, Delivery",
+    title: "Vivid Seats vs SeatGeek: Which Is Cheaper?",
     h1: "Vivid Seats vs SeatGeek: What Is the Difference?",
-    description: "Is Vivid Seats cheaper than SeatGeek? Not for every show. Both are resale marketplaces: compare all-in fees, buyer protection, delivery and cancelled events.",
+    description: "Separate companies, and neither wins on price for every show. Both show all-in prices and publish buyer protection. Delivery, rewards and cancelled shows.",
     fullContent: true,
     comparisonProviders: ["vivid-seats","seatgeek"],
     datePublished: "2026-09-25",
-    lastmod: "2026-11-20"
+    lastmod: "2026-11-26"
   },
   "/guides/vivid-seats-vs-stubhub": {
-    title: "Vivid Seats vs StubHub: Which Is Better? Fees and Guarantees",
+    title: "Vivid Seats vs StubHub: Which Is Cheaper or Better?",
     h1: "Vivid Seats vs StubHub: How Do They Compare?",
-    description: "Is Vivid Seats cheaper than StubHub? Not for every show. Both are resale marketplaces where sellers set prices: compare fees, protection and delivery.",
+    description: "Both are resale marketplaces where sellers set the price, so the lower one depends on the listing. Guarantees, cancelled shows, delivery and which StubHub site.",
     fullContent: true,
     datePublished: "2026-09-25",
-    lastmod: "2026-11-20"
+    lastmod: "2026-11-26"
   },
   "/guides/is-vivid-seats-legit": {
     title: "Is Vivid Seats Legit? What the Guarantee Covers",
@@ -198,31 +198,31 @@ export const GUIDE_ROUTES = {
     lastmod: "2026-11-20"
   },
   "/guides/is-seatgeek-legit": {
-    title: "Is SeatGeek Legit? Buyer Protection Explained (2026)",
+    title: "Is SeatGeek Legit? What Buyer Protection Covers",
     h1: "Is SeatGeek legit, and are its tickets real?",
-    description: "Yes, SeatGeek is a legitimate ticketing company: primary seller for some venues, resale marketplace for the rest. What its buyer protection covers and excludes.",
+    description: "Yes, SeatGeek is a legitimate ticketing company. What its buyer protection covers (late, invalid or wrong tickets), what it excludes, and postponed shows.",
     fullContent: true,
     comparisonProviders: ["ticketmaster","seatgeek"],
     datePublished: "2026-09-25",
-    lastmod: "2026-11-20"
+    lastmod: "2026-11-26"
   },
   "/guides/is-ticket-liquidator-legit": {
     title: "Is Ticket Liquidator Legit? Guarantee and Refunds",
     h1: "Is Ticket Liquidator legit, and who sells its tickets?",
-    description: "Is Ticket Liquidator legit? Who runs it, who sells the tickets, what its guarantee covers, fees, delivery and refunds for cancelled or postponed shows.",
+    description: "Yes, Ticket Liquidator is a legitimate resale marketplace, despite the name. Who runs it, what its guarantee covers, fees, delivery and postponed shows.",
     fullContent: true,
     comparisonProviders: ["ticketmaster","ticket-liquidator"],
     datePublished: "2026-10-02",
-    lastmod: "2026-11-20"
+    lastmod: "2026-11-26"
   },
   "/guides/is-ticketnetwork-legit": {
     title: "Is TicketNetwork Legit? Guarantee, Fees and Refunds",
     h1: "Is TicketNetwork legit, and are its tickets real?",
-    description: "Is TicketNetwork legit? Who sells the tickets, what its 100% guarantee covers, cancelled and postponed shows, fees, delivery timing and past regulator action.",
+    description: "Yes, TicketNetwork is a real resale marketplace; sellers set prices. What its 100% guarantee covers, postponed shows, fees, delivery and regulator action.",
     fullContent: true,
     comparisonProviders: ["ticketmaster","ticketnetwork"],
     datePublished: "2026-10-02",
-    lastmod: "2026-11-20"
+    lastmod: "2026-11-26"
   },
   "/guides/no-tickets-left-on-ticketmaster": {
     title: "No Tickets Left on Ticketmaster? What to Do Next",
@@ -268,8 +268,8 @@ export const PRICE_GUIDE_FALLBACK_PATH = "/guides/how-to-compare-concert-ticket-
 export const PRICE_GUIDE_FALLBACK = {
   title: "How to Compare Concert Ticket Prices | TourTicketCompare",
   h1: "How to Compare Concert Ticket Prices Safely",
-  description: "A practical method for comparing the same concert: match the listing, use checked prices to shortlist ticket sites, then verify the final total and terms.",
+  description: "Six steps to compare the same concert across ticket sites: match the listing, shortlist with listed prices, compare seats, then decide at the order summary.",
   fullContent: true,
   datePublished: "2026-06-11",
-  lastmod: "2026-11-20"
+  lastmod: "2026-11-26"
 };

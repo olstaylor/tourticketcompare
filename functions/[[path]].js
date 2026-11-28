@@ -3693,6 +3693,11 @@ function isUsOrCanada(country) {
   return /^(united states( of america)?|usa|us|canada|ca)$/i.test(String(country || "").trim());
 }
 
+function cityOfPlace(place) {
+  const match = /^(.+?) \(/.exec(String(place || ""));
+  return match ? match[1].trim() : "";
+}
+
 function renderCheapestAcrossDatesHtml(artist, rows, { heading, titleId, placeFor, ctaLocation, regional = null }) {
   const picks = cheapestAcrossDates(rows).slice(0, 2);
   if (!picks.length) return "";
@@ -3714,12 +3719,14 @@ function renderCheapestAcrossDatesHtml(artist, rows, { heading, titleId, placeFo
         showId: row.showId,
         ctaLocation,
         // The sentence above names the date; the button repeats it so the tap
-        // target on a multi-date page says which date it opens.
-        dateLabel: date
+        // target on a multi-date page says which date it opens. Where the panel
+        // spans cities ("City (Venue)"), it names the city too, so the first
+        // button cannot be mistaken for the visitor's own city.
+        dateLabel: cityOfPlace(place) ? `${date} \u00b7 ${cityOfPlace(place)}` : date
       });
       return `<p>${escapeHtml(
         `${prefix}: ${amount} on ${lane.name} for ${date}${place ? ` in ${place}` : ""}.`
-      )} <span class="muted">${checkedTimeHtml(lane.fetchedAt, formatServerSnapshotTime(lane.fetchedAt), true)}</span></p><div class="action-row">${button}</div>`;
+      )} <span class="muted">${checkedTimeHtml(lane.fetchedAt, formatServerSnapshotTime(lane.fetchedAt), true)} · ${escapeHtml(LOWEST_FEE_NOTE)}</span></p><div class="action-row">${button}</div>`;
     })
     .join("");
   if (!items) return "";
@@ -3729,6 +3736,10 @@ function renderCheapestAcrossDatesHtml(artist, rows, { heading, titleId, placeFo
     "From the ticket sites this page checks, not every site."
   )}</p></section>`;
 }
+
+// Said once above a priced table, where the first priced button is, rather than
+// only in the board disclosure ~1,000-3,000px further down a phone screen.
+const PRICE_BOARD_FEE_SENTENCE = "Fees not confirmed; the final total is set at checkout.";
 
 function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowByShowId = new Map(), weeklyChangeByShowId = new Map(), surface = null, priceMoveByShowId = new Map()) {
   const rows = priceAnswer?.rows || [];
@@ -3824,8 +3835,8 @@ function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowBy
     : ticketOptions && rows.length === 1
     ? ""
     : ticketOptions
-    ? `Each date opens its own checked ticket links${singleVenue ? `, all at ${singleVenue}` : ""}.${showPrices ? ' "Sites priced" counts the sites with a price for that date.' : ""}`
-    : `${intro}${singleVenue ? `, all at ${singleVenue}` : ""}, and the site listing it, in date order. Other sites with a price are listed beside it.${surface?.note ? ` ${surface.note}` : ""}`;
+    ? `Each date opens its own checked ticket links${singleVenue ? `, all at ${singleVenue}` : ""}.${showPrices ? ` "Sites priced" counts the sites with a price for that date. ${PRICE_BOARD_FEE_SENTENCE}` : ""}`
+    : `${intro}${singleVenue ? `, all at ${singleVenue}` : ""}, and the site listing it, in date order. Other sites with a price are listed beside it.${showPrices ? ` ${PRICE_BOARD_FEE_SENTENCE}` : ""}${surface?.note ? ` ${surface.note}` : ""}`;
   return `<section class="nested-panel artist-city-price-answer" aria-labelledby="${escapeAttr(titleId)}"><h2 id="${escapeAttr(titleId)}">${escapeHtml(
     heading
   )}</h2>${summary ? `<p>${escapeHtml(summary)}</p>` : ""}${

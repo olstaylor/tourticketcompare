@@ -1725,7 +1725,7 @@
         "event_id": 7423416,
         "url": "https://www.vividseats.com/steve-lacy-tickets-seattle-wamu-theater---seattle-11-28-2026--concerts-rb/production/7423416",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-28",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1807,7 +1807,7 @@
         "event_id": 7423426,
         "url": "https://www.vividseats.com/steve-lacy-tickets-vancouver-doug-mitchell-thunderbird-sports-centre-11-30-2026--concerts-rb/production/7423426",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-28",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1946,7 +1946,7 @@
     "ticketmaster_event_id": "350065743C95902C",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/steve-lacy-london-27-04-2027/event/350065743C95902C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-london-the-o2---london-4-27-2027/production/7939411",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/steve-lacy-london-27-04-2027/event/350065743C95902C",
     "last_verified_at": "2026-11-27",
@@ -1968,11 +1968,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7939411,
+        "url": "https://www.vividseats.com/steve-lacy-tickets-london-the-o2---london-4-27-2027/production/7939411",
+        "verified": true,
+        "last_verified_at": "2026-11-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

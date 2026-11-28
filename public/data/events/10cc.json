@@ -1196,7 +1196,7 @@
     "ticketmaster_event_id": "360064EF0864AA00",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-edinburgh-24-03-2027/event/360064EF0864AA00",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/10cc-tickets-edinburgh-usher-hall-3-24-2027/production/7630774",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-edinburgh-24-03-2027/event/360064EF0864AA00",
     "last_verified_at": "2026-11-27",
@@ -1218,11 +1218,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7630774,
+        "url": "https://www.vividseats.com/10cc-tickets-edinburgh-usher-hall-3-24-2027/production/7630774",
+        "verified": true,
+        "last_verified_at": "2026-11-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1312,7 +1312,7 @@
     "ticketmaster_event_id": "37006570884C1312",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-milton-keynes-11-05-2027/event/37006570884C1312",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/10cc-tickets-milton-keynes-milton-keynes-theatre-5-11-2027/production/7895111",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-milton-keynes-11-05-2027/event/37006570884C1312",
     "last_verified_at": "2026-11-27",
@@ -1334,11 +1334,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7895111,
+        "url": "https://www.vividseats.com/10cc-tickets-milton-keynes-milton-keynes-theatre-5-11-2027/production/7895111",
+        "verified": true,
+        "last_verified_at": "2026-11-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1486,7 +1486,7 @@
     "ticketmaster_event_id": "360065709CBC51DF",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-folkestone-15-05-2027/event/360065709CBC51DF",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/10cc-tickets-folkestone-leas-cliff-hall-5-15-2027/production/7895129",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/10cc-another-bloody-greatest-hits-tour-folkestone-15-05-2027/event/360065709CBC51DF",
     "last_verified_at": "2026-11-27",
@@ -1508,11 +1508,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7895129,
+        "url": "https://www.vividseats.com/10cc-tickets-folkestone-leas-cliff-hall-5-15-2027/production/7895129",
+        "verified": true,
+        "last_verified_at": "2026-11-28",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

@@ -522,8 +522,9 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   );
   assert(!/(?:[$£€]\s?|\b(?:USD|CAD|AUD|GBP|EUR)\s+)\d/.test(page.title), "no currency figure appears in the title");
   // Two sites priced the next date, so the snippet names the cheaper one.
-  assert(page.description.includes("Starting from US$182.00 listed at Vivid Seats"), `the snippet answers with the next date's cheapest listed price (got ${page.description})`);
-  assert(/Sep 10, 2026/.test(page.description), "the snippet identifies the venue-local show date");
+  assert(page.description.includes("starting from US$182.00 listed at Vivid Seats"), `the snippet answers with the next date's cheapest listed price (got ${page.description})`);
+  assert(/: 2 dates, Sep 10\u201312, 2026\. Sep 10: /.test(page.description), `a multi-date city states its count and venue-local range, then names the date the price belongs to (got ${page.description})`);
+  assert(/Sep 10: /.test(page.description), "the snippet identifies the venue-local show date");
   assert(page.description.includes("checked 2026-08-09 09:00 UTC. Check fees."), "the snippet carries capture time and a fee caveat");
   for (const pattern of [/<meta property="og:description" content="([^"]*)"/, /<meta name="twitter:description" content="([^"]*)"/]) {
     assert(page.html.match(pattern)?.[1] === page.description, "search and social descriptions agree");

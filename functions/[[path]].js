@@ -7779,6 +7779,31 @@ function artistComparisonLive(route, events, env) {
   return rows.some((row) => row.comparedCount >= COMPARISON_MIN_PRICE_PROVIDERS);
 }
 
+// "Jun 18-25, 2027" inside one month, "Jan 28 - Mar 13, 2027" inside one
+// year, otherwise both ends in full.
+// Dates are venue-local short dates from formatShortDateServer; "" if either
+// end cannot be formatted, which drops the run wording.
+function runDateRange(rows) {
+  const first = formatShortDateServer(rows[0].datetimeISO, rows[0].timezone);
+  const last = formatShortDateServer(rows[rows.length - 1].datetimeISO, rows[rows.length - 1].timezone);
+  const a = first.match(/^(\w+) (\d+), (\d{4})$/);
+  const b = last.match(/^(\w+) (\d+), (\d{4})$/);
+  if (!a || !b) return "";
+  if (first === last) return first;
+  if (a[3] !== b[3]) return `${first} \u2013 ${last}`;
+  return a[1] === b[1] ? `${a[1]} ${a[2]}\u2013${b[2]}, ${a[3]}` : `${a[1]} ${a[2]} \u2013 ${b[1]} ${b[2]}, ${a[3]}`;
+}
+
+function runSnippetCandidates(artistName, city, rows, soonestDate, priceTail) {
+  const range = runDateRange(rows);
+  if (!range) return [];
+  const soonest = soonestDate.replace(/, \d{4}$/, "");
+  return [
+    `${artistName} tickets in ${city}: ${rows.length} dates, ${range}. ${soonest}: ${priceTail}`,
+    `${artistName} ${city}: ${rows.length} dates, ${range}. ${soonest}: ${priceTail}`
+  ];
+}
+
 function startingPriceMetaDescription(route, events, env) {
   if (route.type === "price-guide") return priceGuideSnippet(route, events, env);
   if (route.type !== "artist-city" && route.type !== "event" && route.type !== "artist") return "";
@@ -7840,6 +7865,11 @@ function startingPriceMetaDescription(route, events, env) {
           `${route.artist.name} tickets · ${city}, ${date}. ${tail}`
         ]
     : [
+        // A multi-date city says so: count and venue-local range lead, then the
+        // soonest date's own price, still one date, one site, one capture time.
+        ...(route.type === "artist-city" && rows.length >= 2 && rows[0] === row
+          ? runSnippetCandidates(route.artist.name, city, rows, date, `${startingPrice.replace(/^Starting/, "starting")} listed at ${lane.name}; checked ${checked}. Check fees.`)
+          : []),
         `${route.artist.name} tickets in ${city} on ${date}. ${tail}`,
         `${route.artist.name} ${city} tickets · ${date}. ${tail}`
       ];

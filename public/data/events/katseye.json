@@ -1607,7 +1607,7 @@
     "vividseats_url": "https://www.vividseats.com/katseye-tickets-edinburgh-royal-highland-centre-8-24-2027/production/7932107",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/edinburgh-summer-sessions-katseye-edinburgh-24-08-2027/event/3600657793952DAC",
-    "last_verified_at": "2026-11-25",
+    "last_verified_at": "2026-11-28",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1642,36 +1642,13 @@
     },
     "ticketmaster_discovery_event_id": "1adbZ_9rKP3ZdC5u",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-27T17:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "DF CONCERTS LIMITED",
       "GIGS IN SCOTLAND",
       "SUMMER SESSIONS"
     ],
     "ticket_limit": 6,
-    "genre": "Pop",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-25T17:00:00Z",
-        "end": "2026-11-27T16:00:00Z"
-      },
-      {
-        "name": "Mastercard Presale",
-        "start": "2026-11-25T17:00:00Z",
-        "end": "2026-11-27T16:00:00Z"
-      },
-      {
-        "name": "Gigs in Scotland Presale",
-        "start": "2026-11-26T17:00:00Z",
-        "end": "2026-11-27T16:00:00Z"
-      },
-      {
-        "name": "Summer Sessions Presale",
-        "start": "2026-11-26T17:00:00Z",
-        "end": "2026-11-27T16:00:00Z"
-      }
-    ]
+    "genre": "Pop"
   }
 ]

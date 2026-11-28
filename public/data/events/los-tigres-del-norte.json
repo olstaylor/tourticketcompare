@@ -478,7 +478,7 @@
     "vividseats_url": "https://www.vividseats.com/los-tigres-del-norte-tickets-elmont-ubs-arena-11-28-2026--concerts-latin-music/production/6711198",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tigres-del-norte-los-tigres-belmont-park-new-york-11-28-2026/event/300064588CC632EB",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-28",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -537,13 +537,6 @@
     "status": "on-sale",
     "organizer_names": [
       "ZAMORA LIVE"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-02-27T17:00:00Z",
-        "end": "2026-11-27T22:00:00Z"
-      }
     ],
     "ticket_limit": 8,
     "genre": "Latin",

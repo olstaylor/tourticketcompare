@@ -2960,7 +2960,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-new-york-madison-square-garden-10-15-2027/production/7824410",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-new-york-new-york-10-15-2027/event/3B0065567CC21B71",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-28",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3024,11 +3024,6 @@
     ],
     "genre": "Rock",
     "presales": [
-      {
-        "name": "Verizon Shine Featured Venues",
-        "start": "2026-11-13T14:00:00Z",
-        "end": "2026-11-28T03:00:00Z"
-      },
       {
         "name": "Citi ® Cardmember Preferred Tickets",
         "start": "2026-11-13T14:00:00Z",

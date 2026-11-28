@@ -1425,7 +1425,7 @@
     "vividseats_url": "https://www.vividseats.com/jodeci-tickets-lake-charles-lake-charles-event-center---sudduth-coliseum-12-5-2026--concerts-rb/production/7354326",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-lake-charles-louisiana-12-05-2026/event/1B0064FBAA6E9E92",
-    "last_verified_at": "2026-11-25",
+    "last_verified_at": "2026-11-28",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1482,11 +1482,6 @@
         "name": "VIP Packages Onsale",
         "start": "2026-07-31T15:00:00Z",
         "end": "2026-11-29T05:55:00Z"
-      },
-      {
-        "name": "Black Friday Offer",
-        "start": "2026-11-25T16:00:00Z",
-        "end": "2026-11-28T05:59:00Z"
       }
     ],
     "genre": "R&B"

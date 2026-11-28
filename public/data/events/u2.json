@@ -1749,7 +1749,7 @@
     "vividseats_url": "https://www.vividseats.com/u2-tickets-atlanta-mercedes-benz-stadium-8-17-2027/production/7926434",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-atlanta-georgia-08-17-2027/event/0E006574428E1D0E",
-    "last_verified_at": "2026-11-26",
+    "last_verified_at": "2026-11-28",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1822,6 +1822,11 @@
         "name": "VIP Package Presale: The Hype Group",
         "start": "2026-12-01T15:00:00Z",
         "end": "2026-12-02T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-12-02T15:00:00Z",
+        "end": "2026-12-03T03:00:00Z"
       },
       {
         "name": "Visa Presale",
@@ -2314,7 +2319,7 @@
     "vividseats_url": "https://www.vividseats.com/u2-tickets-toronto-rogers-stadium---toronto-9-9-2027--concerts-rock/production/7926470",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/u2-the-greatest-show-on-earth-toronto-ontario-09-09-2027/event/10006577D87CABC5",
-    "last_verified_at": "2026-11-25",
+    "last_verified_at": "2026-11-28",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2364,6 +2369,11 @@
         "end": "2026-12-02T03:00:00Z"
       },
       {
+        "name": "VIP Package Presale: The Hype Group",
+        "start": "2026-12-01T15:00:00Z",
+        "end": "2026-12-02T03:00:00Z"
+      },
+      {
         "name": "Visa Presale",
         "start": "2026-12-02T15:00:00Z",
         "end": "2026-12-03T03:00:00Z"
@@ -2401,7 +2411,7 @@
     "vividseats_url": "https://www.vividseats.com/u2-tickets-foxborough-gillette-stadium-9-14-2027/production/7926440",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-foxborough-massachusetts-09-14-2027/event/01006572BD3F9C10",
-    "last_verified_at": "2026-11-26",
+    "last_verified_at": "2026-11-28",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2474,6 +2484,11 @@
         "name": "VIP Package Presale: The Hype Group",
         "start": "2026-12-01T15:00:00Z",
         "end": "2026-12-02T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-12-02T15:00:00Z",
+        "end": "2026-12-03T03:00:00Z"
       },
       {
         "name": "Visa Presale",
@@ -2985,7 +3000,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/u2-the-greatest-show-on-earth-vancouver-british-columbia-10-18-2027/event/11006574E577E70A",
-    "last_verified_at": "2026-11-26",
+    "last_verified_at": "2026-11-28",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3051,17 +3066,17 @@
     "genre": "Rock",
     "presales": [
       {
-        "name": "VIP Packages Presale:Feedback Group",
+        "name": "VIP Package Presale:Feedback Group",
         "start": "2026-11-30T17:00:00Z",
         "end": "2026-12-02T05:00:00Z"
       },
       {
-        "name": "VIP Packages Presale:The Hype Group",
+        "name": "VIP Package Presale:The Hype Group",
         "start": "2026-12-01T17:00:00Z",
         "end": "2026-12-02T05:00:00Z"
       },
       {
-        "name": "VIP Packages Presale",
+        "name": "VIP Package Presale",
         "start": "2026-12-02T17:00:00Z",
         "end": "2026-12-03T05:00:00Z"
       },
@@ -3076,12 +3091,12 @@
         "end": "2026-12-04T05:00:00Z"
       },
       {
-        "name": "VIP Packages Presale",
+        "name": "VIP Package Presale",
         "start": "2026-12-03T17:00:00Z",
         "end": "2026-12-04T05:00:00Z"
       },
       {
-        "name": "VIP Packages Onsale",
+        "name": "VIP Package Onsale",
         "start": "2026-12-04T17:00:00Z",
         "end": "2027-10-14T19:00:00Z"
       }

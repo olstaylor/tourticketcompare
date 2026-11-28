@@ -4272,7 +4272,7 @@ function renderPriceGuideBody(route, events, env) {
   )}</p>${renderPriceGuideCityTables(artist, guide, rowById, lowByShowId, route.indexableCitySlugs || new Set())}</section>`;
 
   const movesHtml = renderPriceGuideMoves(artist, moves, priceAnswer.pricedRowCount, guideShowsById);
-  const missingPricesHtml = `<section class="nested-panel" aria-labelledby="priceGuideMissingTitle"><h2 id="priceGuideMissingTitle">Why a date may have no displayed price</h2><p>Not every ticket site shares its prices with this site. A fresh, verified SeatGeek price may be shown with its source and check time, but Ticketmaster and Ticket Liquidator links don’t include a price here. Stale or unavailable prices are hidden rather than guessed, so a date with no displayed price can still have tickets. Use “Compare this show” to check that date on each site.</p></section>`;
+  const missingPricesHtml = `<section class="nested-panel" aria-labelledby="priceGuideMissingTitle"><h2 id="priceGuideMissingTitle">Why a date may have no displayed price</h2><p>Not every ticket site shares its prices with this site. Prices shown come from cached provider snapshots with their source and check time, but Ticketmaster, SeatGeek and Ticket Liquidator links don’t include a price here. Stale or unavailable prices are hidden rather than guessed, so a date with no displayed price can still have tickets. Use “Compare this show” to check that date on each site.</p></section>`;
 
   const linkItems = [...linkCounts.entries()]
     .map(([name, count]) => `<li>${escapeHtml(`${name}: linked for ${count} of ${guide.showCount} ${guide.showCount === 1 ? "date" : "dates"}`)}</li>`)
@@ -5053,7 +5053,7 @@ function comparisonHubItemListSchema(route, origin, catalog, events) {
   const eventList = shows.length
     ? {
         "@type": "ItemList",
-        name: "Verified concert ticket links",
+        name: "Concert ticket links",
         itemListElement: shows.map((show, index) => ({
           "@type": "ListItem",
           position: index + 1,

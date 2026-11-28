@@ -62,6 +62,13 @@ const mvp = stepsFor("mvp");
 if (!mvp.some((step) => step.run === "npm run schema:validate")) {
   errors.push("schema:validate must run in the canonical publishing suite");
 }
+// A step must not quietly leave the suite: every sanctioned auto-merge rests on
+// test:mvp, so shrinking it weakens them. Raise this when steps are added; lowering
+// it is a deliberate, owner-reviewed edit (docs/autonomy-plan.md, gap G8).
+const MIN_STEPS = 162;
+if (mvp.length < MIN_STEPS) {
+  errors.push(`test:mvp has ${mvp.length} steps, below the floor of ${MIN_STEPS}; removing a step needs an owner-reviewed change to MIN_STEPS`);
+}
 const partition = [...stepsFor("quick"), ...stepsFor("units")];
 if (partition.length !== mvp.length) {
   errors.push(`quick (${stepsFor("quick").length}) + units (${stepsFor("units").length}) != mvp (${mvp.length})`);

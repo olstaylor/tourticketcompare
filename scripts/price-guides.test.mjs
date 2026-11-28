@@ -366,6 +366,35 @@ const GUIDE_PATH = "/artists/oasis/ticket-prices";
   assert(!otherLead.includes("dates show a listed resale price right now"), "other artist leads do not receive the Lizzy pilot");
 }
 
+// Long artist names (Trans-Siberian Orchestra, 24 characters): at a figure with
+// cents the priced title and snippet used to overflow their budgets and fall
+// back to the price-free text (12 of 188 live guides, 27 Nov 2026). The shorter
+// candidates keep the same one-date, one-site, timestamped figure.
+{
+  const slug = "trans-siberian-orchestra";
+  const name = "Trans-Siberian Orchestra";
+  const longEvents = EVENTS.slice(0, 6).map((show, index) => ({
+    ...show, id: `tso-${index}`, artist_slug: slug, artist_name: name, event_name: `${name}: Fixture`,
+    country: "United States", timezone: "America/New_York", datetime_iso: `2026-09-${11 + index}T18:00:00Z`
+  }));
+  const priceRows = longEvents.flatMap((show, index) => [
+    snapshot(show.id, "vivid-seats", 60.5 + index * 7, "USD"),
+    snapshot(show.id, "ticketnetwork", 33.35 + index * 9, "USD")
+  ]);
+  const page = await render(`/artists/${slug}/ticket-prices`, { withDb: true, events: longEvents, dbOptions: { priceRows } });
+  assert(page.status === 200, "the long-name guide renders");
+  assert(page.title.replace(/\s/g, " ") === `${name} Ticket Prices: Cheapest USD 33.35`, `a long name keeps a priced title (got ${page.title})`);
+  assert(page.title.length <= 60, "the shorter title still fits the title budget");
+  assert(
+    page.description.replace(/\s/g, " ") === `${name} 2026 ticket prices: soonest Sep 11, 2026, Manchester, USD 33.35 on TicketNetwork, checked 2026-08-09 09:00 UTC. Check fees.`,
+    `a long-name focus guide falls back to the plain priced snippet (got ${page.description})`
+  );
+  assert(page.description.length <= 160, "the fallback snippet fits the description budget");
+  assert(text(page.main).includes("USD 33.35 on TicketNetwork"), "the title and snippet figure is the one the page prints");
+  const unpriced = await render(`/artists/${slug}/ticket-prices`, { withDb: true, events: longEvents, dbOptions: { priceRows: [] } });
+  assert(!/USD|Cheapest/.test(unpriced.title + unpriced.description), "no snapshot, no price in the title or snippet");
+}
+
 {
   const page = await render(GUIDE_PATH);
   assert(page.status === 200, "an approved guide renders");

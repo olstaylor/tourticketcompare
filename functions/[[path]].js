@@ -7709,14 +7709,19 @@ function priceGuideSnippet(route, events, env) {
   const checked = captured.toISOString().slice(0, 16).replace("T", " ");
   // Focus pages (functions/_page-seo-focus.js) lead with the question searchers
   // type; the same one date, site and check time follow.
-  const head = PRICE_GUIDE_FOCUS_PATHS.has(route.path)
+  const plainHead = `${route.artist.name}${year} ticket prices: soonest ${date}, ${show.city}, ${price} on ${lane.name}, checked ${checked} UTC. Check fees.`;
+  const focused = PRICE_GUIDE_FOCUS_PATHS.has(route.path);
+  const head = focused
     ? `How much are ${route.artist.name} tickets? Soonest priced date: ${date}, ${show.city}, ${price} on ${lane.name}, checked ${checked} UTC. Check fees.`
-    : `${route.artist.name}${year} ticket prices: soonest ${date}, ${show.city}, ${price} on ${lane.name}, checked ${checked} UTC. Check fees.`;
+    : plainHead;
   // Policy: if the full attribution (provider, currency, capture time, fee
   // caveat) cannot fit, omit the price and keep the price-free description.
+  // A focus guide with a long artist name falls back to the shorter plain head
+  // (same one date, site and check time) before giving the price up.
   const candidates = [
     `${head} ${view.priceAnswer.pricedRowCount} of ${route.guide.showCount} dates priced.`,
-    head
+    head,
+    ...(focused ? [plainHead] : [])
   ];
   return candidates.find((candidate) => candidate.length <= META_DESCRIPTION_LENGTH_LIMIT) || "";
 }
@@ -7757,7 +7762,11 @@ function priceGuideCheapestTitle(route, events, env) {
     `${name} Ticket Prices: Cheapest Found ${price} (Checked ${checked})`,
     `${name} Ticket Prices${year}: Cheapest ${price}`,
     `${name} Ticket Prices: Cheapest ${price}, Checked ${checked}`,
-    `${name} Tickets: Cheapest ${price}, Checked ${checked}`
+    `${name} Tickets: Cheapest ${price}, Checked ${checked}`,
+    // Long artist names: the same cheapest figure, without the year or check
+    // date, so the guide keeps its priced title (12 of 188 live guides did not).
+    `${name} Ticket Prices: Cheapest ${price}`,
+    `${name} Tickets: Cheapest ${price}`
   ].find((candidate) => candidate.length <= TITLE_LENGTH_LIMIT) || "";
 }
 

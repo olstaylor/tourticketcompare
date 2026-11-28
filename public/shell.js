@@ -178,7 +178,7 @@
 
 
   var recentClicks = new Set();
-  var affiliateProviders = ["seatgeek", "vivid-seats", "ticketnetwork", "ticket-liquidator", "stubhub-international"];
+  var affiliateProviders = ["seatgeek", "vivid-seats", "ticketnetwork", "ticket-liquidator", "stubhub-international", "tickpick", "gametime"];
   document.addEventListener("click", function (event) {
     var cta = event.target && event.target.closest ? event.target.closest("a[data-cta-provider]") : null;
     if (!cta) return;

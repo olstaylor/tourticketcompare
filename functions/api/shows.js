@@ -38,6 +38,8 @@ const IMPACT_MARKETPLACE_PROVIDERS = [
     publicFlagKey: "STUBHUB_INTERNATIONAL_PUBLIC_ENABLED"
   }
 ];
+// TickPick and Gametime are link-only until price display is approved, so they
+// are not price lanes yet (see PROVIDER_URL_FIELDS below).
 const IMPACT_MARKETPLACE_BY_SLUG = Object.fromEntries(IMPACT_MARKETPLACE_PROVIDERS.map((provider) => [provider.slug, provider]));
 const PLACEHOLDER_URL_MARKERS = [
   "example.com",
@@ -141,6 +143,8 @@ export function mapEventsToShows(events) {
         ticketnetwork_url: event.ticketnetwork_url,
         ticketliquidator_url: event.ticketliquidator_url,
         stubhub_international_url: event.stubhub_international_url,
+        tickpick_url: event.tickpick_url,
+        gametime_url: event.gametime_url,
         ticketmaster_url: event.ticketmaster_url,
         // Publishability state consumed by eventLinkPublishable /
         // providerEventPublishable in public/app.js — without it, hydrated
@@ -300,7 +304,9 @@ const PROVIDER_URL_FIELDS = {
   "vivid-seats": "vividseats_url",
   ticketnetwork: "ticketnetwork_url",
   "ticket-liquidator": "ticketliquidator_url",
-  "stubhub-international": "stubhub_international_url"
+  "stubhub-international": "stubhub_international_url",
+  tickpick: "tickpick_url",
+  gametime: "gametime_url"
 };
 
 function normalizeProviderLinks(rawLinks) {

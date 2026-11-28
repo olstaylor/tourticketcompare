@@ -1551,9 +1551,13 @@ function foldName(value) {
 // ("SOLD OUT! ...", "Rescheduled - ..."). The stored name is left as the source
 // has it; only the display strips a leading status label, which goes stale.
 const TRANSIENT_NAME_PREFIX_RE = /^\s*(?:sold[\s-]*out|rescheduled)\s*[!:|\u2013\u2014-]+\s*/i;
+// Venue-change notes ("(MOVED TO X)", "- Moved to X", "Déplacé au / Moved to X")
+// are listing status text, not part of the show name. Display only; the data is untouched.
+const TRANSIENT_NAME_MOVED_RE = /\s*(?:\(\s*(?:d[ée]plac[ée]e?\s+(?:au|à)\s*\/\s*)?moved\s+to\b[^)]*\)|[-\u2013\u2014:|]\s*(?:d[ée]plac[ée]e?\s+(?:au|à)\s*\/\s*)?moved\s+to\b.*)\s*$/i;
+
 function displayEventName(value) {
   const raw = String(value || "").trim();
-  const stripped = raw.replace(TRANSIENT_NAME_PREFIX_RE, "").trim();
+  const stripped = raw.replace(TRANSIENT_NAME_PREFIX_RE, "").replace(TRANSIENT_NAME_MOVED_RE, "").trim();
   return stripped || raw;
 }
 
@@ -5959,13 +5963,15 @@ function presalePlural(count, one, many) {
   return `${count} ${count === 1 ? one : many}`;
 }
 
-function presalePageYear(presales) {
-  const first = presales.windows[0];
+function presalePageYear(presales, nowMs = Date.now()) {
+  // Use the next window that has not ended; an open window counts as "now".
+  const first = presales.windows.find((window) => !(window.endMs < nowMs)) || presales.windows[0];
   if (!first) return "";
+  const ms = Math.max(first.startMs, nowMs);
   try {
-    return new Intl.DateTimeFormat("en-US", { year: "numeric", timeZone: presaleWindowZone(first) }).format(new Date(first.startMs));
+    return new Intl.DateTimeFormat("en-US", { year: "numeric", timeZone: presaleWindowZone(first) }).format(new Date(ms));
   } catch (error) {
-    return new Date(first.startMs).toISOString().slice(0, 4);
+    return new Date(ms).toISOString().slice(0, 4);
   }
 }
 

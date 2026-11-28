@@ -38392,7 +38392,7 @@
     "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-new-york-madison-square-garden-12-1-2026--concerts-rap-hip-hop/production/6091583",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-new-york-new-york-12-01-2026/event/3B00633A23FD3029",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-28",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -38453,11 +38453,6 @@
     "stubhub_international_url": "https://www.stubhub.ie/doja-cat-new-york-tickets-12-1-2026/event/106969160",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457486/Doja-Cat-tickets-Tue-Dec-1-2026-Madison-Square-Garden",
     "presales": [
-      {
-        "name": "VIP Packages",
-        "start": "2025-10-10T14:00:00Z",
-        "end": "2026-11-27T17:00:00Z"
-      },
       {
         "name": "Chase Cardholder Preferred Tickets",
         "start": "2025-10-10T14:00:00Z",
@@ -69904,7 +69899,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-inglewood-youtube-theater-12-4-2026--concerts-rock/production/7325352",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-inglewood-california-12-04-2026/event/0A0064E9DDF7CB1C",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-28",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -69964,18 +69959,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151261",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151261/Trivium-tickets-Fri-Dec-4-2026-YouTube-Theater-at-Hollywood-Park",
     "stubhub_international_url": "https://www.stubhub.ie/trivium-inglewood-tickets-12-4-2026/event/107482741",
-    "presales": [
-      {
-        "name": "In Flames VIP Packages Onsale",
-        "start": "2026-07-24T17:00:00Z",
-        "end": "2026-11-28T07:55:00Z"
-      },
-      {
-        "name": "Trivium VIP Packages Onsale",
-        "start": "2026-07-24T17:00:00Z",
-        "end": "2026-11-28T07:55:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -81343,7 +81326,7 @@
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-boston-td-garden-12-10-2026--theater-opera/production/6594344",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-boston-massachusetts-12-10-2026/event/0100643007C2EBA1",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-28",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -81405,11 +81388,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7711521",
     "presales": [
       {
-        "name": "Amex Reserved Tickets®",
-        "start": "2026-02-06T15:00:00Z",
-        "end": "2026-11-28T03:00:00Z"
-      },
-      {
         "name": "VIP Packages Onsale",
         "start": "2026-02-06T15:00:00Z",
         "end": "2026-11-30T22:00:00Z"
@@ -81437,7 +81415,7 @@
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-buffalo-keybank-center-12-11-2026--theater-opera/production/6594348",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-buffalo-new-york-12-11-2026/event/00006437FCF7EAC6",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-28",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -81498,11 +81476,6 @@
     "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-buffalo-tickets-12-11-2026/event/107189125",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7711522",
     "presales": [
-      {
-        "name": "Amex Reserved Tickets®",
-        "start": "2026-02-06T15:00:00Z",
-        "end": "2026-11-28T03:00:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-02-06T15:00:00Z",
@@ -108171,7 +108144,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alan-walker-saint-louis-missouri-01-26-2027/event/21006524C55B511C",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-28",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -108214,7 +108187,8 @@
         "end": "2027-01-22T18:00:00Z"
       }
     ],
-    "genre": "Dance/Electronic"
+    "genre": "Dance/Electronic",
+    "legal_age_enforced": true
   },
   {
     "id": "tm-alan-walker-2027-nashville-z7r9jz1aavt47",
@@ -292352,7 +292326,7 @@
     "vividseats_url": "https://www.vividseats.com/los-tigres-del-norte-tickets-elmont-ubs-arena-11-28-2026--concerts-latin-music/production/6711198",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tigres-del-norte-los-tigres-belmont-park-new-york-11-28-2026/event/300064588CC632EB",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-28",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -292411,13 +292385,6 @@
     "status": "on-sale",
     "organizer_names": [
       "ZAMORA LIVE"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-02-27T17:00:00Z",
-        "end": "2026-11-27T22:00:00Z"
-      }
     ],
     "ticket_limit": 8,
     "genre": "Latin",
@@ -327126,7 +327093,7 @@
     "id": "tm-simple-plan-2027-sesto-san-giovanni-zg9rmiynyzff6k",
     "artist_slug": "simple-plan",
     "artist_name": "Simple Plan",
-    "event_name": "SLAM DUNK ITALY 2027 con SIMPLE PLAN, THE INTERRUPTERS, BILLY TALENT, The Suicide Machines and more",
+    "event_name": "SLAM DUNK ITALY 2027 con SIMPLE PLAN, THE INTERRUPTERS, BILLY TALENT, The Suicide Machines, Hoobastank, Unpeopleand more",
     "city": "Sesto San Giovanni",
     "country": "Italy",
     "venue": "Kozel Carroponte",
@@ -327138,7 +327105,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.it/biglietti/slam-dunk-italy-2027-con-simple-plan-the-interrupters-billy-talent-the-suicide-machines-and-more-sesto-san-giovanni-11-06-2027/event/tnk6onleyhtk",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-28",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -358570,7 +358537,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lady-a-this-winters-night-tour-northfield-ohio-12-10-2026/event/050064C4C5F4FD3D",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-28",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -358635,6 +358602,11 @@
         "name": "Preferred Seats 21+",
         "start": "2026-06-12T14:00:00Z",
         "end": "2026-12-11T00:30:00Z"
+      },
+      {
+        "name": "Black Friday Ticket Office No Fee Offer",
+        "start": "2026-11-27T16:00:00Z",
+        "end": "2026-11-29T03:00:00Z"
       }
     ],
     "ticket_limit": 8,
@@ -369771,7 +369743,7 @@
     "vividseats_url": "https://www.vividseats.com/jodeci-tickets-lake-charles-lake-charles-event-center---sudduth-coliseum-12-5-2026--concerts-rb/production/7354326",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-lake-charles-louisiana-12-05-2026/event/1B0064FBAA6E9E92",
-    "last_verified_at": "2026-11-25",
+    "last_verified_at": "2026-11-28",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -369828,11 +369800,6 @@
         "name": "VIP Packages Onsale",
         "start": "2026-07-31T15:00:00Z",
         "end": "2026-11-29T05:55:00Z"
-      },
-      {
-        "name": "Black Friday Offer",
-        "start": "2026-11-25T16:00:00Z",
-        "end": "2026-11-28T05:59:00Z"
       }
     ],
     "genre": "R&B"
@@ -389414,7 +389381,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-new-york-madison-square-garden-10-15-2027/production/7824410",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-new-york-new-york-10-15-2027/event/3B0065567CC21B71",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-28",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -389478,11 +389445,6 @@
     ],
     "genre": "Rock",
     "presales": [
-      {
-        "name": "Verizon Shine Featured Venues",
-        "start": "2026-11-13T14:00:00Z",
-        "end": "2026-11-28T03:00:00Z"
-      },
       {
         "name": "Citi ® Cardmember Preferred Tickets",
         "start": "2026-11-13T14:00:00Z",
@@ -451525,7 +451487,7 @@
     "vividseats_url": "https://www.vividseats.com/katseye-tickets-edinburgh-royal-highland-centre-8-24-2027/production/7932107",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/edinburgh-summer-sessions-katseye-edinburgh-24-08-2027/event/3600657793952DAC",
-    "last_verified_at": "2026-11-25",
+    "last_verified_at": "2026-11-28",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -451560,37 +451522,14 @@
     },
     "ticketmaster_discovery_event_id": "1adbZ_9rKP3ZdC5u",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-27T17:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "DF CONCERTS LIMITED",
       "GIGS IN SCOTLAND",
       "SUMMER SESSIONS"
     ],
     "ticket_limit": 6,
-    "genre": "Pop",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-25T17:00:00Z",
-        "end": "2026-11-27T16:00:00Z"
-      },
-      {
-        "name": "Mastercard Presale",
-        "start": "2026-11-25T17:00:00Z",
-        "end": "2026-11-27T16:00:00Z"
-      },
-      {
-        "name": "Gigs in Scotland Presale",
-        "start": "2026-11-26T17:00:00Z",
-        "end": "2026-11-27T16:00:00Z"
-      },
-      {
-        "name": "Summer Sessions Presale",
-        "start": "2026-11-26T17:00:00Z",
-        "end": "2026-11-27T16:00:00Z"
-      }
-    ]
+    "genre": "Pop"
   },
   {
     "id": "tm-u2-2027-miami-vvg1vz_9anpvtf",
@@ -451728,7 +451667,7 @@
     "vividseats_url": "https://www.vividseats.com/u2-tickets-atlanta-mercedes-benz-stadium-8-17-2027/production/7926434",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-atlanta-georgia-08-17-2027/event/0E006574428E1D0E",
-    "last_verified_at": "2026-11-26",
+    "last_verified_at": "2026-11-28",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -451801,6 +451740,11 @@
         "name": "VIP Package Presale: The Hype Group",
         "start": "2026-12-01T15:00:00Z",
         "end": "2026-12-02T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-12-02T15:00:00Z",
+        "end": "2026-12-03T03:00:00Z"
       },
       {
         "name": "Visa Presale",
@@ -452293,7 +452237,7 @@
     "vividseats_url": "https://www.vividseats.com/u2-tickets-toronto-rogers-stadium---toronto-9-9-2027--concerts-rock/production/7926470",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/u2-the-greatest-show-on-earth-toronto-ontario-09-09-2027/event/10006577D87CABC5",
-    "last_verified_at": "2026-11-25",
+    "last_verified_at": "2026-11-28",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -452343,6 +452287,11 @@
         "end": "2026-12-02T03:00:00Z"
       },
       {
+        "name": "VIP Package Presale: The Hype Group",
+        "start": "2026-12-01T15:00:00Z",
+        "end": "2026-12-02T03:00:00Z"
+      },
+      {
         "name": "Visa Presale",
         "start": "2026-12-02T15:00:00Z",
         "end": "2026-12-03T03:00:00Z"
@@ -452380,7 +452329,7 @@
     "vividseats_url": "https://www.vividseats.com/u2-tickets-foxborough-gillette-stadium-9-14-2027/production/7926440",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-foxborough-massachusetts-09-14-2027/event/01006572BD3F9C10",
-    "last_verified_at": "2026-11-26",
+    "last_verified_at": "2026-11-28",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -452453,6 +452402,11 @@
         "name": "VIP Package Presale: The Hype Group",
         "start": "2026-12-01T15:00:00Z",
         "end": "2026-12-02T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-12-02T15:00:00Z",
+        "end": "2026-12-03T03:00:00Z"
       },
       {
         "name": "Visa Presale",
@@ -452964,7 +452918,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/u2-the-greatest-show-on-earth-vancouver-british-columbia-10-18-2027/event/11006574E577E70A",
-    "last_verified_at": "2026-11-26",
+    "last_verified_at": "2026-11-28",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -453030,17 +452984,17 @@
     "genre": "Rock",
     "presales": [
       {
-        "name": "VIP Packages Presale:Feedback Group",
+        "name": "VIP Package Presale:Feedback Group",
         "start": "2026-11-30T17:00:00Z",
         "end": "2026-12-02T05:00:00Z"
       },
       {
-        "name": "VIP Packages Presale:The Hype Group",
+        "name": "VIP Package Presale:The Hype Group",
         "start": "2026-12-01T17:00:00Z",
         "end": "2026-12-02T05:00:00Z"
       },
       {
-        "name": "VIP Packages Presale",
+        "name": "VIP Package Presale",
         "start": "2026-12-02T17:00:00Z",
         "end": "2026-12-03T05:00:00Z"
       },
@@ -453055,12 +453009,12 @@
         "end": "2026-12-04T05:00:00Z"
       },
       {
-        "name": "VIP Packages Presale",
+        "name": "VIP Package Presale",
         "start": "2026-12-03T17:00:00Z",
         "end": "2026-12-04T05:00:00Z"
       },
       {
-        "name": "VIP Packages Onsale",
+        "name": "VIP Package Onsale",
         "start": "2026-12-04T17:00:00Z",
         "end": "2027-10-14T19:00:00Z"
       }
@@ -455748,7 +455702,7 @@
     "vividseats_url": "https://www.vividseats.com/rush---rock-band-tickets-las-vegas-sphere-5-21-2027--concerts-rock/production/7816488",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-21-2027/event/17006562F5821298",
-    "last_verified_at": "2026-11-25",
+    "last_verified_at": "2026-11-28",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -455812,11 +455766,6 @@
     "genre": "Rock",
     "presales": [
       {
-        "name": "Verizon Shine Featured Venues",
-        "start": "2026-11-13T18:00:00Z",
-        "end": "2026-11-28T06:00:00Z"
-      },
-      {
         "name": "VIP Travel Packages Onsale",
         "start": "2026-11-13T18:00:00Z",
         "end": "2027-04-07T05:00:00Z"
@@ -455847,7 +455796,7 @@
     "vividseats_url": "https://www.vividseats.com/rush---rock-band-tickets-las-vegas-sphere-5-23-2027--concerts-rock/production/7816494",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-23-2027/event/17006562F582129B",
-    "last_verified_at": "2026-11-25",
+    "last_verified_at": "2026-11-28",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -455911,11 +455860,6 @@
     "genre": "Rock",
     "presales": [
       {
-        "name": "Verizon Shine Featured Venues",
-        "start": "2026-11-13T18:00:00Z",
-        "end": "2026-11-28T06:00:00Z"
-      },
-      {
         "name": "VIP Travel Packages Onsale",
         "start": "2026-11-13T18:00:00Z",
         "end": "2027-04-09T05:00:00Z"
@@ -455946,7 +455890,7 @@
     "vividseats_url": "https://www.vividseats.com/rush---rock-band-tickets-las-vegas-sphere-5-26-2027--concerts-rock/production/7816498",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-26-2027/event/17006562F583129E",
-    "last_verified_at": "2026-11-25",
+    "last_verified_at": "2026-11-28",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -456010,11 +455954,6 @@
     "genre": "Rock",
     "presales": [
       {
-        "name": "Verizon Shine Featured Venues",
-        "start": "2026-11-13T18:00:00Z",
-        "end": "2026-11-28T06:00:00Z"
-      },
-      {
         "name": "VIP Travel Packages Onsale",
         "start": "2026-11-13T18:00:00Z",
         "end": "2027-04-12T05:00:00Z"
@@ -456045,7 +455984,7 @@
     "vividseats_url": "https://www.vividseats.com/rush---rock-band-tickets-las-vegas-sphere-5-28-2027--concerts-rock/production/7816500",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-28-2027/event/17006562F58312A4",
-    "last_verified_at": "2026-11-25",
+    "last_verified_at": "2026-11-28",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -456109,11 +456048,6 @@
     "genre": "Rock",
     "presales": [
       {
-        "name": "Verizon Shine Featured Venues",
-        "start": "2026-11-13T18:00:00Z",
-        "end": "2026-11-28T06:00:00Z"
-      },
-      {
         "name": "VIP Travel Packages Onsale",
         "start": "2026-11-13T18:00:00Z",
         "end": "2027-04-14T05:00:00Z"
@@ -456144,7 +456078,7 @@
     "vividseats_url": "https://www.vividseats.com/rush---rock-band-tickets-las-vegas-sphere-5-30-2027--concerts-rock/production/7816502",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-30-2027/event/17006562F58412A9",
-    "last_verified_at": "2026-11-25",
+    "last_verified_at": "2026-11-28",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -456208,11 +456142,6 @@
     "genre": "Rock",
     "presales": [
       {
-        "name": "Verizon Shine Featured Venues",
-        "start": "2026-11-13T18:00:00Z",
-        "end": "2026-11-28T06:00:00Z"
-      },
-      {
         "name": "VIP Travel Packages Onsale",
         "start": "2026-11-13T18:00:00Z",
         "end": "2027-04-16T05:00:00Z"
@@ -456243,7 +456172,7 @@
     "vividseats_url": "https://www.vividseats.com/rush---rock-band-tickets-las-vegas-sphere-6-15-2027--concerts-rock/production/7855484",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-15-2027/event/17006562F58512AF",
-    "last_verified_at": "2026-11-25",
+    "last_verified_at": "2026-11-28",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -456307,11 +456236,6 @@
     "genre": "Rock",
     "presales": [
       {
-        "name": "Verizon Shine Featured Venues",
-        "start": "2026-11-13T20:00:00Z",
-        "end": "2026-11-28T06:00:00Z"
-      },
-      {
         "name": "VIP Travel Packages Onsale",
         "start": "2026-11-13T20:00:00Z",
         "end": "2027-05-02T05:00:00Z"
@@ -456342,7 +456266,7 @@
     "vividseats_url": "https://www.vividseats.com/rush---rock-band-tickets-las-vegas-sphere-6-17-2027--concerts-rock/production/7855486",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-17-2027/event/17006562F58512B5",
-    "last_verified_at": "2026-11-25",
+    "last_verified_at": "2026-11-28",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -456406,11 +456330,6 @@
     "genre": "Rock",
     "presales": [
       {
-        "name": "Verizon Shine Featured Venues",
-        "start": "2026-11-13T20:00:00Z",
-        "end": "2026-11-28T06:00:00Z"
-      },
-      {
         "name": "VIP Travel Packages Onsale",
         "start": "2026-11-13T20:00:00Z",
         "end": "2027-05-04T05:00:00Z"
@@ -456441,7 +456360,7 @@
     "vividseats_url": "https://www.vividseats.com/rush---rock-band-tickets-las-vegas-sphere-6-19-2027--concerts-rock/production/7855488",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-19-2027/event/17006562F58612CE",
-    "last_verified_at": "2026-11-25",
+    "last_verified_at": "2026-11-28",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -456505,11 +456424,6 @@
     "genre": "Rock",
     "presales": [
       {
-        "name": "Verizon Shine Featured Venues",
-        "start": "2026-11-13T20:00:00Z",
-        "end": "2026-11-28T06:00:00Z"
-      },
-      {
         "name": "VIP Travel Packages Onsale",
         "start": "2026-11-13T20:00:00Z",
         "end": "2027-05-06T05:00:00Z"
@@ -456540,7 +456454,7 @@
     "vividseats_url": "https://www.vividseats.com/rush---rock-band-tickets-las-vegas-sphere-6-24-2027--concerts-rock/production/7855490",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-24-2027/event/17006562F58712D2",
-    "last_verified_at": "2026-11-25",
+    "last_verified_at": "2026-11-28",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -456604,11 +456518,6 @@
     "genre": "Rock",
     "presales": [
       {
-        "name": "Verizon Shine Featured Venues",
-        "start": "2026-11-13T20:00:00Z",
-        "end": "2026-11-28T06:00:00Z"
-      },
-      {
         "name": "VIP Travel Packages Onsale",
         "start": "2026-11-13T20:00:00Z",
         "end": "2027-05-11T05:00:00Z"
@@ -456639,7 +456548,7 @@
     "vividseats_url": "https://www.vividseats.com/rush---rock-band-tickets-las-vegas-sphere-6-26-2027--concerts-rock/production/7855492",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-26-2027/event/17006562F58812D6",
-    "last_verified_at": "2026-11-25",
+    "last_verified_at": "2026-11-28",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -456702,11 +456611,6 @@
     "ticket_limit": 8,
     "genre": "Rock",
     "presales": [
-      {
-        "name": "Verizon Shine Featured Venues",
-        "start": "2026-11-13T20:00:00Z",
-        "end": "2026-11-28T06:00:00Z"
-      },
       {
         "name": "VIP Travel Packages Onsale",
         "start": "2026-11-13T20:00:00Z",
@@ -460469,7 +460373,7 @@
     "vividseats_url": "https://www.vividseats.com/doobie-brothers-tickets-halifax-scotiabank-centre-8-5-2027/production/7921755",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-halifax-nova-scotia-08-05-2027/event/31006574B72CBF9F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-28",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -460518,10 +460422,26 @@
     },
     "ticketmaster_discovery_event_id": "1AsZk4VGkeM55XL",
     "timezone": "America/Halifax",
-    "status": "announced",
-    "public_onsale_at": "2026-11-27T14:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8386489",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8386489/The-Doobie-Brothers-tickets-Thu-Aug-5-2027-Scotiabank-Centre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8386489/The-Doobie-Brothers-tickets-Thu-Aug-5-2027-Scotiabank-Centre",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "EVENKO CO-PRO WITH LIVE NATION"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Amex Preferred Tickets",
+        "start": "2026-11-27T14:00:00Z",
+        "end": "2027-07-23T01:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-27T14:00:00Z",
+        "end": "2027-08-01T15:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-doobie-brothers-2027-moncton-1aszk4vgkdperjo",
@@ -460539,7 +460459,7 @@
     "vividseats_url": "https://www.vividseats.com/doobie-brothers-tickets-moncton-avenir-centre-8-6-2027/production/7921757",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-moncton-new-brunswick-08-06-2027/event/31006574E59EF711",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-28",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -460588,10 +460508,27 @@
     },
     "ticketmaster_discovery_event_id": "1AsZk4VGkdPERjo",
     "timezone": "America/Halifax",
-    "status": "announced",
-    "public_onsale_at": "2026-11-27T14:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8386490",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8386490/The-Doobie-Brothers-tickets-Fri-Aug-6-2027-Avenir-Centre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8386490/The-Doobie-Brothers-tickets-Fri-Aug-6-2027-Avenir-Centre",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Amex Reserved Tickets",
+        "start": "2026-11-27T14:00:00Z",
+        "end": "2027-07-23T01:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-27T14:00:00Z",
+        "end": "2027-08-02T15:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-doobie-brothers-2027-laval-1aszk4wgkdkwh-0",
@@ -460609,7 +460546,7 @@
     "vividseats_url": "https://www.vividseats.com/doobie-brothers-tickets-laval-place-bell-8-9-2027/production/7921895",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-laval-quebec-08-09-2027/event/31006572D3F7C864",
-    "last_verified_at": "2026-11-27",
+    "last_verified_at": "2026-11-28",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -460658,8 +460595,7 @@
     },
     "ticketmaster_discovery_event_id": "1AsZk4wGkdKWH-0",
     "timezone": "America/Toronto",
-    "status": "announced",
-    "public_onsale_at": "2026-11-27T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "EVENKO CO-PRO WITH LIVE NATION",
       "LIVE NATION CANADA (LN)",
@@ -460694,7 +460630,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-kanata-ontario-08-10-2027/event/31006572983E7441",
-    "last_verified_at": "2026-11-27",
+    "last_verified_at": "2026-11-28",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -460729,8 +460665,7 @@
     },
     "ticketmaster_discovery_event_id": "16sZk4wJdZA2FAAe",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-27T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC",
@@ -460763,7 +460698,7 @@
     "vividseats_url": "https://www.vividseats.com/doobie-brothers-tickets-st-catharines-meridian-centre-8-12-2027/production/7921893",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-st-catharines-ontario-08-12-2027/event/10006573DCAF61E7",
-    "last_verified_at": "2026-11-27",
+    "last_verified_at": "2026-11-28",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -460798,8 +460733,7 @@
     },
     "ticketmaster_discovery_event_id": "1A8Zk4SGkdjlU6E",
     "timezone": "America/Toronto",
-    "status": "announced",
-    "public_onsale_at": "2026-11-27T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION CANADA (LN)",
       "LIVE NATION CANADA-RBC",
@@ -460831,7 +460765,7 @@
     "vividseats_url": "https://www.vividseats.com/doobie-brothers-tickets-winnipeg-canada-life-centre-8-16-2027/production/7921881",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-winnipeg-manitoba-08-16-2027/event/11006573D293E278",
-    "last_verified_at": "2026-11-27",
+    "last_verified_at": "2026-11-28",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -460880,8 +460814,7 @@
     },
     "ticketmaster_discovery_event_id": "1AoZk4SGkd30Xaz",
     "timezone": "America/Winnipeg",
-    "status": "announced",
-    "public_onsale_at": "2026-11-27T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC",
@@ -460916,7 +460849,7 @@
     "vividseats_url": "https://www.vividseats.com/doobie-brothers-tickets-edmonton-rogers-place-8-19-2027/production/7921883",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-edmonton-alberta-08-19-2027/event/11006573969392F5",
-    "last_verified_at": "2026-11-27",
+    "last_verified_at": "2026-11-28",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -460965,8 +460898,7 @@
     },
     "ticketmaster_discovery_event_id": "1aoZk4SPtC3Ze8k",
     "timezone": "America/Edmonton",
-    "status": "announced",
-    "public_onsale_at": "2026-11-27T16:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC",
@@ -461001,7 +460933,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-doobie-brothers-walk-this-world-abbotsford-british-columbia-08-24-2027/event/1100657397009392",
-    "last_verified_at": "2026-11-27",
+    "last_verified_at": "2026-11-28",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -461050,8 +460982,7 @@
     },
     "ticketmaster_discovery_event_id": "15v7Z_9C9ZaC3",
     "timezone": "America/Vancouver",
-    "status": "announced",
-    "public_onsale_at": "2026-11-27T17:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC",

@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lady-a-this-winters-night-tour-northfield-ohio-12-10-2026/event/050064C4C5F4FD3D",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-28",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -80,6 +80,11 @@
         "name": "Preferred Seats 21+",
         "start": "2026-06-12T14:00:00Z",
         "end": "2026-12-11T00:30:00Z"
+      },
+      {
+        "name": "Black Friday Ticket Office No Fee Offer",
+        "start": "2026-11-27T16:00:00Z",
+        "end": "2026-11-29T03:00:00Z"
       }
     ],
     "ticket_limit": 8,

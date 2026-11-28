@@ -197,12 +197,18 @@ export function classifyDestination(destinationHost) {
   if (isAffiliateTrackingHost(host)) {
     return "affiliate_network";
   }
+  // Keep in step with PROVIDERS.*.allowedDestinationHosts in functions/api/out.js
+  // (scripts/funnel-analytics.test.mjs fails if they drift). Reporting label only.
   // Only a reviewed provider host is a direct destination. This prevents an
   // Impact response or configuration mistake from being reported as a safe,
   // non-affiliate redirect.
   const providerHosts = [
     "ticketmaster.com", "ticketmaster.ca", "ticketmaster.co.uk", "ticketmaster.es", "ticketmaster.de",
     "ticketmaster.nl", "ticketmaster.se", "ticketmaster.pl", "ticketmaster.be", "ticketmaster.it",
+    "ticketmaster.com.au", "ticketmaster.ie", "ticketmaster.com.mx", "ticketmaster.co.nz", "ticketmaster.cz",
+    "ticketmaster.no", "ticketmaster.fi", "ticketmaster.ch", "ticketmaster.at", "ticketmaster.dk",
+    "ticketmaster.co.za", "ticketmaster.ae", "ticketmaster.com.br", "ticketmaster.sg",
+    "ticketweb.com", "ticketweb.ca",
     "seatgeek.com", "vividseats.com", "ticketnetwork.com", "ticketliquidator.com",
     "stubhub.co.uk", "stubhub.ie", "stubhub.de", "stubhub.fr", "stubhub.es", "stubhub.it",
     "stubhub.pt", "stubhub.pl", "stubhub.se", "stubhub.dk", "stubhub.fi", "stubhub.gr",

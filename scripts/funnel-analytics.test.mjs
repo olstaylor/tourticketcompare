@@ -219,6 +219,15 @@ await test("affiliate status and destination category are derived, not guessed",
   assert.equal(classifyDestination(""), "unknown");
 });
 
+await test("every host /api/out allows for a provider is reported as provider_direct", async () => {
+  const src = await readFile(new URL("../functions/api/out.js", import.meta.url), "utf8");
+  const block = src.slice(src.indexOf("const PROVIDERS = {"), src.indexOf("// Search URL shapes confirmed live"));
+  const hosts = [...block.matchAll(/allowedDestinationHosts:\s*\[([^\]]*)\]/g)]
+    .flatMap((m) => [...m[1].matchAll(/"([^"]+)"/g)].map((h) => h[1]));
+  assert.ok(hosts.length > 30, `expected the full allowlist, found ${hosts.length}`);
+  for (const host of hosts) assert.equal(classifyDestination(host), "provider_direct", `${host} is allowed by out.js but not classified provider_direct`);
+});
+
 await test("acquisition source is a fixed low-cardinality vocabulary", () => {
   const cases = [
     [{ referrer: "https://www.google.com" }, "organic_search"],

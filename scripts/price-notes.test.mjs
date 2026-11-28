@@ -152,7 +152,8 @@ const OUTLIER = fixtureEvent("fixture-outlier", "2026-09-23T01:00:00Z");
 const MIXED_CCY = fixtureEvent("fixture-mixed-ccy", "2026-09-24T01:00:00Z", { lanes: ["vivid-seats", "ticketnetwork"] });
 const ONE_STALE = fixtureEvent("fixture-one-stale", "2026-09-25T01:00:00Z", { lanes: ["vivid-seats", "ticketnetwork"] });
 const DECIMALS = fixtureEvent("fixture-decimals", "2026-09-26T01:00:00Z", { lanes: ["vivid-seats", "ticketnetwork"] });
-const EVENTS = [MIXED_CCY, ONE_STALE, DECIMALS, PRICED, CHECKED, UNMAPPED, UNCHECKED, STALE_CHECK, PENDING_RESALE, PENDING_BARE, UK_USD, UK_GBP, LAST_SEEN, TOO_OLD, SUPERSEDED, OUTLIER];
+const SH_LOW = fixtureEvent("fixture-stubhub-low", "2026-09-12T01:00:00Z", { lanes: ["vivid-seats", "stubhub-international"] });
+const EVENTS = [SH_LOW, MIXED_CCY, ONE_STALE, DECIMALS, PRICED, CHECKED, UNMAPPED, UNCHECKED, STALE_CHECK, PENDING_RESALE, PENDING_BARE, UK_USD, UK_GBP, LAST_SEEN, TOO_OLD, SUPERSEDED, OUTLIER];
 
 const PRICE_ROWS = [
   { event_id: MIXED_CCY.id, provider: "vivid-seats", low_price: 100, currency: "USD", verified_at: "2026-08-09T09:00:00Z", expires_at: "2026-08-10T09:00:00Z", source: "vividseats_impact_marketplace_api" },
@@ -162,6 +163,8 @@ const PRICE_ROWS = [
   { event_id: DECIMALS.id, provider: "vivid-seats", low_price: 120.25, currency: "USD", verified_at: "2026-08-09T10:30:00Z", expires_at: "2026-08-10T10:30:00Z", source: "vividseats_impact_marketplace_api" },
   { event_id: DECIMALS.id, provider: "ticketnetwork", low_price: 99.5, currency: "USD", verified_at: "2026-08-09T09:00:00Z", expires_at: "2026-08-10T09:00:00Z", source: "ticketnetwork_impact_marketplace_api" },
   ...[UK_USD, UK_GBP].map((event, index) => ({ event_id: event.id, provider: "vivid-seats", low_price: 125, currency: index ? "GBP" : "USD", verified_at: "2026-08-09T09:00:00Z", expires_at: "2026-08-10T09:00:00Z", source: "vividseats_impact_marketplace_api" })),
+  { event_id: SH_LOW.id, provider: "vivid-seats", low_price: 240, currency: "USD", verified_at: "2026-08-09T09:00:00Z", expires_at: "2026-08-10T09:00:00Z", source: "vividseats_impact_marketplace_api" },
+  { event_id: SH_LOW.id, provider: "stubhub-international", low_price: 200, currency: "USD", verified_at: "2026-08-09T09:00:00Z", expires_at: "2026-08-10T09:00:00Z", source: "stubhub_international_impact_marketplace_api" },
   { event_id: PRICED.id, provider: "vivid-seats", low_price: 182, currency: "USD", verified_at: "2026-08-09T09:00:00Z", expires_at: "2026-08-10T09:00:00Z", source: "vividseats_impact_marketplace_api" },
   { event_id: PENDING_RESALE.id, provider: "vivid-seats", low_price: 240, currency: "USD", verified_at: "2026-08-09T09:00:00Z", expires_at: "2026-08-10T09:00:00Z", source: "vividseats_impact_marketplace_api" },
   { event_id: PRICED.id, provider: "ticketnetwork", low_price: 190, currency: "USD", verified_at: "2026-08-09T09:00:00Z", expires_at: "2026-08-10T09:00:00Z", source: "ticketnetwork_impact_marketplace_api" },
@@ -361,6 +364,11 @@ for (const pathname of [`/cities/${CITY_SLUG}`, `/venues/${VENUE_SLUG}`, `/artis
   const priced = text(low(PRICED.id));
   assert(/Lowest listed: USD\s+182 on Vivid Seats/.test(priced), "two fresh same-currency prices name the lower one");
   assert(priced.includes("Checked 3 hours ago · fees not confirmed"), "the line carries its own check age and says fees are unconfirmed");
+  assert(!priced.includes("StubHub"), "a card whose lowest seller is not StubHub International keeps the plain fee note");
+  const shLow = text(low(SH_LOW.id));
+  assert(/Lowest listed: USD\s+200 on StubHub International/.test(shLow), "StubHub International can be the named lowest seller");
+  assert(shLow.includes("fees not confirmed; StubHub's own page may show a higher price"), "when StubHub International is the lowest listed seller the note says its page may show a higher price");
+  assert(!/\d+%|\$\s?\d|USD\s+2[1-9]\d/.test(shLow.replace(/Lowest listed: USD\s+200/, "")), "the note states no fee amount or estimate");
   const dec = text(low(DECIMALS.id));
   assert(/Lowest listed: USD\s+99\.50 on TicketNetwork/.test(dec), "decimals keep two places and pick the numerically lower price");
   assert(dec.includes("Checked 3 hours ago"), "the age is the lowest lane's own, not the newest lane's");

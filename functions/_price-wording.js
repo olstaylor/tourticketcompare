@@ -38,6 +38,19 @@ export const MONEY_DISCLOSURE =
  *  (owner-approved 2026-11-24). */
 export const LOWEST_FEE_NOTE = "fees not confirmed";
 
+/** StubHub International's own event pages state their price with fees
+ *  included (JSON-LD priceWithFees:true) and showed 26-31% more than the
+ *  starting price we record on 5 of 5 US events checked on 2026-11-27
+ *  (analysis/click-no-sale-2026-11-27/findings.md). So when it is the lowest
+ *  listed seller the note says the seller's page may show a higher price. No
+ *  fee amount is stated or estimated; no ordering or link changes. */
+export const LOWEST_FEE_NOTE_STUBHUB_INTERNATIONAL = "fees not confirmed; StubHub's own page may show a higher price";
+
+/** The note under a card's "Lowest listed" line for the seller named there. */
+export function lowestFeeNote(providerSlug) {
+  return providerSlug === "stubhub-international" ? LOWEST_FEE_NOTE_STUBHUB_INTERNATIONAL : LOWEST_FEE_NOTE;
+}
+
 /** A card or row whose price lanes were checked and none had a price. */
 export const NO_PRICE_NOTE = "No listed price yet.";
 

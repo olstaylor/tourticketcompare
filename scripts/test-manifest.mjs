@@ -22,6 +22,7 @@
 
 export const STEPS = [
   { id: "report:scorecard:self-test", lane: "units", run: "node scripts/report-scorecard.mjs --self-test" },
+  { id: "seller-feed:self-test", lane: "units", run: "node scripts/match-seller-feed.mjs --self-test" },
   { id: "test:reading-layout", lane: "quick", run: "node scripts/reading-layout.test.mjs" },
   { id: "test:event-metadata", lane: "units", run: "node scripts/event-metadata.test.mjs" },
   { id: "automation:identity:self-test", lane: "units", run: "node scripts/configure-automation-identity.mjs --self-test" },

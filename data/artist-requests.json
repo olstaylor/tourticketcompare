@@ -2,6 +2,955 @@
   "description": "Owner artist requests (2026-09-24). Add an artist by name and the next daily auto-promote run (auto-promote.yml, 10:45 UTC) captures both provider identities from their APIs, screens it, promotes it and ingests its dates in one auto-merged PR; the same run posts the verdict to the automation:roster-candidates issue. Requests skip the volume thresholds D3/D4 (a named request is the human judgement they stand in for) but never identity (D1), the denylist, music classification (D2), a dead artist page or the title checks (D5). Optional ticketmaster_attraction_id pins the Ticketmaster identity when the name is ambiguous; only use an id copied from Ticketmaster. An entry whose artist is already on the site is ignored, so it is safe to leave entries in place. Validate with `npm run artists:requests:check`. Runbook: docs/ARTIST_INGESTION.md.",
   "requests": [
     {
+      "name": "Maná",
+      "note": "2026-10-11 2027 coverage list: 9 upcoming Ticketmaster dates at screen. 2026-11-27 moved up: Latin act, 6 Ticketmaster US dates seen 27 Nov (sales report: Latin acts = 56% of commission). Screen still verifies identity and dates."
+    },
+    {
+      "name": "Carín León",
+      "note": "2026-10-11 2027 coverage list: 2027 dates on sale (8 on Ticketmaster in the 2027 sample); 8 upcoming Ticketmaster dates at screen. 2026-11-27 moved up: Latin act, 10 Ticketmaster US dates seen 27 Nov (sales report: Latin acts = 56% of commission). Screen still verifies identity and dates."
+    },
+    {
+      "name": "Jesse & Joy",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs. 2026-11-27 moved up: Latin act, 25 Ticketmaster US dates seen 27 Nov (sales report: Latin acts = 56% of commission). Screen still verifies identity and dates."
+    },
+    {
+      "name": "Banda MS",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs. 2026-11-27 moved up: Latin act, 10 Ticketmaster US dates seen 27 Nov (sales report: Latin acts = 56% of commission). Screen still verifies identity and dates."
+    },
+    {
+      "name": "Enjambre",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs. 2026-11-27 moved up: Latin act, 18 Ticketmaster US dates seen 27 Nov (sales report: Latin acts = 56% of commission). Screen still verifies identity and dates."
+    },
+    {
+      "name": "Fonseca",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs. 2026-11-27 moved up: Latin act, 17 Ticketmaster US dates seen 27 Nov (sales report: Latin acts = 56% of commission). Screen still verifies identity and dates."
+    },
+    {
+      "name": "Julieta Venegas",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs. 2026-11-27 moved up: Latin act, 12 Ticketmaster US dates seen 27 Nov (sales report: Latin acts = 56% of commission). Screen still verifies identity and dates."
+    },
+    {
+      "name": "Yuri",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs. 2026-11-27 moved up: Latin act, 11 Ticketmaster US dates seen 27 Nov (sales report: Latin acts = 56% of commission). Screen still verifies identity and dates."
+    },
+    {
+      "name": "Sin Bandera",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs. 2026-11-27 moved up: Latin act, 9 Ticketmaster US dates seen 27 Nov (sales report: Latin acts = 56% of commission). Screen still verifies identity and dates."
+    },
+    {
+      "name": "Pancho Barraza",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs. 2026-11-27 moved up: Latin act, 9 Ticketmaster US dates seen 27 Nov (sales report: Latin acts = 56% of commission). Screen still verifies identity and dates."
+    },
+    {
+      "name": "Silvestre Dangond",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs. 2026-11-27 moved up: Latin act, 7 Ticketmaster US dates seen 27 Nov (sales report: Latin acts = 56% of commission). Screen still verifies identity and dates."
+    },
+    {
+      "name": "Pablo Alboran",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs. 2026-11-27 moved up: Latin act, 8 Ticketmaster US dates seen 27 Nov (sales report: Latin acts = 56% of commission). Screen still verifies identity and dates."
+    },
+    {
+      "name": "Conjunto Primavera",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs. 2026-11-27 moved up: Latin act, 7 Ticketmaster US dates seen 27 Nov (sales report: Latin acts = 56% of commission). Screen still verifies identity and dates."
+    },
+    {
+      "name": "Anthony Santos",
+      "note": "2026-11-22 owner: put at the front of the daily queue (on-sale in the 20 Nov calendar, no TTC page). Screen still verifies identity and dates on both APIs. 2026-11-27 moved up: Latin act, 1 Ticketmaster US dates seen 27 Nov (sales report: Latin acts = 56% of commission). Screen still verifies identity and dates."
+    },
+    {
+      "name": "Donny Osmond",
+      "note": "2026-11-21 Ticketmaster US/CA music sweep (Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page, not in requests, watchlist or denylist. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Scott Bradlee's Postmodern Jukebox",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Matchbox Twenty",
+      "note": "2026-11-21 Ticketmaster US/CA music sweep (Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page, not in requests, watchlist or denylist. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Liquid Stranger",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Straight No Chaser",
+      "note": "2026-11-21 Ticketmaster US/CA music sweep (Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page, not in requests, watchlist or denylist. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Hairball",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "The Bellamy Brothers",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Leslie Odom Jr.",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "CHVRCHES",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Leonid & Friends",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "The Temptations",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Braxton Keith",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Kaitlin Butts",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Four Year Strong",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Beach Bunny",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "LSDREAM",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Kenny G",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Papa Roach",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "DIIV",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Bone Thugs-N-Harmony",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "brakence",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "The Chats",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Greensky Bluegrass",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Sevendust",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Ben Rector",
+      "note": "2026-11-21 Ticketmaster US/CA music sweep (Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page, not in requests, watchlist or denylist. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "49 Winchester",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "The Growlers",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Trampled By Turtles",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Alex Sampson",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "ALLEYCVT",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Bachman-Turner Overdrive",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Silversun Pickups",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "BigXthaPlug",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Emily Ann Roberts",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Clutch",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Beast In Black",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Ricky Montgomery",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "The Plot In You",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Corey Kent",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "From Ashes To New",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Jesse Cook",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Third Day",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Brian Culbertson",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Little Feat",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Clint Black",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Sasha Keable",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "The Amy Winehouse Band",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Vacations",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Deftones",
+      "note": "2026-11-21 Ticketmaster US/CA music sweep (Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page, not in requests, watchlist or denylist. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Angine de Poitrine",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Chiodos",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Noga Erez",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Lucky Daye",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "NSQK",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Styx",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Nick Cave",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Vincent Mason",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Clay Walker",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "BabyFxce E",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Panchiko",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Haken",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "2hollis",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Death From Above 1979",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Currents",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Tinashe",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Three Dog Night",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Ashe",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "The String Cheese Incident",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "THROWN",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Trippie Redd",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Stick Figure",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Lindsey Stirling",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Stephen Wilson Jr.",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "They Might Be Giants",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Northlane",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Kameron Marlowe",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "AJ McLean",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Xscape",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Joe Bonamassa",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Blackberry Smoke",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Stewart Copeland",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Charley Crockett",
+      "note": "2026-11-21 Ticketmaster US/CA music sweep (Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page, not in requests, watchlist or denylist. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Haute & Freddy",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Bad Suns",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Poison the Well",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Richard Thompson",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "for KING & COUNTRY",
+      "note": "2026-11-21 Ticketmaster US/CA music sweep (Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page, not in requests, watchlist or denylist. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Bruce Cockburn",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Wynonna Judd",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Osees",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Jack Kays",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Boogie T",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Durand Jones & The Indications",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Our Last Night",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "David Foster",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Night Ranger",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Blue Oyster Cult",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Whitechapel",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "The Menzingers",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Avatar",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Senses Fail",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "SiM",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "The Bouncing Souls",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Amy Grant",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "FLO",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Ocean Alley",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Kansas",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "TesseracT",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Hum",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "The Womack Sisters",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Lake Street Dive",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "The Mountain Goats",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Hunxho",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Bethel Music",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Dashboard Confessional",
+      "note": "2026-11-21 Ticketmaster US/CA music sweep (Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page, not in requests, watchlist or denylist. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Whitney",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Leo Middea",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Palaye Royale",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Portugal. The Man",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Suicide Silence",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "George Clanton",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Deorro",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "KC and The Sunshine Band",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Iron Maiden",
+      "note": "2026-11-21 Ticketmaster US/CA music sweep (Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page, not in requests, watchlist or denylist. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Steve Hackett",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Royal Blood",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Gregory Alan Isakov",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Ninajirachi",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "82MAJOR",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Aaron Lewis",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Brett Eldredge",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Smokey Robinson",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Yung Gravy",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Shygirl",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "The Marshall Tucker Band",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Zach Williams",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Turnover",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Syd",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Ayra Starr",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "The Pineapple Thief",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Kingfishr",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Angus & Julia Stone",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "La Roux",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Silverstein",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Skid Row",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Victoria Monét",
+      "note": "2026-10-11 2027 coverage list: 30 upcoming Ticketmaster dates at screen."
+    },
+    {
+      "name": "8Ball & MJG",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Pouya",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "WONHO",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Men Without Hats",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Keith Sweat",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Chase Matthew",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "GWAR",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "The Wombats",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "French 79",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Hermanos Gutierrez",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "The Teskey Brothers",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Cleo Sol",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "ROA",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Imminence",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Tove Lo",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Scorpions",
+      "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists UK/IE dates Jun-Jul 2027; no TTC page. Screen still verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Ty Segall",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Westlife",
+      "note": "2026-11-21 Ticketmaster US/CA music sweep (Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page, not in requests, watchlist or denylist. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "State Champs",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "bleood",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "THE STRAY CATS",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Fetty Wap",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "April Wine",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Rob Thomas",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Dweezil Zappa",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Alter Bridge",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Infected Mushroom",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Meek Mill",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Lea Michele",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Trombone Shorty & Orleans Avenue",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "6LACK",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Authority Zero",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "The Tenors",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Thomas Rhett",
+      "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists Manchester, London, Glasgow Apr 2027; no TTC page. Screen still verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Cameron Winter",
+      "note": "2026-11-22 owner: put at the front of the daily queue (on-sale in the 20 Nov calendar, no TTC page). Screen still verifies identity and dates on both APIs."
+    },
+    {
+      "name": "RÜFÜS DU SOL",
+      "note": "2026-10-11 2027 coverage list: 2027 dates on SeatGeek; 1 upcoming Ticketmaster dates at screen."
+    },
+    {
+      "name": "R&B ONLY",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Tina Arena",
+      "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists AU dates from Aug 2027; no TTC page. Screen still verifies identity and dates on both APIs. 2026-11-28 back of queue: no SeatGeek US/UK dates found, so no second source for price comparison."
+    },
+    {
+      "name": "The Courteeners",
+      "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists outdoor UK 2027 dates incl. Lincoln Castle, Newcastle, Piece Hall; no TTC page. Screen still verifies identity and dates on both APIs. 2026-11-28 back of queue: no SeatGeek US/UK dates found, so no second source for price comparison."
+    },
+    {
+      "name": "N-Dubz",
+      "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists 13 UK arena dates Feb-Mar 2027; no TTC page. Screen still verifies identity and dates on both APIs. 2026-11-28 back of queue: no SeatGeek US/UK dates found, so no second source for price comparison."
+    },
+    {
+      "name": "Steps",
+      "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists 42 UK/IE dates from Nov 2027; no TTC page. Screen still verifies identity and dates on both APIs. 2026-11-28 back of queue: no SeatGeek US/UK dates found, so no second source for price comparison."
+    },
+    {
+      "name": "Jamiroquai",
+      "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists The O2 London 15, 16, 19 Jul 2027; no TTC page. Screen still verifies identity and dates on both APIs. 2026-11-28 back of queue: no SeatGeek US/UK dates found, so no second source for price comparison."
+    },
+    {
+      "name": "Toto",
+      "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists 10 UK/IE dates Jun 2027; no TTC page. Screen still verifies identity and dates on both APIs. 2026-11-28 back of queue: no SeatGeek US/UK dates found, so no second source for price comparison."
+    },
+    {
+      "name": "Billy Ocean",
+      "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists UK arena dates Oct 2027; no TTC page. Screen still verifies identity and dates on both APIs. 2026-11-28 back of queue: no SeatGeek US/UK dates found, so no second source for price comparison."
+    },
+    {
+      "name": "The Human League",
+      "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists 19 UK/IE dates from Jun 2027; no TTC page. Screen still verifies identity and dates on both APIs. 2026-11-28 back of queue: no SeatGeek US/UK dates found, so no second source for price comparison."
+    },
+    {
+      "name": "S Club",
+      "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists 19 UK arena dates Oct 2027; no TTC page. Screen still verifies identity and dates on both APIs. 2026-11-28 back of queue: no SeatGeek US/UK dates found, so no second source for price comparison."
+    },
+    {
+      "name": "André Rieu",
+      "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists UK/IE dates Sep-Oct 2027; no TTC page. Screen still verifies identity and dates on both APIs. 2026-11-28 back of queue: no SeatGeek US/UK dates found, so no second source for price comparison."
+    },
+    {
+      "name": "Sonny Fodera",
+      "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists UK arena dates Mar 2027; no TTC page. Screen still verifies identity and dates on both APIs. 2026-11-28 back of queue: no SeatGeek US/UK dates found, so no second source for price comparison."
+    },
+    {
+      "name": "Electric Callboy",
+      "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists UK/IE dates Jan 2027; no TTC page. Screen still verifies identity and dates on both APIs. 2026-11-28 back of queue: no SeatGeek US/UK dates found, so no second source for price comparison."
+    },
+    {
+      "name": "WAYV",
+      "note": "2026-11-22 owner: put at the front of the daily queue (on-sale in the 20 Nov calendar, no TTC page). Screen still verifies identity and dates on both APIs. 2026-11-28 back of queue: no SeatGeek US/UK dates found, so no second source for price comparison."
+    },
+    {
+      "name": "Commodores",
+      "note": "2026-11-22 owner: put at the front of the daily queue (on-sale in the 20 Nov calendar, no TTC page). Screen still verifies identity and dates on both APIs. 2026-11-28 back of queue: no SeatGeek US/UK dates found, so no second source for price comparison."
+    },
+    {
+      "name": "MIKE.",
+      "note": "2026-11-22 owner: put at the front of the daily queue (on-sale in the 20 Nov calendar, no TTC page). Screen still verifies identity and dates on both APIs. 2026-11-28 back of queue: no SeatGeek US/UK dates found, so no second source for price comparison."
+    },
+    {
+      "name": "Arcángel",
+      "ticketmaster_attraction_id": "K8vZ917okqf",
+      "note": "2026-10-11 2027 coverage list: 16 upcoming Ticketmaster dates at screen. 2026-11-28 back of queue: no SeatGeek US/UK dates found, so no second source for price comparison."
+    },
+    {
+      "name": "Red Hot Chili Peppers",
+      "note": "2026-10-11 2027 coverage list: 1 upcoming Ticketmaster dates at screen. 2026-11-28 back of queue: no SeatGeek US/UK dates found, so no second source for price comparison."
+    },
+    {
+      "name": "Juanes",
+      "note": "2026-10-11 2027 coverage list: 8 upcoming Ticketmaster dates at screen. 2026-11-28 back of queue: no SeatGeek US/UK dates found, so no second source for price comparison."
+    },
+    {
+      "name": "New Kids On The Block",
+      "note": "2026-10-11 2027 coverage list: 3 upcoming Ticketmaster dates at screen. 2026-11-28 back of queue: no SeatGeek US/UK dates found, so no second source for price comparison."
+    },
+    {
+      "name": "Foster The People",
+      "note": "2026-10-11 2027 coverage list: 8 upcoming Ticketmaster dates at screen. 2026-11-28 back of queue: no SeatGeek US/UK dates found, so no second source for price comparison."
+    },
+    {
+      "name": "Mac DeMarco",
+      "note": "2026-10-25 demand sweep: top SeatGeek demand-score concerts with upcoming dates, no TTC page. Screen verifies identity and dates on both APIs. 2026-11-28 back of queue: no SeatGeek US/UK dates found, so no second source for price comparison."
+    },
+    {
+      "name": "Eladio Carrion",
+      "note": "2026-10-25 demand sweep: top SeatGeek demand-score concerts with upcoming dates, no TTC page. Screen verifies identity and dates on both APIs. 2026-11-28 back of queue: no SeatGeek US/UK dates found, so no second source for price comparison."
+    },
+    {
+      "name": "Johnny Blue Skies",
+      "note": "2026-10-25 demand sweep: top SeatGeek demand-score concerts with upcoming dates, no TTC page. Screen verifies identity and dates on both APIs. 2026-11-28 back of queue: no SeatGeek US/UK dates found, so no second source for price comparison."
+    },
+    {
+      "name": "King Gizzard and the Lizard Wizard",
+      "note": "2026-11-21 Ticketmaster US/CA music sweep (Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page, not in requests, watchlist or denylist. Screen verifies identity and dates on both APIs. 2026-11-28 back of queue: no SeatGeek US/UK dates found, so no second source for price comparison."
+    },
+    {
+      "name": "Jason Isbell and the 400 Unit",
+      "note": "2026-11-21 Ticketmaster US/CA music sweep (Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page, not in requests, watchlist or denylist. Screen verifies identity and dates on both APIs. 2026-11-28 back of queue: no SeatGeek US/UK dates found, so no second source for price comparison."
+    },
+    {
+      "name": "Triumph",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs. 2026-11-28 back of queue: no SeatGeek US/UK dates found, so no second source for price comparison."
+    },
+    {
+      "name": "Alexisonfire",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs. 2026-11-28 back of queue: no SeatGeek US/UK dates found, so no second source for price comparison."
+    },
+    {
+      "name": "Jann Arden",
+      "note": "2026-11-21 Ticketmaster US/CA music sweep (Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page, not in requests, watchlist or denylist. Screen verifies identity and dates on both APIs. 2026-11-28 back of queue: no SeatGeek US/UK dates found, so no second source for price comparison."
+    },
+    {
+      "name": "UNDERØATH",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs. 2026-11-28 back of queue: no SeatGeek US/UK dates found, so no second source for price comparison."
+    },
+    {
+      "name": "Ben Folds Five",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs. 2026-11-28 back of queue: no SeatGeek US/UK dates found, so no second source for price comparison."
+    },
+    {
+      "name": "Amanda Marshall",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs. 2026-11-28 back of queue: no SeatGeek US/UK dates found, so no second source for price comparison."
+    },
+    {
+      "name": "Nathaniel Rateliff",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs. 2026-11-28 back of queue: no SeatGeek US/UK dates found, so no second source for price comparison."
+    },
+    {
+      "name": "The Allman Betts Family Revival",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs. 2026-11-28 back of queue: no SeatGeek US/UK dates found, so no second source for price comparison."
+    },
+    {
+      "name": "Trooper",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs. 2026-11-28 back of queue: no SeatGeek US/UK dates found, so no second source for price comparison."
+    },
+    {
+      "name": "Frank Turner & the Sleeping Souls",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs. 2026-11-28 back of queue: no SeatGeek US/UK dates found, so no second source for price comparison."
+    },
+    {
+      "name": "Slash Feat. Myles Kennedy And The Conspirators",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs. 2026-11-28 back of queue: no SeatGeek US/UK dates found, so no second source for price comparison."
+    },
+    {
+      "name": "Protest the Hero",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs. 2026-11-28 back of queue: no SeatGeek US/UK dates found, so no second source for price comparison."
+    },
+    {
+      "name": "Jonah Kagen",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs. 2026-11-28 back of queue: no SeatGeek US/UK dates found, so no second source for price comparison."
+    },
+    {
+      "name": "renforshort",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs. 2026-11-28 back of queue: no SeatGeek US/UK dates found, so no second source for price comparison."
+    },
+    {
+      "name": "BeBe Winans",
+      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs. 2026-11-28 back of queue: no SeatGeek US/UK dates found, so no second source for price comparison."
+    },
+    {
       "name": "Powderfinger",
       "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists 35 AU dates from Nov 2027; no TTC page. Screen still verifies identity and dates on both APIs."
     },
@@ -22,71 +971,11 @@
       "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists CA dates from Aug 2027; no TTC page. Screen still verifies identity and dates on both APIs."
     },
     {
-      "name": "Tina Arena",
-      "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists AU dates from Aug 2027; no TTC page. Screen still verifies identity and dates on both APIs."
-    },
-    {
       "name": "Jorja Smith",
       "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists The O2 London 17 Jul 2027 plus 6 more 2027 dates; no TTC page. Screen still verifies identity and dates on both APIs."
     },
     {
-      "name": "The Courteeners",
-      "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists outdoor UK 2027 dates incl. Lincoln Castle, Newcastle, Piece Hall; no TTC page. Screen still verifies identity and dates on both APIs."
-    },
-    {
-      "name": "N-Dubz",
-      "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists 13 UK arena dates Feb-Mar 2027; no TTC page. Screen still verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Steps",
-      "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists 42 UK/IE dates from Nov 2027; no TTC page. Screen still verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Jamiroquai",
-      "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists The O2 London 15, 16, 19 Jul 2027; no TTC page. Screen still verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Toto",
-      "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists 10 UK/IE dates Jun 2027; no TTC page. Screen still verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Scorpions",
-      "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists UK/IE dates Jun-Jul 2027; no TTC page. Screen still verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Billy Ocean",
-      "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists UK arena dates Oct 2027; no TTC page. Screen still verifies identity and dates on both APIs."
-    },
-    {
-      "name": "The Human League",
-      "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists 19 UK/IE dates from Jun 2027; no TTC page. Screen still verifies identity and dates on both APIs."
-    },
-    {
-      "name": "S Club",
-      "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists 19 UK arena dates Oct 2027; no TTC page. Screen still verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Thomas Rhett",
-      "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists Manchester, London, Glasgow Apr 2027; no TTC page. Screen still verifies identity and dates on both APIs."
-    },
-    {
-      "name": "André Rieu",
-      "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists UK/IE dates Sep-Oct 2027; no TTC page. Screen still verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Sonny Fodera",
-      "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists UK arena dates Mar 2027; no TTC page. Screen still verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Electric Callboy",
-      "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists UK/IE dates Jan 2027; no TTC page. Screen still verifies identity and dates on both APIs."
-    },
-    {
       "name": "Tori Kelly",
-      "note": "2026-11-22 owner: put at the front of the daily queue (on-sale in the 20 Nov calendar, no TTC page). Screen still verifies identity and dates on both APIs."
-    },
-    {
-      "name": "WAYV",
       "note": "2026-11-22 owner: put at the front of the daily queue (on-sale in the 20 Nov calendar, no TTC page). Screen still verifies identity and dates on both APIs."
     },
     {
@@ -95,22 +984,6 @@
     },
     {
       "name": "Rascal Flatts",
-      "note": "2026-11-22 owner: put at the front of the daily queue (on-sale in the 20 Nov calendar, no TTC page). Screen still verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Commodores",
-      "note": "2026-11-22 owner: put at the front of the daily queue (on-sale in the 20 Nov calendar, no TTC page). Screen still verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Anthony Santos",
-      "note": "2026-11-22 owner: put at the front of the daily queue (on-sale in the 20 Nov calendar, no TTC page). Screen still verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Cameron Winter",
-      "note": "2026-11-22 owner: put at the front of the daily queue (on-sale in the 20 Nov calendar, no TTC page). Screen still verifies identity and dates on both APIs."
-    },
-    {
-      "name": "MIKE.",
       "note": "2026-11-22 owner: put at the front of the daily queue (on-sale in the 20 Nov calendar, no TTC page). Screen still verifies identity and dates on both APIs."
     },
     {
@@ -273,10 +1146,6 @@
       "note": "2026-10-11 2027 coverage list: 2 upcoming Ticketmaster dates at screen."
     },
     {
-      "name": "Maná",
-      "note": "2026-10-11 2027 coverage list: 9 upcoming Ticketmaster dates at screen."
-    },
-    {
       "name": "Jonas Brothers",
       "note": "2026-10-11 2027 coverage list: 45 upcoming Ticketmaster dates at screen."
     },
@@ -309,11 +1178,6 @@
       "note": "2026-10-11 2027 coverage list: 2027 dates on sale (2 on Ticketmaster in the 2027 sample); 31 upcoming Ticketmaster dates at screen."
     },
     {
-      "name": "Arcángel",
-      "ticketmaster_attraction_id": "K8vZ917okqf",
-      "note": "2026-10-11 2027 coverage list: 16 upcoming Ticketmaster dates at screen."
-    },
-    {
       "name": "Garth Brooks",
       "note": "2026-10-11 2027 coverage list: 4 upcoming Ticketmaster dates at screen."
     },
@@ -328,10 +1192,6 @@
     {
       "name": "Lil Wayne",
       "note": "2026-10-11 2027 coverage list: 2027 dates on sale (1 on Ticketmaster in the 2027 sample); 7 upcoming Ticketmaster dates at screen."
-    },
-    {
-      "name": "Red Hot Chili Peppers",
-      "note": "2026-10-11 2027 coverage list: 1 upcoming Ticketmaster dates at screen."
     },
     {
       "name": "Tom Jones",
@@ -463,24 +1323,12 @@
       "note": "2026-10-11 2027 coverage list: 2027 dates on sale (4 on Ticketmaster in the 2027 sample); 35 upcoming Ticketmaster dates at screen."
     },
     {
-      "name": "Juanes",
-      "note": "2026-10-11 2027 coverage list: 8 upcoming Ticketmaster dates at screen."
-    },
-    {
       "name": "Koe Wetzel",
       "note": "2026-10-11 2027 coverage list: 11 upcoming Ticketmaster dates at screen."
     },
     {
-      "name": "Victoria Monét",
-      "note": "2026-10-11 2027 coverage list: 30 upcoming Ticketmaster dates at screen."
-    },
-    {
       "name": "Jon Pardi",
       "note": "2026-10-11 2027 coverage list: 2027 dates on sale (1 on Ticketmaster in the 2027 sample); 20 upcoming Ticketmaster dates at screen."
-    },
-    {
-      "name": "New Kids On The Block",
-      "note": "2026-10-11 2027 coverage list: 3 upcoming Ticketmaster dates at screen."
     },
     {
       "name": "Brandi Carlile",
@@ -489,10 +1337,6 @@
     {
       "name": "Keith Urban",
       "note": "2026-10-11 2027 coverage list: 6 upcoming Ticketmaster dates at screen."
-    },
-    {
-      "name": "Foster The People",
-      "note": "2026-10-11 2027 coverage list: 8 upcoming Ticketmaster dates at screen."
     },
     {
       "name": "Interpol",
@@ -507,19 +1351,11 @@
       "note": "2026-10-11 2027 coverage list: 7 upcoming Ticketmaster dates at screen."
     },
     {
-      "name": "Carín León",
-      "note": "2026-10-11 2027 coverage list: 2027 dates on sale (8 on Ticketmaster in the 2027 sample); 8 upcoming Ticketmaster dates at screen."
-    },
-    {
       "name": "Phish",
       "note": "2026-10-11 2027 coverage list: 2027 dates on sale (3 on Ticketmaster in the 2027 sample); 8 upcoming Ticketmaster dates at screen."
     },
     {
       "name": "Imagine Dragons",
-      "note": "2026-10-11 2027 coverage list: 2027 dates on SeatGeek; 1 upcoming Ticketmaster dates at screen."
-    },
-    {
-      "name": "RÜFÜS DU SOL",
       "note": "2026-10-11 2027 coverage list: 2027 dates on SeatGeek; 1 upcoming Ticketmaster dates at screen."
     },
     {
@@ -692,15 +1528,7 @@
       "note": "2026-10-25 demand sweep: top SeatGeek demand-score concerts with upcoming dates, no TTC page. Screen verifies identity and dates on both APIs."
     },
     {
-      "name": "Mac DeMarco",
-      "note": "2026-10-25 demand sweep: top SeatGeek demand-score concerts with upcoming dates, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
       "name": "Motionless in White",
-      "note": "2026-10-25 demand sweep: top SeatGeek demand-score concerts with upcoming dates, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Eladio Carrion",
       "note": "2026-10-25 demand sweep: top SeatGeek demand-score concerts with upcoming dates, no TTC page. Screen verifies identity and dates on both APIs."
     },
     {
@@ -724,836 +1552,8 @@
       "note": "2026-10-25 demand sweep: top SeatGeek demand-score concerts with upcoming dates, no TTC page. Screen verifies identity and dates on both APIs."
     },
     {
-      "name": "Johnny Blue Skies",
-      "note": "2026-10-25 demand sweep: top SeatGeek demand-score concerts with upcoming dates, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
       "name": "Chris Stassy",
       "note": "2026-10-25 demand sweep: top SeatGeek demand-score concerts with upcoming dates, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Deftones",
-      "note": "2026-11-21 Ticketmaster US/CA music sweep (Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page, not in requests, watchlist or denylist. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Matchbox Twenty",
-      "note": "2026-11-21 Ticketmaster US/CA music sweep (Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page, not in requests, watchlist or denylist. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Papa Roach",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Yuri",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Iron Maiden",
-      "note": "2026-11-21 Ticketmaster US/CA music sweep (Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page, not in requests, watchlist or denylist. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Xscape",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "2hollis",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Silversun Pickups",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "The Teskey Brothers",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Senses Fail",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Death From Above 1979",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Durand Jones & The Indications",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Donny Osmond",
-      "note": "2026-11-21 Ticketmaster US/CA music sweep (Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page, not in requests, watchlist or denylist. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Third Day",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "for KING & COUNTRY",
-      "note": "2026-11-21 Ticketmaster US/CA music sweep (Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page, not in requests, watchlist or denylist. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "SiM",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "King Gizzard and the Lizard Wizard",
-      "note": "2026-11-21 Ticketmaster US/CA music sweep (Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page, not in requests, watchlist or denylist. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Jason Isbell and the 400 Unit",
-      "note": "2026-11-21 Ticketmaster US/CA music sweep (Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page, not in requests, watchlist or denylist. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Angine de Poitrine",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Jesse & Joy",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Triumph",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "THE STRAY CATS",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Hairball",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Clutch",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Aaron Lewis",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Zach Williams",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "8Ball & MJG",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "CHVRCHES",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Chiodos",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Trippie Redd",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Turnover",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Noga Erez",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Pouya",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "R&B ONLY",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Sasha Keable",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Beach Bunny",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Our Last Night",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Beast In Black",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "The Bouncing Souls",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Currents",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Alex Sampson",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Four Year Strong",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "DIIV",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Ty Segall",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Bone Thugs-N-Harmony",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "WONHO",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Hunxho",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Infected Mushroom",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Alexisonfire",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Sevendust",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "The Womack Sisters",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Stick Figure",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Straight No Chaser",
-      "note": "2026-11-21 Ticketmaster US/CA music sweep (Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page, not in requests, watchlist or denylist. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Amy Grant",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Lindsey Stirling",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Jann Arden",
-      "note": "2026-11-21 Ticketmaster US/CA music sweep (Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page, not in requests, watchlist or denylist. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Leonid & Friends",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Scott Bradlee's Postmodern Jukebox",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Westlife",
-      "note": "2026-11-21 Ticketmaster US/CA music sweep (Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page, not in requests, watchlist or denylist. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Joe Bonamassa",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Stephen Wilson Jr.",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Banda MS",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Cleo Sol",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Pancho Barraza",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Brian Culbertson",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Ben Rector",
-      "note": "2026-11-21 Ticketmaster US/CA music sweep (Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page, not in requests, watchlist or denylist. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Bruce Cockburn",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Styx",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "UNDERØATH",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "The Temptations",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Nick Cave",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "David Foster",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Ben Folds Five",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Amanda Marshall",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "The Tenors",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Fonseca",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Night Ranger",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Conjunto Primavera",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "FLO",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Tinashe",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "ALLEYCVT",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Nathaniel Rateliff",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Enjambre",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Leslie Odom Jr.",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "April Wine",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "The Amy Winehouse Band",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Brett Eldredge",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Vincent Mason",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "49 Winchester",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Clay Walker",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Pablo Alboran",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Meek Mill",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Men Without Hats",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Rob Thomas",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Sin Bandera",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Bachman-Turner Overdrive",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Blackberry Smoke",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "ROA",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Smokey Robinson",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Blue Oyster Cult",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "BigXthaPlug",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Ricky Montgomery",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Lucky Daye",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Ocean Alley",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Three Dog Night",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "The Growlers",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Lake Street Dive",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Vacations",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Kansas",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "The Plot In You",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Bethel Music",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Stewart Copeland",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Imminence",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "LSDREAM",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Whitechapel",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Charley Crockett",
-      "note": "2026-11-21 Ticketmaster US/CA music sweep (Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page, not in requests, watchlist or denylist. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Liquid Stranger",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Keith Sweat",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Kenny G",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Dweezil Zappa",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Chase Matthew",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Braxton Keith",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Wynonna Judd",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "The Menzingers",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Fetty Wap",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "The Allman Betts Family Revival",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Steve Hackett",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Trooper",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Silvestre Dangond",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "BabyFxce E",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Frank Turner & the Sleeping Souls",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Syd",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Haute & Freddy",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "They Might Be Giants",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "brakence",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "TesseracT",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Emily Ann Roberts",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Ashe",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Northlane",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Panchiko",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Yung Gravy",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "The Chats",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "6LACK",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Greensky Bluegrass",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Dashboard Confessional",
-      "note": "2026-11-21 Ticketmaster US/CA music sweep (Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page, not in requests, watchlist or denylist. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Bad Suns",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Slash Feat. Myles Kennedy And The Conspirators",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Avatar",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Ayra Starr",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Haken",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "NSQK",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "The Pineapple Thief",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "GWAR",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Protest the Hero",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "The String Cheese Incident",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Trampled By Turtles",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Corey Kent",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Kingfishr",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Jonah Kagen",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Kameron Marlowe",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Royal Blood",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Gregory Alan Isakov",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Osees",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "From Ashes To New",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Whitney",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "THROWN",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "The Wombats",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Leo Middea",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "renforshort",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Poison the Well",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Ninajirachi",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Angus & Julia Stone",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Tove Lo",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Palaye Royale",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "State Champs",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "bleood",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Jack Kays",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Boogie T",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Richard Thompson",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Jesse Cook",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Lea Michele",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Trombone Shorty & Orleans Avenue",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "French 79",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Authority Zero",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Hum",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "AJ McLean",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Alter Bridge",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "La Roux",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Shygirl",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Portugal. The Man",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Silverstein",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Julieta Venegas",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Little Feat",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Kaitlin Butts",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "The Marshall Tucker Band",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Suicide Silence",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "The Mountain Goats",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Skid Row",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "George Clanton",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Clint Black",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "BeBe Winans",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Deorro",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "The Bellamy Brothers",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "Hermanos Gutierrez",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "KC and The Sunshine Band",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
-    },
-    {
-      "name": "82MAJOR",
-      "note": "2026-11-21 US/Canada sweep (Ticketmaster + SeatGeek, Nov 2026 to Dec 2027): 6+ upcoming cities, no TTC page. Screen verifies identity and dates on both APIs."
     }
   ]
 }

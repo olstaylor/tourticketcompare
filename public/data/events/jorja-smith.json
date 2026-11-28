@@ -60,6 +60,13 @@
         "verified": true,
         "last_verified_at": "2026-11-27",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107543077",
+        "url": "https://www.stubhub.ie/jorja-smith-tickets-amsterdam-ziggo-dome-26-5-2027/event/107543077",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vP07O1a",
@@ -70,7 +77,8 @@
     ],
     "genre": "Hip-Hop/Rap",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8376028",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8376028/Jorja-Smith-tickets-Wed-May-26-2027-Ziggo-Dome"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8376028/Jorja-Smith-tickets-Wed-May-26-2027-Ziggo-Dome",
+    "stubhub_international_url": "https://www.stubhub.ie/jorja-smith-tickets-amsterdam-ziggo-dome-26-5-2027/event/107543077"
   },
   {
     "id": "tm-jorja-smith-2027-brussels-z698xzg2z16v-6xajf",
@@ -119,6 +127,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107544077",
+        "url": "https://www.stubhub.ie/jorja-smith-tickets-brussels-ing-arena-29-5-2027/event/107544077",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z16v-6xAjF",
@@ -127,7 +142,8 @@
     "organizer_names": [
       "FKP Scorpio Belgium"
     ],
-    "genre": "Hip-Hop/Rap"
+    "genre": "Hip-Hop/Rap",
+    "stubhub_international_url": "https://www.stubhub.ie/jorja-smith-tickets-brussels-ing-arena-29-5-2027/event/107544077"
   },
   {
     "id": "tm-jorja-smith-2027-dusseldorf-z698xzc2z16vc4ra7p",
@@ -176,6 +192,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107510077",
+        "url": "https://www.stubhub.ie/jorja-smith-tickets-dusseldorf-mitsubishi-electric-halle-1-6-2027/event/107510077",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vC4rA7P",
@@ -184,7 +207,8 @@
     "organizer_names": [
       "prime entertainment GmbH"
     ],
-    "genre": "R&B"
+    "genre": "R&B",
+    "stubhub_international_url": "https://www.stubhub.ie/jorja-smith-tickets-dusseldorf-mitsubishi-electric-halle-1-6-2027/event/107510077"
   },
   {
     "id": "tm-jorja-smith-2027-london-1fu8vp7n0az75fd6",
@@ -247,6 +271,13 @@
         "verified": true,
         "last_verified_at": "2026-11-27",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107503081",
+        "url": "https://www.stubhub.ie/jorja-smith-tickets-london-the-o2-arena-17-7-2027/event/107503081",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Fu8vP7N0aZ75Fd6",
@@ -259,7 +290,8 @@
     "ticket_limit": 6,
     "genre": "R&B",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8235645",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8235645/Jorja-Smith-tickets-Sat-Jul-17-2027-O2-Arena-London"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8235645/Jorja-Smith-tickets-Sat-Jul-17-2027-O2-Arena-London",
+    "stubhub_international_url": "https://www.stubhub.ie/jorja-smith-tickets-london-the-o2-arena-17-7-2027/event/107503081"
   },
   {
     "id": "tm-jorja-smith-2027-brisbane-1avgz_8gknnf3nj",

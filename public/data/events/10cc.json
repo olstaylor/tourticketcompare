@@ -278,6 +278,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107455634",
+        "url": "https://www.stubhub.ie/10cc-tickets-leicester-de-montfort-hall-4-3-2027/event/107455634",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_CHkDnos",
@@ -287,7 +294,8 @@
       "KENNEDY STREET ENTS LTD"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "stubhub_international_url": "https://www.stubhub.ie/10cc-tickets-leicester-de-montfort-hall-4-3-2027/event/107455634"
   },
   {
     "id": "tm-10cc-2027-torquay-17uov0g62e2ner2",
@@ -626,6 +634,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107455639",
+        "url": "https://www.stubhub.ie/10cc-tickets-bath-bath-forum-12-3-2027/event/107455639",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uYv0G62eVEvT9",
@@ -635,7 +650,8 @@
       "KENNEDY STREET ENTS LTD"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "stubhub_international_url": "https://www.stubhub.ie/10cc-tickets-bath-bath-forum-12-3-2027/event/107455639"
   },
   {
     "id": "tm-10cc-2027-croydon-g5vhz_ctdn_nm",
@@ -1032,6 +1048,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107457439",
+        "url": "https://www.stubhub.ie/10cc-tickets-derby-vaillant-live-20-3-2027/event/107457439",
+        "verified": true,
+        "last_verified_at": "2026-11-27",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17FYv0G6CX5rOWg",
@@ -1041,7 +1064,8 @@
       "KENNEDY STREET ENTS LTD",
       "LEGENDS GLOBAL VAILLANT LIVE DERBY"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "stubhub_international_url": "https://www.stubhub.ie/10cc-tickets-derby-vaillant-live-20-3-2027/event/107457439"
   },
   {
     "id": "tm-10cc-2027-halifax-g5vhz_2exijk0",

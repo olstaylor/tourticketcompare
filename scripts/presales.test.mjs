@@ -217,6 +217,12 @@ const text = (html) =>
   assert(!body.includes("Dublin") && !body.includes("Glasgow") && !body.includes("Leeds"), "past, held and other artists' dates are not listed");
   assert(!/ticketmaster\.com|\/api\/out/.test(page.main), "with no price on record the page links to no ticket site (priced tables: artist-city-prices.test.mjs)");
   assert(body.includes("no presale code is shown"), "the page says codes are never shown");
+  const cityLinks = [...page.main.matchAll(/href="(\/artists\/oasis\/tickets\/[a-z0-9-]+)"/g)].map((match) => match[1]);
+  assert(
+    /Compare Oasis ticket prices (by city|in )/.test(body) === cityLinks.length > 0,
+    "the by-city price links appear only when an indexable multi-date artist-city page exists"
+  );
+  assert(!/Compare Oasis ticket prices (?:by city|in )[\s\S]{0,400}(US\$|\$\d)/.test(body), "the by-city links carry no price of their own");
   assert(page.html.includes('"@type":"WebPage"') || page.html.includes('"@type": "WebPage"'), "the page carries a WebPage node");
   assert(!page.html.includes('"MusicEvent"'), "the page carries no MusicEvent");
 }

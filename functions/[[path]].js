@@ -6340,6 +6340,17 @@ export function renderPresalePageBody(route, events = [], env = {}) {
   const resaleTable = renderPresaleResaleTable(route, events, env);
   // One money disclosure, beside the first ticket buttons on the page.
   const resaleHtml = resaleTable ? `${resaleTable}${nextDatesHtml ? "" : renderMoneyDisclosureHtml()}` : "";
+  // Presale visitors are weeks from buying: send them on to the per-city price
+  // pages for this artist's multi-date runs (the indexable artist-city pages),
+  // never a price here. Hidden unless at least one such page renders.
+  const cityRuns = artist?.indexing_status === "indexable_with_substantial_content"
+    ? deriveArtistCities(events, artist.slug).filter((city) => city.hasPublishable && city.indexable).slice(0, 6)
+    : [];
+  const cityRunsHtml = cityRuns.length
+    ? `<section class="nested-panel" aria-labelledby="presaleCitiesTitle"><h2 id="presaleCitiesTitle">${escapeHtml(cityRuns.length === 1 ? `Compare ${artist.name} ticket prices in ${cityRuns[0].label}` : `Compare ${artist.name} ticket prices by city`)}</h2><ul class="guide-link-list">${cityRuns
+        .map((city) => `<li>${anchor(`${artist.name} tickets in ${city.label}`, `/artists/${artist.slug}/tickets/${city.slug}`)} \u2014 ${escapeHtml(cityShowCountLabel(city.showCount))}</li>`)
+        .join("")}</ul></section>`
+    : "";
   const howHtml = `<section class="nested-panel" aria-labelledby="presaleHowTitle"><h2 id="presaleHowTitle">How presales work</h2><div class="card-grid"><article class="info-card"><h3>Who gets in</h3><p>Each presale is for the group named in its title, like an artist fan club, a card issuer or a venue list. That group sends the code or sign-up link, so check your email. This site never shows codes.</p></article><article class="info-card"><h3>Times can move</h3><p>These are Ticketmaster's times for each date, checked once a day. Promoters do move them, so confirm on Ticketmaster and be signed in a few minutes early.</p></article><article class="info-card"><h3>Resale before the sale</h3><p>Resale sites can list tickets before a presale or on-sale opens. Those listings can cost a lot more than face value, so you don't have to buy there.</p></article></div><div class="mini-link-grid">${anchor(
     "How to prepare for a ticket on-sale",
     "/guides/how-to-prepare-for-a-ticket-onsale",
@@ -6349,7 +6360,7 @@ export function renderPresalePageBody(route, events = [], env = {}) {
     route
   )}<h1 id="presaleTitle">${escapeHtml(`${artist.name} presale times and ticket on-sale dates`)}</h1><p class="lead">${escapeHtml(
     lead
-  )}</p><p class="disclosure-note">Presale names and times are Ticketmaster's, for each exact date. Nothing is estimated, and no presale code is shown.</p>${nextDatesHtml}${openHtml}${upcomingHtml}${onsaleHtml}${resaleHtml}${emptyHtml}${howHtml}<div class="action-row">${anchor(
+  )}</p><p class="disclosure-note">Presale names and times are Ticketmaster's, for each exact date. Nothing is estimated, and no presale code is shown.</p>${nextDatesHtml}${openHtml}${upcomingHtml}${onsaleHtml}${resaleHtml}${emptyHtml}${cityRunsHtml}${howHtml}<div class="action-row">${anchor(
     `${artist.name} tickets and dates`,
     artistHref,
     "button button-primary"

@@ -1,0 +1,10 @@
+name = "ttc-price-snapshot-cron"
+main = "index.js"
+compatibility_date = "2025-01-01"
+workers_dev = false
+
+# Backstop for GitHub's hourly price-snapshot ticks. Secret GITHUB_TOKEN
+# (fine-grained, Actions read/write on this repo only) is set by
+# .github/workflows/deploy-price-snapshot-cron.yml, never committed.
+[triggers]
+crons = ["25 * * * *"]

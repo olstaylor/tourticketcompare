@@ -340,7 +340,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1C006355EC78A84D",
     "ticketmaster_url": "https://www.ticketmaster.com/rush-fifty-something-san-jose-california-12-06-2026/event/1C006355EC78A84D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/rush-tickets/san-jose-california-sap-center-at-san-jose-2026-12-06-7-30-pm/concert/17853737",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-fifty-something-san-jose-california-12-06-2026/event/1C006355EC78A84D",
@@ -356,11 +356,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17853737,
+        "url": "https://seatgeek.com/rush-tickets/san-jose-california-sap-center-at-san-jose-2026-12-06-7-30-pm/concert/17853737",
+        "verified": true,
+        "last_verified_at": "2026-11-28",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

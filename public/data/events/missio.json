@@ -699,7 +699,7 @@
         "event_id": 18646946,
         "url": "https://seatgeek.com/missio-tickets/vancouver-canada-the-pearl-bc-2026-12-12-6-pm/concert/18646946",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-28",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -837,7 +837,7 @@
         "event_id": 18794564,
         "url": "https://seatgeek.com/missio-tickets/boise-idaho-knitting-factory-concert-house-boise-2026-12-15-7-pm/concert/18794564",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-28",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -975,7 +975,7 @@
         "event_id": 18827506,
         "url": "https://seatgeek.com/missio-tickets/cudahy-wisconsin-x-ray-arcade-2027-01-14-7-30-pm/concert/18827506",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-28",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1742,7 +1742,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZIvI",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvI",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/missio-tickets/san-antonio-texas-the-rock-box-2027-04-09-7-pm/concert/18853293",
     "vividseats_url": "https://www.vividseats.com/missio-tickets-san-antonio-the-rock-box-4-9-2027/production/7425518",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvI",
@@ -1758,11 +1758,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 18853293,
+        "url": "https://seatgeek.com/missio-tickets/san-antonio-texas-the-rock-box-2027-04-09-7-pm/concert/18853293",
+        "verified": true,
+        "last_verified_at": "2026-11-28",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7425518,

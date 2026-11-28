@@ -1,5 +1,6 @@
-// Cookie consent for the two third-party tags that set cookies: Google Tag
-// Manager (which runs Google Analytics 4) and the Impact publisher tag.
+// Cookie consent for the third-party tags that set cookies: Google Tag
+// Manager (which runs Google Analytics 4), the Impact publisher tag and, when a
+// project ID is set, Microsoft Clarity (session recordings and heatmaps).
 //
 // Neither loads until the visitor accepts. The choice is kept in localStorage
 // under CONSENT_KEY, which is storage the visitor asked for and needs no
@@ -20,6 +21,9 @@
   var CONSENT_VERSION = 1;
   var GTM_ID = "GTM-MZ42TPMM";
   var IMPACT_TAG_SRC = "/impact-publisher-tag.js?v=20260714a";
+  // Microsoft Clarity project ID. Leave empty to keep Clarity off. It loads
+  // only inside loadTags(), so only after the visitor accepts.
+  var CLARITY_ID = "";
   var loaded = false;
 
   function readChoice() {
@@ -57,9 +61,27 @@
       window.dataLayer.push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
       addScript("https://www.googletagmanager.com/gtm.js?id=" + GTM_ID);
       addScript(IMPACT_TAG_SRC);
+      loadClarity();
     };
     if (document.readyState === "complete") start();
     else window.addEventListener("load", start, { once: true });
+  }
+
+  function loadClarity() {
+    if (!/^[a-z0-9]{8,12}$/i.test(CLARITY_ID)) return;
+    // Defence in depth: mask every form field, including the email boxes, on
+    // top of Clarity's default masking. Nothing here is personal data to keep.
+    Array.prototype.forEach.call(document.querySelectorAll("input, textarea, select"), function (field) {
+      field.setAttribute("data-clarity-mask", "True");
+    });
+    window.clarity =
+      window.clarity ||
+      function () {
+        (window.clarity.q = window.clarity.q || []).push(arguments);
+      };
+    addScript("https://www.clarity.ms/tag/" + CLARITY_ID);
+    // Consent API: analytics storage granted, ad storage never.
+    window.clarity("consentv2", { ad_Storage: "denied", analytics_Storage: "granted" });
   }
 
   // Withdrawing consent: stop further analytics storage and clear the cookies
@@ -69,7 +91,7 @@
     var names = document.cookie
       .split(";")
       .map(function (part) { return part.split("=")[0].trim(); })
-      .filter(function (name) { return /^(_ga|_gid|_gat|IR_)/.test(name); });
+      .filter(function (name) { return /^(_ga|_gid|_gat|IR_|_clck|_clsk|CLID|ANONCHK)/.test(name); });
     var host = window.location.hostname;
     var domains = ["", host, "." + host, "." + host.replace(/^www\./, "")];
     names.forEach(function (name) {
@@ -118,7 +140,7 @@
     text.className = "cookie-consent__text";
     text.appendChild(
       document.createTextNode(
-        "Allow Google Analytics and Impact affiliate cookies? Neither loads unless you accept. "
+        "Allow Google Analytics, Microsoft Clarity and Impact affiliate cookies? None load unless you accept. "
       )
     );
     var policy = document.createElement("a");

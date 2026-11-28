@@ -1143,7 +1143,7 @@ function renderSearchResultItem(type, data) {
     const dateStr = formatShowDate(isoField, data.timezone) || "";
     const place = [data.city, data.country].filter(Boolean).join(", ");
     const loc = [place, data.venue].filter(Boolean).join(" · ");
-    nameEl.textContent = data.event_name || data.artist_name || "Verified show";
+    nameEl.textContent = data.event_name || data.artist_name || "Concert";
     desc.textContent = [dateStr, loc, data.tour_name].filter(Boolean).join(" — ");
     const eventCtaCandidates = [
       {
@@ -1235,7 +1235,7 @@ function renderSearchResults(container, results, query) {
 
   const groups = [
     { label: "Artists", items: results.artists, type: "artist", moreLabel: "Browse all artists", moreHref: "/artists", cap: 5 },
-    { label: "Verified events", items: results.events, type: "event" },
+    { label: "Events", items: results.events, type: "event" },
     { label: "Buying guides", items: results.guides, type: "guide", moreLabel: "View all guides", moreHref: "/guides", cap: 5 }
   ];
 
@@ -3721,7 +3721,7 @@ function renderArtistFaq(artist) {
         ],
         [
           "Are prices shown here?",
-          "No. Prices should appear only when live provider data is verified and timestamped. Final prices and fees are controlled by the ticket platform."
+          "No. Prices should appear only when a recent cached provider snapshot is available, with its date shown. Final prices and fees are controlled by the ticket platform."
         ]
       ];
   items.forEach(([question, answer]) => {

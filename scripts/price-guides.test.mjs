@@ -519,7 +519,7 @@ for (const priceRows of [[], PRICE_ROWS.map((row) => ({ ...row, expires_at: "202
   const page = await render(GUIDE_PATH, { withDb: true, dbOptions: { priceRows } });
   const body = text(page.main);
   assert(body.includes("No listed resale price is showing for these dates right now") && !body.includes("GBP 182"), "empty and expired cache rows give an honest price-free answer");
-  assert(body.includes("A fresh, verified SeatGeek price may be shown with its source and check time") && !body.includes("Ticketmaster, SeatGeek and Ticket Liquidator links carry no price"), "price guidance allows an attributed, fresh SeatGeek snapshot");
+  assert(body.includes("Prices shown come from cached provider snapshots with their source and check time") && !body.includes("A fresh, verified SeatGeek price may be shown"), "price guidance describes cached snapshots and does not promise SeatGeek prices");
   assert(!body.includes("How Oasis resale prices have moved"), "withheld current prices cannot publish historical moves");
 }
 

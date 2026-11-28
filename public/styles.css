@@ -842,6 +842,43 @@ h3 {
   text-align: left;
 }
 
+/* "Save this date" is a <button class="text-link">; without a reset it rendered
+   as a full-width grey default button under every date card. Same quiet
+   text-link treatment as "Copy link to this date". */
+button.text-link[data-save-show] {
+  width: fit-content;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 950;
+  text-align: left;
+}
+
+/* Price-guide and guide tables: the starting-price cell is narrow on desktop,
+   and the side-by-side name/value grid squeezed the seller name into a few
+   letters per line ("STU BHU B INT ERN ATI ON AL"). Stack name over value and
+   never break inside a word. Phones keep their own stacked-block layout. */
+@media (min-width: 621px) {
+  .price-answer-table td.price-answer-price .provider-cta {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .price-answer-table td.price-answer-price .provider-cta .provider-cta-name {
+    grid-column: 1;
+    grid-row: 1;
+    overflow-wrap: normal;
+    word-break: normal;
+  }
+  .price-answer-table td.price-answer-price .provider-cta .provider-cta-value {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .price-answer-table td.price-answer-price .provider-cta .provider-cta-role {
+    grid-row: 3;
+  }
+}
+
 .guide-card-link {
   color: inherit;
   text-decoration: none;

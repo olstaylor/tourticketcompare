@@ -91,7 +91,7 @@ assert(bigIntro.includes("5 upcoming dates in 3 cities and 3 countries"), "intro
 assert(bigIntro.includes("3 cities") && bigIntro.includes("3 countries"), "intro should state the geographic spread");
 assert(bigIntro.includes("2026-09-01") && bigIntro.includes("2026-09-15"), "intro should state the run's range");
 assert(!/night|run\b/i.test(bigIntro), "a multi-night run is shown by the cards' night chips, not restated in the intro");
-assert(bigIntro.includes("Next: 2026-09-01 at The O2, London."), "the intro names the soonest date, which is the board's first card");
+assert(!bigIntro.includes("Next:"), "the intro does not restate the soonest date; the first card and table name it");
 assert(!/cover a date varies/.test(bigIntro), "uneven provider coverage is shown per card, not hedged in the intro");
 assertCopySafe(bigIntro, "large-board intro");
 
@@ -129,7 +129,7 @@ const zonedStatus = deriveArtistBoardStatus([
   show({ id: "z2", city: "Paris", country: "France", venue: "Accor Arena", dateTimeISO: "2026-09-05T19:00:00Z", timezone: "Europe/Paris" })
 ]);
 const todayIntro = artistSearchIntro({ name: "Harry Styles" }, zonedStatus, dayOptions);
-assert(todayIntro.includes("Next: Today, 2026-09-01 at The O2, London."), "the next date says Today when it is today at the venue");
+assert(!todayIntro.includes("Next:"), "the intro does not restate the soonest date");
 const oneZoned = deriveArtistBoardStatus([show({ id: "z3", city: "Colorado Springs", country: "United States", venue: "Weidner Field", dateTimeISO: "2026-07-30T23:30:00Z", timezone: "America/Denver" })]);
 const oneTomorrow = artistSearchIntro({ name: "Jelly Roll" }, oneZoned, { ...options, relativeDay: (iso, tz) => relativeShowDay(iso, tz, Date.parse("2026-07-29T18:00:00Z")) });
 assert(oneTomorrow.includes("verified: Tomorrow, "), "a single date says Tomorrow when it is tomorrow at the venue");
